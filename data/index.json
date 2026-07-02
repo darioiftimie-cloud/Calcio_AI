@@ -1,0 +1,60 @@
+{
+ "generato": "2026-07-02T18:14:34+00:00",
+ "preferita": "2026-27",
+ "micro_source": "understat",
+ "account": {
+  "piano": "football-data.org · free",
+  "micro": "understat",
+  "aggiornato": "2026-07-02"
+ },
+ "leagues": [
+  {
+   "key": "serie_a",
+   "nome": "Serie A",
+   "icona": "🇮🇹",
+   "tipo": "league",
+   "season": "2025-26",
+   "piano_limitato": true
+  },
+  {
+   "key": "premier_league",
+   "nome": "Premier League",
+   "icona": "🏴",
+   "tipo": "league",
+   "season": "2025-26",
+   "piano_limitato": true
+  },
+  {
+   "key": "la_liga",
+   "nome": "LaLiga",
+   "icona": "🇪🇸",
+   "tipo": "league",
+   "season": "2025-26",
+   "piano_limitato": true
+  },
+  {
+   "key": "bundesliga",
+   "nome": "Bundesliga",
+   "icona": "🇩🇪",
+   "tipo": "league",
+   "season": "2025-26",
+   "piano_limitato": true
+  },
+  {
+   "key": "ligue_1",
+   "nome": "Ligue 1",
+   "icona": "🇫🇷",
+   "tipo": "league",
+   "season": "2025-26",
+   "piano_limitato": true
+  },
+  {
+   "key": "champions_league",
+   "nome": "Champions League",
+   "icona": "⭐",
+   "tipo": "cup",
+   "season": "2025-26",
+   "piano_limitato": true
+  }
+ ]
+}

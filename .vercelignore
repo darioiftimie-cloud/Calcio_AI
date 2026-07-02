@@ -1,0 +1,23 @@
+# Segreti e ambiente locale
+.env
+.env.local
+
+# Cache/artefatti
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.pdf
+
+# Scraper offline: non serve a runtime (gli endpoint leggono data/*.json)
+requirements-updater.txt
+
+# Sistema v1 locale (non fa parte della web app)
+super_simulator.py
+super_manager.py
+football_db.py
+app.html
+dashboard.html
+dashboard_data.json
+stato_competizioni.json
+dev_server.py

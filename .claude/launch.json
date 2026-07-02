@@ -2,16 +2,16 @@
   "version": "0.0.1",
   "configurations": [
     {
+      "name": "webapp",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["dev_server.py", "--port", "8700"],
+      "port": 8700
+    },
+    {
       "name": "app",
       "runtimeExecutable": "python",
       "runtimeArgs": ["super_manager.py", "--port", "8650", "--no-browser"],
       "port": 8650
-    },
-    {
-      "name": "dashboard",
-      "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8642"],
-      "port": 8642
     }
   ]
 }

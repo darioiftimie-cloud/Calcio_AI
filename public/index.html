@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calcio AI — Analytics Board</title>
+<link rel="stylesheet" href="/style.css">
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">⚽ CALCIO <span>AI</span> <small>Analytics Board</small></div>
+  <select id="leagueSelect" title="Competizione"></select>
+  <label class="toggle" title="Statistiche giocatori dalle ultime 10 partite reali (consuma più crediti API)">
+    <input type="checkbox" id="last10Toggle"> Forma ultime 10
+  </label>
+  <div class="account" id="accountBadge"></div>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-tab="fixtures">📅 Partite</button>
+  <button class="tab" data-tab="standings">📊 Classifica</button>
+  <button class="tab" data-tab="bracket">🏆 Tabellone</button>
+</nav>
+
+<main id="content"><div class="loading">Caricamento…</div></main>
+
+<!-- Modale analisi Monte Carlo -->
+<div class="overlay" id="analysisOverlay">
+  <div class="analysis-panel">
+    <div class="analysis-head">
+      <div id="anHeader"></div>
+      <div class="head-actions">
+        <a id="pdfBtn" class="btn primary" target="_blank" rel="noopener">
+          📄 Scarica Report Analitico PDF</a>
+        <button class="btn" onclick="closeAnalysis()">✕ Chiudi</button>
+      </div>
+    </div>
+    <div id="anBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="/app.js"></script>
+</body>
+</html>

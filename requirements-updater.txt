@@ -1,0 +1,7 @@
+# Dipendenze SOLO per lo script offline updater.py (scraping micro-eventi).
+# NON necessarie a runtime su Vercel: gli endpoint leggono il DB JSON già pronto.
+#
+#   pip install -r requirements-updater.txt
+#   python updater.py
+soccerdata>=1.8
+truststore>=0.9   # Windows dietro proxy/antivirus TLS (opzionale altrove)
