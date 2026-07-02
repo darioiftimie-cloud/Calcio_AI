@@ -1,0 +1,14 @@
+# Segreti — mai committare chiavi API
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Vercel
+.vercel/
+
+# Node
+node_modules/

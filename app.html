@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calcio AI — Super Manager</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b27; --panel2:#1b2233; --line:#2a3348;
+    --txt:#e6e9f0; --dim:#8b93a7; --acc:#39d98a; --acc2:#4da3ff; --warn:#ffb454;
+    --red:#ff5d5d; --yellow:#ffd24d; --win:#39d98a22;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font:14px/1.5 "Segoe UI",system-ui,sans-serif;
+       display:flex;min-height:100vh}
+  button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--panel2);
+         color:var(--txt);border-radius:8px;padding:6px 12px}
+  button:hover{border-color:var(--acc)}
+  button.primary{background:var(--acc);color:#04240f;font-weight:700;border-color:var(--acc)}
+  button.danger{color:var(--red)}
+  button.mini{padding:2px 8px;font-size:12px;border-radius:6px}
+  select,input{font:inherit;background:var(--panel2);color:var(--txt);border:1px solid var(--line);
+               border-radius:8px;padding:5px 8px}
+  input[type=number]{width:56px;text-align:center}
+
+  /* ------------------------------------------------ sidebar */
+  aside{width:250px;background:var(--panel);border-right:1px solid var(--line);
+        padding:18px 12px;flex-shrink:0}
+  aside h1{font-size:16px;padding:0 8px 14px;letter-spacing:.5px}
+  aside h1 span{color:var(--acc)}
+  .navgroup{font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:var(--dim);
+            padding:14px 8px 6px}
+  .navitem{display:flex;align-items:center;gap:9px;padding:8px 10px;border-radius:8px;
+           cursor:pointer;color:var(--txt)}
+  .navitem:hover{background:var(--panel2)}
+  .navitem.active{background:var(--panel2);box-shadow:inset 3px 0 0 var(--acc)}
+  .navitem .badge{margin-left:auto;font-size:10px;color:var(--warn)}
+
+  /* ------------------------------------------------ main */
+  main{flex:1;padding:22px 26px;min-width:0}
+  .toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+  .toolbar h2{font-size:20px;margin-right:auto}
+  .toolbar .note{width:100%;color:var(--dim);font-size:12px}
+
+  .layout{display:grid;grid-template-columns:minmax(380px,460px) 1fr;gap:16px;align-items:start}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .panel h3{font-size:12px;text-transform:uppercase;letter-spacing:1.5px;color:var(--acc);
+            border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:12px}
+
+  /* classifica */
+  table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+  th,td{padding:5px 7px;text-align:right;font-size:13px}
+  th{color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:1px}
+  td.name,th.name{text-align:left}
+  tbody tr{border-top:1px solid var(--line)}
+  tr.zone-top td:first-child{box-shadow:inset 3px 0 0 var(--acc)}
+  tr.zone-bottom td:first-child{box-shadow:inset 3px 0 0 var(--red)}
+  td.pt{font-weight:700;color:var(--acc)}
+
+  /* calendario */
+  .matchrow{display:flex;align-items:center;gap:8px;padding:7px 4px;border-top:1px solid var(--line)}
+  .matchrow .team{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .matchrow .team.h{text-align:right}
+  .matchrow .score{width:64px;text-align:center;font-weight:700;background:var(--panel2);
+                   border-radius:6px;padding:3px 0}
+  .matchrow .score.pending{color:var(--dim);font-weight:400}
+  .matchrow .winner{color:var(--acc)}
+
+  /* bracket */
+  .bracket{display:flex;gap:22px;overflow-x:auto;padding-bottom:10px}
+  .roundcol{display:flex;flex-direction:column;justify-content:space-around;gap:14px;min-width:250px}
+  .roundcol h4{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--dim);
+               text-align:center}
+  .tie{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+  .tie .trow{display:flex;align-items:center;gap:8px;padding:3px 0}
+  .tie .trow .tname{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .tie .trow .tscore{width:26px;text-align:center;font-weight:700;background:var(--panel2);
+                     border-radius:5px}
+  .tie .trow.winner{color:var(--acc);font-weight:700}
+  .tie .trow.winner .tscore{background:var(--win)}
+  .tie .actions{display:flex;gap:6px;margin-top:6px;justify-content:flex-end}
+  .tie .note{font-size:10px;color:var(--warn);text-transform:uppercase;letter-spacing:1px}
+  .champ{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+         min-width:210px;background:linear-gradient(160deg,var(--panel),#1f2a1f);
+         border:1px solid var(--acc);border-radius:14px;padding:22px}
+  .champ .cup{font-size:40px}
+  .champ .cname{font-size:20px;font-weight:800;color:var(--acc);text-align:center}
+
+  /* modali */
+  .overlay{position:fixed;inset:0;background:#000a;display:none;align-items:center;
+           justify-content:center;z-index:50;padding:24px}
+  .overlay.show{display:flex}
+  .dialog{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+          padding:22px;max-width:420px;width:100%}
+  .dialog h3{margin-bottom:14px}
+  .dialog .frow{display:flex;align-items:center;gap:10px;margin:10px 0}
+  .dialog .frow label{flex:1;color:var(--dim)}
+  .dialog .buttons{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
+
+  .analysis{background:var(--bg);border:1px solid var(--line);border-radius:14px;
+            width:min(1150px,96vw);max-height:92vh;overflow-y:auto;padding:22px}
+  .analysis .head{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+  .analysis .head h3{font-size:19px;margin-right:auto}
+  .an-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));margin-top:14px}
+  .an-grid .panel h3{font-size:11px}
+  .kpis{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:9px 15px;min-width:110px}
+  .kpi .v{font-size:19px;font-weight:700;color:var(--acc)}
+  .kpi .l{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:1px}
+  .row{display:flex;align-items:center;gap:9px;margin:4px 0}
+  .row .lbl{width:135px;color:var(--dim);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .row .val{width:58px;text-align:right;font-weight:600;font-variant-numeric:tabular-nums;font-size:12px}
+  .track{flex:1;height:10px;background:var(--panel2);border-radius:5px;overflow:hidden}
+  .fill{height:100%;background:linear-gradient(90deg,var(--acc2),var(--acc))}
+  .fill.gold{background:linear-gradient(90deg,#f7b733,#fc4a1a)}
+  .fill.card{background:linear-gradient(90deg,var(--yellow),var(--red))}
+  .heat td{border:1px solid var(--bg);border-radius:3px;font-size:11px;min-width:44px;text-align:center}
+  .scorers td{text-align:left;border-top:1px solid var(--line);font-size:12px;padding:4px 6px}
+  .scorers td.num,.scorers th.num{text-align:right}
+  .scorers th{text-align:left}
+  .pen{color:var(--warn);font-weight:700}
+  .spinner{color:var(--acc);text-align:center;padding:60px 0;font-size:15px}
+  .toast{position:fixed;bottom:20px;right:20px;background:var(--panel2);border:1px solid var(--red);
+         color:var(--red);border-radius:10px;padding:10px 16px;display:none;z-index:99}
+</style>
+</head>
+<body>
+<aside>
+  <h1>⚽ Calcio <span>AI</span> — Super Manager</h1>
+  <div id="nav"></div>
+</aside>
+<main>
+  <div class="toolbar" id="toolbar"></div>
+  <div id="view"></div>
+</main>
+
+<!-- modale inserimento risultato -->
+<div class="overlay" id="editOverlay">
+  <div class="dialog">
+    <h3>Inserisci risultato reale</h3>
+    <div class="frow"><label id="edHome"></label><input type="number" id="edGh" min="0" value="0"></div>
+    <div class="frow"><label id="edAway"></label><input type="number" id="edGa" min="0" value="0"></div>
+    <div class="frow" id="edWinnerRow" style="display:none">
+      <label>Vincitore ai rigori</label><select id="edWinner"></select>
+    </div>
+    <div class="buttons">
+      <button onclick="closeEdit()">Annulla</button>
+      <button class="primary" onclick="saveEdit()">Salva</button>
+    </div>
+  </div>
+</div>
+
+<!-- modale analisi Monte Carlo -->
+<div class="overlay" id="anOverlay">
+  <div class="analysis">
+    <div class="head">
+      <h3 id="anTitle"></h3>
+      <button onclick="closeAnalysis()">✕ Chiudi</button>
+    </div>
+    <div id="anBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let STATE = {};
+let CURRENT = null;          // chiave competizione attiva
+let CURRENT_GIORNATA = null; // giornata visualizzata (league)
+let EDIT_CTX = null;
+
+const $ = id => document.getElementById(id);
+const fmt = (x, d=2) => Number(x).toFixed(d);
+
+function toast(msg){
+  const t = $("toast"); t.textContent = msg; t.style.display = "block";
+  setTimeout(() => t.style.display = "none", 3500);
+}
+
+async function api(path, body){
+  const opt = body ? {method:"POST", headers:{"Content-Type":"application/json"},
+                      body:JSON.stringify(body)} : {};
+  const res = await fetch(path, opt);
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.errore || "errore server");
+  return data;
+}
+
+async function refresh(data){
+  STATE = data || await api("/api/state");
+  if (!CURRENT) CURRENT = Object.keys(STATE)[0];
+  renderNav(); render();
+}
+
+/* ---------------------------------------------------------- navigazione */
+function renderNav(){
+  const groups = {league:"Campionati", knockout:"Coppe e nazionali"};
+  let html = "";
+  for (const [tipo, label] of Object.entries(groups)){
+    html += `<div class="navgroup">${label}</div>`;
+    for (const [key, c] of Object.entries(STATE)){
+      if (c.tipo !== tipo) continue;
+      const badge = c.tipo === "knockout" && c.campione ? "🏆" : "";
+      html += `<div class="navitem ${key===CURRENT?"active":""}" onclick="selectComp('${key}')">
+        <span>${c.icona}</span><span>${c.nome}</span><span class="badge">${badge}</span></div>`;
+    }
+  }
+  $("nav").innerHTML = html;
+}
+
+function selectComp(key){ CURRENT = key; CURRENT_GIORNATA = null; renderNav(); render(); }
+
+/* ------------------------------------------------------------ rendering */
+function render(){
+  const c = STATE[CURRENT];
+  if (c.tipo === "league") renderLeague(c); else renderBracket(c);
+}
+
+function renderLeague(c){
+  if (CURRENT_GIORNATA === null) CURRENT_GIORNATA = c.giornata_corrente;
+  const g = CURRENT_GIORNATA;
+
+  $("toolbar").innerHTML = `
+    <h2>${c.icona} ${c.nome}</h2>
+    <button class="primary" onclick="simRound(${g})">▶ Simula giornata ${g}</button>
+    <button onclick="simAll()">⏩ Simula tutta la stagione</button>
+    <button class="danger" onclick="resetComp()">↺ Azzera</button>
+    <div class="note">Clicca ▶ per simulare una gara, ✎ per inserire un risultato reale,
+    📊 per l'analisi Monte Carlo a 10.000 simulazioni. La classifica si aggiorna da sola.</div>`;
+
+  // classifica
+  let cls = `<table><thead><tr><th>#</th><th class="name">Squadra</th><th>Pt</th><th>G</th>
+    <th>V</th><th>N</th><th>P</th><th>GF</th><th>GS</th><th>DR</th></tr></thead><tbody>`;
+  c.classifica.forEach((r, i) => {
+    const zone = i < 4 ? "zone-top" : i >= c.classifica.length - 3 ? "zone-bottom" : "";
+    cls += `<tr class="${zone}"><td>${i+1}</td><td class="name">${r.squadra}</td>
+      <td class="pt">${r.pt}</td><td>${r.g}</td><td>${r.v}</td><td>${r.n}</td><td>${r.p}</td>
+      <td>${r.gf}</td><td>${r.gs}</td><td>${r.dr>0?"+":""}${r.dr}</td></tr>`;
+  });
+  cls += "</tbody></table>";
+
+  // calendario della giornata selezionata
+  const opts = Array.from({length:c.giornate}, (_,i) =>
+    `<option value="${i+1}" ${i+1===g?"selected":""}>Giornata ${i+1}</option>`).join("");
+  let cal = `<div style="display:flex;gap:8px;align-items:center;margin-bottom:8px">
+    <button class="mini" onclick="setGiornata(${g-1})" ${g<=1?"disabled":""}>◀</button>
+    <select onchange="setGiornata(+this.value)">${opts}</select>
+    <button class="mini" onclick="setGiornata(${g+1})" ${g>=c.giornate?"disabled":""}>▶</button>
+    <span style="color:var(--dim);font-size:12px">(in corso: giornata ${c.giornata_corrente})</span></div>`;
+
+  c.fixtures.forEach((f, idx) => {
+    if (f.g !== g) return;
+    const played = f.gh !== null;
+    const wh = played && f.gh > f.ga, wa = played && f.ga > f.gh;
+    cal += `<div class="matchrow">
+      <div class="team h ${wh?"winner":""}">${f.h}</div>
+      <div class="score ${played?"":"pending"}">${played ? f.gh + " - " + f.ga : "vs"}</div>
+      <div class="team ${wa?"winner":""}">${f.a}</div>
+      ${played ? "" : `<button class="mini" title="Simula" onclick="simMatch(${idx})">▶</button>`}
+      <button class="mini" title="Risultato reale" onclick="openEdit(${idx},null)">✎</button>
+      <button class="mini" title="Analisi Monte Carlo"
+        onclick="openAnalysis('${f.h.replace(/'/g,"\\'")}','${f.a.replace(/'/g,"\\'")}',false)">📊</button>
+    </div>`;
+  });
+
+  $("view").innerHTML = `<div class="layout">
+    <div class="panel"><h3>Classifica</h3>${cls}</div>
+    <div class="panel"><h3>Calendario</h3>${cal}</div></div>`;
+}
+
+function renderBracket(c){
+  $("toolbar").innerHTML = `
+    <h2>${c.icona} ${c.nome}</h2>
+    <button class="primary" onclick="simKoRound()">▶ Simula turno corrente</button>
+    <button onclick="simAll()">⏩ Simula tutto il torneo</button>
+    <button class="danger" onclick="resetComp()">↺ Azzera torneo</button>
+    <div class="note">Gare uniche su campo neutro; pareggio ⇒ supplementari (dts) e rigori (dcr).
+    Chi vince avanza automaticamente al turno successivo. ✎ per inserire un risultato reale:
+    i turni successivi si rigenerano di conseguenza.</div>`;
+
+  let html = `<div class="bracket">`;
+  c.rounds.forEach((round, ri) => {
+    html += `<div class="roundcol"><h4>${c.round_names[ri]}</h4>`;
+    round.forEach((t, i) => {
+      const done = t.vinc !== null;
+      const rowCls = side => done && t.vinc === t[side] ? "winner" : "";
+      html += `<div class="tie">
+        <div class="trow ${rowCls("h")}"><div class="tname">${t.h}</div>
+          <div class="tscore">${t.gh ?? "–"}</div></div>
+        <div class="trow ${rowCls("a")}"><div class="tname">${t.a}</div>
+          <div class="tscore">${t.ga ?? "–"}</div></div>
+        <div class="actions">
+          ${t.note ? `<span class="note">${t.note}</span>` : ""}
+          ${done ? "" : `<button class="mini" title="Simula" onclick="simKoMatch(${ri},${i})">▶</button>`}
+          <button class="mini" title="Risultato reale" onclick="openEdit(${i},${ri})">✎</button>
+          <button class="mini" title="Analisi Monte Carlo"
+            onclick="openAnalysis('${t.h.replace(/'/g,"\\'")}','${t.a.replace(/'/g,"\\'")}',true)">📊</button>
+        </div></div>`;
+    });
+    html += `</div>`;
+  });
+  if (c.campione){
+    html += `<div class="roundcol"><h4>Campione</h4>
+      <div class="champ"><div class="cup">🏆</div><div class="cname">${c.campione}</div></div></div>`;
+  }
+  $("view").innerHTML = html + "</div>";
+}
+
+function setGiornata(g){ CURRENT_GIORNATA = g; render(); }
+
+/* ------------------------------------------------------------- azioni API */
+async function guard(fn){
+  try { await fn(); } catch (e) { toast("Errore: " + e.message); }
+}
+const simMatch  = idx => guard(async () => refresh(await api("/api/sim", {comp:CURRENT, scope:"match", idx})));
+const simRound  = g   => guard(async () => refresh(await api("/api/sim", {comp:CURRENT, scope:"round", giornata:g})));
+const simAll    = ()  => guard(async () => refresh(await api("/api/sim", {comp:CURRENT, scope:"all"})));
+const simKoMatch = (ri,i) => guard(async () => refresh(await api("/api/sim", {comp:CURRENT, scope:"match", round:ri, idx:i})));
+const simKoRound = ()  => guard(async () => refresh(await api("/api/sim", {comp:CURRENT, scope:"round"})));
+const resetComp = ()  => {
+  if (confirm("Azzerare la competizione? Tutti i risultati andranno persi."))
+    guard(async () => refresh(await api("/api/reset", {comp:CURRENT})));
+};
+
+/* -------------------------------------------------------- risultato reale */
+function openEdit(idx, roundIdx){
+  const c = STATE[CURRENT];
+  const m = roundIdx === null ? c.fixtures[idx] : c.rounds[roundIdx][idx];
+  EDIT_CTX = {idx, roundIdx, home:m.h, away:m.a};
+  $("edHome").textContent = m.h; $("edAway").textContent = m.a;
+  $("edGh").value = m.gh ?? 0; $("edGa").value = m.ga ?? 0;
+  $("edWinner").innerHTML = `<option value="${m.h}">${m.h}</option><option value="${m.a}">${m.a}</option>`;
+  updateWinnerRow();
+  $("edGh").oninput = $("edGa").oninput = updateWinnerRow;
+  $("editOverlay").classList.add("show");
+}
+function updateWinnerRow(){
+  const ko = EDIT_CTX.roundIdx !== null;
+  const draw = +$("edGh").value === +$("edGa").value;
+  $("edWinnerRow").style.display = ko && draw ? "flex" : "none";
+}
+function closeEdit(){ $("editOverlay").classList.remove("show"); }
+function saveEdit(){
+  const body = {comp:CURRENT, gh:+$("edGh").value, ga:+$("edGa").value, idx:EDIT_CTX.idx};
+  if (EDIT_CTX.roundIdx !== null){
+    body.round = EDIT_CTX.roundIdx;
+    if (body.gh === body.ga) body.vincitore = $("edWinner").value;
+  }
+  guard(async () => { refresh(await api("/api/risultato", body)); closeEdit(); });
+}
+
+/* --------------------------------------------------- analisi Monte Carlo */
+function barRow(label, pct, cls="", scale=1){
+  const w = Math.min(100, pct*scale);
+  return `<div class="row"><div class="lbl" title="${label}">${label}</div>
+    <div class="track"><div class="fill ${cls}" style="width:${w}%"></div></div>
+    <div class="val">${fmt(pct)}%</div></div>`;
+}
+
+async function openAnalysis(home, away, neutral){
+  $("anTitle").textContent = `${home} vs ${away} — Monte Carlo`;
+  $("anBody").innerHTML = `<div class="spinner">⚙ Esecuzione di 10.000 simulazioni…</div>`;
+  $("anOverlay").classList.add("show");
+  try {
+    const d = await api("/api/analyze", {home, away, neutral, label:STATE[CURRENT].nome});
+    renderAnalysis(d);
+  } catch (e) {
+    $("anBody").innerHTML = `<div class="spinner" style="color:var(--red)">Errore: ${e.message}</div>`;
+  }
+}
+function closeAnalysis(){ $("anOverlay").classList.remove("show"); }
+
+function renderAnalysis(d){
+  const m = d.meta, o = d.outcomes;
+
+  const kpis = [
+    [`xG ${m.home}`, fmt(d.xg.home)], [`xG ${m.away}`, fmt(d.xg.away)],
+    [`1`, fmt(o["1"])+"%"], ["X", fmt(o["X"])+"%"], ["2", fmt(o["2"])+"%"],
+    ["BTTS", fmt(d.btts)+"%"], ["Over 2.5", fmt(d.over["2.5"])+"%"],
+    ["Corner", fmt(d.corners.mean_total)], ["Cartellini", fmt(d.discipline.cards_total_mean)],
+  ].map(([l,v]) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+
+  let out = barRow(`1 — ${m.home}`, o["1"]) + barRow("X", o["X"]) + barRow(`2 — ${m.away}`, o["2"])
+    + `<div style="height:8px"></div>` + barRow("BTTS", d.btts, "gold");
+  for (const [line,p] of Object.entries(d.over)) out += barRow(`Over ${line}`, p, "gold");
+
+  const tops = d.top_scores.map(([s,p]) => barRow(s, p, "", 4)).join("");
+
+  const labels = [...Array(d.score_matrix.length-1).keys()].map(String)
+                 .concat([(d.score_matrix.length-1)+"+"]);
+  const maxP = Math.max(...d.score_matrix.flat());
+  let mat = `<table class="heat"><tr><th style="font-size:10px">${m.home} \\ ${m.away}</th>`+
+            labels.map(l=>`<th>${l}</th>`).join("")+"</tr>";
+  d.score_matrix.forEach((row,i)=>{
+    mat += `<tr><th>${labels[i]}</th>`+row.map(p=>{
+      const a = maxP>0 ? p/maxP : 0;
+      return `<td style="background:rgba(57,217,138,${(0.05+0.95*a).toFixed(3)});
+        color:${a>0.55?"#04240f":"var(--txt)"}">${fmt(p)}</td>`;
+    }).join("")+"</tr>";
+  });
+  mat += "</table>";
+
+  const c = d.corners;
+  let corn = `<div style="color:var(--dim);font-size:12px;margin-bottom:6px">
+    ${m.home}: <b>${fmt(c.mean_home)}</b> · ${m.away}: <b>${fmt(c.mean_away)}</b> ·
+    Totali: <b>${fmt(c.mean_total)}</b></div>`;
+  for (const [line,p] of Object.entries(c.lines)) corn += barRow(`Over ${line}`, p, "gold");
+
+  const kp = m.keepers, sv = d.saves, st = d.sot;
+  let saves = `<div style="color:var(--dim);font-size:12px;margin-bottom:6px">
+    SoT — ${m.home}: <b>${fmt(st.mean_home)}</b> · ${m.away}: <b>${fmt(st.mean_away)}</b></div>`;
+  for (const side of ["home","away"]){
+    saves += `<div style="margin:8px 0 3px"><b>${kp[side].name}</b>
+      <span style="color:var(--dim);font-size:11px">(save rate ${fmt(kp[side].save_rate*100,1)}% ·
+      medie ${fmt(sv["mean_"+side])})</span></div>`;
+    for (const [k,p] of Object.entries(sv["dist_"+side])) if (p>=1) saves += barRow(`${k} parate`, p, "", 3);
+  }
+
+  const di = d.discipline;
+  let cards = `<div style="color:var(--dim);font-size:12px;margin-bottom:6px">
+    Falli ${fmt(di.fouls_mean.home,1)}–${fmt(di.fouls_mean.away,1)} ·
+    Gialli ${fmt(di.yellows_mean.home,1)}–${fmt(di.yellows_mean.away,1)} ·
+    Rosso ${fmt(di.red_prob.home,1)}%–${fmt(di.red_prob.away,1)}%</div>`;
+  for (const [line,p] of Object.entries(di.cards_lines)) cards += barRow(`Over ${line}`, p, "card");
+
+  let sc = "";
+  for (const side of ["home","away"]){
+    sc += `<div style="margin:10px 0 4px;font-weight:700">${side==="home"?m.home:m.away}</div>
+      <table class="scorers"><tr><th>Giocatore</th><th class="num">Anytime</th>
+      <th class="num">Doppietta</th><th class="num">Quota</th></tr>`;
+    for (const r of d.scorers[side].slice(0, 8)){
+      sc += `<tr><td>${r.name}${r.penalty_taker?' <span class="pen">®</span>':""}</td>
+        <td class="num"><b>${fmt(r.anytime)}%</b></td><td class="num">${fmt(r.brace)}%</td>
+        <td class="num">${r.fair_odds?fmt(r.fair_odds):"—"}</td></tr>`;
+    }
+    sc += "</table>";
+  }
+
+  $("anBody").innerHTML = `
+    <div style="color:var(--dim);font-size:12px">${m.competition} — ${m.n_sims.toLocaleString("it-IT")}
+      simulazioni — ${m.generated}</div>
+    <div class="kpis">${kpis}</div>
+    <div class="an-grid">
+      <div class="panel"><h3>Esiti & linee gol</h3>${out}</div>
+      <div class="panel"><h3>Top risultati esatti</h3>${tops}</div>
+      <div class="panel" style="grid-column:1/-1"><h3>Matrice risultati esatti (%)</h3>${mat}</div>
+      <div class="panel"><h3>Corner</h3>${corn}</div>
+      <div class="panel"><h3>Tiri in porta & parate</h3>${saves}</div>
+      <div class="panel"><h3>Falli & cartellini</h3>${cards}</div>
+      <div class="panel"><h3>Marcatori (® rigorista)</h3>${sc}</div>
+    </div>`;
+}
+
+refresh();
+</script>
+</body>
+</html>
