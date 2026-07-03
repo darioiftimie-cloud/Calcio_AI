@@ -34,5 +34,11 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add data/mondiali.json data/index.json
-          git diff --cached --quiet || git commit -m "🌎 Update World Cup: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          if git diff --cached --quiet; then
+            echo "Nessun aggiornamento nei dati: niente da committare."
+            exit 0
+          fi
+          git commit -m "🌎 Update World Cup: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # main potrebbe essere avanzato nel frattempo: riallinea prima del push
+          git pull --rebase --autostash origin main
           git push
