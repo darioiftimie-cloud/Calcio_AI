@@ -3,5 +3,5 @@
 #
 #   pip install -r requirements-updater.txt
 #   python updater.py
-soccerdata>=1.8
+soccerdata>=1.8   # FBref/Understat (porta con sé pandas + beautifulsoup4)
 truststore>=0.9   # Windows dietro proxy/antivirus TLS (opzionale altrove)

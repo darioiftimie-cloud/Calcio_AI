@@ -41,13 +41,44 @@ def _select_roster(players: list[dict]) -> dict:
             "penalty_taker_id": pen_taker_id, "super_sub_ids": super_subs}
 
 
-def team_profile(league: dict, team_name: str, team_ref: dict | None = None) -> dict:
-    """Profilo completo di una squadra per il motore Monte Carlo."""
+def _last_n_stats(league: dict, team_name: str, n: int = 10) -> dict | None:
+    """Gol fatti/subiti e forma dalle ultime `n` partite reali nel DB."""
+    recent = [fx for fx in league.get("fixtures", [])
+              if fx.get("finished") and fx.get("gh") is not None
+              and team_name in (fx["home"]["name"], fx["away"]["name"])]
+    recent.sort(key=lambda f: f.get("date") or "")
+    recent = recent[-n:]
+    if not recent:
+        return None
+    gf = ga = 0
+    form = ""
+    for fx in recent:
+        home = fx["home"]["name"] == team_name
+        mine, theirs = (fx["gh"], fx["ga"]) if home else (fx["ga"], fx["gh"])
+        gf += mine
+        ga += theirs
+        form += "W" if mine > theirs else ("D" if mine == theirs else "L")
+    k = len(recent)
+    return {"gf": gf / k, "ga": ga / k, "form": form[-5:], "played": k}
+
+
+def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
+                 mode: str = "season") -> dict:
+    """Profilo completo di una squadra per il motore Monte Carlo.
+
+    mode="season" → gol e forma dall'intera stagione (classifica reale);
+    mode="last10" → ricalcolati sulle ultime 10 partite giocate nel DB."""
     row = _team_row(league, team_name)
     played = int(row.get("played") or 0) if row else 0
     gf = (row["gf"] / played) if (row and played) else config.BASELINE["goals"]
     ga = (row["ga"] / played) if (row and played) else config.BASELINE["goals"]
     form = (row.get("form") if row else "") or ""
+
+    if mode == "last10":
+        recent = _last_n_stats(league, team_name)
+        if recent:
+            gf, ga, form, played = (recent["gf"], recent["ga"],
+                                    recent["form"], recent["played"])
 
     micro = (league.get("teams") or {}).get(team_name) or {}
     players = micro.get("players", [])
@@ -77,7 +108,8 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None) -> 
         "save_rate": round(save_rate, 3),
         "keeper": keeper_out,
         "players": roster["outfield"],
-        "players_mode": micro.get("source", "baseline"),
+        "players_mode": (f"{micro.get('source', 'baseline')} · forma ultime {played}"
+                         if mode == "last10" else micro.get("source", "baseline")),
         "recent_sample": len(players),
         "penalty_taker_id": roster["penalty_taker_id"],
         "super_sub_ids": roster["super_sub_ids"],

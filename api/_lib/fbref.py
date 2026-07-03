@@ -305,9 +305,24 @@ def fetch_fbref_profiles(fbref_leagues: list[str], season: str) -> dict:
     return out
 
 
+def _fbref_reachable() -> bool:
+    """Check rapido: FBref risponde senza blocco Cloudflare/CAPTCHA?
+    Evita i ~4 minuti di retry di soccerdata sulle reti bloccate."""
+    import requests
+    try:
+        r = requests.get("https://fbref.com/robots.txt", timeout=8,
+                         headers={"User-Agent": "Mozilla/5.0"})
+        return r.status_code == 200
+    except Exception:
+        return False
+
+
 def fetch_micro_profiles(fbref_leagues: list[str], season: str,
                          prefer: str = "fbref") -> tuple[dict, str]:
     """Ritorna (profili, sorgente_usata) provando FBref → Understat."""
+    if prefer == "fbref" and not _fbref_reachable():
+        print("  ! FBref bloccato su questa rete (Cloudflare): passo a Understat")
+        prefer = "understat"
     if prefer == "fbref":
         try:
             print("  → provo FBref (micro-eventi completi)…")

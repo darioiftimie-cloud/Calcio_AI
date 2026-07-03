@@ -8,9 +8,12 @@ __pycache__/
 venv/
 .venv/
 *.pdf
+downloaded_files/
 
 # Scraper offline: non serve a runtime (gli endpoint leggono data/*.json)
+updater.py
 requirements-updater.txt
+dev_server.py
 
 # Sistema v1 locale (non fa parte della web app)
 super_simulator.py
@@ -20,4 +23,3 @@ app.html
 dashboard.html
 dashboard_data.json
 stato_competizioni.json
-dev_server.py

@@ -1,9 +1,9 @@
 {
- "generato": "2026-07-02T18:14:34+00:00",
+ "generato": "2026-07-02T23:56:23+00:00",
  "preferita": "2026-27",
  "micro_source": "understat",
  "account": {
-  "piano": "football-data.org · free",
+  "piano": "football-data.org + API-Football · free",
   "micro": "understat",
   "aggiornato": "2026-07-02"
  },
@@ -55,6 +55,38 @@
    "tipo": "cup",
    "season": "2025-26",
    "piano_limitato": true
+  },
+  {
+   "key": "europa_league",
+   "nome": "Europa League",
+   "icona": "🏆",
+   "tipo": "cup",
+   "season": "2024-25",
+   "piano_limitato": true
+  },
+  {
+   "key": "nations_league",
+   "nome": "Nations League",
+   "icona": "🌍",
+   "tipo": "cup",
+   "season": "2024-25",
+   "piano_limitato": true
+  },
+  {
+   "key": "europei",
+   "nome": "Europei",
+   "icona": "🇪🇺",
+   "tipo": "cup",
+   "season": "2024",
+   "piano_limitato": false
+  },
+  {
+   "key": "mondiali",
+   "nome": "Mondiali 2026",
+   "icona": "🌎",
+   "tipo": "cup",
+   "season": "2026",
+   "piano_limitato": false
   }
  ]
 }

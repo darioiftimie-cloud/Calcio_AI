@@ -40,7 +40,7 @@ _PROFILE_KEYS = ("name", "played", "gf", "ga", "form", "shots_pg", "sot_pg",
 
 def full_analysis(fixture_id: int, players_mode: str = "season") -> dict:
     """Analisi completa del match, cache 60 minuti."""
-    cache_key = f"analysis:{fixture_id}"
+    cache_key = f"analysis:{fixture_id}:{players_mode}"
     hit = cache_get(cache_key)
     if hit is not None:
         return hit
@@ -50,8 +50,8 @@ def full_analysis(fixture_id: int, players_mode: str = "season") -> dict:
     is_cup = league["meta"]["tipo"] == "cup"
 
     meta = fixture_meta(league, fx)
-    home = team_profile(league, fx["home"]["name"], fx["home"])
-    away = team_profile(league, fx["away"]["name"], fx["away"])
+    home = team_profile(league, fx["home"]["name"], fx["home"], players_mode)
+    away = team_profile(league, fx["away"]["name"], fx["away"], players_mode)
     meteo = weather_for(meta["city"], meta["date"])
 
     sim = run_simulation(home, away, meteo, is_cup=is_cup)

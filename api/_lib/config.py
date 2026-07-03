@@ -45,6 +45,10 @@ _load_dotenv()
 FOOTBALL_DATA_KEY = os.environ.get("FOOTBALL_DATA_KEY", "")
 FD_BASE = "https://api.football-data.org/v4"
 
+# --- API-Football (solo updater: Europa League e Nations League) --------------
+API_FOOTBALL_KEY = os.environ.get("API_FOOTBALL_KEY", "")
+APIF_BASE = "https://v3.football.api-sports.io"
+
 # Stagione di riferimento (anno d'inizio). Per football-data.org 2026 = 2026-27.
 # I preferiti vengono provati in ordine: la prima con partite giocate diventa
 # la "stagione dei risultati"; il calendario dell'anno in corso resta comunque
@@ -60,17 +64,24 @@ HTTP_TIMEOUT = 25
 FD_MIN_INTERVAL = 6.5    # secondi tra richieste (usato dall'updater offline)
 
 # Competizioni supportate. Per ognuna:
+#   source  : "fd" = football-data.org · "apif" = API-Football (piano gratuito)
 #   fd_code : codice competizione football-data.org
-#   fd_id   : id numerico football-data.org
+#   apif_id : id lega API-Football (per le competizioni non coperte da fd)
 #   fbref   : id lega soccerdata/FBref per i micro-eventi (None = usa baseline
 #             o, per le coppe, il profilo del campionato nazionale delle squadre)
+#   single_year : torneo a edizione secca (Mondiali/Europei): stagione "2026",
+#                 non "2026-27"
 LEAGUES = {
-    "serie_a":          {"fd_code": "SA",  "fd_id": 2019, "nome": "Serie A",          "icona": "🇮🇹", "tipo": "league", "fbref": "ITA-Serie A"},
-    "premier_league":   {"fd_code": "PL",  "fd_id": 2021, "nome": "Premier League",   "icona": "🏴", "tipo": "league", "fbref": "ENG-Premier League"},
-    "la_liga":          {"fd_code": "PD",  "fd_id": 2014, "nome": "LaLiga",           "icona": "🇪🇸", "tipo": "league", "fbref": "ESP-La Liga"},
-    "bundesliga":       {"fd_code": "BL1", "fd_id": 2002, "nome": "Bundesliga",       "icona": "🇩🇪", "tipo": "league", "fbref": "GER-Bundesliga"},
-    "ligue_1":          {"fd_code": "FL1", "fd_id": 2015, "nome": "Ligue 1",          "icona": "🇫🇷", "tipo": "league", "fbref": "FRA-Ligue 1"},
-    "champions_league": {"fd_code": "CL",  "fd_id": 2001, "nome": "Champions League", "icona": "⭐", "tipo": "cup",    "fbref": None},
+    "serie_a":          {"source": "fd", "fd_code": "SA",  "fd_id": 2019, "nome": "Serie A",          "icona": "🇮🇹", "tipo": "league", "fbref": "ITA-Serie A"},
+    "premier_league":   {"source": "fd", "fd_code": "PL",  "fd_id": 2021, "nome": "Premier League",   "icona": "🏴", "tipo": "league", "fbref": "ENG-Premier League"},
+    "la_liga":          {"source": "fd", "fd_code": "PD",  "fd_id": 2014, "nome": "LaLiga",           "icona": "🇪🇸", "tipo": "league", "fbref": "ESP-La Liga"},
+    "bundesliga":       {"source": "fd", "fd_code": "BL1", "fd_id": 2002, "nome": "Bundesliga",       "icona": "🇩🇪", "tipo": "league", "fbref": "GER-Bundesliga"},
+    "ligue_1":          {"source": "fd", "fd_code": "FL1", "fd_id": 2015, "nome": "Ligue 1",          "icona": "🇫🇷", "tipo": "league", "fbref": "FRA-Ligue 1"},
+    "champions_league": {"source": "fd", "fd_code": "CL",  "fd_id": 2001, "nome": "Champions League", "icona": "⭐", "tipo": "cup",    "fbref": None},
+    "europa_league":    {"source": "apif", "apif_id": 3,   "nome": "Europa League",    "icona": "🏆", "tipo": "cup",  "fbref": None},
+    "nations_league":   {"source": "apif", "apif_id": 5,   "nome": "Nations League",   "icona": "🌍", "tipo": "cup",  "fbref": None},
+    "europei":          {"source": "fd", "fd_code": "EC",  "fd_id": 2018, "nome": "Europei",          "icona": "🇪🇺", "tipo": "cup", "fbref": None, "single_year": True},
+    "mondiali":         {"source": "fd", "fd_code": "WC",  "fd_id": 2000, "nome": "Mondiali 2026",    "icona": "🌎", "tipo": "cup", "fbref": None, "single_year": True},
 }
 
 # Le 5 grandi leghe FBref: sorgente dei profili micro-evento (anche per le

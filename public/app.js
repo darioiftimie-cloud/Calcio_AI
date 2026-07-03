@@ -188,9 +188,9 @@ function renderAnalysis(d) {
   $("anHeader").innerHTML = `
     <div class="match-title"><img src="${m.home.logo}" alt=""> ${H}
       <span style="color:var(--dim)">vs</span> ${A} <img src="${m.away.logo}" alt=""></div>
-    <div class="match-sub">${m.league} · ${m.round} · ${dateFmt(m.date)} ·
-      ${m.venue || "?"} (${m.city || "?"}) · statistiche giocatori:
-      <b>${prof.home.players_mode === "last10" ? "ultime 10 partite" : "stagione nel torneo"}</b></div>
+    <div class="match-sub">${m.league} · ${m.round} · ${dateFmt(m.date)}${
+      m.venue ? ` · ${m.venue}${m.city ? " (" + m.city + ")" : ""}` : ""} · statistiche giocatori:
+      <b>${(prof.home.players_mode || "").includes("forma") ? "forma ultime 10 reali" : "stagione nel torneo"}</b></div>
     <div class="badges">${meteoBadge}${oddsBadge}
       <span class="badge">🧤 ${prof.home.keeper.name}: SR ${fmt(prof.home.keeper.save_rate * 100, 1)}%${prof.home.keeper.saves_pg != null ? " · " + prof.home.keeper.saves_pg + " parate/g" : ""}</span>
       <span class="badge">🧤 ${prof.away.keeper.name}: SR ${fmt(prof.away.keeper.save_rate * 100, 1)}%${prof.away.keeper.saves_pg != null ? " · " + prof.away.keeper.saves_pg + " parate/g" : ""}</span>
