@@ -55,7 +55,7 @@ def leagues():
            "tipo": l["tipo"], "season": l["season"]}
           for l in idx.get("leagues", [])]
     return _json({"leagues": ls, "account": idx.get("account", {}),
-                  "generato": idx.get("generato")}, smaxage=1800)
+                  "generato": idx.get("generato")}, smaxage=300)
 
 
 @app.get("/api/standings")
@@ -67,7 +67,7 @@ def standings(league: str):
                   "season": meta["season_label"],
                   "stagione_corrente": meta["calendar_label"],
                   "piano_limitato": meta["piano_limitato"],
-                  "groups": data["standings"]}, smaxage=900)
+                  "groups": data["standings"]}, smaxage=60)
 
 
 # ordine dei turni a eliminazione diretta, dal più lontano alla finale
@@ -108,7 +108,7 @@ def bracket(league: str):
                   "season": meta["season_label"],
                   "stagione_corrente": meta["calendar_label"],
                   "piano_limitato": meta["piano_limitato"],
-                  "rounds": out}, smaxage=300)
+                  "rounds": out}, smaxage=60)
 
 
 @app.get("/api/fixtures")
@@ -128,7 +128,7 @@ def fixtures(league: str, mode: str = "next", n: int = Query(20, le=40)):
                   "season": meta["season_label"],
                   "stagione_corrente": meta["calendar_label"],
                   "piano_limitato": meta["piano_limitato"],
-                  "mode": mode, "fixtures": sel[:n]}, smaxage=300)
+                  "mode": mode, "fixtures": sel[:n]}, smaxage=60)
 
 
 @app.get("/api/simulate")
@@ -136,7 +136,7 @@ def simulate(fixture: int,
              players: str = Query("season", pattern="^(season|last10)$")):
     """Analisi completa: 10.000 simulazioni Monte Carlo + meteo + giocatori.
     Risultato in cache 60 minuti (in-process + edge)."""
-    return _json(full_analysis(fixture, players), smaxage=3600)
+    return _json(full_analysis(fixture, players), smaxage=600)
 
 
 @app.get("/api/report")
@@ -158,7 +158,7 @@ _INDEX_HTML = """<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Calcio AI – Analytics Board</title>
+<title>Calcio AI â€” Analytics Board</title>
 <style>
 /* Calcio AI — Analytics Board · tema scuro ultra-moderno */
 :root{
@@ -314,21 +314,21 @@ tr.q3 td:first-child{box-shadow:inset 3px 0 0 var(--red)}
 <body>
 
 <header class="topbar">
-  <div class="brand">⚽ CALCIO <span>AI</span> <small>Analytics Board</small></div>
+  <div class="brand">âš½ CALCIO <span>AI</span> <small>Analytics Board</small></div>
   <select id="leagueSelect" title="Competizione"></select>
-  <label class="toggle" title="Statistiche giocatori dalle ultime 10 partite reali (consuma più crediti API)">
+  <label class="toggle" title="Statistiche giocatori dalle ultime 10 partite reali (consuma piÃ¹ crediti API)">
     <input type="checkbox" id="last10Toggle"> Forma ultime 10
   </label>
   <div class="account" id="accountBadge"></div>
 </header>
 
 <nav class="tabs">
-  <button class="tab active" data-tab="fixtures">📅 Partite</button>
-  <button class="tab" data-tab="standings">📊 Classifica</button>
-  <button class="tab" data-tab="bracket">🏆 Tabellone</button>
+  <button class="tab active" data-tab="fixtures">ðŸ“… Partite</button>
+  <button class="tab" data-tab="standings">ðŸ“Š Classifica</button>
+  <button class="tab" data-tab="bracket">ðŸ† Tabellone</button>
 </nav>
 
-<main id="content"><div class="loading">Caricamento…</div></main>
+<main id="content"><div class="loading">Caricamentoâ€¦</div></main>
 
 <!-- Modale analisi Monte Carlo -->
 <div class="overlay" id="analysisOverlay">
@@ -337,8 +337,8 @@ tr.q3 td:first-child{box-shadow:inset 3px 0 0 var(--red)}
       <div id="anHeader"></div>
       <div class="head-actions">
         <a id="pdfBtn" class="btn primary" target="_blank" rel="noopener">
-          📄 Scarica Report Analitico PDF</a>
-        <button class="btn" onclick="closeAnalysis()">✕ Chiudi</button>
+          ðŸ“„ Scarica Report Analitico PDF</a>
+        <button class="btn" onclick="closeAnalysis()">âœ• Chiudi</button>
       </div>
     </div>
     <div id="anBody"></div>
