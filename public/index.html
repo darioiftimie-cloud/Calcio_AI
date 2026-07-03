@@ -269,16 +269,27 @@ async function renderFixtures() {
       api(`/api/fixtures?league=${CURRENT}&mode=next&n=18`),
       api(`/api/fixtures?league=${CURRENT}&mode=last&n=6`),
     ]);
-    const card = (f, played) => `
+    const teamCell = (t, right) => {
+      const tbd = !t.name || t.name === "?";
+      return `<div class="fx-team ${right ? "right" : ""}">${
+        tbd ? "" : `<img src="${t.logo}" alt="">`}<span class="nm"${
+        tbd ? ' style="color:var(--dim);font-style:italic"' : ""}>${
+        tbd ? "Da definire" : t.name}</span></div>`;
+    };
+    const card = (f, played) => {
+      const tbd = [f.home.name, f.away.name].some(n => !n || n === "?");
+      return `
       <div class="fx-card">
         <div class="fx-meta"><span>${f.round || ""}</span><span>${dateFmt(f.date)}</span></div>
         <div class="fx-teams">
-          <div class="fx-team"><img src="${f.home.logo}" alt=""><span class="nm">${f.home.name}</span></div>
+          ${teamCell(f.home, false)}
           <div class="fx-score ${played ? "" : "live"}">${played ? f.gh + " - " + f.ga : "vs"}</div>
-          <div class="fx-team right"><img src="${f.away.logo}" alt=""><span class="nm">${f.away.name}</span></div>
+          ${teamCell(f.away, true)}
         </div>
-        <button class="btn block" onclick="openAnalysis(${f.fixture_id})">📈 Analizza (10.000 sim)</button>
+        ${tbd ? `<div class="note" style="text-align:center">In attesa degli accoppiamenti ufficiali</div>`
+              : `<button class="btn block" onclick="openAnalysis(${f.fixture_id})">📈 Analizza (10.000 sim)</button>`}
       </div>`;
+    };
     let html = planBanner(next);
     if (next.fixtures.length)
       html += `<div class="panel" style="margin-bottom:14px"><h3>Prossime partite</h3>
@@ -332,20 +343,25 @@ async function renderBracket() {
     }
     const row = (t, gh, other) => {
       const win = t.winner === true;
+      const tbd = !t.name || t.name === "?";
       return `<div class="trow ${win ? "win" : ""}">
-        <img src="${t.logo}" alt=""><span class="tn">${t.name}</span>
+        ${tbd ? "" : `<img src="${t.logo}" alt="">`}<span class="tn"${
+          tbd ? ' style="color:var(--dim);font-style:italic"' : ""}>${
+          tbd ? "Da definire" : t.name}</span>
         <span class="ts">${gh ?? "–"}</span></div>`;
     };
     $("content").innerHTML = planBanner(data) + `<div class="bracket">` + data.rounds.map(r => `
       <div class="roundcol"><h4>${r.nome}</h4><div class="ties">
-      ${r.partite.map(m => `
+      ${r.partite.map(m => {
+        const tbd = [m.home.name, m.away.name].some(n => !n || n === "?");
+        return `
         <div class="tie">
           ${row(m.home, m.gh)}${row(m.away, m.ga)}
           ${m.rigori ? `<div class="tie-foot"><span class="dt">rigori ${m.rigori.home}-${m.rigori.away}</span></div>` : ""}
           <div class="tie-foot"><span class="dt">${dateFmt(m.date)} · ${m.status || ""}</span>
-            <button class="btn mini" onclick="openAnalysis(${m.fixture_id})">📈 Analizza</button>
+            ${tbd ? "" : `<button class="btn mini" onclick="openAnalysis(${m.fixture_id})">📈 Analizza</button>`}
           </div>
-        </div>`).join("")}
+        </div>`;}).join("")}
       </div></div>`).join("") + `</div>`;
   } catch (e) { $("content").innerHTML = `<div class="panel">⚠️ ${e.message}</div>`; }
 }
