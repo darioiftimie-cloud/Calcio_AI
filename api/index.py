@@ -17,6 +17,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from fastapi import FastAPI, Query, Request                    # noqa: E402
 from fastapi.responses import JSONResponse, Response           # noqa: E402
+from fastapi.staticfiles import StaticFiles                    # noqa: E402
 
 from _lib import db                                            # noqa: E402
 from _lib.analysis import full_analysis                        # noqa: E402
@@ -151,3 +152,7 @@ def report(fixture: int,
         "Content-Disposition":
             f'attachment; filename="report_{home}_vs_{away}.pdf"',
         "Cache-Control": "public, s-maxage=3600, max-age=0"})
+
+
+# Servi il frontend SPA (fallback a index.html per le rotte non-API)
+app.mount("/", StaticFiles(directory=os.path.join(os.path.dirname(__file__), "..", "public"), html=True), name="static")
