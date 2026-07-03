@@ -19,7 +19,17 @@ from . import config
 
 LATE_GOAL_SHARE = 0.28   # quota storica di gol segnati al 70'-90'
 SUPER_SUB_LATE_BOOST = 2.2
-MAX_SCORE = 5
+MAX_SCORE = 7            # oltre 7 gol i risultati finiscono nel bucket "7+"
+
+# Shrinkage empirico-bayes: con un campione di poche partite (es. 4 gare di
+# torneo) le medie osservate pesano w = n/(n+K) e vengono tirate verso la
+# media di lega. Evita xG assurdi tipo "3.4" da 4 partite contro gironi deboli.
+SHRINK_K = 5.0
+
+
+def _shrink(value: float, played: int, league_avg: float) -> float:
+    w = played / (played + SHRINK_K) if played and played > 0 else 0.0
+    return league_avg + w * (value - league_avg)
 
 
 def _dist(arr: np.ndarray, cap: int = 30) -> dict:
@@ -105,9 +115,14 @@ def run_simulation(home: dict, away: dict, weather: dict,
     boost_h, boost_a = ((config.HOME_BOOST_CUP, config.AWAY_MALUS_CUP) if is_cup
                         else (config.HOME_BOOST_LEAGUE, config.AWAY_MALUS_LEAGUE))
 
-    # xG dal modello moltiplicativo attacco × difesa avversaria × campo
-    xg_h = np.clip(home["gf"] * away["ga"] / L * boost_h, 0.15, 4.5)
-    xg_a = np.clip(away["gf"] * home["ga"] / L * boost_a, 0.15, 4.5)
+    # xG dal modello moltiplicativo attacco × difesa avversaria × campo,
+    # con shrinkage sulle medie osservate (campioni piccoli → più prudenza)
+    gf_h = _shrink(home["gf"], home.get("played") or 0, L)
+    ga_h = _shrink(home["ga"], home.get("played") or 0, L)
+    gf_a = _shrink(away["gf"], away.get("played") or 0, L)
+    ga_a = _shrink(away["ga"], away.get("played") or 0, L)
+    xg_h = np.clip(gf_h * ga_a / L * boost_h, 0.15, 3.6)
+    xg_a = np.clip(gf_a * ga_h / L * boost_a, 0.15, 3.6)
 
     precision = weather.get("precisione_tiri", 1.0)
     fouls_mult = weather.get("moltiplicatore_falli", 1.0)

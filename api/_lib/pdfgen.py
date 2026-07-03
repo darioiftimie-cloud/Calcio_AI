@@ -113,7 +113,7 @@ def build_pdf(analysis: dict) -> bytes:
     pdf.section("Risultati esatti piu probabili")
     for score, p in sim["top_scores"][:8]:
         try:
-            gh, ga = (int(x) for x in score.split("-"))
+            gh, ga = (int(x.rstrip("+")) for x in score.split("-"))
             col = ACCENT if gh > ga else (ACCENT2 if gh < ga else GRAY)
         except ValueError:
             col = ACCENT
