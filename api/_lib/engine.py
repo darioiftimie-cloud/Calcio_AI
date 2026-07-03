@@ -127,11 +127,19 @@ def run_simulation(home: dict, away: dict, weather: dict,
     precision = weather.get("precisione_tiri", 1.0)
     fouls_mult = weather.get("moltiplicatore_falli", 1.0)
 
-    # λ tiri in porta: blend tra SoT osservati e SoT impliciti (xG / conversione)
+    # Fattore difesa avversaria per i micro-eventi: contro una difesa che
+    # concede poco si tira (e si guadagnano corner) meno della propria media,
+    # contro una difesa permeabile di più. Prima i tiri/corner della squadra
+    # ignoravano completamente chi c'era dall'altra parte.
+    def_a = float(np.clip(ga_a / L, 0.70, 1.35))   # difesa ospite → attacco casa
+    def_h = float(np.clip(ga_h / L, 0.70, 1.35))   # difesa casa → attacco ospite
+
+    # λ tiri in porta: blend tra SoT osservati (aggiustati per l'avversario)
+    # e SoT impliciti (xG / conversione, già opponent-aware)
     conv_base_h = np.clip(1.0 - away["save_rate"], 0.10, 0.50)
     conv_base_a = np.clip(1.0 - home["save_rate"], 0.10, 0.50)
-    lam_sot_h = max(0.6 * xg_h / conv_base_h + 0.4 * home["sot_pg"], 0.8)
-    lam_sot_a = max(0.6 * xg_a / conv_base_a + 0.4 * away["sot_pg"], 0.8)
+    lam_sot_h = max(0.6 * xg_h / conv_base_h + 0.4 * home["sot_pg"] * def_a, 0.8)
+    lam_sot_a = max(0.6 * xg_a / conv_base_a + 0.4 * away["sot_pg"] * def_h, 0.8)
     # conversione effettiva ricalibrata: E[gol] = xG × precisione meteo
     conv_h = np.clip(xg_h / lam_sot_h, 0.05, 0.65) * precision
     conv_a = np.clip(xg_a / lam_sot_a, 0.05, 0.65) * precision
@@ -145,17 +153,18 @@ def run_simulation(home: dict, away: dict, weather: dict,
     saves_h = sot_a - goals_a       # parate del portiere di casa
     saves_a = sot_h - goals_h
 
-    # tiri totali = tiri in porta + tiri fuori/bloccati
-    off_target_h = max(home["shots_pg"] - home["sot_pg"], 2.0)
-    off_target_a = max(away["shots_pg"] - away["sot_pg"], 2.0)
+    # tiri totali = tiri in porta + tiri fuori/bloccati (anch'essi
+    # aggiustati per la difesa avversaria)
+    off_target_h = max(home["shots_pg"] - home["sot_pg"], 2.0) * def_a
+    off_target_a = max(away["shots_pg"] - away["sot_pg"], 2.0) * def_h
     shots_h = sot_h + rng.poisson(off_target_h * tempo)
     shots_a = sot_a + rng.poisson(off_target_a * tempo)
 
     # corner accoppiati alla dominanza offensiva della singola simulazione
     dom_h = np.clip(0.65 + 0.35 * sot_h / np.maximum(lam_sot_h * tempo, 0.5), 0.5, 1.7)
     dom_a = np.clip(0.65 + 0.35 * sot_a / np.maximum(lam_sot_a * tempo, 0.5), 0.5, 1.7)
-    corners_h = rng.poisson(home["corners_pg"] * (0.5 + 0.5 * tempo) * dom_h)
-    corners_a = rng.poisson(away["corners_pg"] * (0.5 + 0.5 * tempo) * dom_a)
+    corners_h = rng.poisson(home["corners_pg"] * (def_a ** 0.5) * (0.5 + 0.5 * tempo) * dom_h)
+    corners_a = rng.poisson(away["corners_pg"] * (def_h ** 0.5) * (0.5 + 0.5 * tempo) * dom_a)
     corners_t = corners_h + corners_a
 
     # falli e cartellini (meteo estremo: +10% falli)

@@ -124,6 +124,21 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
     keeper = roster["keeper"]
 
     B = config.BASELINE
+
+    # Senza profilo micro-evento reale (nazionali, club fuori dalle Big 5) i
+    # tiri/corner di base vengono scalati sulla forza d'attacco osservata,
+    # con shrinkage sul campione: chi segna il doppio della media tira di
+    # più, chi non segna tira meno. Prima tutte le squadre senza profilo
+    # condividevano le stesse identiche medie di lega.
+    if "shots_pg" not in micro:
+        w = played / (played + 5.0) if played else 0.0
+        att = 1.0 + w * (gf / B["goals"] - 1.0)
+        att = min(max(att, 0.60), 1.70)
+        micro = {**micro,
+                 "shots_pg": round(B["shots"] * att, 2),
+                 "sot_pg": round(B["sot"] * att, 2),
+                 "corners_pg": round(B["corners"] * att ** 0.7, 2)}
+
     save_rate = (micro.get("save_rate") or (micro.get("keeper") or {}).get("save_rate")
                  or B["save_rate"])
     keeper_out = micro.get("keeper") or {

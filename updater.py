@@ -74,8 +74,8 @@ def norm_match(m: dict, season: int) -> dict:
     stage = m.get("stage") or ""
     pens = score.get("penalties") or {}
     home, away = _team_obj(m.get("homeTeam") or {}), _team_obj(m.get("awayTeam") or {})
-    home["winner"] = winner == "HOME_TEAM" or None if winner else None
-    away["winner"] = winner == "AWAY_TEAM" or None if winner else None
+    home["winner"] = (winner == "HOME_TEAM") if winner else None
+    away["winner"] = (winner == "AWAY_TEAM") if winner else None
     matchday = m.get("matchday")
     if stage in _STAGE_IT:
         rnd = _STAGE_IT[stage]
