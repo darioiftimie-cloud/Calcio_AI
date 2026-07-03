@@ -44,7 +44,10 @@ class Report(FPDF):
         self.line(10, self.get_y(), 70, self.get_y())
         self.ln(2.5)
 
-    def bar_row(self, label: str, pct: float, color=ACCENT, width=90.0):
+    def bar_row(self, label: str, pct: float, color=ACCENT, width=90.0,
+                scale: float = 1.0):
+        """Barra orizzontale con percentuale. `scale` allunga solo la barra
+        (leggibilità per valori piccoli): la percentuale stampata è quella vera."""
         self.set_font("helvetica", "", 9)
         self.set_text_color(*DARK)
         self.cell(52, 5.4, _tx(label))
@@ -52,7 +55,7 @@ class Report(FPDF):
         self.set_fill_color(*LIGHT)
         self.rect(x, y + 0.8, width, 3.8, "F")
         self.set_fill_color(*color)
-        self.rect(x, y + 0.8, max(width * min(pct, 100) / 100.0, 0.6), 3.8, "F")
+        self.rect(x, y + 0.8, max(width * min(pct * scale, 100) / 100.0, 0.6), 3.8, "F")
         self.set_xy(x + width + 2, y)
         self.cell(18, 5.4, f"{pct:.2f}%", new_x="LMARGIN", new_y="NEXT")
 
@@ -104,15 +107,17 @@ def build_pdf(analysis: dict) -> bytes:
     for line, p in sim["over"].items():
         pdf.bar_row(f"Over {line}", p, ACCENT2)
 
-    # top risultati esatti
+    # top risultati esatti — stesse percentuali e colori del grafico sul sito
+    # (verde=vittoria casa, grigio=pareggio, blu=vittoria ospite);
+    # la barra è allungata x4 solo per leggibilità
     pdf.section("Risultati esatti piu probabili")
     for score, p in sim["top_scores"][:8]:
-        pdf.bar_row(score, p * 4, width=90)  # scala x4 per leggibilità
-        pdf.set_xy(pdf.get_x(), pdf.get_y() - 5.4)
-        pdf.set_font("helvetica", "", 8)
-        pdf.set_text_color(*GRAY)
-        pdf.set_x(160)
-        pdf.cell(0, 5.4, f"({p:.2f}%)", new_x="LMARGIN", new_y="NEXT")
+        try:
+            gh, ga = (int(x) for x in score.split("-"))
+            col = ACCENT if gh > ga else (ACCENT2 if gh < ga else GRAY)
+        except ValueError:
+            col = ACCENT
+        pdf.bar_row(score, p, col, scale=4.0)
 
     # micro-eventi
     pdf.section("Micro-eventi attesi (medie su 10.000 sim)")

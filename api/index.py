@@ -158,7 +158,7 @@ _INDEX_HTML = """<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Calcio AI â€” Analytics Board</title>
+<title>Calcio AI — Analytics Board</title>
 <style>
 /* Calcio AI — Analytics Board · tema scuro ultra-moderno */
 :root{
@@ -314,21 +314,21 @@ tr.q3 td:first-child{box-shadow:inset 3px 0 0 var(--red)}
 <body>
 
 <header class="topbar">
-  <div class="brand">âš½ CALCIO <span>AI</span> <small>Analytics Board</small></div>
+  <div class="brand">⚽ CALCIO <span>AI</span> <small>Analytics Board</small></div>
   <select id="leagueSelect" title="Competizione"></select>
-  <label class="toggle" title="Statistiche giocatori dalle ultime 10 partite reali (consuma piÃ¹ crediti API)">
+  <label class="toggle" title="Statistiche giocatori dalle ultime 10 partite reali (consuma più crediti API)">
     <input type="checkbox" id="last10Toggle"> Forma ultime 10
   </label>
   <div class="account" id="accountBadge"></div>
 </header>
 
 <nav class="tabs">
-  <button class="tab active" data-tab="fixtures">ðŸ“… Partite</button>
-  <button class="tab" data-tab="standings">ðŸ“Š Classifica</button>
-  <button class="tab" data-tab="bracket">ðŸ† Tabellone</button>
+  <button class="tab active" data-tab="fixtures">📅 Partite</button>
+  <button class="tab" data-tab="standings">📊 Classifica</button>
+  <button class="tab" data-tab="bracket">🏆 Tabellone</button>
 </nav>
 
-<main id="content"><div class="loading">Caricamentoâ€¦</div></main>
+<main id="content"><div class="loading">Caricamento…</div></main>
 
 <!-- Modale analisi Monte Carlo -->
 <div class="overlay" id="analysisOverlay">
@@ -337,8 +337,8 @@ tr.q3 td:first-child{box-shadow:inset 3px 0 0 var(--red)}
       <div id="anHeader"></div>
       <div class="head-actions">
         <a id="pdfBtn" class="btn primary" target="_blank" rel="noopener">
-          ðŸ“„ Scarica Report Analitico PDF</a>
-        <button class="btn" onclick="closeAnalysis()">âœ• Chiudi</button>
+          📄 Scarica Report Analitico PDF</a>
+        <button class="btn" onclick="closeAnalysis()">✕ Chiudi</button>
       </div>
     </div>
     <div id="anBody"></div>
