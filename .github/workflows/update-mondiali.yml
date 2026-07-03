@@ -1,8 +1,8 @@
-name: Aggiorna Mondiali ogni 6 ore
+name: Aggiorna risultati ogni 30 minuti
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # ogni 6 ore (UTC)
+    - cron: '*/30 * * * *'  # ogni 30 minuti (UTC)
   workflow_dispatch:        # manuale dal tab Actions su GitHub
 
 jobs:
