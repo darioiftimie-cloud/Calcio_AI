@@ -41,31 +41,62 @@ def _select_roster(players: list[dict]) -> dict:
             "penalty_taker_id": pen_taker_id, "super_sub_ids": super_subs}
 
 
-def _last_n_stats(league: dict, team_name: str, n: int = 10) -> dict | None:
-    """Gol fatti/subiti e forma dalle ultime `n` partite reali nel DB."""
-    recent = [fx for fx in league.get("fixtures", [])
-              if fx.get("finished") and fx.get("gh") is not None
-              and team_name in (fx["home"]["name"], fx["away"]["name"])]
-    recent.sort(key=lambda f: f.get("date") or "")
-    recent = recent[-n:]
-    if not recent:
+def _aggregate(fixtures: list[dict], team_name: str) -> dict | None:
+    """Media gol fatti/subiti + stringa forma da una lista di partite giocate."""
+    if not fixtures:
         return None
     gf = ga = 0
     form = ""
-    for fx in recent:
+    for fx in fixtures:
         home = fx["home"]["name"] == team_name
         mine, theirs = (fx["gh"], fx["ga"]) if home else (fx["ga"], fx["gh"])
         gf += mine
         ga += theirs
         form += "W" if mine > theirs else ("D" if mine == theirs else "L")
-    k = len(recent)
-    return {"gf": gf / k, "ga": ga / k, "form": form[-5:], "played": k}
+    k = len(fixtures)
+    return {"gf": gf / k, "ga": ga / k, "form": form, "played": k}
+
+
+def _team_played(league: dict, team_name: str,
+                 before_date: str | None = None) -> list[dict]:
+    """Partite già giocate dalla squadra nel DB, ordinate cronologicamente.
+    Se `before_date` è dato, esclude le gare a partire da quella data (così
+    l'analisi di un match resta 'predittiva': solo ciò che l'ha preceduto)."""
+    played = [fx for fx in league.get("fixtures", [])
+              if fx.get("finished") and fx.get("gh") is not None
+              and team_name in (fx["home"]["name"], fx["away"]["name"])]
+    if before_date:
+        played = [fx for fx in played if (fx.get("date") or "") < before_date]
+    played.sort(key=lambda f: f.get("date") or "")
+    return played
+
+
+def _last_n_stats(league: dict, team_name: str, n: int = 10) -> dict | None:
+    """Gol fatti/subiti e forma dalle ultime `n` partite reali nel DB."""
+    stat = _aggregate(_team_played(league, team_name)[-n:], team_name)
+    if stat:
+        stat["form"] = stat["form"][-5:]
+    return stat
+
+
+def _tournament_stats(league: dict, team_name: str,
+                      before_date: str | None = None) -> dict | None:
+    """Gol fatti/subiti e forma da TUTTE le partite del torneo giocate dalla
+    squadra dall'inizio (fino a prima di `before_date`). Serve alle coppe:
+    più la squadra avanza, più gare entrano nel campione (quarti→semi→finale)."""
+    stat = _aggregate(_team_played(league, team_name, before_date), team_name)
+    if stat:
+        stat["form"] = stat["form"][-6:]
+    return stat
 
 
 def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
-                 mode: str = "season") -> dict:
+                 mode: str = "season", is_cup: bool = False,
+                 before_date: str | None = None) -> dict:
     """Profilo completo di una squadra per il motore Monte Carlo.
 
+    Coppe/tornei (is_cup) → gol e forma da TUTTE le gare del torneo giocate
+      dall'inizio fino a prima di `before_date` (analisi cumulativa);
     mode="season" → gol e forma dall'intera stagione (classifica reale);
     mode="last10" → ricalcolati sulle ultime 10 partite giocate nel DB."""
     row = _team_row(league, team_name)
@@ -73,8 +104,15 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
     gf = (row["gf"] / played) if (row and played) else config.BASELINE["goals"]
     ga = (row["ga"] / played) if (row and played) else config.BASELINE["goals"]
     form = (row.get("form") if row else "") or ""
+    tournament_games = 0
 
-    if mode == "last10":
+    if is_cup:
+        tstat = _tournament_stats(league, team_name, before_date)
+        if tstat:
+            gf, ga, form, played = (tstat["gf"], tstat["ga"],
+                                    tstat["form"], tstat["played"])
+            tournament_games = tstat["played"]
+    elif mode == "last10":
         recent = _last_n_stats(league, team_name)
         if recent:
             gf, ga, form, played = (recent["gf"], recent["ga"],
@@ -94,6 +132,13 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
         "conceded": None, "appearances": keeper["appearances"] if keeper else None,
     }
 
+    if is_cup and tournament_games:
+        players_mode = f"torneo · {tournament_games} gare dall'inizio"
+    elif mode == "last10":
+        players_mode = f"{micro.get('source', 'baseline')} · forma ultime {played}"
+    else:
+        players_mode = micro.get("source", "baseline")
+
     return {
         "team_id": (team_ref or {}).get("id") or (row or {}).get("team_id"),
         "name": team_name,
@@ -108,8 +153,8 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
         "save_rate": round(save_rate, 3),
         "keeper": keeper_out,
         "players": roster["outfield"],
-        "players_mode": (f"{micro.get('source', 'baseline')} · forma ultime {played}"
-                         if mode == "last10" else micro.get("source", "baseline")),
+        "players_mode": players_mode,
+        "tournament_games": tournament_games,
         "recent_sample": len(players),
         "penalty_taker_id": roster["penalty_taker_id"],
         "super_sub_ids": roster["super_sub_ids"],

@@ -35,7 +35,7 @@ def fixture_meta(league: dict, fx: dict) -> dict:
 
 _PROFILE_KEYS = ("name", "played", "gf", "ga", "form", "shots_pg", "sot_pg",
                  "corners_pg", "fouls_pg", "yellow_pg", "red_pg", "save_rate",
-                 "keeper", "players_mode", "recent_sample")
+                 "keeper", "players_mode", "tournament_games", "recent_sample")
 
 
 def full_analysis(fixture_id: int, players_mode: str = "season") -> dict:
@@ -50,8 +50,11 @@ def full_analysis(fixture_id: int, players_mode: str = "season") -> dict:
     is_cup = league["meta"]["tipo"] == "cup"
 
     meta = fixture_meta(league, fx)
-    home = team_profile(league, fx["home"]["name"], fx["home"], players_mode)
-    away = team_profile(league, fx["away"]["name"], fx["away"], players_mode)
+    before = fx.get("date")
+    home = team_profile(league, fx["home"]["name"], fx["home"], players_mode,
+                        is_cup=is_cup, before_date=before)
+    away = team_profile(league, fx["away"]["name"], fx["away"], players_mode,
+                        is_cup=is_cup, before_date=before)
     meteo = weather_for(meta["city"], meta["date"])
 
     sim = run_simulation(home, away, meteo, is_cup=is_cup)

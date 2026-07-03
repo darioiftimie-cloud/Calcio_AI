@@ -383,8 +383,10 @@ function renderAnalysis(d) {
     <div class="match-title"><img src="${m.home.logo}" alt=""> ${H}
       <span style="color:var(--dim)">vs</span> ${A} <img src="${m.away.logo}" alt=""></div>
     <div class="match-sub">${m.league} · ${m.round} · ${dateFmt(m.date)}${
-      m.venue ? ` · ${m.venue}${m.city ? " (" + m.city + ")" : ""}` : ""} · statistiche giocatori:
-      <b>${(prof.home.players_mode || "").includes("forma") ? "forma ultime 10 reali" : "stagione nel torneo"}</b></div>
+      m.venue ? ` · ${m.venue}${m.city ? " (" + m.city + ")" : ""}` : ""} · dati modello:
+      <b>${prof.home.tournament_games
+        ? `analisi cumulativa dal via del torneo (${H}: ${prof.home.tournament_games} gare · ${A}: ${prof.away.tournament_games} gare)`
+        : (prof.home.players_mode || "").includes("forma") ? "forma ultime 10 partite reali" : "medie di stagione"}</b></div>
     <div class="badges">${meteoBadge}${oddsBadge}
       <span class="badge">🧤 ${prof.home.keeper.name}: SR ${fmt(prof.home.keeper.save_rate * 100, 1)}%${prof.home.keeper.saves_pg != null ? " · " + prof.home.keeper.saves_pg + " parate/g" : ""}</span>
       <span class="badge">🧤 ${prof.away.keeper.name}: SR ${fmt(prof.away.keeper.save_rate * 100, 1)}%${prof.away.keeper.saves_pg != null ? " · " + prof.away.keeper.saves_pg + " parate/g" : ""}</span>
@@ -433,8 +435,11 @@ function renderAnalysis(d) {
   $("anBody").innerHTML = `
     <div class="kpis">${kpis}</div>
     <div class="an-grid">
-      <div class="panel wide"><h3>Matrice risultati esatti (%) — distribuzione su 10.000 sim</h3>
-        <div id="chMatrix" class="chart" style="min-height:360px"></div></div>
+      <div class="panel wide"><h3>Risultati esatti più probabili — su 10.000 simulazioni</h3>
+        <div id="chScores" class="chart" style="min-height:340px"></div>
+        <div class="note"><b style="color:var(--acc)">■</b> vittoria ${H} ·
+          <b style="color:var(--dim)">■</b> pareggio ·
+          <b style="color:var(--acc2)">■</b> vittoria ${A}</div></div>
       <div class="panel"><h3>Confronto micro-eventi attesi</h3>
         <div id="chCompare" class="chart"></div></div>
       <div class="panel"><h3>Volume di tiro — i giocatori più caldi</h3>
@@ -446,16 +451,22 @@ function renderAnalysis(d) {
       <div class="panel wide"><h3>💎 Value Bets — modello vs bookmaker</h3>${vb}</div>
     </div>`;
 
-  // --- Plotly: matrice risultati esatti (heatmap)
-  const labels = ["0", "1", "2", "3", "4", "5+"];
-  Plotly.newPlot("chMatrix", [{
-    z: sim.score_matrix, x: labels, y: labels, type: "heatmap",
-    colorscale: [[0, "#0f1524"], [0.5, "#14532d"], [1, GREEN]],
-    text: sim.score_matrix.map(r => r.map(v => v.toFixed(1) + "%")),
-    texttemplate: "%{text}", hovertemplate: `${H} %{y} - %{x} ${A}: %{z}%<extra></extra>`,
+  // --- Plotly: risultati esatti più probabili (barre orizzontali, colore per esito)
+  const outCol = lbl => {
+    const [gh, ga] = lbl.split("-").map(s => parseInt(s, 10));
+    return gh > ga ? GREEN : gh < ga ? BLUE : "#8b96ad";
+  };
+  const ts = (sim.top_scores || []).slice(0, 8).reverse();
+  Plotly.newPlot("chScores", [{
+    type: "bar", orientation: "h",
+    y: ts.map(s => s[0]), x: ts.map(s => s[1]),
+    marker: { color: ts.map(s => outCol(s[0])) },
+    text: ts.map(s => s[1].toFixed(1) + "%"), textposition: "auto",
+    hovertemplate: `${H} %{y} ${A} — %{x}%<extra></extra>`,
   }], {
-    ...PLOTLY_LAYOUT, margin: { t: 10, r: 10, b: 45, l: 55 },
-    xaxis: { title: `Gol ${A}` }, yaxis: { title: `Gol ${H}`, autorange: "reversed" },
+    ...PLOTLY_LAYOUT, margin: { t: 10, r: 30, b: 42, l: 62 },
+    xaxis: { title: "probabilità", ticksuffix: "%" },
+    yaxis: { title: "risultato (Casa – Ospite)" },
   }, { displayModeBar: false, responsive: true });
 
   // --- Plotly: confronto corner/falli/cartellini/tiri
