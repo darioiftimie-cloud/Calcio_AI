@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-03T22:52:57+00:00"
+  "generato": "2026-07-03T23:54:35+00:00"
  },
  "standings": [
   {
@@ -3585,7 +3585,7 @@
     "name": "Argentina",
     "short": "Argentina",
     "logo": "https://crests.football-data.org/762.png",
-    "winner": true
+    "winner": false
    },
    "away": {
     "id": 1930,
@@ -3595,7 +3595,7 @@
     "winner": false
    },
    "gh": 1,
-   "ga": 0,
+   "ga": 1,
    "rigori": null
   },
   {
@@ -4933,7 +4933,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 90277897,
+     "id": 98489843,
      "name": "Julián Quiñones",
      "photo": null,
      "position": "F",
@@ -4951,7 +4951,7 @@
      "rating": 6.5
     },
     {
-     "id": 94883787,
+     "id": 8583293,
      "name": "Raúl Jiménez",
      "photo": null,
      "position": "F",
@@ -4969,7 +4969,7 @@
      "rating": 6.5
     },
     {
-     "id": 6866408,
+     "id": 64161655,
      "name": "Luis Romo",
      "photo": null,
      "position": "F",
@@ -4993,7 +4993,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 66497938,
+     "id": 74444099,
      "name": "Teboho Mokoena",
      "photo": null,
      "position": "F",
@@ -5017,7 +5017,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 64163001,
+     "id": 14659566,
      "name": "In-beom Hwang",
      "photo": null,
      "position": "F",
@@ -5035,7 +5035,7 @@
      "rating": 6.5
     },
     {
-     "id": 23475413,
+     "id": 141550,
      "name": "Hyun-Gyu Oh",
      "photo": null,
      "position": "F",
@@ -5059,7 +5059,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 19030456,
+     "id": 73337773,
      "name": "Ladislav Krejčí",
      "photo": null,
      "position": "F",
@@ -5077,7 +5077,7 @@
      "rating": 6.5
     },
     {
-     "id": 42572717,
+     "id": 42295092,
      "name": "Michal Sadílek",
      "photo": null,
      "position": "F",
@@ -5101,7 +5101,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 21269519,
+     "id": 9626436,
      "name": "Jonathan David",
      "photo": null,
      "position": "F",
@@ -5119,7 +5119,7 @@
      "rating": 6.5
     },
     {
-     "id": 11129473,
+     "id": 11508179,
      "name": "Cyle Larin",
      "photo": null,
      "position": "F",
@@ -5137,7 +5137,7 @@
      "rating": 6.5
     },
     {
-     "id": 94720151,
+     "id": 82888990,
      "name": "Nathan-Dylan Saliba",
      "photo": null,
      "position": "F",
@@ -5161,7 +5161,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 14122844,
+     "id": 5580652,
      "name": "Ermin Mahmic",
      "photo": null,
      "position": "F",
@@ -5179,7 +5179,7 @@
      "rating": 6.5
     },
     {
-     "id": 64889832,
+     "id": 34532488,
      "name": "Jovo Lukić",
      "photo": null,
      "position": "F",
@@ -5203,7 +5203,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 13512148,
+     "id": 67943951,
      "name": "Folarin Balogun",
      "photo": null,
      "position": "F",
@@ -5221,7 +5221,7 @@
      "rating": 6.5
     },
     {
-     "id": 88977148,
+     "id": 23527168,
      "name": "Gio Reyna",
      "photo": null,
      "position": "F",
@@ -5239,7 +5239,7 @@
      "rating": 6.5
     },
     {
-     "id": 51547199,
+     "id": 35693031,
      "name": "Alex Freeman",
      "photo": null,
      "position": "F",
@@ -5263,7 +5263,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 94279829,
+     "id": 70494062,
      "name": "Mauricio",
      "photo": null,
      "position": "F",
@@ -5281,7 +5281,7 @@
      "rating": 6.5
     },
     {
-     "id": 19632129,
+     "id": 33161874,
      "name": "Matías Galarza",
      "photo": null,
      "position": "F",
@@ -5305,7 +5305,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 24325266,
+     "id": 41358718,
      "name": "Boualem Khoukhi",
      "photo": null,
      "position": "F",
@@ -5329,7 +5329,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 17758240,
+     "id": 79291543,
      "name": "Johan Manzambi",
      "photo": null,
      "position": "F",
@@ -5347,7 +5347,7 @@
      "rating": 6.5
     },
     {
-     "id": 95748173,
+     "id": 31153204,
      "name": "Breel Embolo",
      "photo": null,
      "position": "F",
@@ -5365,7 +5365,7 @@
      "rating": 6.5
     },
     {
-     "id": 87457991,
+     "id": 74768542,
      "name": "Ruben Vargas",
      "photo": null,
      "position": "F",
@@ -5383,7 +5383,7 @@
      "rating": 6.5
     },
     {
-     "id": 8974259,
+     "id": 11783520,
      "name": "Granit Xhaka",
      "photo": null,
      "position": "F",
@@ -5407,7 +5407,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 69572137,
+     "id": 33497143,
      "name": "Vinicius Junior",
      "photo": null,
      "position": "F",
@@ -5425,7 +5425,7 @@
      "rating": 6.5
     },
     {
-     "id": 41784009,
+     "id": 10177334,
      "name": "Matheus Cunha",
      "photo": null,
      "position": "F",
@@ -5449,7 +5449,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 7013911,
+     "id": 68778724,
      "name": "Ismael Saibari",
      "photo": null,
      "position": "F",
@@ -5473,7 +5473,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 45028804,
+     "id": 49557846,
      "name": "John McGinn",
      "photo": null,
      "position": "F",
@@ -5497,7 +5497,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 58666903,
+     "id": 31474200,
      "name": "Nestor Irankunda",
      "photo": null,
      "position": "F",
@@ -5515,7 +5515,7 @@
      "rating": 6.5
     },
     {
-     "id": 57433554,
+     "id": 25516652,
      "name": "Connor Metcalfe",
      "photo": null,
      "position": "F",
@@ -5539,7 +5539,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 16850586,
+     "id": 98940565,
      "name": "Kai Havertz",
      "photo": null,
      "position": "F",
@@ -5557,7 +5557,7 @@
      "rating": 6.5
     },
     {
-     "id": 18566546,
+     "id": 26182270,
      "name": "Deniz Undav",
      "photo": null,
      "position": "F",
@@ -5575,7 +5575,7 @@
      "rating": 6.5
     },
     {
-     "id": 60067113,
+     "id": 25531872,
      "name": "Felix Kalu Nmecha",
      "photo": null,
      "position": "F",
@@ -5593,7 +5593,7 @@
      "rating": 6.5
     },
     {
-     "id": 79924523,
+     "id": 78109844,
      "name": "Nico Schlotterbeck",
      "photo": null,
      "position": "F",
@@ -5611,7 +5611,7 @@
      "rating": 6.5
     },
     {
-     "id": 38475919,
+     "id": 83619283,
      "name": "Jamal Musiala",
      "photo": null,
      "position": "F",
@@ -5629,7 +5629,7 @@
      "rating": 6.5
     },
     {
-     "id": 98023881,
+     "id": 18329789,
      "name": "Nathaniel Brown",
      "photo": null,
      "position": "F",
@@ -5653,7 +5653,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 61365304,
+     "id": 64845456,
      "name": "Livano Comenencia",
      "photo": null,
      "position": "F",
@@ -5677,7 +5677,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 11554796,
+     "id": 84282193,
      "name": "Brian Brobbey",
      "photo": null,
      "position": "F",
@@ -5695,7 +5695,7 @@
      "rating": 6.5
     },
     {
-     "id": 11161036,
+     "id": 89000444,
      "name": "Cody Gakpo",
      "photo": null,
      "position": "F",
@@ -5713,7 +5713,7 @@
      "rating": 6.5
     },
     {
-     "id": 23480269,
+     "id": 57720154,
      "name": "Crysencio Summerville",
      "photo": null,
      "position": "F",
@@ -5731,7 +5731,7 @@
      "rating": 6.5
     },
     {
-     "id": 61723110,
+     "id": 77503208,
      "name": "Virgil van Dijk",
      "photo": null,
      "position": "F",
@@ -5755,7 +5755,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 8367928,
+     "id": 53068048,
      "name": "Daichi Kamada",
      "photo": null,
      "position": "F",
@@ -5773,7 +5773,7 @@
      "rating": 6.5
     },
     {
-     "id": 24651809,
+     "id": 81504166,
      "name": "Ayase Ueda",
      "photo": null,
      "position": "F",
@@ -5791,7 +5791,7 @@
      "rating": 6.5
     },
     {
-     "id": 94355266,
+     "id": 20046066,
      "name": "Keito Nakamura",
      "photo": null,
      "position": "F",
@@ -5809,7 +5809,7 @@
      "rating": 6.5
     },
     {
-     "id": 31938343,
+     "id": 94972455,
      "name": "Junya Ito",
      "photo": null,
      "position": "F",
@@ -5833,7 +5833,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 10041036,
+     "id": 51460063,
      "name": "Amad Diallo",
      "photo": null,
      "position": "F",
@@ -5851,7 +5851,7 @@
      "rating": 6.5
     },
     {
-     "id": 17924735,
+     "id": 17089860,
      "name": "Nicolas Pépé",
      "photo": null,
      "position": "F",
@@ -5869,7 +5869,7 @@
      "rating": 6.5
     },
     {
-     "id": 39780235,
+     "id": 30818207,
      "name": "Franck Kessié",
      "photo": null,
      "position": "F",
@@ -5893,7 +5893,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 79751775,
+     "id": 18198870,
      "name": "Yasin Ayari",
      "photo": null,
      "position": "F",
@@ -5911,7 +5911,7 @@
      "rating": 6.5
     },
     {
-     "id": 59900825,
+     "id": 76607415,
      "name": "Anthony Elanga",
      "photo": null,
      "position": "F",
@@ -5929,7 +5929,7 @@
      "rating": 6.5
     },
     {
-     "id": 8441073,
+     "id": 2748926,
      "name": "Alexander Isak",
      "photo": null,
      "position": "F",
@@ -5947,7 +5947,7 @@
      "rating": 6.5
     },
     {
-     "id": 33377578,
+     "id": 7281314,
      "name": "Viktor Gyökeres",
      "photo": null,
      "position": "F",
@@ -5965,7 +5965,7 @@
      "rating": 6.5
     },
     {
-     "id": 20046351,
+     "id": 58457682,
      "name": "Mattias Svanberg",
      "photo": null,
      "position": "F",
@@ -5989,7 +5989,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 55876858,
+     "id": 75332448,
      "name": "Omar Rekik",
      "photo": null,
      "position": "F",
@@ -6013,7 +6013,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 35027848,
+     "id": 76771692,
      "name": "Mikel Oyarzabal",
      "photo": null,
      "position": "F",
@@ -6031,7 +6031,7 @@
      "rating": 6.5
     },
     {
-     "id": 53937120,
+     "id": 75228422,
      "name": "Lamine Yamal",
      "photo": null,
      "position": "F",
@@ -6055,7 +6055,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 49851721,
+     "id": 21886373,
      "name": "Kevin Pina",
      "photo": null,
      "position": "F",
@@ -6073,7 +6073,7 @@
      "rating": 6.5
     },
     {
-     "id": 60675378,
+     "id": 65411339,
      "name": "Hélio Varela",
      "photo": null,
      "position": "F",
@@ -6097,7 +6097,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 23653148,
+     "id": 44787749,
      "name": "Leandro Trossard",
      "photo": null,
      "position": "F",
@@ -6115,7 +6115,7 @@
      "rating": 6.5
     },
     {
-     "id": 68016750,
+     "id": 98527018,
      "name": "Romelu Lukaku",
      "photo": null,
      "position": "F",
@@ -6133,7 +6133,7 @@
      "rating": 6.5
     },
     {
-     "id": 24483725,
+     "id": 42850953,
      "name": "Youri Tielemans",
      "photo": null,
      "position": "F",
@@ -6157,7 +6157,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 14339539,
+     "id": 83223185,
      "name": "Emam Ashour",
      "photo": null,
      "position": "F",
@@ -6175,7 +6175,7 @@
      "rating": 6.5
     },
     {
-     "id": 67760045,
+     "id": 59546085,
      "name": "Mostafa Ziko",
      "photo": null,
      "position": "F",
@@ -6193,7 +6193,7 @@
      "rating": 6.5
     },
     {
-     "id": 72631575,
+     "id": 63532613,
      "name": "Mohamed Salah",
      "photo": null,
      "position": "F",
@@ -6211,7 +6211,7 @@
      "rating": 6.5
     },
     {
-     "id": 74646902,
+     "id": 31228080,
      "name": "Trezeguet",
      "photo": null,
      "position": "F",
@@ -6235,7 +6235,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 13078697,
+     "id": 16417081,
      "name": "Abdulelah Al Amri",
      "photo": null,
      "position": "F",
@@ -6259,7 +6259,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 11196984,
+     "id": 41144189,
      "name": "Maximiliano Araújo",
      "photo": null,
      "position": "F",
@@ -6277,7 +6277,7 @@
      "rating": 6.5
     },
     {
-     "id": 79291061,
+     "id": 81548755,
      "name": "Agustín Canobbio",
      "photo": null,
      "position": "F",
@@ -6301,7 +6301,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 67895366,
+     "id": 23554165,
      "name": "Ramin Rezaeian",
      "photo": null,
      "position": "F",
@@ -6319,7 +6319,7 @@
      "rating": 6.5
     },
     {
-     "id": 69777860,
+     "id": 12767303,
      "name": "Mohammad Mohebi",
      "photo": null,
      "position": "F",
@@ -6343,7 +6343,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 8793145,
+     "id": 33262312,
      "name": "Elijah Just",
      "photo": null,
      "position": "F",
@@ -6361,7 +6361,7 @@
      "rating": 6.5
     },
     {
-     "id": 81747652,
+     "id": 31615791,
      "name": "Finn Surman",
      "photo": null,
      "position": "F",
@@ -6385,7 +6385,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 41697129,
+     "id": 84393804,
      "name": "Kylian Mbappé",
      "photo": null,
      "position": "F",
@@ -6403,7 +6403,7 @@
      "rating": 6.5
     },
     {
-     "id": 51700968,
+     "id": 81061459,
      "name": "Ousmane Dembélé",
      "photo": null,
      "position": "F",
@@ -6421,7 +6421,7 @@
      "rating": 6.5
     },
     {
-     "id": 70122051,
+     "id": 69403516,
      "name": "Bradley Barcola",
      "photo": null,
      "position": "F",
@@ -6445,7 +6445,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 34818142,
+     "id": 77299760,
      "name": "Ismaïla Sarr",
      "photo": null,
      "position": "F",
@@ -6463,7 +6463,7 @@
      "rating": 6.5
     },
     {
-     "id": 37799297,
+     "id": 77736665,
      "name": "Habib Diarra",
      "photo": null,
      "position": "F",
@@ -6481,7 +6481,7 @@
      "rating": 6.5
     },
     {
-     "id": 83134734,
+     "id": 93601580,
      "name": "Pape Gueye",
      "photo": null,
      "position": "F",
@@ -6499,7 +6499,7 @@
      "rating": 6.5
     },
     {
-     "id": 49372790,
+     "id": 37822680,
      "name": "Ibrahim M'Baye",
      "photo": null,
      "position": "F",
@@ -6523,7 +6523,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 735736,
+     "id": 14534056,
      "name": "Aymen Hussein",
      "photo": null,
      "position": "F",
@@ -6547,7 +6547,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 52319574,
+     "id": 14043171,
      "name": "Erling Haaland",
      "photo": null,
      "position": "F",
@@ -6565,7 +6565,7 @@
      "rating": 6.5
     },
     {
-     "id": 7617374,
+     "id": 23911226,
      "name": "Leo Østigård",
      "photo": null,
      "position": "F",
@@ -6583,7 +6583,7 @@
      "rating": 6.5
     },
     {
-     "id": 85382764,
+     "id": 78010269,
      "name": "Marcus Pedersen",
      "photo": null,
      "position": "F",
@@ -6607,7 +6607,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 91554869,
+     "id": 38696196,
      "name": "Lionel Messi",
      "photo": null,
      "position": "F",
@@ -6631,7 +6631,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 73650733,
+     "id": 46440165,
      "name": "Riyad Mahrez",
      "photo": null,
      "position": "F",
@@ -6655,7 +6655,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 64144317,
+     "id": 64978232,
      "name": "Marko Arnautovic",
      "photo": null,
      "position": "F",
@@ -6673,7 +6673,7 @@
      "rating": 6.5
     },
     {
-     "id": 11995008,
+     "id": 58473176,
      "name": "Romano Schmid",
      "photo": null,
      "position": "F",
@@ -6697,7 +6697,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 54257365,
+     "id": 75451279,
      "name": "Ali Olwan",
      "photo": null,
      "position": "F",
@@ -6721,7 +6721,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 62772590,
+     "id": 98157754,
      "name": "Cristiano Ronaldo",
      "photo": null,
      "position": "F",
@@ -6739,7 +6739,7 @@
      "rating": 6.5
     },
     {
-     "id": 72170826,
+     "id": 107382,
      "name": "Joao Neves",
      "photo": null,
      "position": "F",
@@ -6763,7 +6763,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 64847727,
+     "id": 99702507,
      "name": "Yoane Wissa",
      "photo": null,
      "position": "F",
@@ -6787,7 +6787,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 10328082,
+     "id": 36451074,
      "name": "Harry Kane",
      "photo": null,
      "position": "F",
@@ -6805,7 +6805,7 @@
      "rating": 6.5
     },
     {
-     "id": 29026467,
+     "id": 96177659,
      "name": "Jude Bellingham",
      "photo": null,
      "position": "F",
@@ -6823,7 +6823,7 @@
      "rating": 6.5
     },
     {
-     "id": 8412172,
+     "id": 23533456,
      "name": "Marcus Rashford",
      "photo": null,
      "position": "F",
@@ -6847,7 +6847,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 54047936,
+     "id": 62291776,
      "name": "Martin Baturina",
      "photo": null,
      "position": "F",
@@ -6865,7 +6865,7 @@
      "rating": 6.5
     },
     {
-     "id": 20400457,
+     "id": 91207744,
      "name": "Petar Musa",
      "photo": null,
      "position": "F",
@@ -6889,7 +6889,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 4902206,
+     "id": 70348577,
      "name": "Caleb Yirenkyi",
      "photo": null,
      "position": "F",
@@ -6913,7 +6913,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 53632573,
+     "id": 32508652,
      "name": "Abbosbek Fayzullaev",
      "photo": null,
      "position": "F",
@@ -6937,7 +6937,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 52382677,
+     "id": 54035555,
      "name": "Daniel Muñoz",
      "photo": null,
      "position": "F",
@@ -6955,7 +6955,7 @@
      "rating": 6.5
     },
     {
-     "id": 37503927,
+     "id": 42650474,
      "name": "Luis Díaz",
      "photo": null,
      "position": "F",
@@ -6973,7 +6973,7 @@
      "rating": 6.5
     },
     {
-     "id": 23780492,
+     "id": 28161874,
      "name": "Jaminton Campaz",
      "photo": null,
      "position": "F",
