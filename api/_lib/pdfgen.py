@@ -107,6 +107,17 @@ def build_pdf(analysis: dict) -> bytes:
     for line, p in sim["over"].items():
         pdf.bar_row(f"Over {line}", p, ACCENT2)
 
+    ci, rel = sim.get("outcomes_ci"), sim.get("reliability") or {}
+    if ci:
+        pdf.ln(1)
+        pdf.set_font("helvetica", "I", 8)
+        pdf.set_text_color(*GRAY)
+        pdf.cell(0, 4.6, _tx(
+            f"Intervallo di confidenza 80%: 1 [{ci['1'][0]}-{ci['1'][1]}%]  "
+            f"X [{ci['X'][0]}-{ci['X'][1]}%]  2 [{ci['2'][0]}-{ci['2'][1]}%]  "
+            f"-  affidabilita {rel.get('livello', '?')}"),
+            new_x="LMARGIN", new_y="NEXT")
+
     # top risultati esatti — stesse percentuali e colori del grafico sul sito
     # (verde=vittoria casa, grigio=pareggio, blu=vittoria ospite);
     # la barra è allungata x4 solo per leggibilità

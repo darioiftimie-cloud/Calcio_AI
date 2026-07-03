@@ -20,6 +20,7 @@ from fastapi.responses import JSONResponse, Response, HTMLResponse  # noqa: E402
 
 from _lib import db                                            # noqa: E402
 from _lib.analysis import full_analysis                        # noqa: E402
+from _lib.backtest import league_accuracy                      # noqa: E402
 from _lib.pdfgen import build_pdf                              # noqa: E402
 
 app = FastAPI(title="Calcio AI — Analytics Board",
@@ -137,6 +138,48 @@ def simulate(fixture: int,
     """Analisi completa: 10.000 simulazioni Monte Carlo + meteo + giocatori.
     Risultato in cache 60 minuti (in-process + edge)."""
     return _json(full_analysis(fixture, players), smaxage=600)
+
+
+@app.get("/api/accuracy")
+def accuracy(league: str, n: int = Query(120, le=300)):
+    """Backtest: il modello 'rigioca' le partite già disputate usando solo
+    i dati pre-partita e misura quanto ci ha azzeccato. Cache 60 minuti."""
+    return _json(league_accuracy(league, n), smaxage=3600)
+
+
+@app.get("/api/export")
+def export(fixture: int,
+           players: str = Query("season", pattern="^(season|last10)$")):
+    """Analisi in JSON compatto scaricabile (per fogli di calcolo/script)."""
+    a = full_analysis(fixture, players)
+    m, sim = a["meta"], a["sim"]
+    compact = {
+        "generato": a["generato"],
+        "match": f"{m['home']['name']} vs {m['away']['name']}",
+        "league": m["league"], "round": m["round"], "date": m["date"],
+        "n_simulazioni": sim["n_sims"],
+        "esiti_1x2": sim["outcomes"],
+        "intervalli_80pct": sim.get("outcomes_ci"),
+        "affidabilita": sim.get("reliability"),
+        "xg": sim["xg"], "btts_pct": sim["btts"], "over_pct": sim["over"],
+        "risultati_esatti_top": sim["top_scores"],
+        "distribuzione_gol_totali_pct": sim["goals_dist"],
+        "corner_linee_pct": sim["corners"]["lines"],
+        "cartellini_linee_pct": sim["cards"]["lines"],
+        "marcatori_top": [
+            {"squadra": side, "nome": r["name"], "anytime_pct": r["anytime"],
+             "quota_fair": r["fair_odds"]}
+            for side, table in (("casa", sim["scorers"]["home"][:5]),
+                                ("ospite", sim["scorers"]["away"][:5]))
+            for r in table],
+        "meteo": a["meteo"],
+    }
+    home = m["home"]["name"].replace(" ", "_")
+    away = m["away"]["name"].replace(" ", "_")
+    return JSONResponse(compact, headers={
+        "Content-Disposition":
+            f'attachment; filename="analisi_{home}_vs_{away}.json"',
+        "Cache-Control": "public, s-maxage=600, max-age=0"})
 
 
 @app.get("/api/report")
@@ -326,6 +369,7 @@ tr.q3 td:first-child{box-shadow:inset 3px 0 0 var(--red)}
   <button class="tab active" data-tab="fixtures">📅 Partite</button>
   <button class="tab" data-tab="standings">📊 Classifica</button>
   <button class="tab" data-tab="bracket">🏆 Tabellone</button>
+  <button class="tab" data-tab="accuracy">🎯 Precisione</button>
 </nav>
 
 <main id="content"><div class="loading">Caricamento…</div></main>
@@ -338,6 +382,8 @@ tr.q3 td:first-child{box-shadow:inset 3px 0 0 var(--red)}
       <div class="head-actions">
         <a id="pdfBtn" class="btn primary" target="_blank" rel="noopener">
           📄 Scarica Report Analitico PDF</a>
+        <a id="jsonBtn" class="btn" target="_blank" rel="noopener"
+           title="Analisi completa in JSON per fogli di calcolo e script">⬇ Dati JSON</a>
         <button class="btn" onclick="closeAnalysis()">✕ Chiudi</button>
       </div>
     </div>
@@ -413,6 +459,7 @@ async function init() {
 function render() {
   if (TAB === "fixtures") renderFixtures();
   else if (TAB === "standings") renderStandings();
+  else if (TAB === "accuracy") renderAccuracy();
   else renderBracket();
 }
 
@@ -521,12 +568,52 @@ async function renderBracket() {
   } catch (e) { $("content").innerHTML = `<div class="panel">⚠️ ${e.message}</div>`; }
 }
 
+/* ------------------------------------------------------------- precisione */
+async function renderAccuracy() {
+  $("content").innerHTML = `<div class="loading">Rigioco le partite già disputate
+    col modello (solo dati pre-partita, niente senno di poi)…</div>`;
+  try {
+    const d = await api(`/api/accuracy?league=${CURRENT}`);
+    if (!d.partite_valutate) {
+      $("content").innerHTML = `<div class="panel">Non ci sono ancora abbastanza
+        partite giocate per misurare la precisione del modello.</div>`;
+      return;
+    }
+    const kpi = (v, l) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`;
+    const rows = d.matches.map(m => `
+      <tr><td class="name">${m.home} <b>${m.reale}</b> ${m.away}</td>
+        <td>${m.round || ""}</td>
+        <td>${m.prob["1"].toFixed(0)} / ${m.prob["X"].toFixed(0)} / ${m.prob["2"].toFixed(0)}</td>
+        <td>${m.pronostico}</td><td>${m.esito_reale}</td>
+        <td>${m.corretto ? "✅" : "❌"}</td></tr>`).join("");
+    $("content").innerHTML = `
+      <div class="panel" style="margin-bottom:14px">
+        <h3>🎯 Precisione del modello — ${d.partite_valutate} partite rigiocate</h3>
+        <div class="kpis">
+          ${kpi(d.esatto_1x2_pct + "%", "esito 1X2 azzeccato")}
+          ${kpi(d.brier, "Brier score (0 = perfetto)")}
+          ${kpi(d.brier_caso, "Brier tirando a caso")}
+          ${kpi("±" + d.mae_gol_totali, "errore medio gol totali")}
+        </div>
+        <div class="note">Il modello "rigioca" ogni partita usando solo i dati disponibili
+          prima del fischio d'inizio. Un Brier score più basso di quello "a caso" significa
+          che le probabilità del modello hanno capacità predittiva reale.
+          ${d.saltate_poco_campione ? ` ${d.saltate_poco_campione} partite saltate per campione pre-partita insufficiente.` : ""}</div>
+      </div>
+      <div class="panel"><h3>Ultime partite valutate</h3>
+        <table class="ptable"><thead><tr><th class="name">Partita (risultato reale)</th>
+          <th>Turno</th><th>Prob 1/X/2 %</th><th>Pron.</th><th>Reale</th><th></th></tr></thead>
+        <tbody>${rows}</tbody></table></div>`;
+  } catch (e) { $("content").innerHTML = `<div class="panel">⚠️ ${e.message}</div>`; }
+}
+
 /* --------------------------------------------------------------- analisi */
 async function openAnalysis(fixtureId) {
   const mode = $("last10Toggle").checked ? "last10" : "season";
   $("anHeader").innerHTML = "";
   $("anBody").innerHTML = `<div class="loading">Eseguo 10.000 simulazioni Monte Carlo…</div>`;
   $("pdfBtn").href = `/api/report?fixture=${fixtureId}&players=${mode}`;
+  $("jsonBtn").href = `/api/export?fixture=${fixtureId}&players=${mode}`;
   $("analysisOverlay").classList.add("show");
   try {
     const d = await api(`/api/simulate?fixture=${fixtureId}&players=${mode}`);
@@ -559,17 +646,23 @@ function renderAnalysis(d) {
         ? `analisi cumulativa dal via del torneo (${H}: ${prof.home.tournament_games} gare · ${A}: ${prof.away.tournament_games} gare)`
         : (prof.home.players_mode || "").includes("forma") ? "forma ultime 10 partite reali" : "medie di stagione"}</b></div>
     <div class="badges">${meteoBadge}${oddsBadge}
+      ${sim.reliability ? `<span class="badge ${sim.reliability.livello === "alta" ? "ok" : sim.reliability.livello === "bassa" ? "alert" : ""}">🎯 affidabilità ${sim.reliability.livello} · campione ${prof.home.played}+${prof.away.played} gare</span>` : ""}
+      ${d.compute_ms ? `<span class="badge">⚙ ${sim.n_sims.toLocaleString("it-IT")} sim in ${d.compute_ms} ms</span>` : ""}
       <span class="badge">🧤 ${prof.home.keeper.name}: SR ${fmt(prof.home.keeper.save_rate * 100, 1)}%${prof.home.keeper.saves_pg != null ? " · " + prof.home.keeper.saves_pg + " parate/g" : ""}</span>
       <span class="badge">🧤 ${prof.away.keeper.name}: SR ${fmt(prof.away.keeper.save_rate * 100, 1)}%${prof.away.keeper.saves_pg != null ? " · " + prof.away.keeper.saves_pg + " parate/g" : ""}</span>
     </div>`;
 
   const o = sim.outcomes;
+  const ci = sim.outcomes_ci || {};
+  const band = k => ci[k]
+    ? `<div class="l" style="margin-top:2px" title="intervallo di confidenza 80%">${ci[k][0]}–${ci[k][1]}%</div>` : "";
   const kpis = [
-    [`1 · ${H}`, fmt(o["1"]) + "%"], ["X", fmt(o["X"]) + "%"], [`2 · ${A}`, fmt(o["2"]) + "%"],
+    [`1 · ${H}`, fmt(o["1"]) + "%", band("1")], ["X", fmt(o["X"]) + "%", band("X")],
+    [`2 · ${A}`, fmt(o["2"]) + "%", band("2")],
     ["BTTS", fmt(sim.btts) + "%"], ["Over 2.5", fmt(sim.over["2.5"]) + "%"],
     [`xG ${H}`, sim.xg.home], [`xG ${A}`, sim.xg.away],
     ["Corner tot.", sim.corners.mean_total], ["Cartellini", sim.cards.mean_total],
-  ].map(([l, v]) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+  ].map(([l, v, extra]) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div>${extra || ""}</div>`).join("");
 
   // scorer boards (marcatori con barre)
   const scorerBoard = (list, cls) => list.slice(0, 9).map(r => `
@@ -613,6 +706,8 @@ function renderAnalysis(d) {
           <b style="color:var(--acc2)">■</b> vittoria ${A}</div></div>
       <div class="panel"><h3>Confronto micro-eventi attesi</h3>
         <div id="chCompare" class="chart"></div></div>
+      <div class="panel"><h3>Quanti gol si vedranno? — distribuzione su 10.000 sim</h3>
+        <div id="chGoals" class="chart"></div></div>
       <div class="panel"><h3>Volume di tiro — i giocatori più caldi</h3>
         <div id="chShooters" class="chart"></div></div>
       <div class="panel"><h3>⚽ Tabellone marcatori — ${H}</h3>${scorerBoard(sim.scorers.home, "")}</div>
@@ -638,6 +733,20 @@ function renderAnalysis(d) {
     ...PLOTLY_LAYOUT, margin: { t: 10, r: 30, b: 42, l: 62 },
     xaxis: { title: "probabilità", ticksuffix: "%" },
     yaxis: { title: "risultato (Casa – Ospite)" },
+  }, { displayModeBar: false, responsive: true });
+
+  // --- Plotly: distribuzione dei gol totali (quante volte su 100 la
+  // partita finisce con 0, 1, 2... gol complessivi)
+  const gd = sim.goals_dist || {};
+  const gkeys = Object.keys(gd);
+  Plotly.newPlot("chGoals", [{
+    x: gkeys.map(k => k + (k === "12" ? "+" : "")),
+    y: gkeys.map(k => gd[k]), type: "bar",
+    marker: { color: GREEN },
+    text: gkeys.map(k => gd[k].toFixed(1) + "%"), textposition: "auto",
+    hovertemplate: "%{x} gol totali: %{y}%<extra></extra>",
+  }], { ...PLOTLY_LAYOUT, margin: { t: 10, r: 20, b: 42, l: 50 },
+    xaxis: { title: "gol totali nella partita" }, yaxis: { ticksuffix: "%" },
   }, { displayModeBar: false, responsive: true });
 
   // --- Plotly: confronto corner/falli/cartellini/tiri

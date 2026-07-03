@@ -8,6 +8,7 @@ vuota, ma il modello espone comunque le proprie probabilità e quote fair.
 Il risultato completo è messo in cache 60 minuti.
 """
 
+import time
 from datetime import datetime, timezone
 
 from . import config
@@ -57,10 +58,13 @@ def full_analysis(fixture_id: int, players_mode: str = "season") -> dict:
                         is_cup=is_cup, before_date=before)
     meteo = weather_for(meta["city"], meta["date"])
 
+    t0 = time.perf_counter()
     sim = run_simulation(home, away, meteo, is_cup=is_cup)
+    compute_ms = round((time.perf_counter() - t0) * 1000, 1)
 
     result = {
         "generato": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "compute_ms": compute_ms,
         "meta": meta,
         "meteo": meteo,
         "profili": {

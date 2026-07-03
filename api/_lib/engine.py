@@ -144,10 +144,23 @@ def run_simulation(home: dict, away: dict, weather: dict,
     conv_h = np.clip(xg_h / lam_sot_h, 0.05, 0.65) * precision
     conv_a = np.clip(xg_a / lam_sot_a, 0.05, 0.65) * precision
 
+    # Incertezza dei parametri (Monte Carlo gerarchico): la vera forza delle
+    # squadre non è nota con esattezza, specie con poche gare. Le n sim sono
+    # divise in blocchi; ogni blocco pesca un moltiplicatore d'attacco da una
+    # Gamma con varianza ∝ 1/(gare giocate). Due effetti: code dei punteggi
+    # più realistiche e intervalli di confidenza veri sugli esiti 1X2.
+    n_blocks = 20 if n >= 2000 else max(n // 100, 1)
+    per = n // n_blocks
+    n = per * n_blocks
+    k_h = 4.0 + 1.2 * (home.get("played") or 0)
+    k_a = 4.0 + 1.2 * (away.get("played") or 0)
+    mult_h = np.repeat(rng.gamma(k_h, 1.0 / k_h, n_blocks), per)
+    mult_a = np.repeat(rng.gamma(k_a, 1.0 / k_a, n_blocks), per)
+
     tempo = rng.gamma(10.0, 0.1, n)
 
-    sot_h = rng.poisson(lam_sot_h * tempo)
-    sot_a = rng.poisson(lam_sot_a * tempo)
+    sot_h = rng.poisson(lam_sot_h * mult_h * tempo)
+    sot_a = rng.poisson(lam_sot_a * mult_a * tempo)
     goals_h = rng.binomial(sot_h, conv_h)
     goals_a = rng.binomial(sot_a, conv_a)
     saves_h = sot_a - goals_a       # parate del portiere di casa
@@ -194,6 +207,23 @@ def run_simulation(home: dict, away: dict, weather: dict,
     px = round(100.0 - p1 - p2, 2)
     goals_t = goals_h + goals_a
 
+    # intervalli di confidenza 80% (10°-90° percentile tra i blocchi, che
+    # differiscono per il moltiplicatore di forza pescato)
+    blk_1 = (goals_h > goals_a).reshape(n_blocks, per).mean(axis=1) * 100
+    blk_2 = (goals_a > goals_h).reshape(n_blocks, per).mean(axis=1) * 100
+    blk_x = 100.0 - blk_1 - blk_2
+
+    def _ci(blocks):
+        return [round(float(np.percentile(blocks, 10)), 1),
+                round(float(np.percentile(blocks, 90)), 1)]
+
+    outcomes_ci = {"1": _ci(blk_1), "X": _ci(blk_x), "2": _ci(blk_2)}
+    width = ((outcomes_ci["1"][1] - outcomes_ci["1"][0])
+             + (outcomes_ci["2"][1] - outcomes_ci["2"][0])) / 2.0
+    reliability = {"livello": ("alta" if width < 9.0 else
+                               "media" if width < 18.0 else "bassa"),
+                   "larghezza_intervallo": round(width, 1)}
+
     # marcatori (con impatto panchina 70'-90')
     sc_home = _scorer_table(_scorer_weights(home), goals_h, rng)
     sc_away = _scorer_table(_scorer_weights(away), goals_a, rng)
@@ -209,6 +239,8 @@ def run_simulation(home: dict, away: dict, weather: dict,
             "1X": round(p1 + px, 2), "X2": round(px + p2, 2),
             "12": round(p1 + p2, 2),
         },
+        "outcomes_ci": outcomes_ci,
+        "reliability": reliability,
         "btts": round(100.0 * float(np.mean((goals_h > 0) & (goals_a > 0))), 2),
         "over": {f"{l:.1f}": _over(goals_t, l) for l in (0.5, 1.5, 2.5, 3.5, 4.5)},
         "goals_dist": _dist(goals_t, 12),
