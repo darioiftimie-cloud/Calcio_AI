@@ -1,0 +1,35 @@
+name: Aggiorna Mondiali ogni 6 ore
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # ogni 6 ore (UTC)
+  workflow_dispatch:        # manuale dal tab Actions su GitHub
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+
+      - name: Install dependencies
+        run: |
+          pip install -q requests numpy soccerdata
+
+      - name: Update World Cup data
+        env:
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python updater.py --leagues mondiali --no-micro
+
+      - name: Commit & Push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/mondiali.json data/index.json
+          git diff --cached --quiet || git commit -m "🌎 Update World Cup: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
