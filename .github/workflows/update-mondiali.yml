@@ -1,8 +1,11 @@
-name: Aggiorna Mondiali ogni 6 ore
+name: Aggiorna risultati Mondiali
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # ogni 6 ore (UTC)
+    # ogni 15 minuti (UTC). GitHub Actions puo' ritardare l'esecuzione di
+    # qualche minuto sotto carico: in pratica i risultati si aggiornano
+    # entro ~15-30 min. Il workflow esce pulito se non ci sono novita'.
+    - cron: '*/15 * * * *'
   workflow_dispatch:        # manuale dal tab Actions su GitHub
 
 permissions:
