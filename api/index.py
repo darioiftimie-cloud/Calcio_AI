@@ -16,8 +16,7 @@ import traceback
 sys.path.insert(0, os.path.dirname(__file__))
 
 from fastapi import FastAPI, Query, Request                    # noqa: E402
-from fastapi.responses import JSONResponse, Response           # noqa: E402
-from fastapi.staticfiles import StaticFiles                    # noqa: E402
+from fastapi.responses import JSONResponse, Response, HTMLResponse  # noqa: E402
 
 from _lib import db                                            # noqa: E402
 from _lib.analysis import full_analysis                        # noqa: E402
@@ -154,6 +153,13 @@ def report(fixture: int,
         "Cache-Control": "public, s-maxage=3600, max-age=0"})
 
 
-# Servi il frontend SPA (fallback a index.html per le rotte non-API)
-public_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "public")
-app.mount("/", StaticFiles(directory=public_dir, html=True), name="static")
+@app.get("/{path:path}")
+def serve_spa(path: str):
+    """Fallback SPA: servi index.html per tutte le rotte non-API."""
+    try:
+        index_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "public", "index.html")
+        with open(index_path, "r", encoding="utf-8") as f:
+            from fastapi.responses import HTMLResponse
+            return HTMLResponse(f.read())
+    except Exception:
+        return JSONResponse({"errore": "Frontend non trovato"}, status_code=404)
