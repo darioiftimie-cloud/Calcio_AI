@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-03T16:50:49+00:00"
+  "generato": "2026-07-03T18:07:31+00:00"
  },
  "standings": [
   {
@@ -917,7 +917,7 @@
     "name": "South Africa",
     "short": "South Africa",
     "logo": "https://crests.football-data.org/9396.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -948,7 +948,7 @@
     "name": "Czechia",
     "short": "Czechia",
     "logo": "https://crests.football-data.org/798.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -972,14 +972,14 @@
     "name": "Canada",
     "short": "Canada",
     "logo": "https://crests.football-data.org/canada.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 1060,
     "name": "Bosnia-Herzegovina",
     "short": "Bosnia-H.",
     "logo": "https://crests.football-data.org/bosnia.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1010,7 +1010,7 @@
     "name": "Paraguay",
     "short": "Paraguay",
     "logo": "https://crests.football-data.org/761.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -1034,14 +1034,14 @@
     "name": "Qatar",
     "short": "Qatar",
     "logo": "https://crests.football-data.org/8030.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 788,
     "name": "Switzerland",
     "short": "Switzerland",
     "logo": "https://crests.football-data.org/788.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1065,14 +1065,14 @@
     "name": "Brazil",
     "short": "Brazil",
     "logo": "https://crests.football-data.org/764.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 815,
     "name": "Morocco",
     "short": "Morocco",
     "logo": "https://crests.football-data.org/morocco.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1096,7 +1096,7 @@
     "name": "Haiti",
     "short": "Haiti",
     "logo": "https://crests.football-data.org/haiti.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 8873,
@@ -1134,7 +1134,7 @@
     "name": "Turkey",
     "short": "Turkey",
     "logo": "https://crests.football-data.org/803.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -1165,7 +1165,7 @@
     "name": "Curaçao",
     "short": "Curaçao",
     "logo": "https://crests.football-data.org/curacao.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 7,
    "ga": 1,
@@ -1189,14 +1189,14 @@
     "name": "Netherlands",
     "short": "Netherlands",
     "logo": "https://crests.football-data.org/8601.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 766,
     "name": "Japan",
     "short": "Japan",
     "logo": "https://crests.football-data.org/766.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -1227,7 +1227,7 @@
     "name": "Ecuador",
     "short": "Ecuador",
     "logo": "https://crests.football-data.org/791.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -1258,7 +1258,7 @@
     "name": "Tunisia",
     "short": "Tunisia",
     "logo": "https://crests.football-data.org/tunisia.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 1,
@@ -1282,14 +1282,14 @@
     "name": "Spain",
     "short": "Spain",
     "logo": "https://crests.football-data.org/760.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 1930,
     "name": "Cape Verde Islands",
     "short": "Cape Verde",
     "logo": "https://crests.football-data.org/cape_verde.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -1313,14 +1313,14 @@
     "name": "Belgium",
     "short": "Belgium",
     "logo": "https://crests.football-data.org/805.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 825,
     "name": "Egypt",
     "short": "Egypt",
     "logo": "https://crests.football-data.org/825.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1344,14 +1344,14 @@
     "name": "Saudi Arabia",
     "short": "Saudi Arabia",
     "logo": "https://crests.football-data.org/saudi_arabia.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 758,
     "name": "Uruguay",
     "short": "Uruguay",
     "logo": "https://crests.football-data.org/758.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1375,14 +1375,14 @@
     "name": "Iran",
     "short": "Iran",
     "logo": "https://crests.football-data.org/iran.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 783,
     "name": "New Zealand",
     "short": "New Zealand",
     "logo": "https://crests.football-data.org/783.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -1413,7 +1413,7 @@
     "name": "Senegal",
     "short": "Senegal",
     "logo": "https://crests.football-data.org/senegal.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -1437,7 +1437,7 @@
     "name": "Iraq",
     "short": "Iraq",
     "logo": "https://crests.football-data.org/iraq.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 8872,
@@ -1475,7 +1475,7 @@
     "name": "Algeria",
     "short": "Algeria",
     "logo": "https://crests.football-data.org/algeria.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -1506,7 +1506,7 @@
     "name": "Jordan",
     "short": "Jordan",
     "logo": "https://crests.football-data.org/8049.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -1530,14 +1530,14 @@
     "name": "Portugal",
     "short": "Portugal",
     "logo": "https://crests.football-data.org/765.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 1934,
     "name": "Congo DR",
     "short": "Congo DR",
     "logo": "https://crests.football-data.org/congo_dr.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1568,7 +1568,7 @@
     "name": "Croatia",
     "short": "Croatia",
     "logo": "https://crests.football-data.org/799.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 2,
@@ -1599,7 +1599,7 @@
     "name": "Panama",
     "short": "Panama",
     "logo": "https://crests.football-data.org/panama.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -1623,7 +1623,7 @@
     "name": "Uzbekistan",
     "short": "Uzbekistan",
     "logo": "https://crests.football-data.org/8070.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 818,
@@ -1654,14 +1654,14 @@
     "name": "Czechia",
     "short": "Czechia",
     "logo": "https://crests.football-data.org/798.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 774,
     "name": "South Africa",
     "short": "South Africa",
     "logo": "https://crests.football-data.org/9396.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1692,7 +1692,7 @@
     "name": "Bosnia-Herzegovina",
     "short": "Bosnia-H.",
     "logo": "https://crests.football-data.org/bosnia.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -1723,7 +1723,7 @@
     "name": "Qatar",
     "short": "Qatar",
     "logo": "https://crests.football-data.org/8030.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 6,
    "ga": 0,
@@ -1754,7 +1754,7 @@
     "name": "South Korea",
     "short": "Korea Republic",
     "logo": "https://crests.football-data.org/772.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -1785,7 +1785,7 @@
     "name": "Australia",
     "short": "Australia",
     "logo": "https://crests.football-data.org/779.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -1809,7 +1809,7 @@
     "name": "Scotland",
     "short": "Scotland",
     "logo": "https://crests.football-data.org/814.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 815,
@@ -1847,7 +1847,7 @@
     "name": "Haiti",
     "short": "Haiti",
     "logo": "https://crests.football-data.org/haiti.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -1871,7 +1871,7 @@
     "name": "Turkey",
     "short": "Turkey",
     "logo": "https://crests.football-data.org/803.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 761,
@@ -1909,7 +1909,7 @@
     "name": "Sweden",
     "short": "Sweden",
     "logo": "https://crests.football-data.org/792.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 1,
@@ -1940,7 +1940,7 @@
     "name": "Ivory Coast",
     "short": "Ivory Coast",
     "logo": "https://crests.football-data.org/787.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -1964,14 +1964,14 @@
     "name": "Ecuador",
     "short": "Ecuador",
     "logo": "https://crests.football-data.org/791.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 9460,
     "name": "Curaçao",
     "short": "Curaçao",
     "logo": "https://crests.football-data.org/curacao.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -1995,7 +1995,7 @@
     "name": "Tunisia",
     "short": "Tunisia",
     "logo": "https://crests.football-data.org/tunisia.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 766,
@@ -2033,7 +2033,7 @@
     "name": "Saudi Arabia",
     "short": "Saudi Arabia",
     "logo": "https://crests.football-data.org/saudi_arabia.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 0,
@@ -2057,14 +2057,14 @@
     "name": "Belgium",
     "short": "Belgium",
     "logo": "https://crests.football-data.org/805.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 840,
     "name": "Iran",
     "short": "Iran",
     "logo": "https://crests.football-data.org/iran.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -2088,14 +2088,14 @@
     "name": "Uruguay",
     "short": "Uruguay",
     "logo": "https://crests.football-data.org/758.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 1930,
     "name": "Cape Verde Islands",
     "short": "Cape Verde",
     "logo": "https://crests.football-data.org/cape_verde.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -2119,7 +2119,7 @@
     "name": "New Zealand",
     "short": "New Zealand",
     "logo": "https://crests.football-data.org/783.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 825,
@@ -2157,7 +2157,7 @@
     "name": "Austria",
     "short": "Austria",
     "logo": "https://crests.football-data.org/816.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -2188,7 +2188,7 @@
     "name": "Iraq",
     "short": "Iraq",
     "logo": "https://crests.football-data.org/iraq.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -2219,7 +2219,7 @@
     "name": "Senegal",
     "short": "Senegal",
     "logo": "https://crests.football-data.org/senegal.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 2,
@@ -2243,7 +2243,7 @@
     "name": "Jordan",
     "short": "Jordan",
     "logo": "https://crests.football-data.org/8049.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 778,
@@ -2281,7 +2281,7 @@
     "name": "Uzbekistan",
     "short": "Uzbekistan",
     "logo": "https://crests.football-data.org/8070.png",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 0,
@@ -2305,14 +2305,14 @@
     "name": "England",
     "short": "England",
     "logo": "https://crests.football-data.org/770.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 763,
     "name": "Ghana",
     "short": "Ghana",
     "logo": "https://crests.football-data.org/ghana.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -2336,7 +2336,7 @@
     "name": "Panama",
     "short": "Panama",
     "logo": "https://crests.football-data.org/panama.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 799,
@@ -2374,7 +2374,7 @@
     "name": "Congo DR",
     "short": "Congo DR",
     "logo": "https://crests.football-data.org/congo_dr.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -2405,7 +2405,7 @@
     "name": "Canada",
     "short": "Canada",
     "logo": "https://crests.football-data.org/canada.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -2436,7 +2436,7 @@
     "name": "Qatar",
     "short": "Qatar",
     "logo": "https://crests.football-data.org/8030.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -2467,7 +2467,7 @@
     "name": "Haiti",
     "short": "Haiti",
     "logo": "https://crests.football-data.org/haiti.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 2,
@@ -2491,7 +2491,7 @@
     "name": "Scotland",
     "short": "Scotland",
     "logo": "https://crests.football-data.org/814.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 764,
@@ -2522,7 +2522,7 @@
     "name": "Czechia",
     "short": "Czechia",
     "logo": "https://crests.football-data.org/798.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 769,
@@ -2560,7 +2560,7 @@
     "name": "South Korea",
     "short": "Korea Republic",
     "logo": "https://crests.football-data.org/772.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -2591,7 +2591,7 @@
     "name": "Germany",
     "short": "Germany",
     "logo": "https://crests.football-data.org/759.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -2615,7 +2615,7 @@
     "name": "Curaçao",
     "short": "Curaçao",
     "logo": "https://crests.football-data.org/curacao.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 1935,
@@ -2646,7 +2646,7 @@
     "name": "Tunisia",
     "short": "Tunisia",
     "logo": "https://crests.football-data.org/tunisia.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 8601,
@@ -2677,14 +2677,14 @@
     "name": "Japan",
     "short": "Japan",
     "logo": "https://crests.football-data.org/766.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 792,
     "name": "Sweden",
     "short": "Sweden",
     "logo": "https://crests.football-data.org/792.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -2715,7 +2715,7 @@
     "name": "United States",
     "short": "USA",
     "logo": "https://crests.football-data.org/usa.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 2,
@@ -2739,14 +2739,14 @@
     "name": "Paraguay",
     "short": "Paraguay",
     "logo": "https://crests.football-data.org/761.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 779,
     "name": "Australia",
     "short": "Australia",
     "logo": "https://crests.football-data.org/779.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -2770,7 +2770,7 @@
     "name": "Norway",
     "short": "Norway",
     "logo": "https://crests.football-data.org/813.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 773,
@@ -2808,7 +2808,7 @@
     "name": "Iraq",
     "short": "Iraq",
     "logo": "https://crests.football-data.org/iraq.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 0,
@@ -2832,7 +2832,7 @@
     "name": "Uruguay",
     "short": "Uruguay",
     "logo": "https://crests.football-data.org/758.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 760,
@@ -2863,14 +2863,14 @@
     "name": "Cape Verde Islands",
     "short": "Cape Verde",
     "logo": "https://crests.football-data.org/cape_verde.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 801,
     "name": "Saudi Arabia",
     "short": "Saudi Arabia",
     "logo": "https://crests.football-data.org/saudi_arabia.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -2894,7 +2894,7 @@
     "name": "New Zealand",
     "short": "New Zealand",
     "logo": "https://crests.football-data.org/783.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 805,
@@ -2925,14 +2925,14 @@
     "name": "Egypt",
     "short": "Egypt",
     "logo": "https://crests.football-data.org/825.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 840,
     "name": "Iran",
     "short": "Iran",
     "logo": "https://crests.football-data.org/iran.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -2956,7 +2956,7 @@
     "name": "Panama",
     "short": "Panama",
     "logo": "https://crests.football-data.org/panama.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 770,
@@ -2994,7 +2994,7 @@
     "name": "Ghana",
     "short": "Ghana",
     "logo": "https://crests.football-data.org/ghana.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -3018,14 +3018,14 @@
     "name": "Colombia",
     "short": "Colombia",
     "logo": "https://crests.football-data.org/818.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 765,
     "name": "Portugal",
     "short": "Portugal",
     "logo": "https://crests.football-data.org/765.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -3056,7 +3056,7 @@
     "name": "Uzbekistan",
     "short": "Uzbekistan",
     "logo": "https://crests.football-data.org/8070.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -3080,7 +3080,7 @@
     "name": "Jordan",
     "short": "Jordan",
     "logo": "https://crests.football-data.org/8049.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 762,
@@ -3111,14 +3111,14 @@
     "name": "Algeria",
     "short": "Algeria",
     "logo": "https://crests.football-data.org/algeria.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 816,
     "name": "Austria",
     "short": "Austria",
     "logo": "https://crests.football-data.org/816.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 3,
@@ -3142,7 +3142,7 @@
     "name": "South Africa",
     "short": "South Africa",
     "logo": "https://crests.football-data.org/9396.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 828,
@@ -3180,7 +3180,7 @@
     "name": "Japan",
     "short": "Japan",
     "logo": "https://crests.football-data.org/766.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -3204,7 +3204,7 @@
     "name": "Germany",
     "short": "Germany",
     "logo": "https://crests.football-data.org/759.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 761,
@@ -3238,7 +3238,7 @@
     "name": "Netherlands",
     "short": "Netherlands",
     "logo": "https://crests.football-data.org/8601.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 815,
@@ -3272,7 +3272,7 @@
     "name": "Ivory Coast",
     "short": "Ivory Coast",
     "logo": "https://crests.football-data.org/787.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 8872,
@@ -3310,7 +3310,7 @@
     "name": "Sweden",
     "short": "Sweden",
     "logo": "https://crests.football-data.org/792.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -3341,7 +3341,7 @@
     "name": "Ecuador",
     "short": "Ecuador",
     "logo": "https://crests.football-data.org/791.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -3372,7 +3372,7 @@
     "name": "Congo DR",
     "short": "Congo DR",
     "logo": "https://crests.football-data.org/congo_dr.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -3403,7 +3403,7 @@
     "name": "Senegal",
     "short": "Senegal",
     "logo": "https://crests.football-data.org/senegal.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 2,
@@ -3434,7 +3434,7 @@
     "name": "Bosnia-Herzegovina",
     "short": "Bosnia-H.",
     "logo": "https://crests.football-data.org/bosnia.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -3465,7 +3465,7 @@
     "name": "Austria",
     "short": "Austria",
     "logo": "https://crests.football-data.org/816.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -3496,7 +3496,7 @@
     "name": "Croatia",
     "short": "Croatia",
     "logo": "https://crests.football-data.org/799.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -3527,7 +3527,7 @@
     "name": "Algeria",
     "short": "Algeria",
     "logo": "https://crests.football-data.org/algeria.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -3536,7 +3536,7 @@
   {
    "fixture_id": 537428,
    "date": "2026-07-03T18:00:00Z",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Sedicesimi",
@@ -3551,17 +3551,17 @@
     "name": "Australia",
     "short": "Australia",
     "logo": "https://crests.football-data.org/779.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 825,
     "name": "Egypt",
     "short": "Egypt",
     "logo": "https://crests.football-data.org/825.svg",
-    "winner": null
+    "winner": false
    },
-   "gh": null,
-   "ga": null,
+   "gh": 0,
+   "ga": 0,
    "rigori": null
   },
   {
@@ -4930,7 +4930,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 55628034,
+     "id": 60965417,
      "name": "Julián Quiñones",
      "photo": null,
      "position": "F",
@@ -4948,7 +4948,7 @@
      "rating": 6.5
     },
     {
-     "id": 96498793,
+     "id": 29230835,
      "name": "Raúl Jiménez",
      "photo": null,
      "position": "F",
@@ -4966,7 +4966,7 @@
      "rating": 6.5
     },
     {
-     "id": 23755975,
+     "id": 96916955,
      "name": "Luis Romo",
      "photo": null,
      "position": "F",
@@ -4990,7 +4990,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 3034819,
+     "id": 94449709,
      "name": "Teboho Mokoena",
      "photo": null,
      "position": "F",
@@ -5014,7 +5014,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 62149418,
+     "id": 95393479,
      "name": "In-beom Hwang",
      "photo": null,
      "position": "F",
@@ -5032,7 +5032,7 @@
      "rating": 6.5
     },
     {
-     "id": 13399755,
+     "id": 10479644,
      "name": "Hyun-Gyu Oh",
      "photo": null,
      "position": "F",
@@ -5056,7 +5056,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 72317513,
+     "id": 34936563,
      "name": "Ladislav Krejčí",
      "photo": null,
      "position": "F",
@@ -5074,7 +5074,7 @@
      "rating": 6.5
     },
     {
-     "id": 13384012,
+     "id": 48593585,
      "name": "Michal Sadílek",
      "photo": null,
      "position": "F",
@@ -5098,7 +5098,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 66352155,
+     "id": 14069985,
      "name": "Jonathan David",
      "photo": null,
      "position": "F",
@@ -5116,7 +5116,7 @@
      "rating": 6.5
     },
     {
-     "id": 13809350,
+     "id": 80111177,
      "name": "Cyle Larin",
      "photo": null,
      "position": "F",
@@ -5134,7 +5134,7 @@
      "rating": 6.5
     },
     {
-     "id": 71894486,
+     "id": 76682170,
      "name": "Nathan-Dylan Saliba",
      "photo": null,
      "position": "F",
@@ -5158,7 +5158,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 72066996,
+     "id": 53987940,
      "name": "Ermin Mahmic",
      "photo": null,
      "position": "F",
@@ -5176,7 +5176,7 @@
      "rating": 6.5
     },
     {
-     "id": 2686782,
+     "id": 28578960,
      "name": "Jovo Lukić",
      "photo": null,
      "position": "F",
@@ -5200,7 +5200,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 106294,
+     "id": 34904780,
      "name": "Folarin Balogun",
      "photo": null,
      "position": "F",
@@ -5218,7 +5218,7 @@
      "rating": 6.5
     },
     {
-     "id": 41266611,
+     "id": 50928804,
      "name": "Gio Reyna",
      "photo": null,
      "position": "F",
@@ -5236,7 +5236,7 @@
      "rating": 6.5
     },
     {
-     "id": 32472657,
+     "id": 30266541,
      "name": "Alex Freeman",
      "photo": null,
      "position": "F",
@@ -5260,7 +5260,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 8191346,
+     "id": 94715836,
      "name": "Mauricio",
      "photo": null,
      "position": "F",
@@ -5278,7 +5278,7 @@
      "rating": 6.5
     },
     {
-     "id": 81905187,
+     "id": 38678137,
      "name": "Matías Galarza",
      "photo": null,
      "position": "F",
@@ -5302,7 +5302,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 51963169,
+     "id": 42660021,
      "name": "Boualem Khoukhi",
      "photo": null,
      "position": "F",
@@ -5326,7 +5326,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 61204220,
+     "id": 7194851,
      "name": "Johan Manzambi",
      "photo": null,
      "position": "F",
@@ -5344,7 +5344,7 @@
      "rating": 6.5
     },
     {
-     "id": 90089768,
+     "id": 27942090,
      "name": "Breel Embolo",
      "photo": null,
      "position": "F",
@@ -5362,7 +5362,7 @@
      "rating": 6.5
     },
     {
-     "id": 17900081,
+     "id": 93521742,
      "name": "Ruben Vargas",
      "photo": null,
      "position": "F",
@@ -5380,7 +5380,7 @@
      "rating": 6.5
     },
     {
-     "id": 24734651,
+     "id": 3788748,
      "name": "Granit Xhaka",
      "photo": null,
      "position": "F",
@@ -5404,7 +5404,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 33587232,
+     "id": 61574580,
      "name": "Vinicius Junior",
      "photo": null,
      "position": "F",
@@ -5422,7 +5422,7 @@
      "rating": 6.5
     },
     {
-     "id": 93307351,
+     "id": 58929049,
      "name": "Matheus Cunha",
      "photo": null,
      "position": "F",
@@ -5446,7 +5446,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 74116269,
+     "id": 9161546,
      "name": "Ismael Saibari",
      "photo": null,
      "position": "F",
@@ -5470,7 +5470,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 14899469,
+     "id": 32721417,
      "name": "John McGinn",
      "photo": null,
      "position": "F",
@@ -5494,7 +5494,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 26296494,
+     "id": 95940089,
      "name": "Nestor Irankunda",
      "photo": null,
      "position": "F",
@@ -5512,7 +5512,7 @@
      "rating": 6.5
     },
     {
-     "id": 46232638,
+     "id": 52624363,
      "name": "Connor Metcalfe",
      "photo": null,
      "position": "F",
@@ -5536,7 +5536,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 69746705,
+     "id": 19483827,
      "name": "Kai Havertz",
      "photo": null,
      "position": "F",
@@ -5554,7 +5554,7 @@
      "rating": 6.5
     },
     {
-     "id": 55046750,
+     "id": 45393966,
      "name": "Deniz Undav",
      "photo": null,
      "position": "F",
@@ -5572,7 +5572,7 @@
      "rating": 6.5
     },
     {
-     "id": 87771663,
+     "id": 32420234,
      "name": "Felix Kalu Nmecha",
      "photo": null,
      "position": "F",
@@ -5590,7 +5590,7 @@
      "rating": 6.5
     },
     {
-     "id": 64492823,
+     "id": 41410623,
      "name": "Nico Schlotterbeck",
      "photo": null,
      "position": "F",
@@ -5608,7 +5608,7 @@
      "rating": 6.5
     },
     {
-     "id": 80292543,
+     "id": 27416142,
      "name": "Jamal Musiala",
      "photo": null,
      "position": "F",
@@ -5626,7 +5626,7 @@
      "rating": 6.5
     },
     {
-     "id": 23640757,
+     "id": 47175759,
      "name": "Nathaniel Brown",
      "photo": null,
      "position": "F",
@@ -5650,7 +5650,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 74650489,
+     "id": 73757094,
      "name": "Livano Comenencia",
      "photo": null,
      "position": "F",
@@ -5674,7 +5674,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 6380111,
+     "id": 73499353,
      "name": "Brian Brobbey",
      "photo": null,
      "position": "F",
@@ -5692,7 +5692,7 @@
      "rating": 6.5
     },
     {
-     "id": 13354391,
+     "id": 37729744,
      "name": "Cody Gakpo",
      "photo": null,
      "position": "F",
@@ -5710,7 +5710,7 @@
      "rating": 6.5
     },
     {
-     "id": 71381809,
+     "id": 98490761,
      "name": "Crysencio Summerville",
      "photo": null,
      "position": "F",
@@ -5728,7 +5728,7 @@
      "rating": 6.5
     },
     {
-     "id": 92599605,
+     "id": 77650958,
      "name": "Virgil van Dijk",
      "photo": null,
      "position": "F",
@@ -5752,7 +5752,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 86143993,
+     "id": 13914177,
      "name": "Daichi Kamada",
      "photo": null,
      "position": "F",
@@ -5770,7 +5770,7 @@
      "rating": 6.5
     },
     {
-     "id": 31637446,
+     "id": 25830772,
      "name": "Ayase Ueda",
      "photo": null,
      "position": "F",
@@ -5788,7 +5788,7 @@
      "rating": 6.5
     },
     {
-     "id": 96780934,
+     "id": 54273100,
      "name": "Keito Nakamura",
      "photo": null,
      "position": "F",
@@ -5806,7 +5806,7 @@
      "rating": 6.5
     },
     {
-     "id": 8762911,
+     "id": 24276382,
      "name": "Junya Ito",
      "photo": null,
      "position": "F",
@@ -5830,7 +5830,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 15269154,
+     "id": 21844294,
      "name": "Amad Diallo",
      "photo": null,
      "position": "F",
@@ -5848,7 +5848,7 @@
      "rating": 6.5
     },
     {
-     "id": 49078591,
+     "id": 17860472,
      "name": "Nicolas Pépé",
      "photo": null,
      "position": "F",
@@ -5866,7 +5866,7 @@
      "rating": 6.5
     },
     {
-     "id": 29418301,
+     "id": 84015627,
      "name": "Franck Kessié",
      "photo": null,
      "position": "F",
@@ -5890,7 +5890,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 70393786,
+     "id": 27710774,
      "name": "Yasin Ayari",
      "photo": null,
      "position": "F",
@@ -5908,7 +5908,7 @@
      "rating": 6.5
     },
     {
-     "id": 60406817,
+     "id": 32173394,
      "name": "Anthony Elanga",
      "photo": null,
      "position": "F",
@@ -5926,7 +5926,7 @@
      "rating": 6.5
     },
     {
-     "id": 26338575,
+     "id": 88270825,
      "name": "Alexander Isak",
      "photo": null,
      "position": "F",
@@ -5944,7 +5944,7 @@
      "rating": 6.5
     },
     {
-     "id": 10569937,
+     "id": 91477875,
      "name": "Viktor Gyökeres",
      "photo": null,
      "position": "F",
@@ -5962,7 +5962,7 @@
      "rating": 6.5
     },
     {
-     "id": 72942935,
+     "id": 75108661,
      "name": "Mattias Svanberg",
      "photo": null,
      "position": "F",
@@ -5986,7 +5986,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 56233347,
+     "id": 29097307,
      "name": "Omar Rekik",
      "photo": null,
      "position": "F",
@@ -6010,7 +6010,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 9921477,
+     "id": 54179262,
      "name": "Mikel Oyarzabal",
      "photo": null,
      "position": "F",
@@ -6028,7 +6028,7 @@
      "rating": 6.5
     },
     {
-     "id": 77486558,
+     "id": 90738683,
      "name": "Lamine Yamal",
      "photo": null,
      "position": "F",
@@ -6052,7 +6052,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 35098246,
+     "id": 41721858,
      "name": "Kevin Pina",
      "photo": null,
      "position": "F",
@@ -6070,7 +6070,7 @@
      "rating": 6.5
     },
     {
-     "id": 16863140,
+     "id": 82942908,
      "name": "Hélio Varela",
      "photo": null,
      "position": "F",
@@ -6094,7 +6094,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 37564810,
+     "id": 38961033,
      "name": "Leandro Trossard",
      "photo": null,
      "position": "F",
@@ -6112,7 +6112,7 @@
      "rating": 6.5
     },
     {
-     "id": 39895242,
+     "id": 55916030,
      "name": "Romelu Lukaku",
      "photo": null,
      "position": "F",
@@ -6130,7 +6130,7 @@
      "rating": 6.5
     },
     {
-     "id": 75615086,
+     "id": 91208530,
      "name": "Youri Tielemans",
      "photo": null,
      "position": "F",
@@ -6154,7 +6154,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 93287865,
+     "id": 34882531,
      "name": "Emam Ashour",
      "photo": null,
      "position": "F",
@@ -6172,7 +6172,7 @@
      "rating": 6.5
     },
     {
-     "id": 56397571,
+     "id": 13336260,
      "name": "Mostafa Ziko",
      "photo": null,
      "position": "F",
@@ -6190,7 +6190,7 @@
      "rating": 6.5
     },
     {
-     "id": 64741944,
+     "id": 75035501,
      "name": "Mohamed Salah",
      "photo": null,
      "position": "F",
@@ -6208,7 +6208,7 @@
      "rating": 6.5
     },
     {
-     "id": 99122541,
+     "id": 47905915,
      "name": "Trezeguet",
      "photo": null,
      "position": "F",
@@ -6232,7 +6232,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 67762745,
+     "id": 27656582,
      "name": "Abdulelah Al Amri",
      "photo": null,
      "position": "F",
@@ -6256,7 +6256,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 22242133,
+     "id": 37723283,
      "name": "Maximiliano Araújo",
      "photo": null,
      "position": "F",
@@ -6274,7 +6274,7 @@
      "rating": 6.5
     },
     {
-     "id": 14817732,
+     "id": 29711783,
      "name": "Agustín Canobbio",
      "photo": null,
      "position": "F",
@@ -6298,7 +6298,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 65024047,
+     "id": 8671096,
      "name": "Ramin Rezaeian",
      "photo": null,
      "position": "F",
@@ -6316,7 +6316,7 @@
      "rating": 6.5
     },
     {
-     "id": 98191699,
+     "id": 50506159,
      "name": "Mohammad Mohebi",
      "photo": null,
      "position": "F",
@@ -6340,7 +6340,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 21244096,
+     "id": 13430399,
      "name": "Elijah Just",
      "photo": null,
      "position": "F",
@@ -6358,7 +6358,7 @@
      "rating": 6.5
     },
     {
-     "id": 69654798,
+     "id": 57086115,
      "name": "Finn Surman",
      "photo": null,
      "position": "F",
@@ -6382,7 +6382,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 57736666,
+     "id": 47534219,
      "name": "Kylian Mbappé",
      "photo": null,
      "position": "F",
@@ -6400,7 +6400,7 @@
      "rating": 6.5
     },
     {
-     "id": 39274,
+     "id": 49797390,
      "name": "Ousmane Dembélé",
      "photo": null,
      "position": "F",
@@ -6418,7 +6418,7 @@
      "rating": 6.5
     },
     {
-     "id": 99330916,
+     "id": 13221370,
      "name": "Bradley Barcola",
      "photo": null,
      "position": "F",
@@ -6442,7 +6442,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 27331082,
+     "id": 58975082,
      "name": "Ismaïla Sarr",
      "photo": null,
      "position": "F",
@@ -6460,7 +6460,7 @@
      "rating": 6.5
     },
     {
-     "id": 72715031,
+     "id": 12744799,
      "name": "Habib Diarra",
      "photo": null,
      "position": "F",
@@ -6478,7 +6478,7 @@
      "rating": 6.5
     },
     {
-     "id": 9624122,
+     "id": 96069903,
      "name": "Pape Gueye",
      "photo": null,
      "position": "F",
@@ -6496,7 +6496,7 @@
      "rating": 6.5
     },
     {
-     "id": 86089172,
+     "id": 13796099,
      "name": "Ibrahim M'Baye",
      "photo": null,
      "position": "F",
@@ -6520,7 +6520,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 51417903,
+     "id": 85404871,
      "name": "Aymen Hussein",
      "photo": null,
      "position": "F",
@@ -6544,7 +6544,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 12133589,
+     "id": 45153630,
      "name": "Erling Haaland",
      "photo": null,
      "position": "F",
@@ -6562,7 +6562,7 @@
      "rating": 6.5
     },
     {
-     "id": 45882340,
+     "id": 66473668,
      "name": "Leo Østigård",
      "photo": null,
      "position": "F",
@@ -6580,7 +6580,7 @@
      "rating": 6.5
     },
     {
-     "id": 54979225,
+     "id": 42006321,
      "name": "Marcus Pedersen",
      "photo": null,
      "position": "F",
@@ -6604,7 +6604,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 19523565,
+     "id": 77291124,
      "name": "Lionel Messi",
      "photo": null,
      "position": "F",
@@ -6628,7 +6628,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 75437205,
+     "id": 71288144,
      "name": "Riyad Mahrez",
      "photo": null,
      "position": "F",
@@ -6652,7 +6652,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 32106424,
+     "id": 98787432,
      "name": "Marko Arnautovic",
      "photo": null,
      "position": "F",
@@ -6670,7 +6670,7 @@
      "rating": 6.5
     },
     {
-     "id": 63273797,
+     "id": 76773684,
      "name": "Romano Schmid",
      "photo": null,
      "position": "F",
@@ -6694,7 +6694,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 13746386,
+     "id": 83184263,
      "name": "Ali Olwan",
      "photo": null,
      "position": "F",
@@ -6718,7 +6718,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 94360629,
+     "id": 28126514,
      "name": "Cristiano Ronaldo",
      "photo": null,
      "position": "F",
@@ -6736,7 +6736,7 @@
      "rating": 6.5
     },
     {
-     "id": 33356492,
+     "id": 33487959,
      "name": "Joao Neves",
      "photo": null,
      "position": "F",
@@ -6760,7 +6760,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 90691059,
+     "id": 59025391,
      "name": "Yoane Wissa",
      "photo": null,
      "position": "F",
@@ -6784,7 +6784,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 41332445,
+     "id": 76723057,
      "name": "Harry Kane",
      "photo": null,
      "position": "F",
@@ -6802,7 +6802,7 @@
      "rating": 6.5
     },
     {
-     "id": 31166125,
+     "id": 41582117,
      "name": "Jude Bellingham",
      "photo": null,
      "position": "F",
@@ -6820,7 +6820,7 @@
      "rating": 6.5
     },
     {
-     "id": 8844456,
+     "id": 91190643,
      "name": "Marcus Rashford",
      "photo": null,
      "position": "F",
@@ -6844,7 +6844,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 51292798,
+     "id": 73411485,
      "name": "Martin Baturina",
      "photo": null,
      "position": "F",
@@ -6862,7 +6862,7 @@
      "rating": 6.5
     },
     {
-     "id": 2869579,
+     "id": 38860046,
      "name": "Petar Musa",
      "photo": null,
      "position": "F",
@@ -6886,7 +6886,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 87791976,
+     "id": 44625909,
      "name": "Caleb Yirenkyi",
      "photo": null,
      "position": "F",
@@ -6910,7 +6910,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 60442391,
+     "id": 49163793,
      "name": "Abbosbek Fayzullaev",
      "photo": null,
      "position": "F",
@@ -6934,7 +6934,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 84351227,
+     "id": 8777066,
      "name": "Daniel Muñoz",
      "photo": null,
      "position": "F",
@@ -6952,7 +6952,7 @@
      "rating": 6.5
     },
     {
-     "id": 87973408,
+     "id": 890387,
      "name": "Luis Díaz",
      "photo": null,
      "position": "F",
@@ -6970,7 +6970,7 @@
      "rating": 6.5
     },
     {
-     "id": 12355236,
+     "id": 66199324,
      "name": "Jaminton Campaz",
      "photo": null,
      "position": "F",
