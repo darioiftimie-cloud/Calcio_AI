@@ -155,4 +155,5 @@ def report(fixture: int,
 
 
 # Servi il frontend SPA (fallback a index.html per le rotte non-API)
-app.mount("/", StaticFiles(directory=os.path.join(os.path.dirname(__file__), "..", "public"), html=True), name="static")
+public_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "public")
+app.mount("/", StaticFiles(directory=public_dir, html=True), name="static")
