@@ -7005,8 +7005,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 60.5,
       "shots": 16.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "South Africa": {
@@ -7015,8 +7020,13 @@
       "reds": 2.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 39.5,
       "shots": 3.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 0.0,
       "conceded": 2.0
      }
     }
@@ -7030,8 +7040,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 61.5,
       "shots": 15.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Czechia": {
@@ -7040,8 +7055,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 38.5,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -7055,8 +7075,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 2.0,
+      "possession": 61.1,
       "shots": 13.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Bosnia-Herzegovina": {
@@ -7065,8 +7090,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 38.9,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -7080,8 +7110,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 65.3,
       "shots": 16.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Paraguay": {
@@ -7090,8 +7125,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 3.0,
+      "possession": 34.7,
       "shots": 9.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 5.0,
       "conceded": 4.0
      }
     }
@@ -7105,8 +7145,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 32.0,
       "shots": 6.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 0.0,
       "conceded": 1.0
      },
      "Switzerland": {
@@ -7115,8 +7160,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 3.0,
+      "possession": 68.0,
       "shots": 26.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 6.0,
+      "blocked": 9.0,
       "conceded": 1.0
      }
     }
@@ -7130,8 +7180,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 51.4,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Morocco": {
@@ -7140,8 +7195,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 48.6,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 6.0,
       "conceded": 1.0
      }
     }
@@ -7155,8 +7215,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 53.7,
       "shots": 15.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Scotland": {
@@ -7165,8 +7230,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 46.3,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -7180,8 +7250,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 8.0,
+      "possession": 28.4,
       "shots": 9.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Türkiye": {
@@ -7190,8 +7265,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 71.6,
       "shots": 30.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 12.0,
       "conceded": 2.0
      }
     }
@@ -7205,8 +7285,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 64.6,
       "shots": 26.0,
       "sot": 12.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 8.0,
       "conceded": 1.0
      },
      "Curaçao": {
@@ -7215,8 +7300,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 35.4,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 7.0
      }
     }
@@ -7230,8 +7320,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 59.8,
       "shots": 10.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 1.0,
       "conceded": 2.0
      },
      "Japan": {
@@ -7240,8 +7335,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 40.2,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -7255,8 +7355,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 48.4,
       "shots": 15.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Ecuador": {
@@ -7265,8 +7370,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 51.6,
       "shots": 12.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -7280,8 +7390,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 48.7,
       "shots": 13.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Tunisia": {
@@ -7290,8 +7405,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 51.3,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 5.0
      }
     }
@@ -7305,8 +7425,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 1.0,
+      "possession": 74.3,
       "shots": 27.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 8.0,
       "conceded": 0.0
      },
      "Cape Verde": {
@@ -7315,8 +7440,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 7.0,
+      "possession": 25.7,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -7330,8 +7460,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 53.6,
       "shots": 15.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "Egypt": {
@@ -7340,8 +7475,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 46.4,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 7.0,
       "conceded": 1.0
      }
     }
@@ -7355,8 +7495,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 9.0,
+      "possession": 33.2,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Uruguay": {
@@ -7365,8 +7510,13 @@
       "reds": 0.0,
       "corners": 14.0,
       "saves": 2.0,
+      "possession": 66.8,
       "shots": 27.0,
       "sot": 10.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 16.0,
+      "blocked": 7.0,
       "conceded": 1.0
      }
     }
@@ -7380,8 +7530,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 6.0,
+      "possession": 48.5,
       "shots": 17.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 5.0,
       "conceded": 2.0
      },
      "New Zealand": {
@@ -7390,8 +7545,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 51.5,
       "shots": 14.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -7405,8 +7565,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 53.4,
       "shots": 11.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Senegal": {
@@ -7415,8 +7580,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 5.0,
+      "possession": 46.6,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -7430,8 +7600,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 38.7,
       "shots": 11.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 4.0
      },
      "Norway": {
@@ -7440,8 +7615,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 0.0,
+      "possession": 61.3,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -7455,8 +7635,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 0.0,
+      "possession": 47.8,
       "shots": 10.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Algeria": {
@@ -7465,8 +7650,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 52.2,
       "shots": 7.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 3.0
      }
     }
@@ -7480,8 +7670,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 63.2,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Jordan": {
@@ -7490,8 +7685,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 36.8,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 3.0
      }
     }
@@ -7505,8 +7705,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 75.4,
       "shots": 7.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Congo DR": {
@@ -7515,8 +7720,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 24.6,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -7530,8 +7740,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 3.0,
+      "possession": 51.7,
       "shots": 22.0,
       "sot": 11.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 6.0,
+      "blocked": 5.0,
       "conceded": 2.0
      },
      "Croatia": {
@@ -7540,8 +7755,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 7.0,
+      "possession": 48.3,
       "shots": 10.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 4.0
      }
     }
@@ -7555,8 +7775,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 38.0,
       "shots": 7.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Panama": {
@@ -7565,8 +7790,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 62.0,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -7580,8 +7810,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 38.6,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Colombia": {
@@ -7590,8 +7825,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 61.4,
       "shots": 15.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -7605,8 +7845,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 3.0,
+      "possession": 38.3,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "South Africa": {
@@ -7615,8 +7860,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 61.7,
       "shots": 17.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 4.0,
+      "blocked": 8.0,
       "conceded": 1.0
      }
     }
@@ -7630,8 +7880,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 62.3,
       "shots": 13.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Bosnia-Herzegovina": {
@@ -7640,8 +7895,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 37.7,
       "shots": 5.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 4.0
      }
     }
@@ -7655,8 +7915,13 @@
       "reds": 0.0,
       "corners": 19.0,
       "saves": 0.0,
+      "possession": 79.0,
       "shots": 32.0,
       "sot": 10.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 13.0,
+      "blocked": 14.0,
       "conceded": 0.0
      },
      "Qatar": {
@@ -7665,8 +7930,13 @@
       "reds": 2.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 21.0,
       "shots": 2.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 6.0
      }
     }
@@ -7680,8 +7950,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 42.4,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "South Korea": {
@@ -7690,8 +7965,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 57.6,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -7705,8 +7985,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 61.9,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 6.0,
       "conceded": 0.0
      },
      "Australia": {
@@ -7715,8 +8000,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 38.1,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 0.0,
       "conceded": 2.0
      }
     }
@@ -7730,8 +8020,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 41.1,
       "shots": 6.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Morocco": {
@@ -7740,8 +8035,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 0.0,
+      "possession": 58.9,
       "shots": 12.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 0.0
      }
     }
@@ -7755,8 +8055,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 56.7,
       "shots": 8.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Haiti": {
@@ -7765,8 +8070,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 43.3,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -7780,8 +8090,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 1.0,
+      "possession": 78.5,
       "shots": 32.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 12.0,
       "conceded": 1.0
      },
      "Paraguay": {
@@ -7790,8 +8105,13 @@
       "reds": 1.0,
       "corners": 0.0,
       "saves": 5.0,
+      "possession": 21.5,
       "shots": 7.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -7805,8 +8125,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 7.0,
+      "possession": 50.9,
       "shots": 10.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Sweden": {
@@ -7815,8 +8140,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 49.1,
       "shots": 16.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 5.0
      }
     }
@@ -7830,8 +8160,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 59.5,
       "shots": 16.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Ivory Coast": {
@@ -7840,8 +8175,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 40.5,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 2.0
      }
     }
@@ -7855,8 +8195,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 3.0,
+      "possession": 74.6,
       "shots": 27.0,
       "sot": 15.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 11.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Curaçao": {
@@ -7865,8 +8210,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 15.0,
+      "possession": 25.4,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -7880,8 +8230,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 37.9,
       "shots": 2.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 4.0
      },
      "Japan": {
@@ -7890,8 +8245,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 0.0,
+      "possession": 62.1,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -7905,8 +8265,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 1.0,
+      "possession": 67.1,
       "shots": 22.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Saudi Arabia": {
@@ -7915,8 +8280,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 5.0,
+      "possession": 32.9,
       "shots": 3.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
       "conceded": 4.0
      }
     }
@@ -7930,8 +8300,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 70.1,
       "shots": 23.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 6.0,
       "conceded": 0.0
      },
      "Iran": {
@@ -7940,8 +8315,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 7.0,
+      "possession": 29.9,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -7955,8 +8335,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 2.0,
+      "possession": 65.2,
       "shots": 17.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 7.0,
       "conceded": 2.0
      },
      "Cape Verde": {
@@ -7965,8 +8350,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 34.8,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 2.0
      }
     }
@@ -7980,8 +8370,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 44.4,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 3.0
      },
      "Egypt": {
@@ -7990,8 +8385,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 55.6,
       "shots": 19.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 6.0,
       "conceded": 1.0
      }
     }
@@ -8005,8 +8405,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 1.0,
+      "possession": 53.6,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Austria": {
@@ -8015,8 +8420,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 46.4,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 2.0
      }
     }
@@ -8030,8 +8440,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 55.6,
       "shots": 19.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Iraq": {
@@ -8040,8 +8455,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 44.4,
       "shots": 4.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -8055,8 +8475,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 41.7,
       "shots": 13.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 2.0
      },
      "Senegal": {
@@ -8065,8 +8490,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 58.3,
       "shots": 16.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 5.0,
       "conceded": 3.0
      }
     }
@@ -8080,8 +8510,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 6.0,
+      "possession": 27.9,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 2.0
      },
      "Algeria": {
@@ -8090,8 +8525,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 3.0,
+      "possession": 72.1,
       "shots": 17.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }
@@ -8105,8 +8545,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 65.9,
       "shots": 17.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Uzbekistan": {
@@ -8115,8 +8560,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 34.1,
       "shots": 7.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 3.0,
       "conceded": 5.0
      }
     }
@@ -8130,8 +8580,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 0.0,
+      "possession": 78.9,
       "shots": 19.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 6.0,
       "conceded": 0.0
      },
      "Ghana": {
@@ -8140,8 +8595,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 21.1,
       "shots": 2.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -8155,8 +8615,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 42.0,
       "shots": 8.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Croatia": {
@@ -8165,8 +8630,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 58.0,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -8180,8 +8650,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 63.5,
       "shots": 20.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 6.0,
       "conceded": 0.0
      },
      "Congo DR": {
@@ -8190,8 +8665,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 8.0,
+      "possession": 36.5,
       "shots": 7.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -8205,8 +8685,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 54.4,
       "shots": 14.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "Qatar": {
@@ -8215,8 +8700,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 3.0,
+      "possession": 45.6,
       "shots": 9.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 0.0,
       "conceded": 3.0
      }
     }
@@ -8230,8 +8720,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 6.0,
+      "possession": 55.3,
       "shots": 6.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Canada": {
@@ -8240,8 +8735,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 44.7,
       "shots": 13.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -8255,8 +8755,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 1.0,
+      "possession": 69.1,
       "shots": 22.0,
       "sot": 11.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 5.0,
       "conceded": 2.0
      },
      "Haiti": {
@@ -8265,8 +8770,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 8.0,
+      "possession": 30.9,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 4.0
      }
     }
@@ -8280,8 +8790,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 5.0,
+      "possession": 46.0,
       "shots": 14.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 3.0,
       "conceded": 3.0
      },
      "Brazil": {
@@ -8290,8 +8805,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 5.0,
+      "possession": 54.0,
       "shots": 21.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 0.0
      }
     }
@@ -8305,8 +8825,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 51.9,
       "shots": 13.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 3.0
      },
      "Mexico": {
@@ -8315,8 +8840,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 1.0,
+      "possession": 48.1,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -8330,8 +8860,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 31.6,
       "shots": 13.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "South Korea": {
@@ -8340,8 +8875,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 68.4,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -8355,8 +8895,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 36.7,
       "shots": 11.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 2.0
      },
      "Ivory Coast": {
@@ -8365,8 +8910,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 63.3,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -8380,8 +8930,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 38.9,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Germany": {
@@ -8390,8 +8945,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 61.1,
       "shots": 11.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 2.0
      }
     }
@@ -8405,8 +8965,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 52.3,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Sweden": {
@@ -8415,8 +8980,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 47.7,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -8430,8 +9000,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 28.6,
       "shots": 10.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 3.0
      },
      "Netherlands": {
@@ -8440,8 +9015,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 71.4,
       "shots": 20.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }
@@ -8455,8 +9035,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 5.0,
+      "possession": 44.0,
       "shots": 7.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Australia": {
@@ -8465,8 +9050,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 56.0,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -8480,8 +9070,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 5.0,
+      "possession": 47.4,
       "shots": 9.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 2.0,
       "conceded": 2.0
      },
      "United States": {
@@ -8490,8 +9085,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 1.0,
+      "possession": 52.6,
       "shots": 18.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 3.0
      }
     }
@@ -8505,8 +9105,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 5.0,
+      "possession": 43.3,
       "shots": 10.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 4.0
      },
      "France": {
@@ -8515,8 +9120,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 3.0,
+      "possession": 56.7,
       "shots": 18.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -8530,8 +9140,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 1.0,
+      "possession": 69.2,
       "shots": 28.0,
       "sot": 12.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Iraq": {
@@ -8540,8 +9155,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 7.0,
+      "possession": 30.8,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 4.0,
       "conceded": 5.0
      }
     }
@@ -8555,8 +9175,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 51.0,
       "shots": 15.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Saudi Arabia": {
@@ -8565,8 +9190,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 49.0,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -8580,8 +9210,13 @@
       "reds": 1.0,
       "corners": 1.0,
       "saves": 0.0,
+      "possession": 33.1,
       "shots": 5.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Spain": {
@@ -8590,8 +9225,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 66.9,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -8605,8 +9245,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 61.4,
       "shots": 15.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 6.0,
       "conceded": 1.0
      },
      "Iran": {
@@ -8615,8 +9260,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 38.6,
       "shots": 13.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -8630,8 +9280,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 5.0,
+      "possession": 45.5,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 5.0
      },
      "Belgium": {
@@ -8640,8 +9295,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 54.5,
       "shots": 35.0,
       "sot": 10.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 12.0,
       "conceded": 1.0
      }
     }
@@ -8655,8 +9315,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 0.0,
+      "possession": 53.3,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Ghana": {
@@ -8665,8 +9330,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 46.7,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -8680,8 +9350,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 32.9,
       "shots": 13.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 2.0
      },
      "England": {
@@ -8690,8 +9365,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 67.1,
       "shots": 17.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -8705,8 +9385,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 54.6,
       "shots": 24.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 7.0,
       "conceded": 0.0
      },
      "Portugal": {
@@ -8715,8 +9400,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 6.0,
+      "possession": 45.4,
       "shots": 13.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 0.0
      }
     }
@@ -8730,8 +9420,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 57.6,
       "shots": 19.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 6.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Uzbekistan": {
@@ -8740,8 +9435,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 42.4,
       "shots": 3.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 3.0
      }
     }
@@ -8755,8 +9455,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 1.0,
+      "possession": 65.0,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Austria": {
@@ -8765,8 +9470,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 35.0,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -8780,8 +9490,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 26.7,
       "shots": 5.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Argentina": {
@@ -8790,8 +9505,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 0.0,
+      "possession": 73.3,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -8805,8 +9525,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 5.0,
+      "possession": 58.4,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Canada": {
@@ -8815,8 +9540,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 41.6,
       "shots": 12.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 0.0,
       "conceded": 0.0
      }
     }
@@ -8830,8 +9560,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 1.0,
+      "possession": 68.6,
       "shots": 19.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 10.0,
+      "blocked": 6.0,
       "conceded": 1.0
      },
      "Japan": {
@@ -8840,8 +9575,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 31.4,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -8855,8 +9595,13 @@
       "reds": 0.0,
       "corners": 16.0,
       "saves": 2.0,
+      "possession": 75.6,
       "shots": 21.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 8.0,
       "conceded": 1.0
      },
      "Paraguay": {
@@ -8865,8 +9610,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 6.0,
+      "possession": 24.4,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -8880,8 +9630,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 5.0,
+      "possession": 29.9,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Morocco": {
@@ -8890,8 +9645,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 70.1,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -8905,8 +9665,13 @@
       "reds": 0.0,
       "corners": 14.0,
       "saves": 1.0,
+      "possession": 47.0,
       "shots": 14.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 1.0,
       "conceded": 2.0
      },
      "Norway": {
@@ -8915,8 +9680,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 53.0,
       "shots": 9.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -8930,8 +9700,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 3.0,
+      "possession": 61.0,
       "shots": 25.0,
       "sot": 12.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Sweden": {
@@ -8940,8 +9715,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 9.0,
+      "possession": 39.0,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -8955,8 +9735,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 42.8,
       "shots": 15.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Ecuador": {
@@ -8965,8 +9750,13 @@
       "reds": 1.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 57.2,
       "shots": 7.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -8980,8 +9770,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 59.7,
       "shots": 16.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Congo DR": {
@@ -8990,8 +9785,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 40.3,
       "shots": 7.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -9005,8 +9805,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 52.3,
       "shots": 19.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 5.0,
       "conceded": 2.0
      },
      "Senegal": {
@@ -9015,8 +9820,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 47.7,
       "shots": 19.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 3.0
      }
     }
@@ -9030,8 +9840,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 48.4,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Bosnia-Herzegovina": {
@@ -9040,8 +9855,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 0.0,
+      "possession": 51.6,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -9055,8 +9875,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 0.0,
+      "possession": 64.4,
       "shots": 23.0,
       "sot": 10.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 7.0,
       "conceded": 0.0
      },
      "Austria": {
@@ -9065,8 +9890,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 6.0,
+      "possession": 35.6,
       "shots": 5.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -9080,8 +9910,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 5.0,
+      "possession": 60.4,
       "shots": 15.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Croatia": {
@@ -9090,8 +9925,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 39.6,
       "shots": 13.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -9105,8 +9945,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 44.5,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Algeria": {
@@ -9115,8 +9960,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 55.5,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -9130,8 +9980,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 41.7,
       "shots": 16.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 9.0,
       "conceded": 1.0
      },
      "Egypt": {
@@ -9140,8 +9995,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 58.3,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 6.0,
       "conceded": 1.0
      }
     }
@@ -9155,8 +10015,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 3.0,
+      "possession": 63.6,
       "shots": 22.0,
       "sot": 10.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 7.0,
       "conceded": 2.0
      },
      "Cape Verde": {
@@ -9165,8 +10030,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 8.0,
+      "possession": 36.4,
       "shots": 16.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 6.0,
       "conceded": 3.0
      }
     }
@@ -9180,8 +10050,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 0.0,
+      "possession": 60.7,
       "shots": 20.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Ghana": {
@@ -9190,8 +10065,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 7.0,
+      "possession": 39.3,
       "shots": 8.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }

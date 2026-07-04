@@ -122,6 +122,37 @@ XG_PER_SOT = 0.29
 XG_PER_OFF = 0.045
 XG_BLEND = 0.5           # peso dell'xG proxy nel blend con i gol reali
 
+# xG proxy v2 (campi ESPN estesi; ESPN non pubblica key passes né tocchi in
+# area: i segnali reali più vicini sono rigori, tiri murati e cross riusciti).
+# Un tiro murato è quasi sempre una conclusione poco pericolosa (spesso da
+# fuori area): pesa meno di un tiro fuori pulito. Il cross riuscito è il
+# proxy dell'ingresso in area avversaria (deep completion).
+XG_PER_PEN = 0.76        # xG di un calcio di rigore
+XG_PER_OFF_CLEAN = 0.055 # tiro fuori non murato
+XG_PER_BLOCKED = 0.025   # tiro murato
+XG_PER_CROSS_ACC = 0.012 # cross riuscito (proxy tocchi in area)
+
+# Binomiale Negativa (overdispersion dei conteggi): Var = μ + α·μ².
+# α stimato per competizione dai boxscore (metodo dei momenti); questi sono
+# i fallback quando il campione è troppo piccolo (<40 gare-squadra).
+NB_ALPHA_DEFAULT = {"sot": 0.10, "shots": 0.08, "fouls": 0.12, "corners": 0.10}
+NB_ALPHA_MAX = 0.80      # tetto all'α stimato (protegge dai campioni rumorosi)
+TEMPO_K = 25.0           # Gamma del ritmo-gara condiviso (var 1/25): correla
+                         # i volumi delle due squadre; il resto della
+                         # dispersione lo mette la Binomiale Negativa
+
+# Dixon-Coles: correzione della dipendenza sui punteggi bassi (0-0, 1-0,
+# 0-1, 1-1). ρ stimato per lega via massima verosimiglianza sui risultati
+# del DB; intervallo ammesso e fallback se il campione è scarso.
+DC_RHO_RANGE = (-0.25, 0.10)
+DC_RHO_DEFAULT = -0.05
+
+# Game state dinamico: l'aggiustamento del 2° tempo scala linearmente con i
+# minuti trascorsi dal gol del divario e col delta ELO (il favorito che
+# insegue spinge di più; lo sfavorito in vantaggio si chiude di più).
+GS_ELO_SLOPE = 0.5       # pendenza per 400 punti ELO di divario
+GS_DYN_CLIP = (0.6, 1.4) # limiti del fattore ELO sul game state
+
 # --- Variabili situazionali (game state, riposo, motivazione) -------------
 H1_SHARE = 0.44          # quota del volume di gioco nel 1° tempo (storico ~44/56)
 GS_PUSH_BEHIND = 0.14    # chi insegue all'intervallo: +14% tiri nel 2° tempo

@@ -30447,8 +30447,13 @@
       "reds": 1.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 27.8,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Marseille": {
@@ -30457,8 +30462,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 4.0,
+      "possession": 72.2,
       "shots": 24.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 9.0,
       "conceded": 1.0
      }
     }
@@ -30472,8 +30482,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 2.0,
+      "possession": 55.4,
       "shots": 18.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Lyon": {
@@ -30482,8 +30497,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 4.0,
+      "possession": 44.6,
       "shots": 11.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -30497,8 +30517,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 3.0,
+      "possession": 74.2,
       "shots": 13.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "Le Havre AC": {
@@ -30507,8 +30532,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 25.8,
       "shots": 9.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 3.0
      }
     }
@@ -30522,8 +30552,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 1.0,
+      "possession": 56.8,
       "shots": 13.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 6.0,
       "conceded": 1.0
      },
      "Toulouse": {
@@ -30532,8 +30567,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 43.2,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -30547,8 +30587,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 45.8,
       "shots": 18.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 3.0
      },
      "Lille": {
@@ -30557,8 +30602,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 54.2,
       "shots": 10.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 3.0
      }
     }
@@ -30572,8 +30622,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 43.7,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Lorient": {
@@ -30582,8 +30637,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 56.3,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }
@@ -30597,8 +30657,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 7.0,
+      "possession": 32.0,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Paris FC": {
@@ -30607,8 +30672,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 68.0,
       "shots": 17.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -30622,8 +30692,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 37.5,
       "shots": 2.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 1.0
      },
      "Strasbourg": {
@@ -30632,8 +30707,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 0.0,
+      "possession": 62.5,
       "shots": 9.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -30647,8 +30727,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 29.3,
       "shots": 5.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 0.0,
       "conceded": 1.0
      },
      "Paris Saint-Germain": {
@@ -30657,8 +30742,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 0.0,
+      "possession": 70.7,
       "shots": 18.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 7.0,
       "conceded": 0.0
      }
     }
@@ -30672,8 +30762,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 0.0,
+      "possession": 83.5,
       "shots": 21.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Angers": {
@@ -30682,8 +30777,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 3.0,
+      "possession": 16.5,
       "shots": 3.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 1.0
      }
     }
@@ -30697,8 +30797,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 60.7,
       "shots": 11.0,
       "sot": 7.0,
+      "pk_goals": 1.0,
+      "pk_shots": 2.0,
+      "crosses_acc": 5.0,
+      "blocked": 0.0,
       "conceded": 2.0
      },
      "Paris FC": {
@@ -30707,8 +30812,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 39.3,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 5.0
      }
     }
@@ -30722,8 +30832,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 7.0,
+      "possession": 55.2,
       "shots": 16.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "AJ Auxerre": {
@@ -30732,8 +30847,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 44.8,
       "shots": 12.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 3.0
      }
     }
@@ -30747,8 +30867,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 52.5,
       "shots": 13.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Metz": {
@@ -30757,8 +30882,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 47.5,
       "shots": 11.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 6.0,
       "conceded": 3.0
      }
     }
@@ -30772,8 +30902,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 51.1,
       "shots": 22.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 6.0,
       "conceded": 0.0
      },
      "Stade Rennais": {
@@ -30782,8 +30917,13 @@
       "reds": 2.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 48.9,
       "shots": 4.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 0.0,
       "conceded": 4.0
      }
     }
@@ -30797,8 +30937,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 57.1,
       "shots": 18.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 5.0,
       "conceded": 2.0
      },
      "Lens": {
@@ -30807,8 +30952,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 5.0,
+      "possession": 42.9,
       "shots": 6.0,
       "sot": 3.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -30822,8 +30972,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 49.0,
       "shots": 15.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Nantes": {
@@ -30832,8 +30987,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 51.0,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }
@@ -30847,8 +31007,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 47.4,
       "shots": 6.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 0.0
      },
      "Brest": {
@@ -30857,8 +31022,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 1.0,
+      "possession": 52.6,
       "shots": 16.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 8.0,
       "conceded": 2.0
      }
     }
@@ -30872,8 +31042,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 50.3,
       "shots": 18.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "AS Monaco": {
@@ -30882,8 +31057,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 0.0,
+      "possession": 49.7,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -30897,8 +31077,13 @@
       "reds": 0.0,
       "corners": 15.0,
       "saves": 1.0,
+      "possession": 67.5,
       "shots": 30.0,
       "sot": 10.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 10.0,
+      "blocked": 11.0,
       "conceded": 1.0
      },
      "Brest": {
@@ -30907,8 +31092,13 @@
       "reds": 1.0,
       "corners": 1.0,
       "saves": 7.0,
+      "possession": 32.5,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 3.0
      }
     }
@@ -30922,8 +31112,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 40.7,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 7.0
      },
      "Lille": {
@@ -30932,8 +31127,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 59.3,
       "shots": 20.0,
       "sot": 11.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 6.0,
       "conceded": 1.0
      }
     }
@@ -30947,8 +31147,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 43.1,
       "shots": 4.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "AJ Auxerre": {
@@ -30957,8 +31162,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 2.0,
+      "possession": 56.9,
       "shots": 14.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 7.0,
       "conceded": 1.0
      }
     }
@@ -30972,8 +31182,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 24.4,
       "shots": 14.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 6.0
      },
      "Paris Saint-Germain": {
@@ -30982,8 +31197,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 75.6,
       "shots": 13.0,
       "sot": 8.0,
+      "pk_goals": 2.0,
+      "pk_shots": 2.0,
+      "crosses_acc": 0.0,
+      "blocked": 2.0,
       "conceded": 3.0
      }
     }
@@ -30997,8 +31217,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 6.0,
+      "possession": 36.6,
       "shots": 10.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 1.0
      },
      "Stade Rennais": {
@@ -31007,8 +31232,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 6.0,
+      "possession": 63.4,
       "shots": 15.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -31022,8 +31252,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 42.5,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 2.0
      },
      "Strasbourg": {
@@ -31032,8 +31267,13 @@
       "reds": 1.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 57.5,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 3.0
      }
     }
@@ -31047,8 +31287,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 2.0,
+      "possession": 41.3,
       "shots": 12.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Nice": {
@@ -31057,8 +31302,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 5.0,
+      "possession": 58.7,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 3.0
      }
     }
@@ -31072,8 +31322,13 @@
       "reds": 0.0,
       "corners": 14.0,
       "saves": 0.0,
+      "possession": 51.0,
       "shots": 24.0,
       "sot": 9.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 2.0
      },
      "Metz": {
@@ -31082,8 +31337,13 @@
       "reds": 1.0,
       "corners": 6.0,
       "saves": 6.0,
+      "possession": 49.0,
       "shots": 14.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 5.0,
       "conceded": 3.0
      }
     }
@@ -31097,8 +31357,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 2.0,
+      "possession": 57.9,
       "shots": 18.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Marseille": {
@@ -31107,8 +31372,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 42.1,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -31122,8 +31392,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 1.0,
+      "possession": 72.3,
       "shots": 15.0,
       "sot": 8.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 8.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Lorient": {
@@ -31132,8 +31407,13 @@
       "reds": 1.0,
       "corners": 0.0,
       "saves": 4.0,
+      "possession": 27.7,
       "shots": 4.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 4.0
      }
     }
@@ -31147,8 +31427,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 58.7,
       "shots": 19.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 11.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Nantes": {
@@ -31157,8 +31442,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 7.0,
+      "possession": 41.3,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -31172,8 +31462,13 @@
       "reds": 1.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 32.8,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 2.0
      },
      "AS Monaco": {
@@ -31182,8 +31477,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 67.2,
       "shots": 13.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 11.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -31197,8 +31497,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 70.0,
       "shots": 20.0,
       "sot": 5.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 9.0,
+      "blocked": 8.0,
       "conceded": 1.0
      },
      "Toulouse": {
@@ -31207,8 +31512,13 @@
       "reds": 1.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 30.0,
       "shots": 9.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -31222,8 +31532,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 46.3,
       "shots": 23.0,
       "sot": 8.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 6.0,
+      "blocked": 8.0,
       "conceded": 2.0
      },
      "Paris FC": {
@@ -31232,8 +31547,13 @@
       "reds": 1.0,
       "corners": 1.0,
       "saves": 6.0,
+      "possession": 53.7,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -31247,8 +31567,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 54.9,
       "shots": 9.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Angers": {
@@ -31257,8 +31582,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 45.1,
       "shots": 10.0,
       "sot": 4.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 1.0
      }
     }
@@ -31272,8 +31602,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 68.4,
       "shots": 14.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Lens": {
@@ -31282,8 +31617,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 31.6,
       "shots": 11.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -31297,8 +31637,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 48.6,
       "shots": 9.0,
       "sot": 7.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Le Havre AC": {
@@ -31307,8 +31652,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 51.4,
       "shots": 10.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -31322,8 +31672,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 48.2,
       "shots": 23.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 9.0,
       "conceded": 1.0
      },
      "Lyon": {
@@ -31332,8 +31687,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 51.8,
       "shots": 8.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 3.0
      }
     }
@@ -31347,8 +31707,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 66.8,
       "shots": 16.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Angers": {
@@ -31357,8 +31722,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 33.2,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -31372,8 +31742,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 42.9,
       "shots": 16.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 4.0,
+      "blocked": 6.0,
       "conceded": 2.0
      },
      "Stade Rennais": {
@@ -31382,8 +31757,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 57.1,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 0.0,
+      "blocked": 0.0,
       "conceded": 2.0
      }
     }
@@ -31397,8 +31777,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 37.8,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Nice": {
@@ -31407,8 +31792,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 62.2,
       "shots": 21.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 7.0,
       "conceded": 4.0
      }
     }
@@ -31422,8 +31812,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 38.0,
       "shots": 15.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Lille": {
@@ -31432,8 +31827,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 3.0,
+      "possession": 62.0,
       "shots": 17.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 8.0,
       "conceded": 3.0
      }
     }
@@ -31447,8 +31847,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 61.0,
       "shots": 18.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Strasbourg": {
@@ -31457,8 +31862,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 39.0,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -31472,8 +31882,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 39.8,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Toulouse": {
@@ -31482,8 +31897,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 60.2,
       "shots": 13.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -31497,8 +31917,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 43.2,
       "shots": 16.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 2.0
      },
      "Metz": {
@@ -31507,8 +31932,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 56.8,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 5.0
      }
     }
@@ -31522,8 +31952,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 60.1,
       "shots": 13.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 8.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Lorient": {
@@ -31532,8 +31967,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 0.0,
+      "possession": 39.9,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 0.0,
       "conceded": 1.0
      }
     }
@@ -31547,8 +31987,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 5.0,
+      "possession": 31.9,
       "shots": 9.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Paris Saint-Germain": {
@@ -31557,8 +32002,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 68.1,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -31572,8 +32022,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 7.0,
+      "possession": 40.0,
       "shots": 9.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 2.0
      },
      "Marseille": {
@@ -31582,8 +32037,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 60.0,
       "shots": 16.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -31597,8 +32057,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 47.0,
       "shots": 19.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 6.0,
       "conceded": 1.0
      },
      "AS Monaco": {
@@ -31607,8 +32072,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 5.0,
+      "possession": 53.0,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 3.0
      }
     }
@@ -31622,8 +32092,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 0.0,
+      "possession": 45.5,
       "shots": 20.0,
       "sot": 7.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 5.0,
       "conceded": 2.0
      },
      "Nantes": {
@@ -31632,8 +32107,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 5.0,
+      "possession": 54.5,
       "shots": 12.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 6.0,
       "conceded": 2.0
      }
     }
@@ -31647,8 +32127,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 66.3,
       "shots": 15.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "AJ Auxerre": {
@@ -31657,8 +32142,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 6.0,
+      "possession": 33.7,
       "shots": 12.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 5.0,
       "conceded": 2.0
      }
     }
@@ -31672,8 +32162,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 43.5,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Paris FC": {
@@ -31682,8 +32177,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 56.5,
       "shots": 13.0,
       "sot": 3.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 4.0,
+      "blocked": 7.0,
       "conceded": 1.0
      }
     }
@@ -31697,8 +32197,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 1.0,
+      "possession": 56.9,
       "shots": 11.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 11.0,
+      "blocked": 4.0,
       "conceded": 2.0
      },
      "Brest": {
@@ -31707,8 +32212,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 43.1,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -31722,8 +32232,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 54.2,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 7.0,
       "conceded": 1.0
      },
      "Lyon": {
@@ -31732,8 +32247,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 45.8,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -31747,8 +32267,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 53.0,
       "shots": 7.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Le Havre AC": {
@@ -31757,8 +32282,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 0.0,
+      "possession": 47.0,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 6.0,
       "conceded": 0.0
      }
     }
@@ -31772,8 +32302,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 66.9,
       "shots": 14.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 6.0,
       "conceded": 0.0
      },
      "Lens": {
@@ -31782,8 +32317,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 33.1,
       "shots": 13.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -31797,8 +32337,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 3.0,
+      "possession": 58.6,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Lorient": {
@@ -31807,8 +32352,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 0.0,
+      "possession": 41.4,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -31822,8 +32372,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 6.0,
+      "possession": 37.5,
       "shots": 4.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 3.0
      },
      "Marseille": {
@@ -31832,8 +32387,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 62.5,
       "shots": 21.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -31847,8 +32407,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 0.0,
+      "possession": 50.8,
       "shots": 17.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 7.0,
       "conceded": 0.0
      },
      "Nantes": {
@@ -31857,8 +32422,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 49.2,
       "shots": 6.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -31872,8 +32442,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 56.8,
       "shots": 18.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 9.0,
       "conceded": 2.0
      },
      "Lens": {
@@ -31882,8 +32457,13 @@
       "reds": 1.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 43.2,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -31897,8 +32477,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 69.4,
       "shots": 13.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 2.0
      },
      "Toulouse": {
@@ -31907,8 +32492,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 30.6,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 6.0,
       "conceded": 1.0
      }
     }
@@ -31922,8 +32512,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 0.0,
+      "possession": 65.5,
       "shots": 20.0,
       "sot": 6.0,
+      "pk_goals": 2.0,
+      "pk_shots": 2.0,
+      "crosses_acc": 7.0,
+      "blocked": 4.0,
       "conceded": 2.0
      },
      "Nice": {
@@ -31932,8 +32527,13 @@
       "reds": 1.0,
       "corners": 7.0,
       "saves": 4.0,
+      "possession": 34.5,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 2.0
      }
     }
@@ -31947,8 +32547,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 42.6,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 9.0,
+      "blocked": 1.0,
       "conceded": 2.0
      },
      "Stade Rennais": {
@@ -31957,8 +32562,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 57.4,
       "shots": 9.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -31972,8 +32582,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 65.6,
       "shots": 18.0,
       "sot": 12.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Angers": {
@@ -31982,8 +32597,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 7.0,
+      "possession": 34.4,
       "shots": 5.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 5.0
      }
     }
@@ -31997,8 +32617,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 37.8,
       "shots": 9.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Paris Saint-Germain": {
@@ -32007,8 +32632,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 62.2,
       "shots": 17.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }
@@ -32022,8 +32652,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 71.4,
       "shots": 21.0,
       "sot": 9.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 3.0
      },
      "Strasbourg": {
@@ -32032,8 +32667,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 6.0,
+      "possession": 28.6,
       "shots": 12.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 3.0
      }
     }
@@ -32047,8 +32687,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 5.0,
+      "possession": 30.6,
       "shots": 5.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 2.0
      },
      "Lyon": {
@@ -32057,8 +32702,13 @@
       "reds": 0.0,
       "corners": 16.0,
       "saves": 1.0,
+      "possession": 69.4,
       "shots": 29.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 10.0,
+      "blocked": 15.0,
       "conceded": 3.0
      }
     }
@@ -32072,8 +32722,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 3.0,
+      "possession": 41.9,
       "shots": 16.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 9.0,
       "conceded": 1.0
      },
      "AS Monaco": {
@@ -32082,8 +32737,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 58.1,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -32097,8 +32757,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 73.7,
       "shots": 18.0,
       "sot": 11.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 2.0
      },
      "Le Havre AC": {
@@ -32107,8 +32772,13 @@
       "reds": 1.0,
       "corners": 1.0,
       "saves": 5.0,
+      "possession": 26.3,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 6.0
      }
     }
@@ -32122,8 +32792,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 2.0,
+      "possession": 43.0,
       "shots": 11.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 10.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Paris FC": {
@@ -32132,8 +32807,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 57.0,
       "shots": 9.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 2.0
      }
     }
@@ -32147,8 +32827,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 49.5,
       "shots": 12.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Brest": {
@@ -32157,8 +32842,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 50.5,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -32172,8 +32862,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 51.7,
       "shots": 19.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 6.0,
       "conceded": 2.0
      },
      "AJ Auxerre": {
@@ -32182,8 +32877,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 48.3,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -32197,8 +32897,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 35.7,
       "shots": 16.0,
       "sot": 7.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Metz": {
@@ -32207,8 +32912,13 @@
       "reds": 1.0,
       "corners": 1.0,
       "saves": 3.0,
+      "possession": 64.3,
       "shots": 2.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 0.0,
       "conceded": 4.0
      }
     }
@@ -32222,8 +32932,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 3.0,
+      "possession": 36.5,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 2.0
      },
      "Lille": {
@@ -32232,8 +32947,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 2.0,
+      "possession": 63.5,
       "shots": 23.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 8.0,
       "conceded": 0.0
      }
     }
@@ -32247,8 +32967,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 67.5,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 2.0
      },
      "Nantes": {
@@ -32257,8 +32982,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 32.5,
       "shots": 11.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -32272,8 +33002,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 5.0,
+      "possession": 25.0,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 3.0
      },
      "Paris Saint-Germain": {
@@ -32282,8 +33017,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 75.0,
       "shots": 18.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -32297,8 +33037,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 53.7,
       "shots": 14.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Toulouse": {
@@ -32307,8 +33052,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 46.3,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -32322,8 +33072,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 31.4,
       "shots": 8.0,
       "sot": 5.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 1.0
      },
      "Marseille": {
@@ -32332,8 +33087,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 4.0,
+      "possession": 68.6,
       "shots": 17.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 8.0,
       "conceded": 2.0
      }
     }
@@ -32347,8 +33107,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 62.2,
       "shots": 23.0,
       "sot": 12.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Metz": {
@@ -32357,8 +33122,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 6.0,
+      "possession": 37.8,
       "shots": 10.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 1.0,
       "conceded": 6.0
      }
     }
@@ -32372,8 +33142,13 @@
       "reds": 0.0,
       "corners": 13.0,
       "saves": 3.0,
+      "possession": 50.5,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 7.0,
       "conceded": 1.0
      },
      "Le Havre AC": {
@@ -32382,8 +33157,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 3.0,
+      "possession": 49.5,
       "shots": 9.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -32397,8 +33177,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 37.4,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Lorient": {
@@ -32407,8 +33192,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 62.6,
       "shots": 23.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 11.0,
       "conceded": 2.0
      }
     }
@@ -32422,8 +33212,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 58.3,
       "shots": 19.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 7.0,
       "conceded": 2.0
      },
      "Nice": {
@@ -32432,8 +33227,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 6.0,
+      "possession": 41.7,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -32447,8 +33247,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 47.9,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Strasbourg": {
@@ -32457,8 +33262,13 @@
       "reds": 1.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 52.1,
       "shots": 7.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -32472,8 +33282,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 46.0,
       "shots": 13.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 6.0,
       "conceded": 0.0
      },
      "Brest": {
@@ -32482,8 +33297,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 54.0,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -32497,8 +33317,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 7.0,
+      "possession": 21.9,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 0.0,
       "conceded": 1.0
      },
      "Paris Saint-Germain": {
@@ -32507,8 +33332,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 78.1,
       "shots": 15.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -32522,8 +33352,13 @@
       "reds": 1.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 46.2,
       "shots": 16.0,
       "sot": 7.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Lens": {
@@ -32532,8 +33367,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 53.8,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -32547,8 +33387,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 32.1,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 0.0,
+      "blocked": 0.0,
       "conceded": 0.0
      },
      "Lille": {
@@ -32557,8 +33402,13 @@
       "reds": 0.0,
       "corners": 13.0,
       "saves": 2.0,
+      "possession": 67.9,
       "shots": 21.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 9.0,
       "conceded": 2.0
      }
     }
@@ -32572,8 +33422,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 59.3,
       "shots": 11.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 2.0
      },
      "Angers": {
@@ -32582,8 +33437,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 40.7,
       "shots": 12.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 2.0
      }
     }
@@ -32597,8 +33457,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 48.4,
       "shots": 18.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 5.0
      },
      "AS Monaco": {
@@ -32607,8 +33472,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 51.6,
       "shots": 19.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 3.0
      }
     }
@@ -32622,8 +33492,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 52.1,
       "shots": 11.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 5.0,
       "conceded": 3.0
      },
      "Lyon": {
@@ -32632,8 +33507,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 0.0,
+      "possession": 47.9,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 3.0
      }
     }
@@ -32647,8 +33527,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 64.0,
       "shots": 18.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "AJ Auxerre": {
@@ -32657,8 +33542,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 6.0,
+      "possession": 36.0,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -32672,8 +33562,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 3.0,
+      "possession": 54.9,
       "shots": 15.0,
       "sot": 4.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 2.0
      },
      "Stade Rennais": {
@@ -32682,8 +33577,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 45.1,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -32697,8 +33597,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 2.0,
+      "possession": 76.5,
       "shots": 28.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 13.0,
+      "blocked": 11.0,
       "conceded": 0.0
      },
      "Nice": {
@@ -32707,8 +33612,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 7.0,
+      "possession": 23.5,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -32722,8 +33632,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 0.0,
+      "possession": 55.1,
       "shots": 10.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Paris FC": {
@@ -32732,8 +33647,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 44.9,
       "shots": 9.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 0.0
      }
     }
@@ -32747,8 +33667,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 49.1,
       "shots": 9.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Marseille": {
@@ -32757,8 +33682,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 50.9,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 0.0
      }
     }
@@ -32772,8 +33702,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 1.0,
+      "possession": 41.2,
       "shots": 13.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Strasbourg": {
@@ -32782,8 +33717,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 58.8,
       "shots": 20.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 8.0,
       "conceded": 4.0
      }
     }
@@ -32797,8 +33737,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 58.2,
       "shots": 9.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Lorient": {
@@ -32807,8 +33752,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 41.8,
       "shots": 12.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 3.0
      }
     }
@@ -32822,8 +33772,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 1.0,
+      "possession": 54.0,
       "shots": 15.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Angers": {
@@ -32832,8 +33787,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 46.0,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -32847,8 +33807,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 5.0,
+      "possession": 52.2,
       "shots": 16.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 6.0,
       "conceded": 2.0
      },
      "Metz": {
@@ -32857,8 +33822,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 47.8,
       "shots": 14.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 0.0,
       "conceded": 0.0
      }
     }
@@ -32872,8 +33842,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 3.0,
+      "possession": 45.6,
       "shots": 18.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 7.0,
       "conceded": 0.0
      },
      "Le Havre AC": {
@@ -32882,8 +33857,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 54.4,
       "shots": 9.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -32897,8 +33877,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 2.0,
+      "possession": 49.8,
       "shots": 13.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Lyon": {
@@ -32907,8 +33892,13 @@
       "reds": 1.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 50.2,
       "shots": 4.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -32922,8 +33912,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 52.4,
       "shots": 20.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 7.0,
       "conceded": 1.0
      },
      "Stade Rennais": {
@@ -32932,8 +33927,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 4.0,
+      "possession": 47.6,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -32947,8 +33947,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 63.7,
       "shots": 19.0,
       "sot": 7.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Brest": {
@@ -32957,8 +33962,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 36.3,
       "shots": 4.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 0.0,
       "conceded": 3.0
      }
     }
@@ -32972,8 +33982,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 64.8,
       "shots": 17.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 13.0,
+      "blocked": 6.0,
       "conceded": 1.0
      },
      "Nantes": {
@@ -32982,8 +33997,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 35.2,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -32997,8 +34017,13 @@
       "reds": 1.0,
       "corners": 5.0,
       "saves": 7.0,
+      "possession": 50.3,
       "shots": 16.0,
       "sot": 6.0,
+      "pk_goals": 1.0,
+      "pk_shots": 2.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 4.0
      },
      "Lens": {
@@ -33007,8 +34032,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 5.0,
+      "possession": 49.7,
       "shots": 20.0,
       "sot": 12.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }
@@ -33022,8 +34052,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 1.0,
+      "possession": 49.5,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Toulouse": {
@@ -33032,8 +34067,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 50.5,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 0.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -33047,8 +34087,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 49.0,
       "shots": 9.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "AJ Auxerre": {
@@ -33057,8 +34102,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 51.0,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -33072,8 +34122,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 49.4,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Nice": {
@@ -33082,8 +34137,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 0.0,
+      "possession": 50.6,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -33097,8 +34157,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 42.4,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Lille": {
@@ -33107,8 +34172,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 57.6,
       "shots": 6.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 2.0
      }
     }
@@ -33122,8 +34192,13 @@
       "reds": 1.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 27.8,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 3.0
      },
      "Paris Saint-Germain": {
@@ -33132,8 +34207,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 0.0,
+      "possession": 72.2,
       "shots": 9.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -33147,8 +34227,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 6.0,
+      "possession": 52.8,
       "shots": 15.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 5.0,
       "conceded": 5.0
      },
      "Marseille": {
@@ -33157,8 +34242,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 6.0,
+      "possession": 47.2,
       "shots": 13.0,
       "sot": 11.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -33172,8 +34262,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 54.7,
       "shots": 13.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Strasbourg": {
@@ -33182,8 +34277,13 @@
       "reds": 1.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 45.3,
       "shots": 7.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -33197,8 +34297,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 50.3,
       "shots": 17.0,
       "sot": 9.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "AS Monaco": {
@@ -33207,8 +34312,13 @@
       "reds": 1.0,
       "corners": 6.0,
       "saves": 4.0,
+      "possession": 49.7,
       "shots": 13.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 8.0,
       "conceded": 4.0
      }
     }
@@ -33222,8 +34332,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 65.2,
       "shots": 31.0,
       "sot": 11.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 7.0,
       "conceded": 0.0
      },
      "Le Havre AC": {
@@ -33232,8 +34347,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 8.0,
+      "possession": 34.8,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 3.0
      }
     }
@@ -33247,8 +34367,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 7.0,
+      "possession": 30.2,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Lyon": {
@@ -33257,8 +34382,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 5.0,
+      "possession": 69.8,
       "shots": 16.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 4.0,
       "conceded": 0.0
      }
     }
@@ -33272,8 +34402,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 56.3,
       "shots": 20.0,
       "sot": 7.0,
+      "pk_goals": 1.0,
+      "pk_shots": 2.0,
+      "crosses_acc": 8.0,
+      "blocked": 2.0,
       "conceded": 2.0
      },
      "Metz": {
@@ -33282,8 +34417,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 43.7,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -33297,8 +34437,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 1.0,
+      "possession": 55.8,
       "shots": 9.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Lorient": {
@@ -33307,8 +34452,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 0.0,
+      "possession": 44.2,
       "shots": 7.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -33322,8 +34472,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 1.0,
+      "possession": 53.7,
       "shots": 25.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 11.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Angers": {
@@ -33332,8 +34487,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 6.0,
+      "possession": 46.3,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -33347,8 +34507,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 1.0,
+      "possession": 51.9,
       "shots": 17.0,
       "sot": 10.0,
+      "pk_goals": 2.0,
+      "pk_shots": 2.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 2.0
      },
      "Paris FC": {
@@ -33357,8 +34522,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 7.0,
+      "possession": 48.1,
       "shots": 6.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 4.0
      }
     }
@@ -33372,8 +34542,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 1.0,
+      "possession": 51.5,
       "shots": 16.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "Stade Rennais": {
@@ -33382,8 +34557,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 48.5,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 0.0
      }
     }
@@ -33397,8 +34577,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 43.2,
       "shots": 10.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Paris Saint-Germain": {
@@ -33407,8 +34592,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 56.8,
       "shots": 17.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -33422,8 +34612,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 54.5,
       "shots": 11.0,
       "sot": 2.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "AJ Auxerre": {
@@ -33432,8 +34627,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 45.5,
       "shots": 11.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -33447,8 +34647,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 2.0,
+      "possession": 76.7,
       "shots": 20.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 7.0,
       "conceded": 2.0
      },
      "Toulouse": {
@@ -33457,8 +34662,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 23.3,
       "shots": 6.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -33472,8 +34682,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 57.1,
       "shots": 14.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 1.0,
       "conceded": 2.0
      },
      "Brest": {
@@ -33482,8 +34697,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 5.0,
+      "possession": 42.9,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 0.0,
+      "blocked": 0.0,
       "conceded": 1.0
      }
     }
@@ -33497,8 +34717,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 44.7,
       "shots": 7.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 2.0
      },
      "Lens": {
@@ -33507,8 +34732,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 4.0,
+      "possession": 55.3,
       "shots": 17.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -33522,8 +34752,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 1.0,
+      "possession": 42.6,
       "shots": 14.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Lille": {
@@ -33532,8 +34767,13 @@
       "reds": 1.0,
       "corners": 2.0,
       "saves": 7.0,
+      "possession": 57.4,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -33547,8 +34787,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 43.1,
       "shots": 18.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Nice": {
@@ -33557,8 +34802,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 4.0,
+      "possession": 56.9,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 3.0
      }
     }
@@ -33572,8 +34822,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 71.8,
       "shots": 20.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Nantes": {
@@ -33582,8 +34837,13 @@
       "reds": 1.0,
       "corners": 0.0,
       "saves": 4.0,
+      "possession": 28.2,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 0.0,
       "conceded": 3.0
      }
     }
@@ -33597,8 +34857,13 @@
       "reds": 1.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 40.1,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "AS Monaco": {
@@ -33607,8 +34872,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 59.9,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -33622,8 +34892,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 42.1,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Marseille": {
@@ -33632,8 +34907,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 57.9,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -33647,8 +34927,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 34.2,
       "shots": 10.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 0.0,
+      "blocked": 2.0,
       "conceded": 2.0
      },
      "Lens": {
@@ -33657,8 +34942,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 3.0,
+      "possession": 65.8,
       "shots": 20.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 6.0,
       "conceded": 1.0
      }
     }
@@ -33672,8 +34962,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 0.0,
+      "possession": 27.9,
       "shots": 6.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Strasbourg": {
@@ -33682,8 +34977,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 72.1,
       "shots": 3.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -33697,8 +34997,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 66.4,
       "shots": 20.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Stade Rennais": {
@@ -33707,8 +35012,13 @@
       "reds": 1.0,
       "corners": 6.0,
       "saves": 4.0,
+      "possession": 33.6,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 5.0
      }
     }
@@ -33722,8 +35032,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 49.5,
       "shots": 13.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Angers": {
@@ -33732,8 +35047,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 3.0,
+      "possession": 50.5,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -33747,8 +35067,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 38.7,
       "shots": 14.0,
       "sot": 7.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Metz": {
@@ -33757,8 +35082,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 61.3,
       "shots": 5.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 0.0,
       "conceded": 3.0
      }
     }
@@ -33772,8 +35102,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 44.4,
       "shots": 13.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Paris FC": {
@@ -33782,8 +35117,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 55.6,
       "shots": 13.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -33797,8 +35137,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 39.9,
       "shots": 14.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Lyon": {
@@ -33807,8 +35152,13 @@
       "reds": 1.0,
       "corners": 7.0,
       "saves": 5.0,
+      "possession": 60.1,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -33822,8 +35172,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 54.4,
       "shots": 20.0,
       "sot": 9.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "Nantes": {
@@ -33832,8 +35187,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 45.6,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 4.0
      }
     }
@@ -33847,8 +35207,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 6.0,
+      "possession": 61.0,
       "shots": 9.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Brest": {
@@ -33857,8 +35222,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 39.0,
       "shots": 14.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 3.0
      }
     }
@@ -33872,8 +35242,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 6.0,
+      "possession": 41.0,
       "shots": 9.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 3.0
      },
      "Paris Saint-Germain": {
@@ -33882,8 +35257,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 59.0,
       "shots": 14.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -33897,8 +35277,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 65.3,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 3.0,
       "conceded": 3.0
      },
      "Toulouse": {
@@ -33907,8 +35292,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 34.7,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 0.0
      }
     }
@@ -33922,8 +35312,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 57.4,
       "shots": 18.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 6.0,
       "conceded": 0.0
      },
      "Le Havre AC": {
@@ -33932,8 +35327,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 42.6,
       "shots": 10.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 1.0
      }
     }
@@ -33947,8 +35347,13 @@
       "reds": 2.0,
       "corners": 10.0,
       "saves": 1.0,
+      "possession": 45.0,
       "shots": 18.0,
       "sot": 8.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 5.0,
       "conceded": 4.0
      },
      "Lille": {
@@ -33957,8 +35362,13 @@
       "reds": 2.0,
       "corners": 3.0,
       "saves": 6.0,
+      "possession": 55.0,
       "shots": 8.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 3.0
      }
     }
@@ -33972,8 +35382,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 45.7,
       "shots": 15.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Nice": {
@@ -33982,8 +35397,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 54.3,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -33997,8 +35417,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 2.0,
+      "possession": 62.5,
       "shots": 12.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 11.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Lorient": {
@@ -34007,8 +35432,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 37.5,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 0.0
      }
     }
@@ -34022,8 +35452,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 57.8,
       "shots": 18.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "AS Monaco": {
@@ -34032,8 +35467,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 6.0,
+      "possession": 42.2,
       "shots": 18.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 7.0,
       "conceded": 1.0
      }
     }
@@ -34047,8 +35487,13 @@
       "reds": 1.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 32.1,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 3.0
      },
      "Lens": {
@@ -34057,8 +35502,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 67.9,
       "shots": 16.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -34072,8 +35522,13 @@
       "reds": 1.0,
       "corners": 7.0,
       "saves": 6.0,
+      "possession": 44.5,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 3.0
      },
      "Lyon": {
@@ -34082,8 +35537,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 55.5,
       "shots": 13.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -34097,8 +35557,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 45.3,
       "shots": 19.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Strasbourg": {
@@ -34107,8 +35572,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 5.0,
+      "possession": 54.7,
       "shots": 8.0,
       "sot": 5.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -34122,8 +35592,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 38.5,
       "shots": 13.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 5.0,
       "conceded": 2.0
      },
      "Stade Rennais": {
@@ -34132,8 +35607,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 61.5,
       "shots": 18.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 5.0,
       "conceded": 0.0
      }
     }
@@ -34147,8 +35627,13 @@
       "reds": 2.0,
       "corners": 6.0,
       "saves": 7.0,
+      "possession": 55.6,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 2.0
      },
      "Nantes": {
@@ -34157,8 +35642,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 44.4,
       "shots": 15.0,
       "sot": 9.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 0.0
      }
     }
@@ -34172,8 +35662,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 49.7,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "AJ Auxerre": {
@@ -34182,8 +35677,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 50.3,
       "shots": 10.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 2.0
      }
     }
@@ -34197,8 +35697,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 49.7,
       "shots": 11.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Angers": {
@@ -34207,8 +35712,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 50.3,
       "shots": 9.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -34222,8 +35732,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 42.7,
       "shots": 16.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Metz": {
@@ -34232,8 +35747,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 57.3,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -34247,8 +35767,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 69.9,
       "shots": 20.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Paris FC": {
@@ -34257,8 +35782,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 30.1,
       "shots": 6.0,
       "sot": 3.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 1.0,
+      "blocked": 0.0,
       "conceded": 2.0
      }
     }
@@ -34272,8 +35802,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 61.5,
       "shots": 14.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Lorient": {
@@ -34282,8 +35817,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 6.0,
+      "possession": 38.5,
       "shots": 14.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -34297,8 +35837,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 61.3,
       "shots": 13.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Lille": {
@@ -34307,8 +35852,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 38.7,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -34322,8 +35872,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 0.0,
+      "possession": 48.3,
       "shots": 19.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "AJ Auxerre": {
@@ -34332,8 +35887,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 6.0,
+      "possession": 51.7,
       "shots": 5.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -34347,8 +35907,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 5.0,
+      "possession": 42.7,
       "shots": 22.0,
       "sot": 10.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "Nice": {
@@ -34357,8 +35922,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 4.0,
+      "possession": 57.3,
       "shots": 15.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 4.0,
       "conceded": 5.0
      }
     }
@@ -34372,8 +35942,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 6.0,
+      "possession": 33.9,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 5.0
      },
      "Marseille": {
@@ -34382,8 +35957,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 66.1,
       "shots": 23.0,
       "sot": 11.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 2.0
      }
     }
@@ -34397,8 +35977,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 47.4,
       "shots": 14.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "Metz": {
@@ -34407,8 +35992,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 5.0,
+      "possession": 52.6,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 1.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -34422,8 +36012,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 1.0,
+      "possession": 48.0,
       "shots": 5.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
       "conceded": 2.0
      },
      "Paris FC": {
@@ -34432,8 +36027,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 0.0,
+      "possession": 52.0,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }
@@ -34447,8 +36047,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 3.0,
+      "possession": 54.4,
       "shots": 19.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 7.0,
       "conceded": 1.0
      },
      "Le Havre AC": {
@@ -34457,8 +36062,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 6.0,
+      "possession": 45.6,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -34472,8 +36082,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 70.9,
       "shots": 19.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 8.0,
       "conceded": 1.0
      },
      "Brest": {
@@ -34482,8 +36097,13 @@
       "reds": 1.0,
       "corners": 0.0,
       "saves": 4.0,
+      "possession": 29.1,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 2.0
      }
     }
@@ -34497,8 +36117,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 7.0,
+      "possession": 30.7,
       "shots": 8.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Paris Saint-Germain": {
@@ -34507,8 +36132,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 0.0,
+      "possession": 69.3,
       "shots": 16.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 0.0
      }
     }
@@ -34522,8 +36152,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 2.0,
+      "possession": 68.6,
       "shots": 22.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 7.0,
       "conceded": 2.0
      },
      "Lorient": {
@@ -34532,8 +36167,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 31.4,
       "shots": 6.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -34547,8 +36187,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 46.5,
       "shots": 7.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "AS Monaco": {
@@ -34557,8 +36202,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 0.0,
+      "possession": 53.5,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -34572,8 +36222,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 53.7,
       "shots": 10.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Lens": {
@@ -34582,8 +36237,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 46.3,
       "shots": 7.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 3.0
      }
     }
@@ -34597,8 +36257,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 55.8,
       "shots": 20.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 14.0,
+      "blocked": 4.0,
       "conceded": 4.0
      },
      "Nice": {
@@ -34607,8 +36272,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 5.0,
+      "possession": 44.2,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 0.0,
       "conceded": 1.0
      }
     }
@@ -34622,8 +36292,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 54.9,
       "shots": 13.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 2.0
      },
      "Toulouse": {
@@ -34632,8 +36307,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 45.1,
       "shots": 8.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -34647,8 +36327,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 5.0,
+      "possession": 53.1,
       "shots": 15.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 7.0,
       "conceded": 5.0
      },
      "Lyon": {
@@ -34657,8 +36342,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 46.9,
       "shots": 13.0,
       "sot": 10.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -34672,8 +36362,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 63.0,
       "shots": 8.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Angers": {
@@ -34682,8 +36377,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 1.0,
+      "possession": 37.0,
       "shots": 7.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -34697,8 +36397,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 46.7,
       "shots": 20.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 3.0,
       "conceded": 4.0
      },
      "Strasbourg": {
@@ -34707,8 +36412,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 5.0,
+      "possession": 53.3,
       "shots": 15.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -34722,8 +36432,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 53.7,
       "shots": 15.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Le Havre AC": {
@@ -34732,8 +36447,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 46.3,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -34747,8 +36467,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 51.5,
       "shots": 9.0,
       "sot": 4.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 2.0
      },
      "Marseille": {
@@ -34757,8 +36482,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 48.5,
       "shots": 18.0,
       "sot": 4.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 2.0
      }
     }
@@ -34772,8 +36502,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 1.0,
+      "possession": 57.0,
       "shots": 5.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 1.0
      },
      "Nantes": {
@@ -34782,8 +36517,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 43.0,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -34797,8 +36537,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 46.1,
       "shots": 14.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Stade Rennais": {
@@ -34807,8 +36552,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 53.9,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 4.0
      }
     }
@@ -34822,8 +36572,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 42.0,
       "shots": 3.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Lille": {
@@ -34832,8 +36587,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 58.0,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -34847,8 +36607,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 66.8,
       "shots": 17.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Metz": {
@@ -34857,8 +36622,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 6.0,
+      "possession": 33.2,
       "shots": 5.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -34872,8 +36642,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 0.0,
+      "possession": 60.0,
       "shots": 15.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 6.0,
       "conceded": 2.0
      },
      "Brest": {
@@ -34882,8 +36657,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 5.0,
+      "possession": 40.0,
       "shots": 12.0,
       "sot": 2.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 2.0
      }
     }
@@ -34897,8 +36677,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 49.7,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "AJ Auxerre": {
@@ -34907,8 +36692,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 50.3,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -34922,8 +36712,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 31.9,
       "shots": 9.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 6.0,
+      "blocked": 3.0,
       "conceded": 2.0
      },
      "Paris Saint-Germain": {
@@ -34932,8 +36727,13 @@
       "reds": 1.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 68.1,
       "shots": 13.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }
@@ -34947,8 +36747,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 42.0,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Lille": {
@@ -34957,8 +36762,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 58.0,
       "shots": 16.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 6.0,
       "conceded": 0.0
      }
     }
@@ -34972,8 +36782,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 51.4,
       "shots": 9.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Stade Rennais": {
@@ -34982,8 +36797,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 48.6,
       "shots": 14.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 5.0,
       "conceded": 3.0
      }
     }
@@ -34997,8 +36817,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 41.5,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Lorient": {
@@ -35007,8 +36832,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 58.5,
       "shots": 13.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 2.0
      }
     }
@@ -35022,8 +36852,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 53.8,
       "shots": 13.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Lyon": {
@@ -35032,8 +36867,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 46.2,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -35047,8 +36887,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 44.0,
       "shots": 13.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "AS Monaco": {
@@ -35057,8 +36902,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 56.0,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -35072,8 +36922,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 4.0,
+      "possession": 48.6,
       "shots": 12.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Paris FC": {
@@ -35082,8 +36937,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 51.4,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 0.0,
       "conceded": 0.0
      }
     }
@@ -35097,8 +36957,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 51.3,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Toulouse": {
@@ -35107,8 +36972,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 3.0,
+      "possession": 48.7,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -35122,8 +36992,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 2.0,
+      "possession": 50.8,
       "shots": 15.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Strasbourg": {
@@ -35132,8 +37007,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 49.2,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 6.0,
       "conceded": 2.0
      }
     }
@@ -35147,8 +37027,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 3.0,
+      "possession": 58.2,
       "shots": 22.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Marseille": {
@@ -35157,8 +37042,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 41.8,
       "shots": 9.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
       "conceded": 5.0
      }
     }
@@ -35172,8 +37062,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 6.0,
+      "possession": 32.6,
       "shots": 13.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "Paris Saint-Germain": {
@@ -35182,8 +37077,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 67.4,
       "shots": 22.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 8.0,
       "conceded": 3.0
      }
     }
@@ -35197,8 +37097,13 @@
       "reds": 1.0,
       "corners": 9.0,
       "saves": 1.0,
+      "possession": 46.7,
       "shots": 12.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Nantes": {
@@ -35207,8 +37112,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 53.3,
       "shots": 13.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 6.0,
       "conceded": 3.0
      }
     }
@@ -35222,8 +37132,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 43.6,
       "shots": 10.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 2.0
      },
      "Strasbourg": {
@@ -35232,8 +37147,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 56.4,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 6.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -35247,8 +37167,13 @@
       "reds": 0.0,
       "corners": 13.0,
       "saves": 3.0,
+      "possession": 69.4,
       "shots": 20.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 8.0,
       "conceded": 1.0
      },
      "Brest": {
@@ -35257,8 +37182,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 30.6,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -35272,8 +37202,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 57.9,
       "shots": 11.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 5.0
      },
      "Lens": {
@@ -35282,8 +37217,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 6.0,
+      "possession": 42.1,
       "shots": 17.0,
       "sot": 6.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 6.0,
+      "blocked": 6.0,
       "conceded": 0.0
      }
     }
@@ -35297,8 +37237,13 @@
       "reds": 1.0,
       "corners": 1.0,
       "saves": 8.0,
+      "possession": 32.6,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Toulouse": {
@@ -35307,8 +37252,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 1.0,
+      "possession": 67.4,
       "shots": 25.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 10.0,
+      "blocked": 9.0,
       "conceded": 2.0
      }
     }
@@ -35322,8 +37272,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 58.6,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Angers": {
@@ -35332,8 +37287,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 0.0,
+      "possession": 41.4,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 2.0
      }
     }
@@ -35347,8 +37307,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 62.0,
       "shots": 13.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 4.0,
       "conceded": 3.0
      },
      "AJ Auxerre": {
@@ -35357,8 +37322,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 38.0,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }
@@ -35372,8 +37342,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 3.0,
+      "possession": 57.1,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Nice": {
@@ -35382,8 +37357,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 0.0,
+      "possession": 42.9,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -35397,8 +37377,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 32.0,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Marseille": {
@@ -35407,8 +37392,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 68.0,
       "shots": 17.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 8.0,
+      "blocked": 4.0,
       "conceded": 2.0
      }
     }
@@ -35422,8 +37412,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 52.1,
       "shots": 18.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 5.0,
       "conceded": 3.0
      },
      "AS Monaco": {
@@ -35432,8 +37427,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 5.0,
+      "possession": 47.9,
       "shots": 10.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -35447,8 +37447,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 1.0,
+      "possession": 55.3,
       "shots": 23.0,
       "sot": 10.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 8.0,
       "conceded": 1.0
      },
      "Paris FC": {
@@ -35457,8 +37462,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 9.0,
+      "possession": 44.7,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -35472,8 +37482,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 0.0,
+      "possession": 67.1,
       "shots": 17.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Metz": {
@@ -35482,8 +37497,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 32.9,
       "shots": 3.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -35497,8 +37517,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 43.1,
       "shots": 11.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Stade Rennais": {
@@ -35507,8 +37532,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 56.9,
       "shots": 12.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -35522,8 +37552,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 45.4,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 0.0,
       "conceded": 1.0
      },
      "Lille": {
@@ -35532,8 +37567,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 54.6,
       "shots": 14.0,
       "sot": 5.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -35547,8 +37587,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 28.6,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 6.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Le Havre AC": {
@@ -35557,8 +37602,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 1.0,
+      "possession": 71.4,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -35572,8 +37622,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 39.4,
       "shots": 8.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Lorient": {
@@ -35582,8 +37637,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 0.0,
+      "possession": 60.6,
       "shots": 17.0,
       "sot": 5.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 3.0,
       "conceded": 3.0
      }
     }
@@ -35597,8 +37657,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 49.6,
       "shots": 13.0,
       "sot": 7.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Lyon": {
@@ -35607,8 +37672,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 50.4,
       "shots": 4.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -35622,8 +37692,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 55.4,
       "shots": 8.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Lens": {
@@ -35632,8 +37707,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 4.0,
+      "possession": 44.6,
       "shots": 25.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -35647,8 +37727,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 65.1,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Toulouse": {
@@ -35657,8 +37742,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 1.0,
+      "possession": 34.9,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -35672,8 +37762,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 71.7,
       "shots": 10.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Angers": {
@@ -35682,8 +37777,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 28.3,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -35697,8 +37797,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 7.0,
+      "possession": 32.3,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Paris Saint-Germain": {
@@ -35707,8 +37812,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 67.7,
       "shots": 22.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 5.0,
       "conceded": 0.0
      }
     }
@@ -35722,8 +37832,13 @@
       "reds": 1.0,
       "corners": 8.0,
       "saves": 3.0,
+      "possession": 39.8,
       "shots": 16.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Nice": {
@@ -35732,8 +37847,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 5.0,
+      "possession": 60.2,
       "shots": 11.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 1.0
      }
     }
@@ -35747,8 +37867,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 72.7,
       "shots": 9.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Nantes": {
@@ -35757,8 +37882,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 27.3,
       "shots": 3.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -35772,8 +37902,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 50.4,
       "shots": 15.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 5.0,
       "conceded": 2.0
      },
      "AJ Auxerre": {
@@ -35782,8 +37917,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 49.6,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -35797,8 +37937,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 0.0,
+      "possession": 65.5,
       "shots": 24.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 9.0,
       "conceded": 1.0
      },
      "Brest": {
@@ -35807,8 +37952,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 6.0,
+      "possession": 34.5,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -35822,8 +37972,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 4.0,
+      "possession": 51.9,
       "shots": 18.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 6.0,
       "conceded": 2.0
      },
      "Lyon": {
@@ -35832,8 +37987,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 48.1,
       "shots": 12.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -35847,8 +38007,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 72.1,
       "shots": 20.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 3.0
      },
      "AS Monaco": {
@@ -35857,8 +38022,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 27.9,
       "shots": 11.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -35872,8 +38042,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 48.5,
       "shots": 13.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Angers": {
@@ -35882,8 +38057,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 51.5,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -35897,8 +38077,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 5.0,
+      "possession": 27.5,
       "shots": 10.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Strasbourg": {
@@ -35907,8 +38092,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 72.5,
       "shots": 13.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -35922,8 +38112,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 49.2,
       "shots": 12.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Marseille": {
@@ -35932,8 +38127,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 50.8,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -35947,8 +38147,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 0.0,
+      "possession": 51.6,
       "shots": 24.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 12.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Metz": {
@@ -35957,8 +38162,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 48.4,
       "shots": 5.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 3.0
      }
     }
@@ -35972,8 +38182,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 0.0,
+      "possession": 40.7,
       "shots": 11.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Le Havre AC": {
@@ -35982,8 +38197,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 0.0,
+      "possession": 59.3,
       "shots": 14.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -35997,8 +38217,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 3.0,
+      "possession": 57.8,
       "shots": 12.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Lorient": {
@@ -36007,8 +38232,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 1.0,
+      "possession": 42.2,
       "shots": 9.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -36022,8 +38252,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 40.2,
       "shots": 14.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 6.0,
       "conceded": 4.0
      },
      "Stade Rennais": {
@@ -36032,8 +38267,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 3.0,
+      "possession": 59.8,
       "shots": 12.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 0.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -36047,8 +38287,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 3.0,
+      "possession": 61.9,
       "shots": 14.0,
       "sot": 4.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Paris FC": {
@@ -36057,8 +38302,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 38.1,
       "shots": 14.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -36072,8 +38322,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 3.0,
+      "possession": 57.9,
       "shots": 16.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 6.0,
       "conceded": 0.0
      },
      "AJ Auxerre": {
@@ -36082,8 +38337,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 2.0,
+      "possession": 42.1,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -36097,8 +38357,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 5.0,
+      "possession": 33.9,
       "shots": 6.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Lens": {
@@ -36107,8 +38372,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 1.0,
+      "possession": 66.1,
       "shots": 20.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 15.0,
+      "blocked": 4.0,
       "conceded": 2.0
      }
     }
@@ -36122,8 +38392,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 6.0,
+      "possession": 46.5,
       "shots": 10.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 2.0
      },
      "Nice": {
@@ -36132,8 +38407,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 0.0,
+      "possession": 53.5,
       "shots": 12.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -36147,8 +38427,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 55.8,
       "shots": 10.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Brest": {
@@ -36157,8 +38442,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 44.2,
       "shots": 13.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -36172,8 +38462,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 2.0,
+      "possession": 60.5,
       "shots": 12.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 7.0,
       "conceded": 0.0
      },
      "Paris FC": {
@@ -36182,8 +38477,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 39.5,
       "shots": 11.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -36197,8 +38497,13 @@
       "reds": 1.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 34.5,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Lyon": {
@@ -36207,8 +38512,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 65.5,
       "shots": 13.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -36222,8 +38532,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 50.3,
       "shots": 17.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 4.0
      },
      "Toulouse": {
@@ -36232,8 +38547,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 5.0,
+      "possession": 49.7,
       "shots": 19.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 7.0,
       "conceded": 3.0
      }
     }
@@ -36247,8 +38567,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 59.4,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 2.0
      },
      "Lille": {
@@ -36257,8 +38582,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 40.6,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -36272,8 +38602,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 4.0,
+      "possession": 57.2,
       "shots": 26.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 10.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "Angers": {
@@ -36282,8 +38617,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 42.8,
       "shots": 16.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 5.0,
       "conceded": 5.0
      }
     }
@@ -36297,8 +38637,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 41.6,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Lorient": {
@@ -36307,8 +38652,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 58.4,
       "shots": 7.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -36322,8 +38672,13 @@
       "reds": 1.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 44.2,
       "shots": 11.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 0.0
      },
      "Brest": {
@@ -36332,8 +38687,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 55.8,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 3.0
      }
     }
@@ -36347,8 +38707,13 @@
       "reds": 1.0,
       "corners": 2.0,
       "saves": 5.0,
+      "possession": 25.8,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 4.0
      },
      "Paris Saint-Germain": {
@@ -36357,8 +38722,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 74.2,
       "shots": 17.0,
       "sot": 10.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -36372,8 +38742,13 @@
       "reds": 1.0,
       "corners": 2.0,
       "saves": 6.0,
+      "possession": 56.5,
       "shots": 15.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 7.0,
       "conceded": 2.0
      },
      "AS Monaco": {
@@ -36382,8 +38757,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 43.5,
       "shots": 21.0,
       "sot": 7.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 8.0,
       "conceded": 1.0
      }
     }
@@ -36397,8 +38777,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 55.0,
       "shots": 14.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 5.0,
       "conceded": 2.0
      },
      "Lille": {
@@ -36407,8 +38792,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 45.0,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -36422,8 +38812,13 @@
       "reds": 1.0,
       "corners": 9.0,
       "saves": 4.0,
+      "possession": 40.9,
       "shots": 15.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 2.0
      },
      "Le Havre AC": {
@@ -36432,8 +38827,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 59.1,
       "shots": 20.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 11.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -36447,8 +38847,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 67.8,
       "shots": 25.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 6.0,
       "conceded": 0.0
      },
      "Metz": {
@@ -36457,8 +38862,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 8.0,
+      "possession": 32.2,
       "shots": 7.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -36472,8 +38882,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 6.0,
+      "possession": 37.2,
       "shots": 13.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 3.0
      },
      "Strasbourg": {
@@ -36482,8 +38897,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 7.0,
+      "possession": 62.8,
       "shots": 13.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -36497,8 +38917,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 0.0,
+      "possession": 71.8,
       "shots": 17.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Toulouse": {
@@ -36507,8 +38932,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 28.2,
       "shots": 5.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 0.0,
       "conceded": 3.0
      }
     }
@@ -36522,8 +38952,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 59.3,
       "shots": 16.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Nice": {
@@ -36532,8 +38967,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 3.0,
+      "possession": 40.7,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
       "conceded": 3.0
      }
     }
@@ -36547,8 +38987,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 39.5,
       "shots": 10.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 4.0
      },
      "Stade Rennais": {
@@ -36557,8 +39002,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 60.5,
       "shots": 15.0,
       "sot": 7.0,
+      "pk_goals": 4.0,
+      "pk_shots": 2.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 3.0
      }
     }
@@ -36572,8 +39022,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 56.0,
       "shots": 13.0,
       "sot": 7.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Lens": {
@@ -36582,8 +39037,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 44.0,
       "shots": 5.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 0.0,
       "conceded": 3.0
      }
     }
@@ -36597,8 +39057,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 32.0,
       "shots": 7.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Lyon": {
@@ -36607,8 +39072,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 68.0,
       "shots": 11.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 0.0
      }
     }
@@ -36622,8 +39092,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 52.7,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "AJ Auxerre": {
@@ -36632,8 +39107,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 47.3,
       "shots": 12.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }
@@ -36647,8 +39127,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 49.2,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Paris FC": {
@@ -36657,8 +39142,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 50.8,
       "shots": 7.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 0.0,
       "conceded": 1.0
      }
     }
@@ -36672,8 +39162,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 66.4,
       "shots": 19.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 10.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Nantes": {
@@ -36682,8 +39177,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 5.0,
+      "possession": 33.6,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -36697,8 +39197,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 7.0,
+      "possession": 47.5,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Marseille": {
@@ -36707,8 +39212,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 52.5,
       "shots": 19.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 2.0
      }
     }
@@ -36722,8 +39232,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 4.0,
+      "possession": 34.3,
       "shots": 12.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "AS Monaco": {
@@ -36732,8 +39247,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 2.0,
+      "possession": 65.7,
       "shots": 19.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 8.0,
       "conceded": 4.0
      }
     }
@@ -36747,8 +39267,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 53.7,
       "shots": 18.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 0.0,
       "conceded": 1.0
      },
      "Metz": {
@@ -36757,8 +39282,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 6.0,
+      "possession": 46.3,
       "shots": 6.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -36772,8 +39302,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 53.6,
       "shots": 5.0,
       "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Nantes": {
@@ -36782,8 +39317,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 0.0,
+      "possession": 46.4,
       "shots": 13.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -36797,8 +39337,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 3.0,
+      "possession": 59.7,
       "shots": 15.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Angers": {
@@ -36807,8 +39352,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 6.0,
+      "possession": 40.3,
       "shots": 6.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -36822,8 +39372,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 45.7,
       "shots": 15.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 8.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Le Havre AC": {
@@ -36832,8 +39387,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 54.3,
       "shots": 11.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -36847,8 +39407,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 5.0,
+      "possession": 36.8,
       "shots": 9.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 5.0,
       "conceded": 4.0
      },
      "Lille": {
@@ -36857,8 +39422,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 1.0,
+      "possession": 63.2,
       "shots": 14.0,
       "sot": 8.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 0.0,
+      "blocked": 4.0,
       "conceded": 0.0
      }
     }
@@ -36872,8 +39442,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 6.0,
+      "possession": 52.6,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 0.0
      },
      "Lorient": {
@@ -36882,8 +39457,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 47.4,
       "shots": 12.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 0.0,
       "conceded": 2.0
      }
     }
@@ -36897,8 +39477,13 @@
       "reds": 0.0,
       "corners": 14.0,
       "saves": 0.0,
+      "possession": 77.9,
       "shots": 41.0,
       "sot": 13.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 19.0,
+      "blocked": 10.0,
       "conceded": 2.0
      },
      "Toulouse": {
@@ -36907,8 +39492,13 @@
       "reds": 1.0,
       "corners": 1.0,
       "saves": 10.0,
+      "possession": 22.1,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 2.0,
       "conceded": 3.0
      }
     }
@@ -36922,8 +39512,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 43.1,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 0.0
      },
      "Marseille": {
@@ -36932,8 +39527,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 56.9,
       "shots": 16.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 1.0,
       "conceded": 2.0
      }
     }
@@ -36947,8 +39547,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 7.0,
+      "possession": 44.3,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Le Havre AC": {
@@ -36957,8 +39562,13 @@
       "reds": 1.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 55.7,
       "shots": 16.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -36972,8 +39582,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 61.6,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Nice": {
@@ -36982,8 +39597,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 38.4,
       "shots": 5.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -36997,8 +39617,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 5.0,
+      "possession": 68.5,
       "shots": 15.0,
       "sot": 6.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 6.0,
       "conceded": 2.0
      },
      "AJ Auxerre": {
@@ -37007,8 +39632,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 31.5,
       "shots": 12.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -37022,8 +39652,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 4.0,
+      "possession": 51.0,
       "shots": 13.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 3.0
      },
      "Paris FC": {
@@ -37032,8 +39667,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 49.0,
       "shots": 15.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -37047,8 +39687,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 1.0,
+      "possession": 43.6,
       "shots": 17.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 9.0,
       "conceded": 1.0
      },
      "Brest": {
@@ -37057,8 +39702,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 3.0,
+      "possession": 56.4,
       "shots": 4.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 1.0
      }
     }
@@ -37072,8 +39722,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 5.0,
+      "possession": 54.6,
       "shots": 9.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Stade Rennais": {
@@ -37082,8 +39737,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 0.0,
+      "possession": 45.4,
       "shots": 26.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 7.0,
       "conceded": 0.0
      }
     }
@@ -37097,8 +39757,13 @@
       "reds": 0.0,
       "corners": 13.0,
       "saves": 3.0,
+      "possession": 76.5,
       "shots": 23.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 10.0,
+      "blocked": 7.0,
       "conceded": 2.0
      },
      "Lyon": {
@@ -37107,8 +39772,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 4.0,
+      "possession": 23.5,
       "shots": 6.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 1.0
      }
     }
@@ -37122,8 +39792,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 4.0,
+      "possession": 69.9,
       "shots": 14.0,
       "sot": 6.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Nantes": {
@@ -37132,8 +39807,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 3.0,
+      "possession": 30.1,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 3.0
      }
     }
@@ -37147,8 +39827,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 4.0,
+      "possession": 35.5,
       "shots": 6.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Lens": {
@@ -37157,8 +39842,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 0.0,
+      "possession": 64.5,
       "shots": 25.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 13.0,
+      "blocked": 5.0,
       "conceded": 3.0
      }
     }
@@ -37172,8 +39862,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 0.0,
+      "possession": 54.7,
       "shots": 12.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 1.0,
       "conceded": 2.0
      },
      "AJ Auxerre": {
@@ -37182,8 +39877,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 45.3,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 5.0,
       "conceded": 3.0
      }
     }
@@ -37197,8 +39897,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 6.0,
+      "possession": 29.1,
       "shots": 6.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Paris Saint-Germain": {
@@ -37207,8 +39912,13 @@
       "reds": 1.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 70.9,
       "shots": 17.0,
       "sot": 10.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -37222,8 +39932,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 3.0,
+      "possession": 50.9,
       "shots": 18.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 5.0,
       "conceded": 2.0
      },
      "AS Monaco": {
@@ -37232,8 +39947,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 49.1,
       "shots": 8.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 0.0,
       "conceded": 2.0
      }
     }
@@ -37247,8 +39967,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 3.0,
+      "possession": 38.6,
       "shots": 14.0,
       "sot": 6.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 8.0,
+      "blocked": 2.0,
       "conceded": 3.0
      },
      "Strasbourg": {
@@ -37257,8 +39982,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 4.0,
+      "possession": 61.4,
       "shots": 11.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -37272,8 +40002,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 1.0,
+      "possession": 47.0,
       "shots": 14.0,
       "sot": 5.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 7.0,
       "conceded": 4.0
      },
      "Metz": {
@@ -37282,8 +40017,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 1.0,
+      "possession": 53.0,
       "shots": 12.0,
       "sot": 5.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 2.0,
       "conceded": 4.0
      }
     }
@@ -37297,8 +40037,13 @@
       "reds": 1.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 46.9,
       "shots": 7.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 1.0
      },
      "Lille": {
@@ -37307,8 +40052,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 53.1,
       "shots": 10.0,
       "sot": 4.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 0.0
      }
     }
@@ -37322,8 +40072,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 6.0,
+      "possession": 62.9,
       "shots": 14.0,
       "sot": 5.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "Nantes": {
@@ -37332,8 +40087,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 3.0,
+      "possession": 37.1,
       "shots": 24.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 10.0,
       "conceded": 2.0
      }
     }
@@ -37347,8 +40107,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 68.4,
       "shots": 24.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 10.0,
+      "blocked": 6.0,
       "conceded": 1.0
      },
      "Nice": {
@@ -37357,8 +40122,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 5.0,
+      "possession": 31.6,
       "shots": 5.0,
       "sot": 2.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 4.0,
+      "blocked": 1.0,
       "conceded": 1.0
      }
     }
@@ -37372,8 +40142,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 8.0,
+      "possession": 42.1,
       "shots": 17.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 5.0,
       "conceded": 0.0
      },
      "Marseille": {
@@ -37382,8 +40157,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 2.0,
+      "possession": 57.9,
       "shots": 16.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 4.0,
       "conceded": 3.0
      }
     }
@@ -37397,8 +40177,13 @@
       "reds": 0.0,
       "corners": 12.0,
       "saves": 1.0,
+      "possession": 68.4,
       "shots": 24.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 8.0,
       "conceded": 2.0
      },
      "Lorient": {
@@ -37407,8 +40192,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 4.0,
+      "possession": 31.6,
       "shots": 5.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 2.0
      }
     }
@@ -37422,8 +40212,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 1.0,
+      "possession": 34.3,
       "shots": 13.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 10.0,
+      "blocked": 2.0,
       "conceded": 2.0
      },
      "AS Monaco": {
@@ -37432,8 +40227,13 @@
       "reds": 0.0,
       "corners": 9.0,
       "saves": 0.0,
+      "possession": 65.7,
       "shots": 15.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 5.0,
       "conceded": 1.0
      }
     }
@@ -37447,8 +40247,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 46.3,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 5.0,
       "conceded": 1.0
      },
      "Lens": {
@@ -37457,8 +40262,13 @@
       "reds": 1.0,
       "corners": 8.0,
       "saves": 1.0,
+      "possession": 53.7,
       "shots": 16.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 6.0,
       "conceded": 1.0
      }
     }
@@ -37472,8 +40282,13 @@
       "reds": 0.0,
       "corners": 14.0,
       "saves": 1.0,
+      "possession": 66.6,
       "shots": 22.0,
       "sot": 10.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 12.0,
+      "blocked": 6.0,
       "conceded": 1.0
      },
      "Le Havre AC": {
@@ -37482,8 +40297,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 9.0,
+      "possession": 33.4,
       "shots": 2.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 0.0,
       "conceded": 1.0
      }
     }
@@ -37497,8 +40317,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 55.7,
       "shots": 19.0,
       "sot": 10.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Angers": {
@@ -37507,8 +40332,13 @@
       "reds": 1.0,
       "corners": 6.0,
       "saves": 7.0,
+      "possession": 44.3,
       "shots": 9.0,
       "sot": 3.0,
+      "pk_goals": 2.0,
+      "pk_shots": 2.0,
+      "crosses_acc": 5.0,
+      "blocked": 1.0,
       "conceded": 3.0
      }
     }
@@ -37522,8 +40352,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 1.0,
+      "possession": 51.1,
       "shots": 17.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Brest": {
@@ -37532,8 +40367,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 48.9,
       "shots": 10.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 4.0
      }
     }
@@ -37547,8 +40387,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 4.0,
+      "possession": 53.7,
       "shots": 9.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 4.0,
       "conceded": 2.0
      },
      "Toulouse": {
@@ -37557,8 +40402,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 46.3,
       "shots": 16.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -37572,8 +40422,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 49.8,
       "shots": 16.0,
       "sot": 9.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 7.0,
+      "blocked": 4.0,
       "conceded": 2.0
      },
      "Stade Rennais": {
@@ -37582,8 +40437,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 5.0,
+      "possession": 50.2,
       "shots": 8.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 0.0,
       "conceded": 4.0
      }
     }
@@ -37597,8 +40457,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 3.0,
+      "possession": 63.5,
       "shots": 14.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 0.0
      },
      "Nantes": {
@@ -37607,8 +40472,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 4.0,
+      "possession": 36.5,
       "shots": 15.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 6.0,
       "conceded": 1.0
      }
     }
@@ -37622,8 +40492,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 2.0,
+      "possession": 52.2,
       "shots": 12.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Nice": {
@@ -37632,8 +40507,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 47.8,
       "shots": 10.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 2.0,
       "conceded": 2.0
      }
     }
@@ -37647,8 +40527,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 5.0,
+      "possession": 31.9,
       "shots": 11.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Strasbourg": {
@@ -37657,8 +40542,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 68.1,
       "shots": 15.0,
       "sot": 6.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -37672,8 +40562,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 54.8,
       "shots": 7.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Lille": {
@@ -37682,8 +40577,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 45.2,
       "shots": 7.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -37697,8 +40597,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 2.0,
+      "possession": 50.2,
       "shots": 10.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 0.0,
+      "blocked": 4.0,
       "conceded": 1.0
      },
      "Marseille": {
@@ -37707,8 +40612,13 @@
       "reds": 0.0,
       "corners": 0.0,
       "saves": 2.0,
+      "possession": 49.8,
       "shots": 8.0,
       "sot": 3.0,
+      "pk_goals": 2.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
       "conceded": 0.0
      }
     }
@@ -37722,8 +40632,13 @@
       "reds": 0.0,
       "corners": 7.0,
       "saves": 3.0,
+      "possession": 53.6,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
       "conceded": 4.0
      },
      "Lorient": {
@@ -37732,8 +40647,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 46.4,
       "shots": 14.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -37747,8 +40667,13 @@
       "reds": 0.0,
       "corners": 13.0,
       "saves": 2.0,
+      "possession": 67.1,
       "shots": 23.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 11.0,
       "conceded": 0.0
      },
      "Brest": {
@@ -37757,8 +40682,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 5.0,
+      "possession": 32.9,
       "shots": 3.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 1.0
      }
     }
@@ -37772,8 +40702,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 0.0,
+      "possession": 50.9,
       "shots": 13.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 1.0,
       "conceded": 1.0
      },
      "Paris FC": {
@@ -37782,8 +40717,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 49.1,
       "shots": 11.0,
       "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 2.0
      }
     }
@@ -37797,8 +40737,13 @@
       "reds": 1.0,
       "corners": 7.0,
       "saves": 2.0,
+      "possession": 38.7,
       "shots": 14.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Lyon": {
@@ -37807,8 +40752,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 4.0,
+      "possession": 61.3,
       "shots": 18.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 10.0,
+      "blocked": 8.0,
       "conceded": 2.0
      }
     }
@@ -37822,8 +40772,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 2.0,
+      "possession": 47.6,
       "shots": 21.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 10.0,
+      "blocked": 8.0,
       "conceded": 2.0
      },
      "Strasbourg": {
@@ -37832,8 +40787,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 5.0,
+      "possession": 52.4,
       "shots": 10.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
       "conceded": 1.0
      }
     }
@@ -37847,8 +40807,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 1.0,
+      "possession": 37.8,
       "shots": 25.0,
       "sot": 10.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 4.0,
       "conceded": 2.0
      },
      "Paris Saint-Germain": {
@@ -37857,8 +40822,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 8.0,
+      "possession": 62.2,
       "shots": 10.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
       "conceded": 0.0
      }
     }
@@ -37872,8 +40842,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 1.0,
+      "possession": 57.4,
       "shots": 18.0,
       "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 10.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Angers": {
@@ -37882,8 +40857,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 3.0,
+      "possession": 42.6,
       "shots": 8.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
       "conceded": 1.0
      }
     }
@@ -37897,8 +40877,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 2.0,
+      "possession": 72.7,
       "shots": 12.0,
       "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 4.0,
       "conceded": 2.0
      },
      "AJ Auxerre": {
@@ -37907,8 +40892,13 @@
       "reds": 0.0,
       "corners": 2.0,
       "saves": 3.0,
+      "possession": 27.3,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 0.0,
       "conceded": 0.0
      }
     }
@@ -37922,8 +40912,13 @@
       "reds": 0.0,
       "corners": 5.0,
       "saves": 3.0,
+      "possession": 59.7,
       "shots": 12.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 2.0,
+      "blocked": 5.0,
       "conceded": 2.0
      },
      "Le Havre AC": {
@@ -37932,8 +40927,13 @@
       "reds": 0.0,
       "corners": 1.0,
       "saves": 2.0,
+      "possession": 40.3,
       "shots": 7.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
       "conceded": 0.0
      }
     }
@@ -37947,8 +40947,13 @@
       "reds": 0.0,
       "corners": 20.0,
       "saves": 1.0,
+      "possession": 54.9,
       "shots": 16.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
       "conceded": 4.0
      },
      "Lens": {
@@ -37957,8 +40962,13 @@
       "reds": 0.0,
       "corners": 8.0,
       "saves": 4.0,
+      "possession": 45.1,
       "shots": 14.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 2.0,
       "conceded": 0.0
      }
     }
@@ -37972,8 +40982,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 45.3,
       "shots": 27.0,
       "sot": 11.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 7.0,
       "conceded": 1.0
      },
      "Stade Rennais": {
@@ -37982,8 +40997,13 @@
       "reds": 0.0,
       "corners": 11.0,
       "saves": 8.0,
+      "possession": 54.7,
       "shots": 27.0,
       "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 7.0,
       "conceded": 3.0
      }
     }
@@ -37997,8 +41017,13 @@
       "reds": 0.0,
       "corners": 10.0,
       "saves": 4.0,
+      "possession": 49.3,
       "shots": 22.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 11.0,
+      "blocked": 7.0,
       "conceded": 0.0
      },
      "Metz": {
@@ -38007,8 +41032,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 4.0,
+      "possession": 50.7,
       "shots": 16.0,
       "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 6.0,
       "conceded": 0.0
      }
     }
@@ -38022,8 +41052,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 1.0,
+      "possession": 37.1,
       "shots": 17.0,
       "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
       "conceded": 1.0
      },
      "Paris Saint-Germain": {
@@ -38032,8 +41067,13 @@
       "reds": 0.0,
       "corners": 3.0,
       "saves": 7.0,
+      "possession": 62.9,
       "shots": 9.0,
       "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
       "conceded": 2.0
      }
     }
@@ -38047,8 +41087,13 @@
       "reds": 0.0,
       "corners": 4.0,
       "saves": 6.0,
+      "possession": 40.1,
       "shots": 15.0,
       "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
       "conceded": 4.0
      },
      "AS Monaco": {
@@ -38057,8 +41102,13 @@
       "reds": 0.0,
       "corners": 6.0,
       "saves": 2.0,
+      "possession": 59.9,
       "shots": 21.0,
       "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 8.0,
       "conceded": 5.0
      }
     }

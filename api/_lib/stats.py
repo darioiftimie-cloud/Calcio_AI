@@ -9,7 +9,7 @@
 
 from datetime import date
 
-from . import config, elo, espn
+from . import calib, config, elo, espn
 
 
 def _team_row(league: dict, team_name: str) -> dict | None:
@@ -174,9 +174,14 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
     # il segnale offensivo/difensivo diventa un blend tra gol reali e qualità
     # dei tiri prodotti/concessi — meno rumore dei soli gol (pali, portieri
     # in serata, gol di rimbalzo non spostano più tutta la stima).
+    # Il proxy è riscalato sulla media reale dei gol della competizione
+    # (xg_scale): i coefficienti di letteratura da soli lasciano un bias.
+    cal = calib.league_calibration(league)
     xg_pg = xga_pg = None
     if treal and treal.get("xg_pg") is not None:
-        xg_pg, xga_pg = treal["xg_pg"], treal["xga_pg"]
+        scale = float(cal.get("xg_scale") or 1.0)
+        xg_pg = round(treal["xg_pg"] * scale, 2)
+        xga_pg = round(treal["xga_pg"] * scale, 2)
         b = config.XG_BLEND
         gf = (1.0 - b) * gf + b * xg_pg
         ga = (1.0 - b) * ga + b * xga_pg
@@ -253,6 +258,9 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
         "played": played or micro.get("games") or 0,
         "gf": gf, "ga": ga, "form": form,
         "elo": elo_rating,
+        # calibrazione di lega (α dispersione NB, ρ Dixon-Coles, L di lega,
+        # scala xG), uguale per entrambe: il motore la legge dal profilo di casa
+        "calib": cal,
         "xg_pg": xg_pg, "xga_pg": xga_pg,
         "rest_days": rest_days,
         "shots_pg": micro.get("shots_pg", B["shots"]),

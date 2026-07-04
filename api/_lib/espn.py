@@ -43,6 +43,12 @@ _STAT_KEYS = {       # nome ESPN → nome interno
     "totalShots": "shots",
     "shotsOnTarget": "sot",
     "saves": "saves",
+    # campi estesi per l'xG proxy v2 (qualità del tiro e ingressi in area)
+    "blockedShots": "blocked",
+    "penaltyKickShots": "pk_shots",
+    "penaltyKickGoals": "pk_goals",
+    "accurateCrosses": "crosses_acc",
+    "possessionPct": "possession",
 }
 
 
@@ -197,11 +203,26 @@ def _team_events(league: dict, team_name: str) -> list[tuple[str, dict, dict]]:
 
 
 def _xg_proxy(st: dict) -> float:
-    """xG shot-based di una singola gara: conversioni medie per tiro in
-    porta e tiro fuori/bloccato (proxy; ESPN non pubblica xG)."""
+    """xG shot-based di una singola gara (proxy; ESPN non pubblica xG).
+
+    v2 (boxscore con campi estesi): i rigori valgono 0.76 ciascuno, i tiri
+    murati (conclusioni poco pericolose, spesso da fuori area) pesano meno
+    dei tiri fuori puliti, i cross riusciti entrano come proxy dei tocchi
+    in area avversaria. Per i boxscore vecchi in cache (senza i campi
+    estesi) resta la formula v1."""
     sot = float(st.get("sot") or 0.0)
-    off = max(float(st.get("shots") or 0.0) - sot, 0.0)
-    return config.XG_PER_SOT * sot + config.XG_PER_OFF * off
+    shots = float(st.get("shots") or 0.0)
+    if "blocked" not in st:      # boxscore v1 in cache
+        return config.XG_PER_SOT * sot + config.XG_PER_OFF * max(shots - sot, 0.0)
+    pens = float(st.get("pk_shots") or 0.0)
+    blocked = float(st.get("blocked") or 0.0)
+    crosses = float(st.get("crosses_acc") or 0.0)
+    off_clean = max(shots - sot - blocked, 0.0)
+    return (config.XG_PER_PEN * pens
+            + config.XG_PER_SOT * max(sot - pens, 0.0)
+            + config.XG_PER_OFF_CLEAN * off_clean
+            + config.XG_PER_BLOCKED * blocked
+            + config.XG_PER_CROSS_ACC * crosses)
 
 
 def _micro_from_rows(rows: list[tuple[str, dict, dict]]) -> dict | None:
