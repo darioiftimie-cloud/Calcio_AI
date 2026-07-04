@@ -156,6 +156,58 @@ def _aggregate(events: dict[str, dict], lo: str, hi: str) -> dict[str, dict]:
     return acc
 
 
+def _micro_from_acc(a: dict) -> dict:
+    """Medie per gara dal dict accumulato da _aggregate."""
+    n = a["played"]
+    sv, gc = a["saves"], a["conceded"]
+    return {
+        "played": n,
+        "shots_pg": round(a["shots"] / n, 2),
+        "sot_pg": round(a["sot"] / n, 2),
+        "corners_pg": round(a["corners"] / n, 2),
+        "fouls_pg": round(a["fouls"] / n, 2),
+        "yellow_pg": round(a["yellows"] / n, 2),
+        "red_pg": round(a["reds"] / n, 3),
+        "save_rate": round(sv / (sv + gc), 3) if (sv + gc) > 0 else None,
+        "saves_pg": round(sv / n, 2),
+        "source": "espn",
+    }
+
+
+def team_micro_before(league: dict, team_name: str,
+                      before_date: str | None) -> dict | None:
+    """Medie ESPN della squadra usando SOLO le gare precedenti a before_date.
+
+    Serve al backtest (out-of-sample): la media statica in team_micro copre
+    l'intero torneo e "conoscerebbe" anche le gare successive a quella
+    rigiocata. Con before_date=None equivale alla media completa."""
+    events = (league.get("espn") or {}).get("events")
+    if not events:
+        return None
+    cutoff = (before_date or "9999")[:10]
+    target = norm_team(team_name)
+    tt = set(target.split())
+    acc = None
+    for ev in events.values():
+        if (ev.get("date") or "") >= cutoff:
+            continue
+        for name, st in (ev.get("teams") or {}).items():
+            kn = norm_team(name)
+            if kn != target:
+                kt = set(kn.split())
+                if not (kt and tt and (kt <= tt or tt <= kt)):
+                    continue
+            if acc is None:
+                acc = {"played": 0, "fouls": 0.0, "yellows": 0.0, "reds": 0.0,
+                       "corners": 0.0, "shots": 0.0, "sot": 0.0,
+                       "saves": 0.0, "conceded": 0.0}
+            acc["played"] += 1
+            for k in ("fouls", "yellows", "reds", "corners",
+                      "shots", "sot", "saves", "conceded"):
+                acc[k] += float(st.get(k) or 0.0)
+    return _micro_from_acc(acc) if acc and acc["played"] else None
+
+
 def attach_tournament_micro(key: str, data: dict, old: dict | None = None,
                             max_new: int = 150) -> None:
     """Popola data["team_micro"] con le medie reali del torneo/stagione.
@@ -224,22 +276,9 @@ def attach_tournament_micro(key: str, data: dict, old: dict | None = None,
         if not hit:
             continue
         _, a = hit
-        n = a["played"]
-        if n < 1:
+        if a["played"] < 1:
             continue
-        sv, gc = a["saves"], a["conceded"]
-        micro[full] = {
-            "played": n,
-            "shots_pg": round(a["shots"] / n, 2),
-            "sot_pg": round(a["sot"] / n, 2),
-            "corners_pg": round(a["corners"] / n, 2),
-            "fouls_pg": round(a["fouls"] / n, 2),
-            "yellow_pg": round(a["yellows"] / n, 2),
-            "red_pg": round(a["reds"] / n, 3),
-            "save_rate": round(sv / (sv + gc), 3) if (sv + gc) > 0 else None,
-            "saves_pg": round(sv / n, 2),
-            "source": "espn",
-        }
+        micro[full] = _micro_from_acc(a)
     data["team_micro"] = micro
 
     tail = f" (restano {skipped}, prossimo giro)" if skipped else ""

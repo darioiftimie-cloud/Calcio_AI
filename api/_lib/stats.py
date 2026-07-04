@@ -7,7 +7,7 @@
   usano le medie di lega (config.BASELINE).
 """
 
-from . import config
+from . import config, espn
 
 
 def _team_row(league: dict, team_name: str) -> dict | None:
@@ -129,7 +129,12 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
     # accumulate dall'updater). Entrano con shrinkage n/(n+K): con 3 gare il
     # dato osservato pesa metà, a 10+ gare domina. Il prior è il profilo
     # FBref/Understat se c'è, altrimenti la baseline di lega.
-    treal = (league.get("team_micro") or {}).get(team_name)
+    # Con before_date (backtest) la media va ricalcolata sulle sole gare
+    # precedenti: quella statica coprirebbe anche il futuro (senno di poi).
+    if before_date:
+        treal = espn.team_micro_before(league, team_name, before_date)
+    else:
+        treal = (league.get("team_micro") or {}).get(team_name)
     if treal and treal.get("played"):
         n = treal["played"]
         w = n / (n + 3.0)
