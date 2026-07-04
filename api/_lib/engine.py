@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Motore Monte Carlo vettorizzato (NumPy) — 15.000 simulazioni < 100 ms.
+"""Motore Monte Carlo vettorizzato (NumPy) — 100 simulazioni < 100 ms.
 
 Catena stocastica per ogni iterazione:
   tempo di gara (Gamma, media 1)
@@ -162,7 +162,9 @@ def run_simulation(home: dict, away: dict, weather: dict,
     # divise in blocchi; ogni blocco pesca un moltiplicatore d'attacco da una
     # Gamma con varianza ∝ 1/(gare giocate). Due effetti: code dei punteggi
     # più realistiche e intervalli di confidenza veri sugli esiti 1X2.
-    n_blocks = 20 if n >= 2000 else max(n // 100, 1)
+    # con pochi n servono comunque più blocchi, o l'intervallo di confidenza
+    # collassa a zero e il badge affidabilità mentirebbe ("alta" con 100 sim)
+    n_blocks = 20 if n >= 2000 else max(min(n // 10, 20), 1)
     per = n // n_blocks
     n = per * n_blocks
     k_h = 4.0 + 1.2 * (home.get("played") or 0)
