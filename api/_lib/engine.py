@@ -116,13 +116,26 @@ def run_simulation(home: dict, away: dict, weather: dict,
                         else (config.HOME_BOOST_LEAGUE, config.AWAY_MALUS_LEAGUE))
 
     # xG dal modello moltiplicativo attacco × difesa avversaria × campo,
-    # con shrinkage sulle medie osservate (campioni piccoli → più prudenza)
+    # con shrinkage sulle medie osservate (campioni piccoli → più prudenza).
+    # Le medie gf/ga arrivano già come blend gol reali + xG shot-based con
+    # time-decay (stats.py): qui si aggiunge il peso del Ranking ELO.
     gf_h = _shrink(home["gf"], home.get("played") or 0, L)
     ga_h = _shrink(home["ga"], home.get("played") or 0, L)
     gf_a = _shrink(away["gf"], away.get("played") or 0, L)
     ga_a = _shrink(away["ga"], away.get("played") or 0, L)
-    xg_h = np.clip(gf_h * ga_a / L * boost_h, 0.15, 3.6)
-    xg_a = np.clip(gf_a * ga_h / L * boost_a, 0.15, 3.6)
+
+    # Poisson ponderato ELO: il divario di rating (ricostruito dai risultati,
+    # senza vantaggio campo: quello è già in boost_h/a) modula gli xG con
+    # esponente ELO_ALPHA. A parità di medie, chi ha battuto avversarie più
+    # forti pesa di più. E = prob. attesa di vittoria dal divario ELO.
+    elo_f_h = elo_f_a = 1.0
+    if home.get("elo") and away.get("elo"):
+        exp_h = 1.0 / (1.0 + 10.0 ** (-(home["elo"] - away["elo"]) / 400.0))
+        elo_f_h = (max(exp_h, 0.02) / 0.5) ** config.ELO_ALPHA
+        elo_f_a = (max(1.0 - exp_h, 0.02) / 0.5) ** config.ELO_ALPHA
+
+    xg_h = np.clip(gf_h * ga_a / L * boost_h * elo_f_h, 0.15, 3.6)
+    xg_a = np.clip(gf_a * ga_h / L * boost_a * elo_f_a, 0.15, 3.6)
 
     precision = weather.get("precisione_tiri", 1.0)
     fouls_mult = weather.get("moltiplicatore_falli", 1.0)
@@ -173,16 +186,26 @@ def run_simulation(home: dict, away: dict, weather: dict,
     shots_h = sot_h + rng.poisson(off_target_h * tempo)
     shots_a = sot_a + rng.poisson(off_target_a * tempo)
 
-    # corner accoppiati alla dominanza offensiva della singola simulazione
+    # dominanza offensiva della singola simulazione (volume di tiro sopra o
+    # sotto l'atteso): guida corner propri e falli commessi dall'avversario
     dom_h = np.clip(0.65 + 0.35 * sot_h / np.maximum(lam_sot_h * tempo, 0.5), 0.5, 1.7)
     dom_a = np.clip(0.65 + 0.35 * sot_a / np.maximum(lam_sot_a * tempo, 0.5), 0.5, 1.7)
-    corners_h = rng.poisson(home["corners_pg"] * (def_a ** 0.5) * (0.5 + 0.5 * tempo) * dom_h)
-    corners_a = rng.poisson(away["corners_pg"] * (def_h ** 0.5) * (0.5 + 0.5 * tempo) * dom_a)
+
+    # Correlazione corner ↔ tiri: i corner nascono dal tasso REALE corner-per-
+    # tiro della squadra applicato ai tiri totali DELLA SINGOLA simulazione.
+    # Se in una sim la squadra tira tanto, guadagna proporzionalmente più
+    # corner; la media resta ancorata a corners_pg osservato.
+    cps_h = home["corners_pg"] / max(home["shots_pg"], 6.0)
+    cps_a = away["corners_pg"] / max(away["shots_pg"], 6.0)
+    corners_h = rng.poisson(cps_h * shots_h)
+    corners_a = rng.poisson(cps_a * shots_a)
     corners_t = corners_h + corners_a
 
-    # falli e cartellini (meteo estremo: +10% falli)
-    fouls_h = rng.poisson(home["fouls_pg"] * fouls_mult * (0.8 + 0.2 * tempo))
-    fouls_a = rng.poisson(away["fouls_pg"] * fouls_mult * (0.8 + 0.2 * tempo))
+    # Correlazione falli ↔ baricentro avversario: quando l'avversaria domina
+    # (dom alto = baricentro schiacciato nella propria metà campo) si commettono
+    # più falli per fermarla; meteo estremo aggiunge il suo +10%.
+    fouls_h = rng.poisson(home["fouls_pg"] * fouls_mult * (0.8 + 0.2 * tempo) * dom_a ** 0.45)
+    fouls_a = rng.poisson(away["fouls_pg"] * fouls_mult * (0.8 + 0.2 * tempo) * dom_h ** 0.45)
     py_h = np.clip(home["yellow_pg"] / max(home["fouls_pg"], 4.0), 0.04, 0.45)
     py_a = np.clip(away["yellow_pg"] / max(away["fouls_pg"], 4.0), 0.04, 0.45)
     yellows_h = rng.binomial(fouls_h, py_h)
@@ -234,6 +257,15 @@ def run_simulation(home: dict, away: dict, weather: dict,
     return {
         "n_sims": n,
         "xg": {"home": round(float(xg_h), 2), "away": round(float(xg_a), 2)},
+        "modello": {
+            "elo": {"home": home.get("elo"), "away": away.get("elo")},
+            "fattore_elo": {"home": round(elo_f_h, 3), "away": round(elo_f_a, 3)},
+            "xg_proxy": {"home": home.get("xg_pg"), "away": away.get("xg_pg")},
+            "xga_proxy": {"home": home.get("xga_pg"), "away": away.get("xga_pg")},
+            "time_decay": config.STAT_DECAY,
+            "componenti": "Poisson ELO-ponderato · time-decay · blend xG"
+                          " shot-based · corner∝tiri · falli∝pressione avversaria",
+        },
         "outcomes": {
             "1": round(p1, 2), "X": px, "2": round(p2, 2),
             "1X": round(p1 + px, 2), "X2": round(px + p2, 2),

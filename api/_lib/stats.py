@@ -7,7 +7,7 @@
   usano le medie di lega (config.BASELINE).
 """
 
-from . import config, espn
+from . import config, elo, espn
 
 
 def _team_row(league: dict, team_name: str) -> dict | None:
@@ -139,6 +139,17 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
         treal = espn.team_micro_before(league, team_name, before_date)
     else:
         treal = (league.get("team_micro") or {}).get(team_name)
+
+    # Integrazione xG/xGA (proxy shot-based dai boxscore, con time-decay):
+    # il segnale offensivo/difensivo diventa un blend tra gol reali e qualità
+    # dei tiri prodotti/concessi — meno rumore dei soli gol (pali, portieri
+    # in serata, gol di rimbalzo non spostano più tutta la stima).
+    xg_pg = xga_pg = None
+    if treal and treal.get("xg_pg") is not None:
+        xg_pg, xga_pg = treal["xg_pg"], treal["xga_pg"]
+        b = config.XG_BLEND
+        gf = (1.0 - b) * gf + b * xg_pg
+        ga = (1.0 - b) * ga + b * xga_pg
     if treal and treal.get("played"):
         n = treal["played"]
         w = n / (n + 3.0)
@@ -191,11 +202,16 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
     if micro.get("micro_real_games"):
         players_mode += f" · micro reali ({micro['micro_real_games']} gare)"
 
+    # Ranking ELO interno alla vigilia (out-of-sample anche nel backtest)
+    elo_rating = elo.league_elo(league, before_date).get(team_name)
+
     return {
         "team_id": (team_ref or {}).get("id") or (row or {}).get("team_id"),
         "name": team_name,
         "played": played or micro.get("games") or 0,
         "gf": gf, "ga": ga, "form": form,
+        "elo": elo_rating,
+        "xg_pg": xg_pg, "xga_pg": xga_pg,
         "shots_pg": micro.get("shots_pg", B["shots"]),
         "sot_pg": micro.get("sot_pg", B["sot"]),
         "corners_pg": micro.get("corners_pg", B["corners"]),

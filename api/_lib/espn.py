@@ -174,36 +174,69 @@ def _micro_from_acc(a: dict) -> dict:
     }
 
 
-def _team_events(league: dict, team_name: str) -> list[tuple[str, dict]]:
-    """Le gare in cache della squadra: [(data, statistiche)], ordine cronologico."""
+def _team_events(league: dict, team_name: str) -> list[tuple[str, dict, dict]]:
+    """Le gare in cache della squadra: [(data, proprie, avversario)], in
+    ordine cronologico. Le statistiche dell'avversario servono per xGA e
+    volume di tiro concesso."""
     events = (league.get("espn") or {}).get("events") or {}
     target = norm_team(team_name)
     tt = set(target.split())
     rows = []
     for ev in events.values():
-        for name, st in (ev.get("teams") or {}).items():
+        teams = ev.get("teams") or {}
+        for name, st in teams.items():
             kn = norm_team(name)
             if kn != target:
                 kt = set(kn.split())
                 if not (kt and tt and (kt <= tt or tt <= kt)):
                     continue
-            rows.append((ev.get("date") or "", st))
+            opp = next((s for n, s in teams.items() if n != name), {})
+            rows.append((ev.get("date") or "", st, opp))
     rows.sort(key=lambda r: r[0])
     return rows
 
 
-def _micro_from_rows(rows: list[tuple[str, dict]]) -> dict | None:
+def _xg_proxy(st: dict) -> float:
+    """xG shot-based di una singola gara: conversioni medie per tiro in
+    porta e tiro fuori/bloccato (proxy; ESPN non pubblica xG)."""
+    sot = float(st.get("sot") or 0.0)
+    off = max(float(st.get("shots") or 0.0) - sot, 0.0)
+    return config.XG_PER_SOT * sot + config.XG_PER_OFF * off
+
+
+def _micro_from_rows(rows: list[tuple[str, dict, dict]]) -> dict | None:
+    """Medie per gara con time-decay esponenziale: l'ultima gara pesa 1,
+    la precedente STAT_DECAY, poi STAT_DECAY², … (le più recenti contano
+    di più). `played` resta il conteggio reale (per lo shrinkage)."""
     if not rows:
         return None
-    acc = {"played": 0, "fouls": 0.0, "yellows": 0.0, "reds": 0.0,
-           "corners": 0.0, "shots": 0.0, "sot": 0.0,
-           "saves": 0.0, "conceded": 0.0}
-    for _, st in rows:
-        acc["played"] += 1
-        for k in ("fouls", "yellows", "reds", "corners",
-                  "shots", "sot", "saves", "conceded"):
-            acc[k] += float(st.get(k) or 0.0)
-    return _micro_from_acc(acc)
+    k = len(rows)
+    keys = ("fouls", "yellows", "reds", "corners", "shots", "sot",
+            "saves", "conceded")
+    acc = {key: 0.0 for key in keys}
+    xg = xga = wsum = 0.0
+    for i, (_, st, opp) in enumerate(rows):
+        w = config.STAT_DECAY ** (k - 1 - i)
+        wsum += w
+        for key in keys:
+            acc[key] += w * float(st.get(key) or 0.0)
+        xg += w * _xg_proxy(st)
+        xga += w * _xg_proxy(opp)
+    sv, gc = acc["saves"], acc["conceded"]
+    return {
+        "played": k,
+        "shots_pg": round(acc["shots"] / wsum, 2),
+        "sot_pg": round(acc["sot"] / wsum, 2),
+        "corners_pg": round(acc["corners"] / wsum, 2),
+        "fouls_pg": round(acc["fouls"] / wsum, 2),
+        "yellow_pg": round(acc["yellows"] / wsum, 2),
+        "red_pg": round(acc["reds"] / wsum, 3),
+        "save_rate": round(sv / (sv + gc), 3) if (sv + gc) > 0 else None,
+        "saves_pg": round(sv / wsum, 2),
+        "xg_pg": round(xg / wsum, 2),
+        "xga_pg": round(xga / wsum, 2),
+        "source": "espn",
+    }
 
 
 def team_micro_before(league: dict, team_name: str,

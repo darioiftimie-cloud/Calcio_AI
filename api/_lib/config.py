@@ -105,6 +105,23 @@ BASELINE = {
 HOME_BOOST_LEAGUE, AWAY_MALUS_LEAGUE = 1.16, 0.90
 HOME_BOOST_CUP, AWAY_MALUS_CUP = 1.06, 0.96
 
+# --- Parametri del modello statistico ------------------------------------
+# ELO interno (ricostruito dai risultati del DB, per lega/torneo)
+ELO_START = 1500.0       # rating iniziale
+ELO_K = 24.0             # K-factor (sensibilità all'ultimo risultato)
+ELO_HOME_ADV = 60.0      # vantaggio campo in punti ELO (0 nelle coppe: campo ~neutro)
+ELO_ALPHA = 0.35         # esponente del fattore ELO sugli xG: (E/0.5)^alpha
+
+# Time-decay esponenziale sulle statistiche per-partita: l'ultima gara pesa 1,
+# quella prima 0.85, poi 0.72… (half-life ≈ 4 partite)
+STAT_DECAY = 0.85
+
+# xG shot-based (proxy dai boxscore ESPN): coefficienti medi di conversione
+# per tiro in porta e tiro fuori/bloccato (letteratura xG)
+XG_PER_SOT = 0.29
+XG_PER_OFF = 0.045
+XG_BLEND = 0.5           # peso dell'xG proxy nel blend con i gol reali
+
 # Modificatori meteo (requisiti: -5% precisione tiri, +10% falli/contrasti)
 WEATHER_SHOT_PRECISION = 0.95
 WEATHER_FOULS_MULT = 1.10
