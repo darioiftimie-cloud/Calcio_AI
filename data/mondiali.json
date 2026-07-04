@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-04T22:37:38+00:00"
+  "generato": "2026-07-04T23:41:29+00:00"
  },
  "standings": [
   {
@@ -3663,8 +3663,8 @@
   {
    "fixture_id": 537375,
    "date": "2026-07-04T21:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Ottavi",
    "stage": "LAST_16",
@@ -3685,10 +3685,10 @@
     "name": "France",
     "short": "France",
     "logo": "https://crests.football-data.org/773.svg",
-    "winner": false
+    "winner": true
    },
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "rigori": null
   },
   {
