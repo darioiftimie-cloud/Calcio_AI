@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-04T16:39:56+00:00"
+  "generato": "2026-07-04T17:41:59+00:00"
  },
  "standings": [
   {
@@ -3632,7 +3632,7 @@
   {
    "fixture_id": 537376,
    "date": "2026-07-04T17:00:00Z",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Ottavi",
@@ -3647,17 +3647,17 @@
     "name": "Canada",
     "short": "Canada",
     "logo": "https://crests.football-data.org/canada.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 815,
     "name": "Morocco",
     "short": "Morocco",
     "logo": "https://crests.football-data.org/morocco.svg",
-    "winner": null
+    "winner": false
    },
-   "gh": null,
-   "ga": null,
+   "gh": 0,
+   "ga": 0,
    "rigori": null
   },
   {
