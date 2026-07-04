@@ -15,7 +15,7 @@ from . import config
 from . import db
 from .cache import cache_get, cache_set
 from .engine import run_simulation
-from .stats import team_profile
+from .stats import match_motivation, team_profile
 from .weather import weather_for
 
 
@@ -36,7 +36,8 @@ def fixture_meta(league: dict, fx: dict) -> dict:
 
 _PROFILE_KEYS = ("name", "played", "gf", "ga", "form", "shots_pg", "sot_pg",
                  "corners_pg", "fouls_pg", "yellow_pg", "red_pg", "save_rate",
-                 "keeper", "players_mode", "tournament_games", "recent_sample")
+                 "keeper", "players_mode", "tournament_games", "recent_sample",
+                 "elo", "xg_pg", "xga_pg", "rest_days", "motivation")
 
 
 def full_analysis(fixture_id: int, players_mode: str = "season") -> dict:
@@ -56,6 +57,7 @@ def full_analysis(fixture_id: int, players_mode: str = "season") -> dict:
                         is_cup=is_cup, before_date=before)
     away = team_profile(league, fx["away"]["name"], fx["away"], players_mode,
                         is_cup=is_cup, before_date=before)
+    home["motivation"] = away["motivation"] = match_motivation(league, fx)
     meteo = weather_for(meta["city"], meta["date"])
 
     t0 = time.perf_counter()

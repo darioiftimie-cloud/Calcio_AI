@@ -122,6 +122,18 @@ XG_PER_SOT = 0.29
 XG_PER_OFF = 0.045
 XG_BLEND = 0.5           # peso dell'xG proxy nel blend con i gol reali
 
+# --- Variabili situazionali (game state, riposo, motivazione) -------------
+H1_SHARE = 0.44          # quota del volume di gioco nel 1° tempo (storico ~44/56)
+GS_PUSH_BEHIND = 0.14    # chi insegue all'intervallo: +14% tiri nel 2° tempo
+GS_SHUT_AHEAD = 0.16     # chi conduce: -16% tiri nel 2° tempo (si abbassa)
+GS_CONV_BEHIND = 0.94    # chi insegue converte peggio (difese chiuse, tiri forzati)
+GS_FOULS_BEHIND = 0.12   # chi insegue: +12% falli nel 2° tempo (recupero palla)
+GS_FOULS_AHEAD = 0.05    # chi conduce: +5% falli (spezzare il gioco)
+REST_SHORT_DAYS = 3      # ≤3 giorni dall'ultima gara = riposo corto
+REST_CONV_MALUS = 0.95   # stanchezza: -5% precisione tiri nel 2° tempo
+REST_FOULS_MALUS = 1.08  # stanchezza: +8% falli nel 2° tempo
+MOTIVATION_SOT = 0.6     # quota dell'indice motivazione che agisce sui tiri
+
 # Modificatori meteo (requisiti: -5% precisione tiri, +10% falli/contrasti)
 WEATHER_SHOT_PRECISION = 0.95
 WEATHER_FOULS_MULT = 1.10

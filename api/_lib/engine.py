@@ -170,21 +170,60 @@ def run_simulation(home: dict, away: dict, weather: dict,
     mult_h = np.repeat(rng.gamma(k_h, 1.0 / k_h, n_blocks), per)
     mult_a = np.repeat(rng.gamma(k_a, 1.0 / k_a, n_blocks), per)
 
+    # Motivation Index (fase calda del torneo / volata di campionato):
+    # amplifica produzione offensiva e agonismo di entrambe le squadre
+    mot_h = float(home.get("motivation") or 1.0)
+    mot_a = float(away.get("motivation") or 1.0)
+    lam_sot_h *= 1.0 + config.MOTIVATION_SOT * (mot_h - 1.0)
+    lam_sot_a *= 1.0 + config.MOTIVATION_SOT * (mot_a - 1.0)
+
+    # Indice di Riposo: ≤3 giorni dall'ultima gara → gambe pesanti nella
+    # ripresa (precisione giù, falli su)
+    rest_h, rest_a = home.get("rest_days"), away.get("rest_days")
+    tired_h = rest_h is not None and rest_h <= config.REST_SHORT_DAYS
+    tired_a = rest_a is not None and rest_a <= config.REST_SHORT_DAYS
+
     tempo = rng.gamma(10.0, 0.1, n)
 
-    sot_h = rng.poisson(lam_sot_h * mult_h * tempo)
-    sot_a = rng.poisson(lam_sot_a * mult_a * tempo)
-    goals_h = rng.binomial(sot_h, conv_h)
-    goals_a = rng.binomial(sot_a, conv_a)
+    # ---------------- 1° TEMPO (quota H1_SHARE del volume di gioco) -------
+    s1, s2 = config.H1_SHARE, 1.0 - config.H1_SHARE
+    sot_h1 = rng.poisson(lam_sot_h * mult_h * tempo * s1)
+    sot_a1 = rng.poisson(lam_sot_a * mult_a * tempo * s1)
+    goals_h1 = rng.binomial(sot_h1, conv_h)
+    goals_a1 = rng.binomial(sot_a1, conv_a)
+
+    # ---------------- GAME STATE all'intervallo ---------------------------
+    # Chi insegue alza i giri (più tiri, conversione peggiore contro difese
+    # chiuse, più falli per riprendersi il pallone); chi conduce si abbassa
+    # (meno tiri) e spezza il gioco col fallo tattico.
+    diff = goals_h1 - goals_a1
+    ahead_h, behind_h = diff > 0, diff < 0        # per l'ospite è speculare
+    push_h = 1.0 + config.GS_PUSH_BEHIND * behind_h - config.GS_SHUT_AHEAD * ahead_h
+    push_a = 1.0 + config.GS_PUSH_BEHIND * ahead_h - config.GS_SHUT_AHEAD * behind_h
+    conv2_h = conv_h * np.where(behind_h, config.GS_CONV_BEHIND, 1.0) \
+        * (config.REST_CONV_MALUS if tired_h else 1.0)
+    conv2_a = conv_a * np.where(ahead_h, config.GS_CONV_BEHIND, 1.0) \
+        * (config.REST_CONV_MALUS if tired_a else 1.0)
+
+    # ---------------- 2° TEMPO (parametri adattati allo stato) ------------
+    sot_h2 = rng.poisson(lam_sot_h * mult_h * tempo * s2 * push_h)
+    sot_a2 = rng.poisson(lam_sot_a * mult_a * tempo * s2 * push_a)
+    goals_h2 = rng.binomial(sot_h2, np.clip(conv2_h, 0.02, 0.65))
+    goals_a2 = rng.binomial(sot_a2, np.clip(conv2_a, 0.02, 0.65))
+
+    sot_h, sot_a = sot_h1 + sot_h2, sot_a1 + sot_a2
+    goals_h, goals_a = goals_h1 + goals_h2, goals_a1 + goals_a2
     saves_h = sot_a - goals_a       # parate del portiere di casa
     saves_a = sot_h - goals_h
 
-    # tiri totali = tiri in porta + tiri fuori/bloccati (anch'essi
-    # aggiustati per la difesa avversaria)
+    # tiri totali = tiri in porta + tiri fuori/bloccati (aggiustati per la
+    # difesa avversaria; nel 2° tempo seguono la spinta del game state)
     off_target_h = max(home["shots_pg"] - home["sot_pg"], 2.0) * def_a
     off_target_a = max(away["shots_pg"] - away["sot_pg"], 2.0) * def_h
-    shots_h = sot_h + rng.poisson(off_target_h * tempo)
-    shots_a = sot_a + rng.poisson(off_target_a * tempo)
+    shots_h = sot_h + rng.poisson(off_target_h * tempo * s1) \
+        + rng.poisson(off_target_h * tempo * s2 * push_h)
+    shots_a = sot_a + rng.poisson(off_target_a * tempo * s1) \
+        + rng.poisson(off_target_a * tempo * s2 * push_a)
 
     # dominanza offensiva della singola simulazione (volume di tiro sopra o
     # sotto l'atteso): guida corner propri e falli commessi dall'avversario
@@ -203,9 +242,17 @@ def run_simulation(home: dict, away: dict, weather: dict,
 
     # Correlazione falli ↔ baricentro avversario: quando l'avversaria domina
     # (dom alto = baricentro schiacciato nella propria metà campo) si commettono
-    # più falli per fermarla; meteo estremo aggiunge il suo +10%.
-    fouls_h = rng.poisson(home["fouls_pg"] * fouls_mult * (0.8 + 0.2 * tempo) * dom_a ** 0.45)
-    fouls_a = rng.poisson(away["fouls_pg"] * fouls_mult * (0.8 + 0.2 * tempo) * dom_h ** 0.45)
+    # più falli per fermarla; meteo estremo aggiunge il suo +10%. Nel 2° tempo
+    # pesano game state (chi insegue/conduce falla di più), stanchezza da
+    # riposo corto e motivazione (agonismo della fase calda).
+    fbase_h = home["fouls_pg"] * fouls_mult * (0.8 + 0.2 * tempo) * dom_a ** 0.45 * mot_h
+    fbase_a = away["fouls_pg"] * fouls_mult * (0.8 + 0.2 * tempo) * dom_h ** 0.45 * mot_a
+    state_f_h = 1.0 + config.GS_FOULS_BEHIND * behind_h + config.GS_FOULS_AHEAD * ahead_h
+    state_f_a = 1.0 + config.GS_FOULS_BEHIND * ahead_h + config.GS_FOULS_AHEAD * behind_h
+    fouls_h = rng.poisson(fbase_h * s1) + rng.poisson(
+        fbase_h * s2 * state_f_h * (config.REST_FOULS_MALUS if tired_h else 1.0))
+    fouls_a = rng.poisson(fbase_a * s1) + rng.poisson(
+        fbase_a * s2 * state_f_a * (config.REST_FOULS_MALUS if tired_a else 1.0))
     py_h = np.clip(home["yellow_pg"] / max(home["fouls_pg"], 4.0), 0.04, 0.45)
     py_a = np.clip(away["yellow_pg"] / max(away["fouls_pg"], 4.0), 0.04, 0.45)
     yellows_h = rng.binomial(fouls_h, py_h)
@@ -263,8 +310,15 @@ def run_simulation(home: dict, away: dict, weather: dict,
             "xg_proxy": {"home": home.get("xg_pg"), "away": away.get("xg_pg")},
             "xga_proxy": {"home": home.get("xga_pg"), "away": away.get("xga_pg")},
             "time_decay": config.STAT_DECAY,
+            "riposo_giorni": {"home": rest_h, "away": rest_a},
+            "stanchezza": {"home": tired_h, "away": tired_a},
+            "motivazione": {"home": mot_h, "away": mot_a},
+            "quota_2t_in_svantaggio": {
+                "home": round(100.0 * float(np.mean(behind_h)), 1),
+                "away": round(100.0 * float(np.mean(ahead_h)), 1)},
             "componenti": "Poisson ELO-ponderato · time-decay · blend xG"
-                          " shot-based · corner∝tiri · falli∝pressione avversaria",
+                          " shot-based · corner∝tiri · falli∝pressione avversaria"
+                          " · game state 2 tempi · riposo · motivazione",
         },
         "outcomes": {
             "1": round(p1, 2), "X": px, "2": round(p2, 2),

@@ -7,6 +7,8 @@
   usano le medie di lega (config.BASELINE).
 """
 
+from datetime import date
+
 from . import config, elo, espn
 
 
@@ -88,6 +90,34 @@ def _tournament_stats(league: dict, team_name: str,
     if stat:
         stat["form"] = stat["form"][-6:]
     return stat
+
+
+_KO_DEPTH = {"Sedicesimi": 1, "Ottavi": 2, "Quarti": 3,
+             "Semifinali": 4, "Finale 3° posto": 3, "Finale": 5}
+
+
+def match_motivation(league: dict, fx: dict) -> float:
+    """Motivation Index (urgenza punti) della partita, uguale per entrambe.
+
+    - fasi KO: cresce con la profondità del turno (ottavi < quarti < … < finale);
+    - ultima giornata dei gironi (Mondiali/Europei/coppe): dentro-o-fuori;
+    - campionati: volata delle ultime 3 giornate.
+    """
+    if fx.get("knockout"):
+        depth = _KO_DEPTH.get(fx.get("round") or "", 1)
+        return round(1.0 + 0.015 * depth, 3)
+    md = fx.get("matchday")
+    if md:
+        mds = [f.get("matchday") for f in league.get("fixtures", [])
+               if f.get("matchday") and not f.get("knockout")]
+        last = max(mds) if mds else None
+        if last:
+            if league.get("meta", {}).get("tipo") == "cup":
+                if md >= last:            # ultima giornata del girone
+                    return 1.03
+            elif md >= last - 2:          # volata finale di campionato
+                return 1.02
+    return 1.0
 
 
 def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
@@ -205,6 +235,18 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
     # Ranking ELO interno alla vigilia (out-of-sample anche nel backtest)
     elo_rating = elo.league_elo(league, before_date).get(team_name)
 
+    # Indice di Riposo: giorni tra l'ultima gara giocata (nel DB della
+    # competizione) e la data del match. None se non calcolabile.
+    rest_days = None
+    if before_date:
+        prev = _team_played(league, team_name, before_date)
+        if prev and prev[-1].get("date"):
+            try:
+                rest_days = max((date.fromisoformat(before_date[:10])
+                                 - date.fromisoformat(prev[-1]["date"][:10])).days, 0)
+            except ValueError:
+                pass
+
     return {
         "team_id": (team_ref or {}).get("id") or (row or {}).get("team_id"),
         "name": team_name,
@@ -212,6 +254,7 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
         "gf": gf, "ga": ga, "form": form,
         "elo": elo_rating,
         "xg_pg": xg_pg, "xga_pg": xga_pg,
+        "rest_days": rest_days,
         "shots_pg": micro.get("shots_pg", B["shots"]),
         "sot_pg": micro.get("sot_pg", B["sot"]),
         "corners_pg": micro.get("corners_pg", B["corners"]),

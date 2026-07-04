@@ -16,7 +16,7 @@ simulazioni sono 2.000 a partita, sufficienti per stimare l'1X2.
 from . import db
 from .cache import cache_get, cache_set
 from .engine import run_simulation
-from .stats import team_profile
+from .stats import match_motivation, team_profile
 
 _NEUTRAL_WEATHER = {"disponibile": False}
 MIN_PRIOR_GAMES = 2      # sotto questo campione pre-partita il pronostico è aria
@@ -51,6 +51,7 @@ def league_accuracy(league_key: str, max_matches: int = 120) -> dict:
                 or a["tournament_games"] < MIN_PRIOR_GAMES):
             skipped += 1
             continue
+        h["motivation"] = a["motivation"] = match_motivation(league, fx)
 
         sim = run_simulation(h, a, _NEUTRAL_WEATHER, is_cup=is_cup,
                              n=N_SIMS_BACKTEST)
