@@ -56,7 +56,7 @@ APIF_BASE = "https://v3.football.api-sports.io"
 SEASON = int(os.environ.get("SEASON", "2026"))
 SEASON_FALLBACKS = [SEASON, 2025, 2024]
 
-N_SIMS = 100             # iterazioni Monte Carlo per partita
+N_SIMS = 15_000          # iterazioni Monte Carlo per partita
 CACHE_TTL = 3600         # 60 minuti: cache simulazioni
 HTTP_TIMEOUT = 25
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Motore Monte Carlo vettorizzato (NumPy) — 100 simulazioni < 100 ms.
+"""Motore Monte Carlo vettorizzato (NumPy) — 15.000 simulazioni < 100 ms.
 
 Catena stocastica per ogni iterazione:
   tempo di gara (Gamma, media 1)
