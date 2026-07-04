@@ -11,7 +11,7 @@
   "calendar_label": "2025-26",
   "preferita": 2026,
   "piano_limitato": true,
-  "generato": "2026-07-02T18:10:35+00:00"
+  "generato": "2026-07-04T12:06:19+00:00"
  },
  "standings": [
   {
@@ -651,7 +651,7 @@
     "name": "Athletic Club",
     "short": "Athletic",
     "logo": "https://crests.football-data.org/77.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 57,
@@ -682,7 +682,7 @@
     "name": "PSV",
     "short": "PSV",
     "logo": "https://crests.football-data.org/674.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 3929,
@@ -713,14 +713,14 @@
     "name": "Juventus FC",
     "short": "Juventus",
     "logo": "https://crests.football-data.org/109.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 4,
     "name": "Borussia Dortmund",
     "short": "Dortmund",
     "logo": "https://crests.football-data.org/4.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 4,
@@ -744,7 +744,7 @@
     "name": "Sport Lisboa e Benfica",
     "short": "SL Benfica",
     "logo": "https://crests.football-data.org/1903.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 611,
@@ -782,7 +782,7 @@
     "name": "Villarreal CF",
     "short": "Villarreal",
     "logo": "https://crests.football-data.org/94.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -813,7 +813,7 @@
     "name": "Olympique de Marseille",
     "short": "Marseille",
     "logo": "https://crests.football-data.org/516.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -837,14 +837,14 @@
     "name": "SK Slavia Praha",
     "short": "Slavia Praha",
     "logo": "https://crests.football-data.org/930.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 5721,
     "name": "FK Bodø/Glimt",
     "short": "Bodø/Glimt",
     "logo": "https://crests.football-data.org/5721.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -868,14 +868,14 @@
     "name": "PAE Olympiakos SFP",
     "short": "Olympiakos",
     "logo": "https://crests.football-data.org/654.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 11034,
     "name": "Paphos FC",
     "short": "Paphos FC",
     "logo": "https://crests.football-data.org/11034.png",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -899,7 +899,7 @@
     "name": "AFC Ajax",
     "short": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 108,
@@ -937,7 +937,7 @@
     "name": "Club Atlético de Madrid",
     "short": "Atleti",
     "logo": "https://crests.football-data.org/78.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 2,
@@ -968,7 +968,7 @@
     "name": "Atalanta BC",
     "short": "Atalanta",
     "logo": "https://crests.football-data.org/102.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 0,
@@ -999,7 +999,7 @@
     "name": "Chelsea FC",
     "short": "Chelsea",
     "logo": "https://crests.football-data.org/61.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -1023,14 +1023,14 @@
     "name": "FC København",
     "short": "København",
     "logo": "https://crests.football-data.org/1876.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 3,
     "name": "Bayer 04 Leverkusen",
     "short": "Leverkusen",
     "logo": "https://crests.football-data.org/3.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -1061,7 +1061,7 @@
     "name": "AS Monaco FC",
     "short": "Monaco",
     "logo": "https://crests.football-data.org/548.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -1085,7 +1085,7 @@
     "name": "Newcastle United FC",
     "short": "Newcastle",
     "logo": "https://crests.football-data.org/67.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 81,
@@ -1123,7 +1123,7 @@
     "name": "SSC Napoli",
     "short": "Napoli",
     "logo": "https://crests.football-data.org/113.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -1154,7 +1154,7 @@
     "name": "Galatasaray SK",
     "short": "Galatasaray",
     "logo": "https://crests.football-data.org/610.png",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 1,
@@ -1185,7 +1185,7 @@
     "name": "FK Kairat",
     "short": "FK Kairat",
     "logo": "https://crests.football-data.org/10601.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -1216,7 +1216,7 @@
     "name": "Club Brugge KV",
     "short": "Club Brugge",
     "logo": "https://crests.football-data.org/851.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -1240,7 +1240,7 @@
     "name": "FK Kairat",
     "short": "FK Kairat",
     "logo": "https://crests.football-data.org/10601.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 86,
@@ -1278,7 +1278,7 @@
     "name": "Liverpool FC",
     "short": "Liverpool",
     "logo": "https://crests.football-data.org/64.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -1309,7 +1309,7 @@
     "name": "Eintracht Frankfurt",
     "short": "Frankfurt",
     "logo": "https://crests.football-data.org/19.png",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 1,
@@ -1340,7 +1340,7 @@
     "name": "AFC Ajax",
     "short": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 0,
@@ -1364,14 +1364,14 @@
     "name": "FK Bodø/Glimt",
     "short": "Bodø/Glimt",
     "logo": "https://crests.football-data.org/5721.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 73,
     "name": "Tottenham Hotspur FC",
     "short": "Tottenham",
     "logo": "https://crests.football-data.org/73.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -1395,7 +1395,7 @@
     "name": "Paphos FC",
     "short": "Paphos FC",
     "logo": "https://crests.football-data.org/11034.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 5,
@@ -1433,7 +1433,7 @@
     "name": "Sport Lisboa e Benfica",
     "short": "SL Benfica",
     "logo": "https://crests.football-data.org/1903.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -1464,7 +1464,7 @@
     "name": "SK Slavia Praha",
     "short": "Slavia Praha",
     "logo": "https://crests.football-data.org/930.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -1495,7 +1495,7 @@
     "name": "FC København",
     "short": "København",
     "logo": "https://crests.football-data.org/1876.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -1519,7 +1519,7 @@
     "name": "Royale Union Saint-Gilloise",
     "short": "Union SG",
     "logo": "https://crests.football-data.org/3929.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 67,
@@ -1557,7 +1557,7 @@
     "name": "Athletic Club",
     "short": "Athletic",
     "logo": "https://crests.football-data.org/77.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -1581,7 +1581,7 @@
     "name": "FC Barcelona",
     "short": "Barça",
     "logo": "https://crests.football-data.org/81.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 524,
@@ -1612,14 +1612,14 @@
     "name": "AS Monaco FC",
     "short": "Monaco",
     "logo": "https://crests.football-data.org/548.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 65,
     "name": "Manchester City FC",
     "short": "Man City",
     "logo": "https://crests.football-data.org/65.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -1643,14 +1643,14 @@
     "name": "Bayer 04 Leverkusen",
     "short": "Leverkusen",
     "logo": "https://crests.football-data.org/3.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 674,
     "name": "PSV",
     "short": "PSV",
     "logo": "https://crests.football-data.org/674.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1681,7 +1681,7 @@
     "name": "PAE Olympiakos SFP",
     "short": "Olympiakos",
     "logo": "https://crests.football-data.org/654.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -1705,14 +1705,14 @@
     "name": "Villarreal CF",
     "short": "Villarreal",
     "logo": "https://crests.football-data.org/94.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 109,
     "name": "Juventus FC",
     "short": "Juventus",
     "logo": "https://crests.football-data.org/109.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -1743,7 +1743,7 @@
     "name": "Sporting Clube de Portugal",
     "short": "Sporting CP",
     "logo": "https://crests.football-data.org/498.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -1774,7 +1774,7 @@
     "name": "PAE Olympiakos SFP",
     "short": "Olympiakos",
     "logo": "https://crests.football-data.org/654.png",
-    "winner": null
+    "winner": false
    },
    "gh": 6,
    "ga": 1,
@@ -1798,14 +1798,14 @@
     "name": "FK Kairat",
     "short": "FK Kairat",
     "logo": "https://crests.football-data.org/10601.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 11034,
     "name": "Paphos FC",
     "short": "Paphos FC",
     "logo": "https://crests.football-data.org/11034.png",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -1829,7 +1829,7 @@
     "name": "Royale Union Saint-Gilloise",
     "short": "Union SG",
     "logo": "https://crests.football-data.org/3929.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 108,
@@ -1860,7 +1860,7 @@
     "name": "FC København",
     "short": "København",
     "logo": "https://crests.football-data.org/1876.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 4,
@@ -1891,7 +1891,7 @@
     "name": "Bayer 04 Leverkusen",
     "short": "Leverkusen",
     "logo": "https://crests.football-data.org/3.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 524,
@@ -1922,7 +1922,7 @@
     "name": "Villarreal CF",
     "short": "Villarreal",
     "logo": "https://crests.football-data.org/94.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 65,
@@ -1960,7 +1960,7 @@
     "name": "Club Atlético de Madrid",
     "short": "Atleti",
     "logo": "https://crests.football-data.org/78.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 0,
@@ -1991,7 +1991,7 @@
     "name": "Sport Lisboa e Benfica",
     "short": "SL Benfica",
     "logo": "https://crests.football-data.org/1903.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -2022,7 +2022,7 @@
     "name": "SSC Napoli",
     "short": "Napoli",
     "logo": "https://crests.football-data.org/113.png",
-    "winner": null
+    "winner": false
    },
    "gh": 6,
    "ga": 2,
@@ -2053,7 +2053,7 @@
     "name": "FK Bodø/Glimt",
     "short": "Bodø/Glimt",
     "logo": "https://crests.football-data.org/5721.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -2084,7 +2084,7 @@
     "name": "Qarabağ Ağdam FK",
     "short": "Qarabağ Ağdam",
     "logo": "https://crests.football-data.org/611.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -2108,7 +2108,7 @@
     "name": "Eintracht Frankfurt",
     "short": "Frankfurt",
     "logo": "https://crests.football-data.org/19.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 64,
@@ -2139,14 +2139,14 @@
     "name": "Atalanta BC",
     "short": "Atalanta",
     "logo": "https://crests.football-data.org/102.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 930,
     "name": "SK Slavia Praha",
     "short": "Slavia Praha",
     "logo": "https://crests.football-data.org/930.png",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -2177,7 +2177,7 @@
     "name": "Olympique de Marseille",
     "short": "Marseille",
     "logo": "https://crests.football-data.org/516.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -2201,14 +2201,14 @@
     "name": "AS Monaco FC",
     "short": "Monaco",
     "logo": "https://crests.football-data.org/548.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 73,
     "name": "Tottenham Hotspur FC",
     "short": "Tottenham",
     "logo": "https://crests.football-data.org/73.png",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -2239,7 +2239,7 @@
     "name": "Club Brugge KV",
     "short": "Club Brugge",
     "logo": "https://crests.football-data.org/851.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 0,
@@ -2270,7 +2270,7 @@
     "name": "AFC Ajax",
     "short": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 1,
@@ -2301,7 +2301,7 @@
     "name": "Juventus FC",
     "short": "Juventus",
     "logo": "https://crests.football-data.org/109.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -2325,7 +2325,7 @@
     "name": "SK Slavia Praha",
     "short": "Slavia Praha",
     "logo": "https://crests.football-data.org/930.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 57,
@@ -2356,14 +2356,14 @@
     "name": "SSC Napoli",
     "short": "Napoli",
     "logo": "https://crests.football-data.org/113.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 19,
     "name": "Eintracht Frankfurt",
     "short": "Frankfurt",
     "logo": "https://crests.football-data.org/19.png",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -2387,14 +2387,14 @@
     "name": "Juventus FC",
     "short": "Juventus",
     "logo": "https://crests.football-data.org/109.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 498,
     "name": "Sporting Clube de Portugal",
     "short": "Sporting CP",
     "logo": "https://crests.football-data.org/498.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -2425,7 +2425,7 @@
     "name": "Royale Union Saint-Gilloise",
     "short": "Union SG",
     "logo": "https://crests.football-data.org/3929.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -2456,7 +2456,7 @@
     "name": "FC København",
     "short": "København",
     "logo": "https://crests.football-data.org/1876.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 0,
@@ -2480,7 +2480,7 @@
     "name": "FK Bodø/Glimt",
     "short": "Bodø/Glimt",
     "logo": "https://crests.football-data.org/5721.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 548,
@@ -2511,14 +2511,14 @@
     "name": "PAE Olympiakos SFP",
     "short": "Olympiakos",
     "logo": "https://crests.football-data.org/654.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 674,
     "name": "PSV",
     "short": "PSV",
     "logo": "https://crests.football-data.org/674.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -2542,7 +2542,7 @@
     "name": "Paris Saint-Germain FC",
     "short": "PSG",
     "logo": "https://crests.football-data.org/524.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 5,
@@ -2580,7 +2580,7 @@
     "name": "Real Madrid CF",
     "short": "Real Madrid",
     "logo": "https://crests.football-data.org/86.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -2611,7 +2611,7 @@
     "name": "Villarreal CF",
     "short": "Villarreal",
     "logo": "https://crests.football-data.org/94.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -2635,14 +2635,14 @@
     "name": "Qarabağ Ağdam FK",
     "short": "Qarabağ Ağdam",
     "logo": "https://crests.football-data.org/611.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 61,
     "name": "Chelsea FC",
     "short": "Chelsea",
     "logo": "https://crests.football-data.org/61.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -2673,7 +2673,7 @@
     "name": "FK Kairat",
     "short": "FK Kairat",
     "logo": "https://crests.football-data.org/10601.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -2704,7 +2704,7 @@
     "name": "Borussia Dortmund",
     "short": "Dortmund",
     "logo": "https://crests.football-data.org/4.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -2728,14 +2728,14 @@
     "name": "Club Brugge KV",
     "short": "Club Brugge",
     "logo": "https://crests.football-data.org/851.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 81,
     "name": "FC Barcelona",
     "short": "Barça",
     "logo": "https://crests.football-data.org/81.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 3,
@@ -2759,7 +2759,7 @@
     "name": "Sport Lisboa e Benfica",
     "short": "SL Benfica",
     "logo": "https://crests.football-data.org/1903.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 3,
@@ -2790,7 +2790,7 @@
     "name": "Olympique de Marseille",
     "short": "Marseille",
     "logo": "https://crests.football-data.org/516.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 102,
@@ -2821,7 +2821,7 @@
     "name": "AFC Ajax",
     "short": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 610,
@@ -2859,7 +2859,7 @@
     "name": "Athletic Club",
     "short": "Athletic",
     "logo": "https://crests.football-data.org/77.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -2883,7 +2883,7 @@
     "name": "AFC Ajax",
     "short": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 1903,
@@ -2914,7 +2914,7 @@
     "name": "Galatasaray SK",
     "short": "Galatasaray",
     "logo": "https://crests.football-data.org/610.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 3929,
@@ -2952,7 +2952,7 @@
     "name": "Villarreal CF",
     "short": "Villarreal",
     "logo": "https://crests.football-data.org/94.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 0,
@@ -2976,7 +2976,7 @@
     "name": "Manchester City FC",
     "short": "Man City",
     "logo": "https://crests.football-data.org/65.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 3,
@@ -3007,7 +3007,7 @@
     "name": "FK Bodø/Glimt",
     "short": "Bodø/Glimt",
     "logo": "https://crests.football-data.org/5721.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 109,
@@ -3045,7 +3045,7 @@
     "name": "Newcastle United FC",
     "short": "Newcastle",
     "logo": "https://crests.football-data.org/67.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -3069,14 +3069,14 @@
     "name": "SK Slavia Praha",
     "short": "Slavia Praha",
     "logo": "https://crests.football-data.org/930.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 77,
     "name": "Athletic Club",
     "short": "Athletic",
     "logo": "https://crests.football-data.org/77.png",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -3107,7 +3107,7 @@
     "name": "Qarabağ Ağdam FK",
     "short": "Qarabağ Ağdam",
     "logo": "https://crests.football-data.org/611.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -3138,7 +3138,7 @@
     "name": "FC Barcelona",
     "short": "Barça",
     "logo": "https://crests.football-data.org/81.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -3162,14 +3162,14 @@
     "name": "Paphos FC",
     "short": "Paphos FC",
     "logo": "https://crests.football-data.org/11034.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 548,
     "name": "AS Monaco FC",
     "short": "Monaco",
     "logo": "https://crests.football-data.org/548.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -3200,7 +3200,7 @@
     "name": "FK Kairat",
     "short": "FK Kairat",
     "logo": "https://crests.football-data.org/10601.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 2,
@@ -3224,7 +3224,7 @@
     "name": "Liverpool FC",
     "short": "Liverpool",
     "logo": "https://crests.football-data.org/64.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 674,
@@ -3262,7 +3262,7 @@
     "name": "Tottenham Hotspur FC",
     "short": "Tottenham",
     "logo": "https://crests.football-data.org/73.png",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 3,
@@ -3286,7 +3286,7 @@
     "name": "Eintracht Frankfurt",
     "short": "Frankfurt",
     "logo": "https://crests.football-data.org/19.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 102,
@@ -3324,7 +3324,7 @@
     "name": "Club Brugge KV",
     "short": "Club Brugge",
     "logo": "https://crests.football-data.org/851.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -3355,7 +3355,7 @@
     "name": "FC Bayern München",
     "short": "Bayern",
     "logo": "https://crests.football-data.org/5.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -3379,7 +3379,7 @@
     "name": "PAE Olympiakos SFP",
     "short": "Olympiakos",
     "logo": "https://crests.football-data.org/654.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 86,
@@ -3417,7 +3417,7 @@
     "name": "FC Internazionale Milano",
     "short": "Inter",
     "logo": "https://crests.football-data.org/108.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -3441,7 +3441,7 @@
     "name": "FK Kairat",
     "short": "FK Kairat",
     "logo": "https://crests.football-data.org/10601.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 654,
@@ -3479,7 +3479,7 @@
     "name": "Sporting Clube de Portugal",
     "short": "Sporting CP",
     "logo": "https://crests.football-data.org/498.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -3510,7 +3510,7 @@
     "name": "Eintracht Frankfurt",
     "short": "Frankfurt",
     "logo": "https://crests.football-data.org/19.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -3534,7 +3534,7 @@
     "name": "PSV",
     "short": "PSV",
     "logo": "https://crests.football-data.org/674.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 78,
@@ -3565,7 +3565,7 @@
     "name": "Royale Union Saint-Gilloise",
     "short": "Union SG",
     "logo": "https://crests.football-data.org/3929.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 516,
@@ -3603,7 +3603,7 @@
     "name": "SK Slavia Praha",
     "short": "Slavia Praha",
     "logo": "https://crests.football-data.org/930.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -3634,7 +3634,7 @@
     "name": "Galatasaray SK",
     "short": "Galatasaray",
     "logo": "https://crests.football-data.org/610.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -3665,7 +3665,7 @@
     "name": "Chelsea FC",
     "short": "Chelsea",
     "logo": "https://crests.football-data.org/61.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -3689,7 +3689,7 @@
     "name": "FC Internazionale Milano",
     "short": "Inter",
     "logo": "https://crests.football-data.org/108.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 64,
@@ -3720,7 +3720,7 @@
     "name": "Villarreal CF",
     "short": "Villarreal",
     "logo": "https://crests.football-data.org/94.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 1876,
@@ -3751,7 +3751,7 @@
     "name": "Qarabağ Ağdam FK",
     "short": "Qarabağ Ağdam",
     "logo": "https://crests.football-data.org/611.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 678,
@@ -3782,14 +3782,14 @@
     "name": "Borussia Dortmund",
     "short": "Dortmund",
     "logo": "https://crests.football-data.org/4.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 5721,
     "name": "FK Bodø/Glimt",
     "short": "Bodø/Glimt",
     "logo": "https://crests.football-data.org/5721.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -3813,14 +3813,14 @@
     "name": "Athletic Club",
     "short": "Athletic",
     "logo": "https://crests.football-data.org/77.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 524,
     "name": "Paris Saint-Germain FC",
     "short": "PSG",
     "logo": "https://crests.football-data.org/524.png",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -3844,14 +3844,14 @@
     "name": "Bayer 04 Leverkusen",
     "short": "Leverkusen",
     "logo": "https://crests.football-data.org/3.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 67,
     "name": "Newcastle United FC",
     "short": "Newcastle",
     "logo": "https://crests.football-data.org/67.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -3875,7 +3875,7 @@
     "name": "Club Brugge KV",
     "short": "Club Brugge",
     "logo": "https://crests.football-data.org/851.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 57,
@@ -3913,7 +3913,7 @@
     "name": "SSC Napoli",
     "short": "Napoli",
     "logo": "https://crests.football-data.org/113.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -3944,7 +3944,7 @@
     "name": "Paphos FC",
     "short": "Paphos FC",
     "logo": "https://crests.football-data.org/11034.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -3968,7 +3968,7 @@
     "name": "Real Madrid CF",
     "short": "Real Madrid",
     "logo": "https://crests.football-data.org/86.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 65,
@@ -3999,7 +3999,7 @@
     "name": "FK Kairat",
     "short": "FK Kairat",
     "logo": "https://crests.football-data.org/10601.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 851,
@@ -4037,7 +4037,7 @@
     "name": "Manchester City FC",
     "short": "Man City",
     "logo": "https://crests.football-data.org/65.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -4068,7 +4068,7 @@
     "name": "Borussia Dortmund",
     "short": "Dortmund",
     "logo": "https://crests.football-data.org/4.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -4099,7 +4099,7 @@
     "name": "Paris Saint-Germain FC",
     "short": "PSG",
     "logo": "https://crests.football-data.org/524.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -4130,7 +4130,7 @@
     "name": "Bayer 04 Leverkusen",
     "short": "Leverkusen",
     "logo": "https://crests.football-data.org/3.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -4154,7 +4154,7 @@
     "name": "Villarreal CF",
     "short": "Villarreal",
     "logo": "https://crests.football-data.org/94.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 678,
@@ -4185,14 +4185,14 @@
     "name": "FC København",
     "short": "København",
     "logo": "https://crests.football-data.org/1876.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 113,
     "name": "SSC Napoli",
     "short": "Napoli",
     "logo": "https://crests.football-data.org/113.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -4223,7 +4223,7 @@
     "name": "AS Monaco FC",
     "short": "Monaco",
     "logo": "https://crests.football-data.org/548.png",
-    "winner": null
+    "winner": false
    },
    "gh": 6,
    "ga": 1,
@@ -4247,7 +4247,7 @@
     "name": "FC Internazionale Milano",
     "short": "Inter",
     "logo": "https://crests.football-data.org/108.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 57,
@@ -4285,7 +4285,7 @@
     "name": "Eintracht Frankfurt",
     "short": "Frankfurt",
     "logo": "https://crests.football-data.org/19.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 2,
@@ -4309,14 +4309,14 @@
     "name": "Galatasaray SK",
     "short": "Galatasaray",
     "logo": "https://crests.football-data.org/610.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 78,
     "name": "Club Atlético de Madrid",
     "short": "Atleti",
     "logo": "https://crests.football-data.org/78.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -4340,7 +4340,7 @@
     "name": "Olympique de Marseille",
     "short": "Marseille",
     "logo": "https://crests.football-data.org/516.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 64,
@@ -4371,7 +4371,7 @@
     "name": "SK Slavia Praha",
     "short": "Slavia Praha",
     "logo": "https://crests.football-data.org/930.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 81,
@@ -4402,7 +4402,7 @@
     "name": "Atalanta BC",
     "short": "Atalanta",
     "logo": "https://crests.football-data.org/102.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 77,
@@ -4440,7 +4440,7 @@
     "name": "Sport Lisboa e Benfica",
     "short": "SL Benfica",
     "logo": "https://crests.football-data.org/1903.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -4471,7 +4471,7 @@
     "name": "PSV",
     "short": "PSV",
     "logo": "https://crests.football-data.org/674.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -4502,7 +4502,7 @@
     "name": "Royale Union Saint-Gilloise",
     "short": "Union SG",
     "logo": "https://crests.football-data.org/3929.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -4533,7 +4533,7 @@
     "name": "Paphos FC",
     "short": "Paphos FC",
     "logo": "https://crests.football-data.org/11034.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -4564,7 +4564,7 @@
     "name": "Qarabağ Ağdam FK",
     "short": "Qarabağ Ağdam",
     "logo": "https://crests.football-data.org/611.png",
-    "winner": null
+    "winner": false
    },
    "gh": 6,
    "ga": 0,
@@ -4595,7 +4595,7 @@
     "name": "FC København",
     "short": "København",
     "logo": "https://crests.football-data.org/1876.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -4626,7 +4626,7 @@
     "name": "Galatasaray SK",
     "short": "Galatasaray",
     "logo": "https://crests.football-data.org/610.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -4657,7 +4657,7 @@
     "name": "Villarreal CF",
     "short": "Villarreal",
     "logo": "https://crests.football-data.org/94.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -4688,7 +4688,7 @@
     "name": "FK Kairat",
     "short": "FK Kairat",
     "logo": "https://crests.football-data.org/10601.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 2,
@@ -4719,7 +4719,7 @@
     "name": "Atalanta BC",
     "short": "Atalanta",
     "logo": "https://crests.football-data.org/102.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -4750,7 +4750,7 @@
     "name": "Olympique de Marseille",
     "short": "Marseille",
     "logo": "https://crests.football-data.org/516.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -4774,7 +4774,7 @@
     "name": "Eintracht Frankfurt",
     "short": "Frankfurt",
     "logo": "https://crests.football-data.org/19.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 73,
@@ -4805,14 +4805,14 @@
     "name": "AS Monaco FC",
     "short": "Monaco",
     "logo": "https://crests.football-data.org/548.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 109,
     "name": "Juventus FC",
     "short": "Juventus",
     "logo": "https://crests.football-data.org/109.png",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -4836,7 +4836,7 @@
     "name": "Club Atlético de Madrid",
     "short": "Atleti",
     "logo": "https://crests.football-data.org/78.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 5721,
@@ -4867,7 +4867,7 @@
     "name": "Athletic Club",
     "short": "Athletic",
     "logo": "https://crests.football-data.org/77.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 498,
@@ -4898,7 +4898,7 @@
     "name": "AFC Ajax",
     "short": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 654,
@@ -4929,14 +4929,14 @@
     "name": "Paris Saint-Germain FC",
     "short": "PSG",
     "logo": "https://crests.football-data.org/524.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 67,
     "name": "Newcastle United FC",
     "short": "Newcastle",
     "logo": "https://crests.football-data.org/67.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -4967,7 +4967,7 @@
     "name": "SK Slavia Praha",
     "short": "Slavia Praha",
     "logo": "https://crests.football-data.org/930.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -4991,7 +4991,7 @@
     "name": "PSV",
     "short": "PSV",
     "logo": "https://crests.football-data.org/674.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 5,
@@ -5022,7 +5022,7 @@
     "name": "SSC Napoli",
     "short": "Napoli",
     "logo": "https://crests.football-data.org/113.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 61,
@@ -5060,7 +5060,7 @@
     "name": "Real Madrid CF",
     "short": "Real Madrid",
     "logo": "https://crests.football-data.org/86.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 2,
@@ -5084,7 +5084,7 @@
     "name": "Borussia Dortmund",
     "short": "Dortmund",
     "logo": "https://crests.football-data.org/4.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 108,
@@ -5122,7 +5122,7 @@
     "name": "Juventus FC",
     "short": "Juventus",
     "logo": "https://crests.football-data.org/109.png",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 2,
@@ -5146,7 +5146,7 @@
     "name": "Sport Lisboa e Benfica",
     "short": "SL Benfica",
     "logo": "https://crests.football-data.org/1903.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 86,
@@ -5177,7 +5177,7 @@
     "name": "AS Monaco FC",
     "short": "Monaco",
     "logo": "https://crests.football-data.org/548.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 524,
@@ -5215,7 +5215,7 @@
     "name": "Atalanta BC",
     "short": "Atalanta",
     "logo": "https://crests.football-data.org/102.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -5239,7 +5239,7 @@
     "name": "Qarabağ Ağdam FK",
     "short": "Qarabağ Ağdam",
     "logo": "https://crests.football-data.org/611.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 67,
@@ -5270,14 +5270,14 @@
     "name": "Club Brugge KV",
     "short": "Club Brugge",
     "logo": "https://crests.football-data.org/851.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 78,
     "name": "Club Atlético de Madrid",
     "short": "Atleti",
     "logo": "https://crests.football-data.org/78.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 3,
@@ -5301,7 +5301,7 @@
     "name": "PAE Olympiakos SFP",
     "short": "Olympiakos",
     "logo": "https://crests.football-data.org/654.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 3,
@@ -5339,7 +5339,7 @@
     "name": "FC Internazionale Milano",
     "short": "Inter",
     "logo": "https://crests.football-data.org/108.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -5370,7 +5370,7 @@
     "name": "Club Brugge KV",
     "short": "Club Brugge",
     "logo": "https://crests.football-data.org/851.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -5401,7 +5401,7 @@
     "name": "Qarabağ Ağdam FK",
     "short": "Qarabağ Ağdam",
     "logo": "https://crests.football-data.org/611.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 2,
@@ -5425,14 +5425,14 @@
     "name": "Bayer 04 Leverkusen",
     "short": "Leverkusen",
     "logo": "https://crests.football-data.org/3.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 654,
     "name": "PAE Olympiakos SFP",
     "short": "Olympiakos",
     "logo": "https://crests.football-data.org/654.png",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -5456,7 +5456,7 @@
     "name": "FC Internazionale Milano",
     "short": "Inter",
     "logo": "https://crests.football-data.org/108.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 5721,
@@ -5494,7 +5494,7 @@
     "name": "Borussia Dortmund",
     "short": "Dortmund",
     "logo": "https://crests.football-data.org/4.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -5525,7 +5525,7 @@
     "name": "Sport Lisboa e Benfica",
     "short": "SL Benfica",
     "logo": "https://crests.football-data.org/1903.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -5549,14 +5549,14 @@
     "name": "Paris Saint-Germain FC",
     "short": "PSG",
     "logo": "https://crests.football-data.org/524.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 548,
     "name": "AS Monaco FC",
     "short": "Monaco",
     "logo": "https://crests.football-data.org/548.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -5587,7 +5587,7 @@
     "name": "Galatasaray SK",
     "short": "Galatasaray",
     "logo": "https://crests.football-data.org/610.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 2,
@@ -5618,7 +5618,7 @@
     "name": "Liverpool FC",
     "short": "Liverpool",
     "logo": "https://crests.football-data.org/64.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -5642,7 +5642,7 @@
     "name": "Atalanta BC",
     "short": "Atalanta",
     "logo": "https://crests.football-data.org/102.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 5,
@@ -5673,14 +5673,14 @@
     "name": "Newcastle United FC",
     "short": "Newcastle",
     "logo": "https://crests.football-data.org/67.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 81,
     "name": "FC Barcelona",
     "short": "Barça",
     "logo": "https://crests.football-data.org/81.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -5711,7 +5711,7 @@
     "name": "Tottenham Hotspur FC",
     "short": "Tottenham",
     "logo": "https://crests.football-data.org/73.png",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 2,
@@ -5735,14 +5735,14 @@
     "name": "Bayer 04 Leverkusen",
     "short": "Leverkusen",
     "logo": "https://crests.football-data.org/3.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 57,
     "name": "Arsenal FC",
     "short": "Arsenal",
     "logo": "https://crests.football-data.org/57.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -5773,7 +5773,7 @@
     "name": "Chelsea FC",
     "short": "Chelsea",
     "logo": "https://crests.football-data.org/61.png",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 2,
@@ -5804,7 +5804,7 @@
     "name": "Manchester City FC",
     "short": "Man City",
     "logo": "https://crests.football-data.org/65.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -5835,7 +5835,7 @@
     "name": "Sporting Clube de Portugal",
     "short": "Sporting CP",
     "logo": "https://crests.football-data.org/498.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -5866,7 +5866,7 @@
     "name": "FK Bodø/Glimt",
     "short": "Bodø/Glimt",
     "logo": "https://crests.football-data.org/5721.png",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 0,
@@ -5890,7 +5890,7 @@
     "name": "Chelsea FC",
     "short": "Chelsea",
     "logo": "https://crests.football-data.org/61.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 524,
@@ -5921,7 +5921,7 @@
     "name": "Manchester City FC",
     "short": "Man City",
     "logo": "https://crests.football-data.org/65.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 86,
@@ -5959,7 +5959,7 @@
     "name": "Bayer 04 Leverkusen",
     "short": "Leverkusen",
     "logo": "https://crests.football-data.org/3.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -5990,7 +5990,7 @@
     "name": "Newcastle United FC",
     "short": "Newcastle",
     "logo": "https://crests.football-data.org/67.png",
-    "winner": null
+    "winner": false
    },
    "gh": 7,
    "ga": 2,
@@ -6021,7 +6021,7 @@
     "name": "Galatasaray SK",
     "short": "Galatasaray",
     "logo": "https://crests.football-data.org/610.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 0,
@@ -6052,7 +6052,7 @@
     "name": "Atalanta BC",
     "short": "Atalanta",
     "logo": "https://crests.football-data.org/102.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -6083,7 +6083,7 @@
     "name": "Club Atlético de Madrid",
     "short": "Atleti",
     "logo": "https://crests.football-data.org/78.png",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 2,
@@ -6107,7 +6107,7 @@
     "name": "Real Madrid CF",
     "short": "Real Madrid",
     "logo": "https://crests.football-data.org/86.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 5,
@@ -6138,7 +6138,7 @@
     "name": "Sporting Clube de Portugal",
     "short": "Sporting CP",
     "logo": "https://crests.football-data.org/498.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 57,
@@ -6176,7 +6176,7 @@
     "name": "Liverpool FC",
     "short": "Liverpool",
     "logo": "https://crests.football-data.org/64.png",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -6200,7 +6200,7 @@
     "name": "FC Barcelona",
     "short": "Barça",
     "logo": "https://crests.football-data.org/81.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 78,
@@ -6231,7 +6231,7 @@
     "name": "Liverpool FC",
     "short": "Liverpool",
     "logo": "https://crests.football-data.org/64.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 524,
@@ -6262,7 +6262,7 @@
     "name": "Club Atlético de Madrid",
     "short": "Atleti",
     "logo": "https://crests.football-data.org/78.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 81,
@@ -6300,7 +6300,7 @@
     "name": "Real Madrid CF",
     "short": "Real Madrid",
     "logo": "https://crests.football-data.org/86.png",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 3,
@@ -6324,14 +6324,14 @@
     "name": "Arsenal FC",
     "short": "Arsenal",
     "logo": "https://crests.football-data.org/57.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 498,
     "name": "Sporting Clube de Portugal",
     "short": "Sporting CP",
     "logo": "https://crests.football-data.org/498.png",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -6362,7 +6362,7 @@
     "name": "FC Bayern München",
     "short": "Bayern",
     "logo": "https://crests.football-data.org/5.png",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 4,
@@ -6386,14 +6386,14 @@
     "name": "Club Atlético de Madrid",
     "short": "Atleti",
     "logo": "https://crests.football-data.org/78.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 57,
     "name": "Arsenal FC",
     "short": "Arsenal",
     "logo": "https://crests.football-data.org/57.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -6424,7 +6424,7 @@
     "name": "Club Atlético de Madrid",
     "short": "Atleti",
     "logo": "https://crests.football-data.org/78.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -6448,14 +6448,14 @@
     "name": "FC Bayern München",
     "short": "Bayern",
     "logo": "https://crests.football-data.org/5.png",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 524,
     "name": "Paris Saint-Germain FC",
     "short": "PSG",
     "logo": "https://crests.football-data.org/524.png",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -6486,7 +6486,7 @@
     "name": "Arsenal FC",
     "short": "Arsenal",
     "logo": "https://crests.football-data.org/57.png",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 4,
@@ -6736,6 +6736,566 @@
    "assists": 3,
    "penalties": 0,
    "played": 12
+  },
+  {
+   "name": "Trincão",
+   "team": "Sporting Clube de Portugal",
+   "goals": 4,
+   "assists": 3,
+   "penalties": 0,
+   "played": 11
+  },
+  {
+   "name": "Lazar Samardzic",
+   "team": "Atalanta BC",
+   "goals": 4,
+   "assists": 0,
+   "penalties": 2,
+   "played": 12
+  },
+  {
+   "name": "Igor Paixão",
+   "team": "Olympique de Marseille",
+   "goals": 4,
+   "assists": 0,
+   "penalties": 0,
+   "played": 8
+  },
+  {
+   "name": "Lautaro Martínez",
+   "team": "FC Internazionale Milano",
+   "goals": 4,
+   "assists": 0,
+   "penalties": 0,
+   "played": 9
+  },
+  {
+   "name": "Sehrou Guirassy",
+   "team": "Borussia Dortmund",
+   "goals": 4,
+   "assists": 3,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Scott McTominay",
+   "team": "SSC Napoli",
+   "goals": 4,
+   "assists": 0,
+   "penalties": 0,
+   "played": 8
+  },
+  {
+   "name": "Lennart Karl",
+   "team": "FC Bayern München",
+   "goals": 4,
+   "assists": 2,
+   "penalties": 0,
+   "played": 12
+  },
+  {
+   "name": "Patrik Schick",
+   "team": "Bayer 04 Leverkusen",
+   "goals": 4,
+   "assists": 1,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Weston McKennie",
+   "team": "Juventus FC",
+   "goals": 4,
+   "assists": 1,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Randal Kolo Muani",
+   "team": "Tottenham Hotspur FC",
+   "goals": 4,
+   "assists": 2,
+   "penalties": 0,
+   "played": 9
+  },
+  {
+   "name": "Robert Lewandowski",
+   "team": "FC Barcelona",
+   "goals": 4,
+   "assists": 0,
+   "penalties": 0,
+   "played": 11
+  },
+  {
+   "name": "Kai Havertz",
+   "team": "Arsenal FC",
+   "goals": 4,
+   "assists": 1,
+   "penalties": 1,
+   "played": 8
+  },
+  {
+   "name": "Karim Adeyemi",
+   "team": "Borussia Dortmund",
+   "goals": 3,
+   "assists": 2,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Felix Kalu Nmecha",
+   "team": "Borussia Dortmund",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Dušan Vlahović",
+   "team": "Juventus FC",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 5
+  },
+  {
+   "name": "Leandro Andrade",
+   "team": "Qarabağ Ağdam FK",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Mohamed Salah",
+   "team": "Liverpool FC",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 11
+  },
+  {
+   "name": "Jordan Larsson",
+   "team": "FC København",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 1,
+   "played": 8
+  },
+  {
+   "name": "Nicolo Tresoldi",
+   "team": "Club Brugge KV",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Jonathan Burkardt",
+   "team": "Eintracht Frankfurt",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 5
+  },
+  {
+   "name": "Alisson Santos",
+   "team": "Sporting Clube de Portugal",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 8
+  },
+  {
+   "name": "Mario Pašalić",
+   "team": "Atalanta BC",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 12
+  },
+  {
+   "name": "Mason Greenwood",
+   "team": "Olympique de Marseille",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 8
+  },
+  {
+   "name": "Pierre-Emerick Aubameyang",
+   "team": "Olympique de Marseille",
+   "goals": 3,
+   "assists": 4,
+   "penalties": 0,
+   "played": 8
+  },
+  {
+   "name": "Nicolas Jackson",
+   "team": "FC Bayern München",
+   "goals": 3,
+   "assists": 2,
+   "penalties": 0,
+   "played": 13
+  },
+  {
+   "name": "Julian Brandt",
+   "team": "Borussia Dortmund",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 9
+  },
+  {
+   "name": "Ferrán Torres",
+   "team": "FC Barcelona",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 11
+  },
+  {
+   "name": "Jordan Teze",
+   "team": "AS Monaco FC",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Ismael Saibari",
+   "team": "PSV",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 7
+  },
+  {
+   "name": "Bukayo Saka",
+   "team": "Arsenal FC",
+   "goals": 3,
+   "assists": 2,
+   "penalties": 1,
+   "played": 12
+  },
+  {
+   "name": "Rasmus Højlund",
+   "team": "SSC Napoli",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 7
+  },
+  {
+   "name": "Viktor Daðason",
+   "team": "FC København",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 6
+  },
+  {
+   "name": "Ricardo Pepi",
+   "team": "PSV",
+   "goals": 3,
+   "assists": 2,
+   "penalties": 0,
+   "played": 5
+  },
+  {
+   "name": "Couhaib Driouech",
+   "team": "PSV",
+   "goals": 3,
+   "assists": 2,
+   "penalties": 0,
+   "played": 8
+  },
+  {
+   "name": "Hugo Ekitike",
+   "team": "Liverpool FC",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 12
+  },
+  {
+   "name": "Enzo Fernández",
+   "team": "Chelsea FC",
+   "goals": 3,
+   "assists": 3,
+   "penalties": 2,
+   "played": 10
+  },
+  {
+   "name": "Estevao",
+   "team": "Chelsea FC",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 1,
+   "played": 9
+  },
+  {
+   "name": "Gelson Martins",
+   "team": "PAE Olympiakos SFP",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 9
+  },
+  {
+   "name": "Alexis Mac Allister",
+   "team": "Liverpool FC",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 12
+  },
+  {
+   "name": "Rayan Cherki",
+   "team": "Manchester City FC",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 8
+  },
+  {
+   "name": "Ademola Lookman",
+   "team": "Club Atlético de Madrid",
+   "goals": 3,
+   "assists": 3,
+   "penalties": 0,
+   "played": 15
+  },
+  {
+   "name": "Noni Madueke",
+   "team": "Arsenal FC",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 12
+  },
+  {
+   "name": "Anan Khalaili",
+   "team": "Royale Union Saint-Gilloise",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 8
+  },
+  {
+   "name": "Xavi Simons",
+   "team": "Tottenham Hotspur FC",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 2,
+   "played": 10
+  },
+  {
+   "name": "João Pedro",
+   "team": "Chelsea FC",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 9
+  },
+  {
+   "name": "Gianluca Scamacca",
+   "team": "Atalanta BC",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Oscar Gloukh",
+   "team": "AFC Ajax",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 8
+  },
+  {
+   "name": "Dominic Solanke",
+   "team": "Tottenham Hotspur FC",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 0,
+   "played": 3
+  },
+  {
+   "name": "Raphinha",
+   "team": "FC Barcelona",
+   "goals": 3,
+   "assists": 2,
+   "penalties": 1,
+   "played": 7
+  },
+  {
+   "name": "Federico Valverde",
+   "team": "Real Madrid CF",
+   "goals": 3,
+   "assists": 4,
+   "penalties": 0,
+   "played": 14
+  },
+  {
+   "name": "Promise Akinpelu",
+   "team": "Royale Union Saint-Gilloise",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 1,
+   "played": 7
+  },
+  {
+   "name": "Ramy Bensebaini",
+   "team": "Borussia Dortmund",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 2,
+   "played": 10
+  },
+  {
+   "name": "Vangelis Pavlidis",
+   "team": "Sport Lisboa e Benfica",
+   "goals": 2,
+   "assists": 2,
+   "penalties": 1,
+   "played": 10
+  },
+  {
+   "name": "Youssoupha Mbodji",
+   "team": "SK Slavia Praha",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 0,
+   "played": 8
+  },
+  {
+   "name": "Marcus Thuram-Ulien",
+   "team": "FC Internazionale Milano",
+   "goals": 2,
+   "assists": 1,
+   "penalties": 0,
+   "played": 9
+  },
+  {
+   "name": "Virgil van Dijk",
+   "team": "Liverpool FC",
+   "goals": 2,
+   "assists": 3,
+   "penalties": 0,
+   "played": 12
+  },
+  {
+   "name": "Marquinhos",
+   "team": "Paris Saint-Germain FC",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 0,
+   "played": 16
+  },
+  {
+   "name": "Nuno Mendes",
+   "team": "Paris Saint-Germain FC",
+   "goals": 2,
+   "assists": 2,
+   "penalties": 0,
+   "played": 17
+  },
+  {
+   "name": "Gonçalo Ramos",
+   "team": "Paris Saint-Germain FC",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 0,
+   "played": 17
+  },
+  {
+   "name": "Robert",
+   "team": "FC København",
+   "goals": 2,
+   "assists": 1,
+   "penalties": 0,
+   "played": 7
+  },
+  {
+   "name": "Raphael Onyedika",
+   "team": "Club Brugge KV",
+   "goals": 2,
+   "assists": 1,
+   "penalties": 0,
+   "played": 6
+  },
+  {
+   "name": "Hans Vanaken",
+   "team": "Club Brugge KV",
+   "goals": 2,
+   "assists": 3,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Mamadou Diakhon",
+   "team": "Club Brugge KV",
+   "goals": 2,
+   "assists": 1,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Yunus Akgün",
+   "team": "Galatasaray SK",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 0,
+   "played": 10
+  },
+  {
+   "name": "Can Uzun",
+   "team": "Eintracht Frankfurt",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 0,
+   "played": 5
+  },
+  {
+   "name": "Ansgar Knauff",
+   "team": "Eintracht Frankfurt",
+   "goals": 2,
+   "assists": 1,
+   "penalties": 0,
+   "played": 8
+  },
+  {
+   "name": "Geovany Quenda",
+   "team": "Sporting Clube de Portugal",
+   "goals": 2,
+   "assists": 2,
+   "penalties": 0,
+   "played": 6
+  },
+  {
+   "name": "Christos Tzolis",
+   "team": "Club Brugge KV",
+   "goals": 2,
+   "assists": 1,
+   "penalties": 0,
+   "played": 9
+  },
+  {
+   "name": "Robin Le Normand",
+   "team": "Club Atlético de Madrid",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 0,
+   "played": 15
+  },
+  {
+   "name": "Antoine Griezmann",
+   "team": "Club Atlético de Madrid",
+   "goals": 2,
+   "assists": 4,
+   "penalties": 0,
+   "played": 15
   }
  ],
  "teams": {
@@ -18666,6 +19226,5745 @@
      "rating": 6.0
     }
    ]
+  },
+  "PSV": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 7560369,
+     "name": "Ismael Saibari",
+     "photo": null,
+     "position": "F",
+     "minutes": 560,
+     "appearances": 7,
+     "lineups": 7,
+     "sub_in": 0,
+     "goals": 3,
+     "assists": 0,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 24,
+     "shots_on": 10,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 23772059,
+     "name": "Ricardo Pepi",
+     "photo": null,
+     "position": "F",
+     "minutes": 400,
+     "appearances": 5,
+     "lineups": 5,
+     "sub_in": 0,
+     "goals": 3,
+     "assists": 2,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 28,
+     "shots_on": 11,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 39460040,
+     "name": "Couhaib Driouech",
+     "photo": null,
+     "position": "F",
+     "minutes": 640,
+     "appearances": 8,
+     "lineups": 8,
+     "sub_in": 0,
+     "goals": 3,
+     "assists": 2,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 28,
+     "shots_on": 11,
+     "penalties": 0,
+     "rating": 6.5
+    }
+   ],
+   "games": 8
+  },
+  "Royale Union Saint-Gilloise": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 47607098,
+     "name": "Anan Khalaili",
+     "photo": null,
+     "position": "F",
+     "minutes": 640,
+     "appearances": 8,
+     "lineups": 8,
+     "sub_in": 0,
+     "goals": 3,
+     "assists": 0,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 24,
+     "shots_on": 10,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 72256919,
+     "name": "Promise Akinpelu",
+     "photo": null,
+     "position": "F",
+     "minutes": 560,
+     "appearances": 7,
+     "lineups": 7,
+     "sub_in": 0,
+     "goals": 2,
+     "assists": 0,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 16,
+     "shots_on": 6,
+     "penalties": 1,
+     "rating": 6.5
+    }
+   ],
+   "games": 8
+  },
+  "Sport Lisboa e Benfica": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 52063953,
+     "name": "Vangelis Pavlidis",
+     "photo": null,
+     "position": "F",
+     "minutes": 800,
+     "appearances": 10,
+     "lineups": 10,
+     "sub_in": 0,
+     "goals": 2,
+     "assists": 2,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 20,
+     "shots_on": 8,
+     "penalties": 1,
+     "rating": 6.5
+    }
+   ],
+   "games": 10
+  },
+  "Qarabağ Ağdam FK": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 50766685,
+     "name": "Camilo Durán",
+     "photo": null,
+     "position": "F",
+     "minutes": 800,
+     "appearances": 10,
+     "lineups": 10,
+     "sub_in": 0,
+     "goals": 5,
+     "assists": 2,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 44,
+     "shots_on": 18,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 23654919,
+     "name": "Leandro Andrade",
+     "photo": null,
+     "position": "F",
+     "minutes": 800,
+     "appearances": 10,
+     "lineups": 10,
+     "sub_in": 0,
+     "goals": 3,
+     "assists": 0,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 24,
+     "shots_on": 10,
+     "penalties": 0,
+     "rating": 6.5
+    }
+   ],
+   "games": 10
+  },
+  "SK Slavia Praha": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 30059478,
+     "name": "Youssoupha Mbodji",
+     "photo": null,
+     "position": "F",
+     "minutes": 640,
+     "appearances": 8,
+     "lineups": 8,
+     "sub_in": 0,
+     "goals": 2,
+     "assists": 0,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 16,
+     "shots_on": 6,
+     "penalties": 0,
+     "rating": 6.5
+    }
+   ],
+   "games": 8
+  },
+  "FK Bodø/Glimt": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 21399651,
+     "name": "Jens Hauge",
+     "photo": null,
+     "position": "F",
+     "minutes": 960,
+     "appearances": 12,
+     "lineups": 12,
+     "sub_in": 0,
+     "goals": 6,
+     "assists": 2,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 52,
+     "shots_on": 21,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 91002009,
+     "name": "Kasper Högh",
+     "photo": null,
+     "position": "F",
+     "minutes": 960,
+     "appearances": 12,
+     "lineups": 12,
+     "sub_in": 0,
+     "goals": 5,
+     "assists": 2,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 44,
+     "shots_on": 18,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 38787828,
+     "name": "Sondre Fet",
+     "photo": null,
+     "position": "F",
+     "minutes": 960,
+     "appearances": 12,
+     "lineups": 12,
+     "sub_in": 0,
+     "goals": 4,
+     "assists": 1,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 34,
+     "shots_on": 14,
+     "penalties": 2,
+     "rating": 6.5
+    }
+   ],
+   "games": 12
+  },
+  "PAE Olympiakos SFP": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 80179505,
+     "name": "Gelson Martins",
+     "photo": null,
+     "position": "F",
+     "minutes": 720,
+     "appearances": 9,
+     "lineups": 9,
+     "sub_in": 0,
+     "goals": 3,
+     "assists": 0,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 24,
+     "shots_on": 10,
+     "penalties": 0,
+     "rating": 6.5
+    }
+   ],
+   "games": 9
+  },
+  "AFC Ajax": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 58108317,
+     "name": "Oscar Gloukh",
+     "photo": null,
+     "position": "F",
+     "minutes": 640,
+     "appearances": 8,
+     "lineups": 8,
+     "sub_in": 0,
+     "goals": 3,
+     "assists": 0,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 24,
+     "shots_on": 10,
+     "penalties": 0,
+     "rating": 6.5
+    }
+   ],
+   "games": 8
+  },
+  "FC København": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 70434901,
+     "name": "Jordan Larsson",
+     "photo": null,
+     "position": "F",
+     "minutes": 640,
+     "appearances": 8,
+     "lineups": 8,
+     "sub_in": 0,
+     "goals": 3,
+     "assists": 0,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 24,
+     "shots_on": 10,
+     "penalties": 1,
+     "rating": 6.5
+    },
+    {
+     "id": 22350940,
+     "name": "Viktor Daðason",
+     "photo": null,
+     "position": "F",
+     "minutes": 480,
+     "appearances": 6,
+     "lineups": 6,
+     "sub_in": 0,
+     "goals": 3,
+     "assists": 0,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 24,
+     "shots_on": 10,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 29565213,
+     "name": "Robert",
+     "photo": null,
+     "position": "F",
+     "minutes": 560,
+     "appearances": 7,
+     "lineups": 7,
+     "sub_in": 0,
+     "goals": 2,
+     "assists": 1,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 18,
+     "shots_on": 7,
+     "penalties": 0,
+     "rating": 6.5
+    }
+   ],
+   "games": 8
+  },
+  "Club Brugge KV": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 60274205,
+     "name": "Nicolo Tresoldi",
+     "photo": null,
+     "position": "F",
+     "minutes": 800,
+     "appearances": 10,
+     "lineups": 10,
+     "sub_in": 0,
+     "goals": 3,
+     "assists": 1,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 26,
+     "shots_on": 10,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 12357033,
+     "name": "Raphael Onyedika",
+     "photo": null,
+     "position": "F",
+     "minutes": 480,
+     "appearances": 6,
+     "lineups": 6,
+     "sub_in": 0,
+     "goals": 2,
+     "assists": 1,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 18,
+     "shots_on": 7,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 54232777,
+     "name": "Hans Vanaken",
+     "photo": null,
+     "position": "F",
+     "minutes": 800,
+     "appearances": 10,
+     "lineups": 10,
+     "sub_in": 0,
+     "goals": 2,
+     "assists": 3,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 22,
+     "shots_on": 9,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 75777948,
+     "name": "Mamadou Diakhon",
+     "photo": null,
+     "position": "F",
+     "minutes": 800,
+     "appearances": 10,
+     "lineups": 10,
+     "sub_in": 0,
+     "goals": 2,
+     "assists": 1,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 18,
+     "shots_on": 7,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 58105239,
+     "name": "Christos Tzolis",
+     "photo": null,
+     "position": "F",
+     "minutes": 720,
+     "appearances": 9,
+     "lineups": 9,
+     "sub_in": 0,
+     "goals": 2,
+     "assists": 1,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 18,
+     "shots_on": 7,
+     "penalties": 0,
+     "rating": 6.5
+    }
+   ],
+   "games": 10
+  },
+  "Galatasaray SK": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 50732164,
+     "name": "Victor Osimhen",
+     "photo": null,
+     "position": "F",
+     "minutes": 800,
+     "appearances": 10,
+     "lineups": 10,
+     "sub_in": 0,
+     "goals": 7,
+     "assists": 2,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 60,
+     "shots_on": 24,
+     "penalties": 3,
+     "rating": 6.5
+    },
+    {
+     "id": 80874829,
+     "name": "Yunus Akgün",
+     "photo": null,
+     "position": "F",
+     "minutes": 800,
+     "appearances": 10,
+     "lineups": 10,
+     "sub_in": 0,
+     "goals": 2,
+     "assists": 0,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 16,
+     "shots_on": 6,
+     "penalties": 0,
+     "rating": 6.5
+    }
+   ],
+   "games": 10
+  },
+  "Sporting Clube de Portugal": {
+   "source": "marcatori",
+   "players": [
+    {
+     "id": 70881211,
+     "name": "Luis Suárez",
+     "photo": null,
+     "position": "F",
+     "minutes": 960,
+     "appearances": 12,
+     "lineups": 12,
+     "sub_in": 0,
+     "goals": 5,
+     "assists": 1,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 42,
+     "shots_on": 17,
+     "penalties": 2,
+     "rating": 6.5
+    },
+    {
+     "id": 99147824,
+     "name": "Trincão",
+     "photo": null,
+     "position": "F",
+     "minutes": 880,
+     "appearances": 11,
+     "lineups": 11,
+     "sub_in": 0,
+     "goals": 4,
+     "assists": 3,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 38,
+     "shots_on": 15,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 24568609,
+     "name": "Alisson Santos",
+     "photo": null,
+     "position": "F",
+     "minutes": 640,
+     "appearances": 8,
+     "lineups": 8,
+     "sub_in": 0,
+     "goals": 3,
+     "assists": 0,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 24,
+     "shots_on": 10,
+     "penalties": 0,
+     "rating": 6.5
+    },
+    {
+     "id": 69942466,
+     "name": "Geovany Quenda",
+     "photo": null,
+     "position": "F",
+     "minutes": 480,
+     "appearances": 6,
+     "lineups": 6,
+     "sub_in": 0,
+     "goals": 2,
+     "assists": 2,
+     "conceded": 0,
+     "saves": 0,
+     "shots": 20,
+     "shots_on": 8,
+     "penalties": 0,
+     "rating": 6.5
+    }
+   ],
+   "games": 12
+  }
+ },
+ "espn": {
+  "events": {
+   "757653": {
+    "date": "2025-09-16",
+    "teams": {
+     "Athletic Club": {
+      "fouls": 18.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 11.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "Arsenal": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757654": {
+    "date": "2025-09-16",
+    "teams": {
+     "PSV Eindhoven": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     },
+     "Union St.-Gilloise": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 18.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757657": {
+    "date": "2025-09-16",
+    "teams": {
+     "Benfica": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     },
+     "FK Qarabag": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757656": {
+    "date": "2025-09-16",
+    "teams": {
+     "Juventus": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 19.0,
+      "sot": 7.0,
+      "conceded": 4.0
+     },
+     "Borussia Dortmund": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757655": {
+    "date": "2025-09-16",
+    "teams": {
+     "Real Madrid": {
+      "fouls": 9.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 9.0,
+      "saves": 4.0,
+      "shots": 28.0,
+      "sot": 15.0,
+      "conceded": 1.0
+     },
+     "Marseille": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 13.0,
+      "shots": 15.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757658": {
+    "date": "2025-09-16",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 14.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 0.0,
+      "shots": 9.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     },
+     "Villarreal": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 10.0,
+      "sot": 0.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757659": {
+    "date": "2025-09-17",
+    "teams": {
+     "Olympiacos": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Pafos": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 0.0,
+      "saves": 3.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757660": {
+    "date": "2025-09-17",
+    "teams": {
+     "Slavia Prague": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 8.0,
+      "shots": 26.0,
+      "sot": 11.0,
+      "conceded": 2.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 8.0,
+      "shots": 11.0,
+      "sot": 10.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757664": {
+    "date": "2025-09-17",
+    "teams": {
+     "Ajax Amsterdam": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "Internazionale": {
+      "fouls": 17.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757663": {
+    "date": "2025-09-17",
+    "teams": {
+     "Bayern Munich": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 16.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Chelsea": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757662": {
+    "date": "2025-09-17",
+    "teams": {
+     "Liverpool": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 20.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "Atlético Madrid": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757661": {
+    "date": "2025-09-17",
+    "teams": {
+     "Paris Saint-Germain": {
+      "fouls": 5.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 22.0,
+      "sot": 13.0,
+      "conceded": 0.0
+     },
+     "Atalanta": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 9.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757665": {
+    "date": "2025-09-18",
+    "teams": {
+     "Club Brugge": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 26.0,
+      "sot": 10.0,
+      "conceded": 1.0
+     },
+     "AS Monaco": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 6.0,
+      "shots": 13.0,
+      "sot": 5.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757666": {
+    "date": "2025-09-18",
+    "teams": {
+     "F.C. København": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "Bayer Leverkusen": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757668": {
+    "date": "2025-09-18",
+    "teams": {
+     "Eintracht Frankfurt": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Galatasaray": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "757667": {
+    "date": "2025-09-18",
+    "teams": {
+     "Manchester City": {
+      "fouls": 3.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 23.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     },
+     "Napoli": {
+      "fouls": 4.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 1.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757669": {
+    "date": "2025-09-18",
+    "teams": {
+     "Newcastle United": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "Barcelona": {
+      "fouls": 12.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 19.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757670": {
+    "date": "2025-09-18",
+    "teams": {
+     "Sporting CP": {
+      "fouls": 14.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 3.0,
+      "shots": 21.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Kairat Almaty": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 9.0,
+      "sot": 4.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757672": {
+    "date": "2025-09-30",
+    "teams": {
+     "Atalanta": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 20.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Club Brugge": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 1.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757671": {
+    "date": "2025-09-30",
+    "teams": {
+     "Kairat Almaty": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 7.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 5.0
+     },
+     "Real Madrid": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 20.0,
+      "sot": 12.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757673": {
+    "date": "2025-09-30",
+    "teams": {
+     "Atlético Madrid": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 12.0,
+      "conceded": 1.0
+     },
+     "Eintracht Frankfurt": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 7.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "757674": {
+    "date": "2025-09-30",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 18.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757675": {
+    "date": "2025-09-30",
+    "teams": {
+     "Chelsea": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Benfica": {
+      "fouls": 14.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757676": {
+    "date": "2025-09-30",
+    "teams": {
+     "Galatasaray": {
+      "fouls": 12.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 9.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Liverpool": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757678": {
+    "date": "2025-09-30",
+    "teams": {
+     "Internazionale": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 21.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Slavia Prague": {
+      "fouls": 17.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 2.0,
+      "shots": 3.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757679": {
+    "date": "2025-09-30",
+    "teams": {
+     "Marseille": {
+      "fouls": 18.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Ajax Amsterdam": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 2.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757677": {
+    "date": "2025-09-30",
+    "teams": {
+     "Pafos": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 10.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 5.0
+     },
+     "Bayern Munich": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 26.0,
+      "sot": 15.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757680": {
+    "date": "2025-10-01",
+    "teams": {
+     "FK Qarabag": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "F.C. København": {
+      "fouls": 20.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 4.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757681": {
+    "date": "2025-10-01",
+    "teams": {
+     "Union St.-Gilloise": {
+      "fouls": 15.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 6.0,
+      "conceded": 4.0
+     },
+     "Newcastle United": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 6.0,
+      "shots": 13.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757688": {
+    "date": "2025-10-01",
+    "teams": {
+     "Arsenal": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Olympiacos": {
+      "fouls": 17.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757686": {
+    "date": "2025-10-01",
+    "teams": {
+     "AS Monaco": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "Manchester City": {
+      "fouls": 13.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757687": {
+    "date": "2025-10-01",
+    "teams": {
+     "Barcelona": {
+      "fouls": 12.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "Paris Saint-Germain": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 0.0,
+      "shots": 16.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757684": {
+    "date": "2025-10-01",
+    "teams": {
+     "Bayer Leverkusen": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 0.0,
+      "shots": 14.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "PSV Eindhoven": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757683": {
+    "date": "2025-10-01",
+    "teams": {
+     "Borussia Dortmund": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Athletic Club": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 4.0,
+      "shots": 6.0,
+      "sot": 3.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757685": {
+    "date": "2025-10-01",
+    "teams": {
+     "Napoli": {
+      "fouls": 16.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Sporting CP": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757682": {
+    "date": "2025-10-01",
+    "teams": {
+     "Villarreal": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "Juventus": {
+      "fouls": 19.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 13.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757690": {
+    "date": "2025-10-21",
+    "teams": {
+     "Barcelona": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 14.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Olympiacos": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 5.0,
+      "sot": 2.0,
+      "conceded": 6.0
+     }
+    }
+   },
+   "757689": {
+    "date": "2025-10-21",
+    "teams": {
+     "Kairat Almaty": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 5.0,
+      "shots": 22.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Pafos": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757697": {
+    "date": "2025-10-21",
+    "teams": {
+     "Arsenal": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 19.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     },
+     "Atlético Madrid": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 11.0,
+      "sot": 1.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757693": {
+    "date": "2025-10-21",
+    "teams": {
+     "Bayer Leverkusen": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 6.0,
+      "sot": 3.0,
+      "conceded": 7.0
+     },
+     "Paris Saint-Germain": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 24.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757695": {
+    "date": "2025-10-21",
+    "teams": {
+     "F.C. København": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 4.0
+     },
+     "Borussia Dortmund": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757696": {
+    "date": "2025-10-21",
+    "teams": {
+     "Newcastle United": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 12.0,
+      "saves": 2.0,
+      "shots": 19.0,
+      "sot": 10.0,
+      "conceded": 0.0
+     },
+     "Benfica": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 7.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757691": {
+    "date": "2025-10-21",
+    "teams": {
+     "PSV Eindhoven": {
+      "fouls": 11.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 0.0,
+      "shots": 19.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     },
+     "Napoli": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 8.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 2.0,
+      "conceded": 6.0
+     }
+    }
+   },
+   "757692": {
+    "date": "2025-10-21",
+    "teams": {
+     "Union St.-Gilloise": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 4.0
+     },
+     "Internazionale": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 21.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757694": {
+    "date": "2025-10-21",
+    "teams": {
+     "Villarreal": {
+      "fouls": 17.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 11.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "Manchester City": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 10.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757699": {
+    "date": "2025-10-22",
+    "teams": {
+     "Athletic Club": {
+      "fouls": 14.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 21.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "FK Qarabag": {
+      "fouls": 5.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757698": {
+    "date": "2025-10-22",
+    "teams": {
+     "Galatasaray": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 23.0,
+      "sot": 11.0,
+      "conceded": 1.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 8.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757704": {
+    "date": "2025-10-22",
+    "teams": {
+     "AS Monaco": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 23.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 8.0,
+      "shots": 11.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757700": {
+    "date": "2025-10-22",
+    "teams": {
+     "Atalanta": {
+      "fouls": 8.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 22.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Slavia Prague": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 16.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757703": {
+    "date": "2025-10-22",
+    "teams": {
+     "Bayern Munich": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 26.0,
+      "sot": 13.0,
+      "conceded": 0.0
+     },
+     "Club Brugge": {
+      "fouls": 3.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 7.0,
+      "shots": 5.0,
+      "sot": 2.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757701": {
+    "date": "2025-10-22",
+    "teams": {
+     "Chelsea": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 0.0,
+      "shots": 22.0,
+      "sot": 10.0,
+      "conceded": 1.0
+     },
+     "Ajax Amsterdam": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 0.0,
+      "saves": 5.0,
+      "shots": 2.0,
+      "sot": 1.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "757702": {
+    "date": "2025-10-22",
+    "teams": {
+     "Eintracht Frankfurt": {
+      "fouls": 4.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 9.0,
+      "shots": 4.0,
+      "sot": 1.0,
+      "conceded": 5.0
+     },
+     "Liverpool": {
+      "fouls": 5.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 0.0,
+      "shots": 18.0,
+      "sot": 14.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757705": {
+    "date": "2025-10-22",
+    "teams": {
+     "Real Madrid": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 14.0,
+      "saves": 4.0,
+      "shots": 28.0,
+      "sot": 10.0,
+      "conceded": 0.0
+     },
+     "Juventus": {
+      "fouls": 18.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 8.0,
+      "shots": 13.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757706": {
+    "date": "2025-10-22",
+    "teams": {
+     "Sporting CP": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Marseille": {
+      "fouls": 16.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757708": {
+    "date": "2025-11-04",
+    "teams": {
+     "Napoli": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "shots": 18.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Eintracht Frankfurt": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757707": {
+    "date": "2025-11-04",
+    "teams": {
+     "Slavia Prague": {
+      "fouls": 24.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 9.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     },
+     "Arsenal": {
+      "fouls": 12.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 14.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757711": {
+    "date": "2025-11-04",
+    "teams": {
+     "Atlético Madrid": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Union St.-Gilloise": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757712": {
+    "date": "2025-11-04",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 17.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "AS Monaco": {
+      "fouls": 16.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757710": {
+    "date": "2025-11-04",
+    "teams": {
+     "Juventus": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 0.0,
+      "shots": 18.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "Sporting CP": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 8.0,
+      "shots": 4.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757714": {
+    "date": "2025-11-04",
+    "teams": {
+     "Liverpool": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 9.0,
+      "conceded": 0.0
+     },
+     "Real Madrid": {
+      "fouls": 11.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 8.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757713": {
+    "date": "2025-11-04",
+    "teams": {
+     "Olympiacos": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "PSV Eindhoven": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757709": {
+    "date": "2025-11-04",
+    "teams": {
+     "Paris Saint-Germain": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 3.0,
+      "shots": 25.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     },
+     "Bayern Munich": {
+      "fouls": 9.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 1.0,
+      "saves": 8.0,
+      "shots": 9.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757715": {
+    "date": "2025-11-04",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 14.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "F.C. København": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757716": {
+    "date": "2025-11-05",
+    "teams": {
+     "FK Qarabag": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "Chelsea": {
+      "fouls": 19.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 16.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757717": {
+    "date": "2025-11-05",
+    "teams": {
+     "Pafos": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 5.0,
+      "shots": 5.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Villarreal": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757721": {
+    "date": "2025-11-05",
+    "teams": {
+     "Ajax Amsterdam": {
+      "fouls": 12.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     },
+     "Galatasaray": {
+      "fouls": 15.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 14.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757720": {
+    "date": "2025-11-05",
+    "teams": {
+     "Benfica": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 21.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Bayer Leverkusen": {
+      "fouls": 9.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 5.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757723": {
+    "date": "2025-11-05",
+    "teams": {
+     "Club Brugge": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     },
+     "Barcelona": {
+      "fouls": 6.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 23.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757722": {
+    "date": "2025-11-05",
+    "teams": {
+     "Internazionale": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 23.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "Kairat Almaty": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 6.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757718": {
+    "date": "2025-11-05",
+    "teams": {
+     "Manchester City": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 18.0,
+      "sot": 11.0,
+      "conceded": 1.0
+     },
+     "Borussia Dortmund": {
+      "fouls": 17.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 8.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757724": {
+    "date": "2025-11-05",
+    "teams": {
+     "Marseille": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Atalanta": {
+      "fouls": 17.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757719": {
+    "date": "2025-11-05",
+    "teams": {
+     "Newcastle United": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 5.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Athletic Club": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757725": {
+    "date": "2025-11-25",
+    "teams": {
+     "Ajax Amsterdam": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "Benfica": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757726": {
+    "date": "2025-11-25",
+    "teams": {
+     "Galatasaray": {
+      "fouls": 9.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 15.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Union St.-Gilloise": {
+      "fouls": 17.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 16.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757731": {
+    "date": "2025-11-25",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 12.0,
+      "shots": 18.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     },
+     "Juventus": {
+      "fouls": 17.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 4.0,
+      "shots": 23.0,
+      "sot": 16.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757727": {
+    "date": "2025-11-25",
+    "teams": {
+     "Borussia Dortmund": {
+      "fouls": 17.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 13.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     },
+     "Villarreal": {
+      "fouls": 12.0,
+      "yellows": 0.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 2.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757732": {
+    "date": "2025-11-25",
+    "teams": {
+     "Chelsea": {
+      "fouls": 18.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Barcelona": {
+      "fouls": 12.0,
+      "yellows": 0.0,
+      "reds": 1.0,
+      "corners": 0.0,
+      "saves": 3.0,
+      "shots": 5.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757730": {
+    "date": "2025-11-25",
+    "teams": {
+     "Manchester City": {
+      "fouls": 4.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 0.0,
+      "shots": 19.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "Bayer Leverkusen": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 9.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757729": {
+    "date": "2025-11-25",
+    "teams": {
+     "Marseille": {
+      "fouls": 10.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 7.0,
+      "shots": 18.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Newcastle United": {
+      "fouls": 8.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 20.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757728": {
+    "date": "2025-11-25",
+    "teams": {
+     "Napoli": {
+      "fouls": 18.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 17.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     },
+     "FK Qarabag": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 8.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757733": {
+    "date": "2025-11-25",
+    "teams": {
+     "Slavia Prague": {
+      "fouls": 21.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Athletic Club": {
+      "fouls": 22.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757735": {
+    "date": "2025-11-26",
+    "teams": {
+     "F.C. København": {
+      "fouls": 19.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 18.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     },
+     "Kairat Almaty": {
+      "fouls": 10.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 6.0,
+      "shots": 13.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757734": {
+    "date": "2025-11-26",
+    "teams": {
+     "Pafos": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "shots": 17.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     },
+     "AS Monaco": {
+      "fouls": 9.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 14.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757742": {
+    "date": "2025-11-26",
+    "teams": {
+     "Arsenal": {
+      "fouls": 16.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 13.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Bayern Munich": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757740": {
+    "date": "2025-11-26",
+    "teams": {
+     "Atlético Madrid": {
+      "fouls": 12.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Internazionale": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 17.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757739": {
+    "date": "2025-11-26",
+    "teams": {
+     "Eintracht Frankfurt": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     },
+     "Atalanta": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 21.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757738": {
+    "date": "2025-11-26",
+    "teams": {
+     "Liverpool": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 2.0,
+      "shots": 27.0,
+      "sot": 10.0,
+      "conceded": 4.0
+     },
+     "PSV Eindhoven": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 8.0,
+      "shots": 9.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757737": {
+    "date": "2025-11-26",
+    "teams": {
+     "Olympiacos": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 18.0,
+      "sot": 8.0,
+      "conceded": 4.0
+     },
+     "Real Madrid": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 15.0,
+      "sot": 7.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757736": {
+    "date": "2025-11-26",
+    "teams": {
+     "Paris Saint-Germain": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 1.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "757741": {
+    "date": "2025-11-26",
+    "teams": {
+     "Sporting CP": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 19.0,
+      "sot": 9.0,
+      "conceded": 0.0
+     },
+     "Club Brugge": {
+      "fouls": 14.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 6.0,
+      "shots": 8.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757743": {
+    "date": "2025-12-09",
+    "teams": {
+     "Kairat Almaty": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 8.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     },
+     "Olympiacos": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 20.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757744": {
+    "date": "2025-12-09",
+    "teams": {
+     "Bayern Munich": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 23.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "Sporting CP": {
+      "fouls": 5.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 7.0,
+      "shots": 4.0,
+      "sot": 0.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757751": {
+    "date": "2025-12-09",
+    "teams": {
+     "AS Monaco": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 19.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Galatasaray": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 13.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757747": {
+    "date": "2025-12-09",
+    "teams": {
+     "Atalanta": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 14.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Chelsea": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757746": {
+    "date": "2025-12-09",
+    "teams": {
+     "Barcelona": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 19.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Eintracht Frankfurt": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 5.0,
+      "shots": 6.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757745": {
+    "date": "2025-12-09",
+    "teams": {
+     "Internazionale": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     },
+     "Liverpool": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757750": {
+    "date": "2025-12-09",
+    "teams": {
+     "PSV Eindhoven": {
+      "fouls": 11.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 6.0,
+      "shots": 13.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     },
+     "Atlético Madrid": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757749": {
+    "date": "2025-12-09",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 5.0,
+      "shots": 16.0,
+      "sot": 10.0,
+      "conceded": 0.0
+     },
+     "Slavia Prague": {
+      "fouls": 13.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 8.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757748": {
+    "date": "2025-12-09",
+    "teams": {
+     "Union St.-Gilloise": {
+      "fouls": 10.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 8.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     },
+     "Marseille": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757752": {
+    "date": "2025-12-10",
+    "teams": {
+     "FK Qarabag": {
+      "fouls": 3.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 17.0,
+      "sot": 6.0,
+      "conceded": 4.0
+     },
+     "Ajax Amsterdam": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 20.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757753": {
+    "date": "2025-12-10",
+    "teams": {
+     "Villarreal": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 19.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     },
+     "F.C. København": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757759": {
+    "date": "2025-12-10",
+    "teams": {
+     "Athletic Club": {
+      "fouls": 21.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 9.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     },
+     "Paris Saint-Germain": {
+      "fouls": 4.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757758": {
+    "date": "2025-12-10",
+    "teams": {
+     "Bayer Leverkusen": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 4.0,
+      "shots": 17.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "Newcastle United": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 6.0,
+      "shots": 13.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757754": {
+    "date": "2025-12-10",
+    "teams": {
+     "Benfica": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Napoli": {
+      "fouls": 21.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757755": {
+    "date": "2025-12-10",
+    "teams": {
+     "Borussia Dortmund": {
+      "fouls": 5.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 2.0,
+      "shots": 22.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 7.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757757": {
+    "date": "2025-12-10",
+    "teams": {
+     "Club Brugge": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 7.0,
+      "shots": 18.0,
+      "sot": 7.0,
+      "conceded": 3.0
+     },
+     "Arsenal": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 7.0,
+      "shots": 20.0,
+      "sot": 11.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757756": {
+    "date": "2025-12-10",
+    "teams": {
+     "Juventus": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 13.0,
+      "saves": 4.0,
+      "shots": 25.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Pafos": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757760": {
+    "date": "2025-12-10",
+    "teams": {
+     "Real Madrid": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 6.0,
+      "shots": 16.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     },
+     "Manchester City": {
+      "fouls": 17.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 0.0,
+      "shots": 12.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757761": {
+    "date": "2026-01-20",
+    "teams": {
+     "Kairat Almaty": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 2.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 4.0
+     },
+     "Club Brugge": {
+      "fouls": 12.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 17.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757762": {
+    "date": "2026-01-20",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 8.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Manchester City": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 16.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757767": {
+    "date": "2026-01-20",
+    "teams": {
+     "F.C. København": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 5.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Napoli": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 3.0,
+      "shots": 19.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757763": {
+    "date": "2026-01-20",
+    "teams": {
+     "Internazionale": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 18.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     },
+     "Arsenal": {
+      "fouls": 17.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 17.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757765": {
+    "date": "2026-01-20",
+    "teams": {
+     "Olympiacos": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Bayer Leverkusen": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 0.0,
+      "shots": 17.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757764": {
+    "date": "2026-01-20",
+    "teams": {
+     "Real Madrid": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 5.0,
+      "shots": 25.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "AS Monaco": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 20.0,
+      "sot": 6.0,
+      "conceded": 6.0
+     }
+    }
+   },
+   "757768": {
+    "date": "2026-01-20",
+    "teams": {
+     "Sporting CP": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 5.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Paris Saint-Germain": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 2.0,
+      "shots": 28.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757769": {
+    "date": "2026-01-20",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 16.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Borussia Dortmund": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757766": {
+    "date": "2026-01-20",
+    "teams": {
+     "Villarreal": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 19.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     },
+     "Ajax Amsterdam": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 6.0,
+      "shots": 15.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757770": {
+    "date": "2026-01-21",
+    "teams": {
+     "FK Qarabag": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Eintracht Frankfurt": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757771": {
+    "date": "2026-01-21",
+    "teams": {
+     "Galatasaray": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     },
+     "Atlético Madrid": {
+      "fouls": 11.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757772": {
+    "date": "2026-01-21",
+    "teams": {
+     "Atalanta": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 0.0,
+      "shots": 14.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     },
+     "Athletic Club": {
+      "fouls": 16.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 4.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757774": {
+    "date": "2026-01-21",
+    "teams": {
+     "Bayern Munich": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 14.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Union St.-Gilloise": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 2.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757773": {
+    "date": "2026-01-21",
+    "teams": {
+     "Chelsea": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 15.0,
+      "saves": 2.0,
+      "shots": 21.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "Pafos": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 4.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757775": {
+    "date": "2026-01-21",
+    "teams": {
+     "Juventus": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Benfica": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757776": {
+    "date": "2026-01-21",
+    "teams": {
+     "Marseille": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     },
+     "Liverpool": {
+      "fouls": 12.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757777": {
+    "date": "2026-01-21",
+    "teams": {
+     "Newcastle United": {
+      "fouls": 4.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "PSV Eindhoven": {
+      "fouls": 11.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 1.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757778": {
+    "date": "2026-01-21",
+    "teams": {
+     "Slavia Prague": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 8.0,
+      "shots": 12.0,
+      "sot": 2.0,
+      "conceded": 4.0
+     },
+     "Barcelona": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 20.0,
+      "sot": 12.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757779": {
+    "date": "2026-01-28",
+    "teams": {
+     "Ajax Amsterdam": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     },
+     "Olympiacos": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757780": {
+    "date": "2026-01-28",
+    "teams": {
+     "Arsenal": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 0.0,
+      "shots": 25.0,
+      "sot": 11.0,
+      "conceded": 2.0
+     },
+     "Kairat Almaty": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 7.0,
+      "shots": 4.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757791": {
+    "date": "2026-01-28",
+    "teams": {
+     "AS Monaco": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 0.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Juventus": {
+      "fouls": 19.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 5.0,
+      "shots": 5.0,
+      "sot": 0.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757781": {
+    "date": "2026-01-28",
+    "teams": {
+     "Athletic Club": {
+      "fouls": 22.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     },
+     "Sporting CP": {
+      "fouls": 8.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 0.0,
+      "shots": 9.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757782": {
+    "date": "2026-01-28",
+    "teams": {
+     "Atlético Madrid": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 12.0,
+      "saves": 3.0,
+      "shots": 27.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 4.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 7.0,
+      "shots": 11.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757783": {
+    "date": "2026-01-28",
+    "teams": {
+     "Barcelona": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 0.0,
+      "shots": 28.0,
+      "sot": 13.0,
+      "conceded": 1.0
+     },
+     "F.C. København": {
+      "fouls": 11.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 8.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757784": {
+    "date": "2026-01-28",
+    "teams": {
+     "Bayer Leverkusen": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "Villarreal": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 5.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757785": {
+    "date": "2026-01-28",
+    "teams": {
+     "Benfica": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 22.0,
+      "sot": 12.0,
+      "conceded": 2.0
+     },
+     "Real Madrid": {
+      "fouls": 15.0,
+      "yellows": 4.0,
+      "reds": 2.0,
+      "corners": 5.0,
+      "saves": 7.0,
+      "shots": 16.0,
+      "sot": 6.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757786": {
+    "date": "2026-01-28",
+    "teams": {
+     "Borussia Dortmund": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     },
+     "Internazionale": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757787": {
+    "date": "2026-01-28",
+    "teams": {
+     "Club Brugge": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 9.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Marseille": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 2.0,
+      "shots": 18.0,
+      "sot": 9.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "757788": {
+    "date": "2026-01-28",
+    "teams": {
+     "Eintracht Frankfurt": {
+      "fouls": 12.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 4.0,
+      "shots": 4.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "757789": {
+    "date": "2026-01-28",
+    "teams": {
+     "Liverpool": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 14.0,
+      "saves": 1.0,
+      "shots": 38.0,
+      "sot": 12.0,
+      "conceded": 0.0
+     },
+     "FK Qarabag": {
+      "fouls": 3.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 6.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 6.0
+     }
+    }
+   },
+   "757790": {
+    "date": "2026-01-28",
+    "teams": {
+     "Manchester City": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Galatasaray": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 4.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757792": {
+    "date": "2026-01-28",
+    "teams": {
+     "Napoli": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 8.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     },
+     "Chelsea": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "757794": {
+    "date": "2026-01-28",
+    "teams": {
+     "Pafos": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Slavia Prague": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 5.0,
+      "shots": 13.0,
+      "sot": 3.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "757795": {
+    "date": "2026-01-28",
+    "teams": {
+     "Paris Saint-Germain": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 25.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Newcastle United": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 6.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757793": {
+    "date": "2026-01-28",
+    "teams": {
+     "PSV Eindhoven": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 5.0,
+      "saves": 6.0,
+      "shots": 13.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "Bayern Munich": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 6.0,
+      "shots": 17.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "757796": {
+    "date": "2026-01-28",
+    "teams": {
+     "Union St.-Gilloise": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 2.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Atalanta": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401858759": {
+    "date": "2026-02-17",
+    "teams": {
+     "Galatasaray": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 22.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     },
+     "Juventus": {
+      "fouls": 18.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "401858758": {
+    "date": "2026-02-17",
+    "teams": {
+     "AS Monaco": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 1.0,
+      "saves": 7.0,
+      "shots": 7.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     },
+     "Paris Saint-Germain": {
+      "fouls": 4.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 30.0,
+      "sot": 10.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "401858735": {
+    "date": "2026-02-17",
+    "teams": {
+     "Benfica": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 6.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Real Madrid": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "401858761": {
+    "date": "2026-02-17",
+    "teams": {
+     "Borussia Dortmund": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Atalanta": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 0.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "401858736": {
+    "date": "2026-02-18",
+    "teams": {
+     "FK Qarabag": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 8.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 6.0
+     },
+     "Newcastle United": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 22.0,
+      "sot": 14.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401858734": {
+    "date": "2026-02-18",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Internazionale": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "401858760": {
+    "date": "2026-02-18",
+    "teams": {
+     "Club Brugge": {
+      "fouls": 5.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 10.0,
+      "conceded": 3.0
+     },
+     "Atlético Madrid": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 7.0,
+      "shots": 13.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "401858737": {
+    "date": "2026-02-18",
+    "teams": {
+     "Olympiacos": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 13.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     },
+     "Bayer Leverkusen": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 8.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "401858768": {
+    "date": "2026-02-24",
+    "teams": {
+     "Atlético Madrid": {
+      "fouls": 5.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 5.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Club Brugge": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 6.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "401858767": {
+    "date": "2026-02-24",
+    "teams": {
+     "Bayer Leverkusen": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     },
+     "Olympiacos": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "401858766": {
+    "date": "2026-02-24",
+    "teams": {
+     "Internazionale": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 16.0,
+      "saves": 3.0,
+      "shots": 30.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 7.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401858764": {
+    "date": "2026-02-24",
+    "teams": {
+     "Newcastle United": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 4.0,
+      "shots": 19.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     },
+     "FK Qarabag": {
+      "fouls": 4.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 5.0,
+      "shots": 13.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "401858762": {
+    "date": "2026-02-25",
+    "teams": {
+     "Atalanta": {
+      "fouls": 17.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "Borussia Dortmund": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 2.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 7.0,
+      "sot": 4.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "401858765": {
+    "date": "2026-02-25",
+    "teams": {
+     "Juventus": {
+      "fouls": 17.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 9.0,
+      "saves": 6.0,
+      "shots": 28.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     },
+     "Galatasaray": {
+      "fouls": 14.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 6.0,
+      "shots": 16.0,
+      "sot": 8.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "401858763": {
+    "date": "2026-02-25",
+    "teams": {
+     "Paris Saint-Germain": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 21.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "AS Monaco": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "401858769": {
+    "date": "2026-02-25",
+    "teams": {
+     "Real Madrid": {
+      "fouls": 16.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 14.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Benfica": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "401862667": {
+    "date": "2026-03-10",
+    "teams": {
+     "Galatasaray": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 7.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Liverpool": {
+      "fouls": 18.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401862641": {
+    "date": "2026-03-10",
+    "teams": {
+     "Atalanta": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 6.0
+     },
+     "Bayern Munich": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 25.0,
+      "sot": 13.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401862579": {
+    "date": "2026-03-10",
+    "teams": {
+     "Atlético Madrid": {
+      "fouls": 15.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 12.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "401862577": {
+    "date": "2026-03-10",
+    "teams": {
+     "Newcastle United": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 16.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Barcelona": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401862578": {
+    "date": "2026-03-11",
+    "teams": {
+     "Bayer Leverkusen": {
+      "fouls": 9.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Arsenal": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401862583": {
+    "date": "2026-03-11",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Sporting CP": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "401862646": {
+    "date": "2026-03-11",
+    "teams": {
+     "Paris Saint-Germain": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     },
+     "Chelsea": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 4.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "401862645": {
+    "date": "2026-03-11",
+    "teams": {
+     "Real Madrid": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 12.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "Manchester City": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 4.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "401862584": {
+    "date": "2026-03-17",
+    "teams": {
+     "Sporting CP": {
+      "fouls": 17.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 16.0,
+      "saves": 3.0,
+      "shots": 38.0,
+      "sot": 14.0,
+      "conceded": 0.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 11.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 9.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "401862581": {
+    "date": "2026-03-17",
+    "teams": {
+     "Arsenal": {
+      "fouls": 4.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 2.0,
+      "shots": 21.0,
+      "sot": 12.0,
+      "conceded": 0.0
+     },
+     "Bayer Leverkusen": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 10.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "401862648": {
+    "date": "2026-03-17",
+    "teams": {
+     "Chelsea": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 18.0,
+      "sot": 9.0,
+      "conceded": 3.0
+     },
+     "Paris Saint-Germain": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 9.0,
+      "shots": 8.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "401862647": {
+    "date": "2026-03-17",
+    "teams": {
+     "Manchester City": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 9.0,
+      "saves": 4.0,
+      "shots": 22.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     },
+     "Real Madrid": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 7.0,
+      "shots": 14.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401862582": {
+    "date": "2026-03-18",
+    "teams": {
+     "Barcelona": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 18.0,
+      "sot": 13.0,
+      "conceded": 2.0
+     },
+     "Newcastle United": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 8.0,
+      "sot": 5.0,
+      "conceded": 7.0
+     }
+    }
+   },
+   "401862642": {
+    "date": "2026-03-18",
+    "teams": {
+     "Bayern Munich": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 7.0,
+      "shots": 25.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Atalanta": {
+      "fouls": 4.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 14.0,
+      "sot": 8.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "401862668": {
+    "date": "2026-03-18",
+    "teams": {
+     "Liverpool": {
+      "fouls": 15.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 32.0,
+      "sot": 16.0,
+      "conceded": 0.0
+     },
+     "Galatasaray": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 11.0,
+      "shots": 4.0,
+      "sot": 1.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "401862580": {
+    "date": "2026-03-18",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 16.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 18.0,
+      "sot": 11.0,
+      "conceded": 2.0
+     },
+     "Atlético Madrid": {
+      "fouls": 8.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 8.0,
+      "shots": 18.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "401862886": {
+    "date": "2026-04-07",
+    "teams": {
+     "Real Madrid": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 5.0,
+      "shots": 20.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     },
+     "Bayern Munich": {
+      "fouls": 12.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 9.0,
+      "shots": 20.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401862888": {
+    "date": "2026-04-07",
+    "teams": {
+     "Sporting CP": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Arsenal": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "401862887": {
+    "date": "2026-04-08",
+    "teams": {
+     "Barcelona": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "Atlético Madrid": {
+      "fouls": 17.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 7.0,
+      "shots": 5.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "401862885": {
+    "date": "2026-04-08",
+    "teams": {
+     "Paris Saint-Germain": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 0.0,
+      "shots": 18.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Liverpool": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 3.0,
+      "sot": 0.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "401862892": {
+    "date": "2026-04-14",
+    "teams": {
+     "Atlético Madrid": {
+      "fouls": 15.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 7.0,
+      "shots": 15.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Barcelona": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 15.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401862889": {
+    "date": "2026-04-14",
+    "teams": {
+     "Liverpool": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 3.0,
+      "shots": 21.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Paris Saint-Germain": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 12.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "401862890": {
+    "date": "2026-04-15",
+    "teams": {
+     "Arsenal": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     },
+     "Sporting CP": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 8.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "401862891": {
+    "date": "2026-04-15",
+    "teams": {
+     "Bayern Munich": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 21.0,
+      "sot": 9.0,
+      "conceded": 3.0
+     },
+     "Real Madrid": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 2.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "401862893": {
+    "date": "2026-04-28",
+    "teams": {
+     "Paris Saint-Germain": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 4.0
+     },
+     "Bayern Munich": {
+      "fouls": 4.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 0.0,
+      "shots": 10.0,
+      "sot": 8.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "401862894": {
+    "date": "2026-04-29",
+    "teams": {
+     "Atlético Madrid": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Arsenal": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401862896": {
+    "date": "2026-05-05",
+    "teams": {
+     "Arsenal": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Atlético Madrid": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401862895": {
+    "date": "2026-05-06",
+    "teams": {
+     "Bayern Munich": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 6.0,
+      "shots": 18.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Paris Saint-Germain": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 5.0,
+      "shots": 15.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "401862897": {
+    "date": "2026-05-30",
+    "teams": {
+     "Paris Saint-Germain": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 0.0,
+      "shots": 21.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Arsenal": {
+      "fouls": 17.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     }
+    }
+   }
+  }
+ },
+ "team_micro": {
+  "Athletic Club": {
+   "played": 8,
+   "shots_pg": 10.5,
+   "sot_pg": 3.12,
+   "corners_pg": 4.0,
+   "fouls_pg": 17.62,
+   "yellow_pg": 2.12,
+   "red_pg": 0.0,
+   "save_rate": 0.632,
+   "saves_pg": 3.0,
+   "source": "espn"
+  },
+  "Arsenal FC": {
+   "played": 15,
+   "shots_pg": 14.4,
+   "sot_pg": 5.8,
+   "corners_pg": 5.27,
+   "fouls_pg": 12.0,
+   "yellow_pg": 1.73,
+   "red_pg": 0.0,
+   "save_rate": 0.837,
+   "saves_pg": 2.4,
+   "source": "espn"
+  },
+  "PSV": {
+   "played": 8,
+   "shots_pg": 10.75,
+   "sot_pg": 3.88,
+   "corners_pg": 5.0,
+   "fouls_pg": 10.25,
+   "yellow_pg": 2.25,
+   "red_pg": 0.125,
+   "save_rate": 0.66,
+   "saves_pg": 3.88,
+   "source": "espn"
+  },
+  "Royale Union Saint-Gilloise": {
+   "played": 8,
+   "shots_pg": 11.88,
+   "sot_pg": 4.88,
+   "corners_pg": 3.25,
+   "fouls_pg": 12.12,
+   "yellow_pg": 2.12,
+   "red_pg": 0.0,
+   "save_rate": 0.514,
+   "saves_pg": 2.25,
+   "source": "espn"
+  },
+  "Juventus FC": {
+   "played": 10,
+   "shots_pg": 16.3,
+   "sot_pg": 6.1,
+   "corners_pg": 5.9,
+   "fouls_pg": 15.8,
+   "yellow_pg": 1.8,
+   "red_pg": 0.2,
+   "save_rate": 0.696,
+   "saves_pg": 3.9,
+   "source": "espn"
+  },
+  "Borussia Dortmund": {
+   "played": 10,
+   "shots_pg": 11.0,
+   "sot_pg": 4.7,
+   "corners_pg": 4.1,
+   "fouls_pg": 11.3,
+   "yellow_pg": 1.3,
+   "red_pg": 0.3,
+   "save_rate": 0.604,
+   "saves_pg": 3.2,
+   "source": "espn"
+  },
+  "Sport Lisboa e Benfica": {
+   "played": 10,
+   "shots_pg": 13.5,
+   "sot_pg": 4.5,
+   "corners_pg": 5.6,
+   "fouls_pg": 9.5,
+   "yellow_pg": 1.6,
+   "red_pg": 0.0,
+   "save_rate": 0.7,
+   "saves_pg": 3.5,
+   "source": "espn"
+  },
+  "Qarabağ Ağdam FK": {
+   "played": 10,
+   "shots_pg": 10.3,
+   "sot_pg": 4.1,
+   "corners_pg": 4.2,
+   "fouls_pg": 6.4,
+   "yellow_pg": 1.0,
+   "red_pg": 0.0,
+   "save_rate": 0.589,
+   "saves_pg": 4.3,
+   "source": "espn"
+  },
+  "Tottenham Hotspur FC": {
+   "played": 10,
+   "shots_pg": 12.9,
+   "sot_pg": 5.4,
+   "corners_pg": 4.7,
+   "fouls_pg": 12.1,
+   "yellow_pg": 2.3,
+   "red_pg": 0.1,
+   "save_rate": 0.682,
+   "saves_pg": 3.0,
+   "source": "espn"
+  },
+  "Villarreal CF": {
+   "played": 8,
+   "shots_pg": 13.62,
+   "sot_pg": 3.75,
+   "corners_pg": 3.38,
+   "fouls_pg": 12.75,
+   "yellow_pg": 2.38,
+   "red_pg": 0.125,
+   "save_rate": 0.538,
+   "saves_pg": 2.62,
+   "source": "espn"
+  },
+  "Real Madrid CF": {
+   "played": 14,
+   "shots_pg": 17.43,
+   "sot_pg": 6.93,
+   "corners_pg": 5.79,
+   "fouls_pg": 10.79,
+   "yellow_pg": 2.0,
+   "red_pg": 0.357,
+   "save_rate": 0.778,
+   "saves_pg": 5.0,
+   "source": "espn"
+  },
+  "Olympique de Marseille": {
+   "played": 8,
+   "shots_pg": 13.75,
+   "sot_pg": 5.38,
+   "corners_pg": 5.5,
+   "fouls_pg": 12.25,
+   "yellow_pg": 2.12,
+   "red_pg": 0.125,
+   "save_rate": 0.72,
+   "saves_pg": 4.5,
+   "source": "espn"
+  },
+  "SK Slavia Praha": {
+   "played": 8,
+   "shots_pg": 12.38,
+   "sot_pg": 3.75,
+   "corners_pg": 3.38,
+   "fouls_pg": 16.0,
+   "yellow_pg": 1.88,
+   "red_pg": 0.125,
+   "save_rate": 0.703,
+   "saves_pg": 5.62,
+   "source": "espn"
+  },
+  "FK Bodø/Glimt": {
+   "played": 12,
+   "shots_pg": 11.0,
+   "sot_pg": 5.0,
+   "corners_pg": 3.42,
+   "fouls_pg": 9.33,
+   "yellow_pg": 1.42,
+   "red_pg": 0.083,
+   "save_rate": 0.753,
+   "saves_pg": 5.58,
+   "source": "espn"
+  },
+  "PAE Olympiakos SFP": {
+   "played": 10,
+   "shots_pg": 12.6,
+   "sot_pg": 3.5,
+   "corners_pg": 4.4,
+   "fouls_pg": 11.1,
+   "yellow_pg": 1.6,
+   "red_pg": 0.1,
+   "save_rate": 0.568,
+   "saves_pg": 2.1,
+   "source": "espn"
+  },
+  "Paphos FC": {
+   "played": 8,
+   "shots_pg": 9.5,
+   "sot_pg": 3.5,
+   "corners_pg": 3.38,
+   "fouls_pg": 11.25,
+   "yellow_pg": 1.5,
+   "red_pg": 0.25,
+   "save_rate": 0.761,
+   "saves_pg": 4.38,
+   "source": "espn"
+  },
+  "AFC Ajax": {
+   "played": 8,
+   "shots_pg": 10.38,
+   "sot_pg": 3.38,
+   "corners_pg": 4.88,
+   "fouls_pg": 11.88,
+   "yellow_pg": 1.62,
+   "red_pg": 0.125,
+   "save_rate": 0.571,
+   "saves_pg": 3.5,
+   "source": "espn"
+  },
+  "FC Internazionale Milano": {
+   "played": 10,
+   "shots_pg": 18.0,
+   "sot_pg": 5.4,
+   "corners_pg": 6.1,
+   "fouls_pg": 10.7,
+   "yellow_pg": 1.5,
+   "red_pg": 0.0,
+   "save_rate": 0.7,
+   "saves_pg": 2.8,
+   "source": "espn"
+  },
+  "Liverpool FC": {
+   "played": 12,
+   "shots_pg": 19.17,
+   "sot_pg": 7.5,
+   "corners_pg": 6.58,
+   "fouls_pg": 11.75,
+   "yellow_pg": 1.33,
+   "red_pg": 0.0,
+   "save_rate": 0.675,
+   "saves_pg": 2.25,
+   "source": "espn"
+  },
+  "Club Atlético de Madrid": {
+   "played": 16,
+   "shots_pg": 14.25,
+   "sot_pg": 5.44,
+   "corners_pg": 5.31,
+   "fouls_pg": 10.94,
+   "yellow_pg": 1.69,
+   "red_pg": 0.0,
+   "save_rate": 0.682,
+   "saves_pg": 3.75,
+   "source": "espn"
+  },
+  "Paris Saint-Germain FC": {
+   "played": 17,
+   "shots_pg": 18.76,
+   "sot_pg": 6.94,
+   "corners_pg": 5.94,
+   "fouls_pg": 9.18,
+   "yellow_pg": 0.94,
+   "red_pg": 0.118,
+   "save_rate": 0.641,
+   "saves_pg": 2.41,
+   "source": "espn"
+  },
+  "Atalanta BC": {
+   "played": 12,
+   "shots_pg": 13.83,
+   "sot_pg": 4.42,
+   "corners_pg": 4.0,
+   "fouls_pg": 10.08,
+   "yellow_pg": 1.5,
+   "red_pg": 0.083,
+   "save_rate": 0.635,
+   "saves_pg": 3.33,
+   "source": "espn"
+  },
+  "FC Bayern München": {
+   "played": 14,
+   "shots_pg": 18.43,
+   "sot_pg": 8.07,
+   "corners_pg": 5.43,
+   "fouls_pg": 10.21,
+   "yellow_pg": 1.79,
+   "red_pg": 0.143,
+   "save_rate": 0.722,
+   "saves_pg": 3.71,
+   "source": "espn"
+  },
+  "Chelsea FC": {
+   "played": 10,
+   "shots_pg": 13.9,
+   "sot_pg": 5.6,
+   "corners_pg": 6.1,
+   "fouls_pg": 12.2,
+   "yellow_pg": 1.3,
+   "red_pg": 0.1,
+   "save_rate": 0.538,
+   "saves_pg": 2.1,
+   "source": "espn"
+  },
+  "FC København": {
+   "played": 8,
+   "shots_pg": 10.5,
+   "sot_pg": 4.62,
+   "corners_pg": 4.0,
+   "fouls_pg": 14.12,
+   "yellow_pg": 2.38,
+   "red_pg": 0.125,
+   "save_rate": 0.562,
+   "saves_pg": 3.38,
+   "source": "espn"
+  },
+  "Bayer 04 Leverkusen": {
+   "played": 12,
+   "shots_pg": 11.0,
+   "sot_pg": 3.92,
+   "corners_pg": 4.67,
+   "fouls_pg": 8.58,
+   "yellow_pg": 1.5,
+   "red_pg": 0.083,
+   "save_rate": 0.696,
+   "saves_pg": 3.25,
+   "source": "espn"
+  },
+  "Club Brugge KV": {
+   "played": 10,
+   "shots_pg": 13.0,
+   "sot_pg": 5.5,
+   "corners_pg": 3.0,
+   "fouls_pg": 9.4,
+   "yellow_pg": 1.2,
+   "red_pg": 0.0,
+   "save_rate": 0.636,
+   "saves_pg": 4.2,
+   "source": "espn"
+  },
+  "AS Monaco FC": {
+   "played": 10,
+   "shots_pg": 13.4,
+   "sot_pg": 4.8,
+   "corners_pg": 4.9,
+   "fouls_pg": 11.5,
+   "yellow_pg": 1.9,
+   "red_pg": 0.2,
+   "save_rate": 0.642,
+   "saves_pg": 3.4,
+   "source": "espn"
+  },
+  "Newcastle United FC": {
+   "played": 12,
+   "shots_pg": 14.08,
+   "sot_pg": 6.58,
+   "corners_pg": 5.5,
+   "fouls_pg": 10.33,
+   "yellow_pg": 1.5,
+   "red_pg": 0.0,
+   "save_rate": 0.719,
+   "saves_pg": 3.83,
+   "source": "espn"
+  },
+  "FC Barcelona": {
+   "played": 12,
+   "shots_pg": 16.67,
+   "sot_pg": 7.08,
+   "corners_pg": 4.92,
+   "fouls_pg": 9.5,
+   "yellow_pg": 1.75,
+   "red_pg": 0.25,
+   "save_rate": 0.608,
+   "saves_pg": 2.58,
+   "source": "espn"
+  },
+  "Manchester City FC": {
+   "played": 10,
+   "shots_pg": 15.6,
+   "sot_pg": 6.9,
+   "corners_pg": 6.3,
+   "fouls_pg": 9.9,
+   "yellow_pg": 1.6,
+   "red_pg": 0.2,
+   "save_rate": 0.6,
+   "saves_pg": 2.1,
+   "source": "espn"
+  },
+  "SSC Napoli": {
+   "played": 8,
+   "shots_pg": 11.75,
+   "sot_pg": 3.62,
+   "corners_pg": 6.12,
+   "fouls_pg": 13.75,
+   "yellow_pg": 1.5,
+   "red_pg": 0.25,
+   "save_rate": 0.643,
+   "saves_pg": 3.38,
+   "source": "espn"
+  },
+  "Eintracht Frankfurt": {
+   "played": 8,
+   "shots_pg": 6.88,
+   "sot_pg": 3.0,
+   "corners_pg": 2.12,
+   "fouls_pg": 9.0,
+   "yellow_pg": 1.0,
+   "red_pg": 0.0,
+   "save_rate": 0.638,
+   "saves_pg": 4.62,
+   "source": "espn"
+  },
+  "Galatasaray SK": {
+   "played": 12,
+   "shots_pg": 13.0,
+   "sot_pg": 5.08,
+   "corners_pg": 4.0,
+   "fouls_pg": 11.25,
+   "yellow_pg": 1.75,
+   "red_pg": 0.083,
+   "save_rate": 0.714,
+   "saves_pg": 4.17,
+   "source": "espn"
+  },
+  "Sporting Clube de Portugal": {
+   "played": 12,
+   "shots_pg": 12.92,
+   "sot_pg": 5.08,
+   "corners_pg": 4.58,
+   "fouls_pg": 10.75,
+   "yellow_pg": 2.0,
+   "red_pg": 0.0,
+   "save_rate": 0.706,
+   "saves_pg": 3.0,
+   "source": "espn"
+  },
+  "FK Kairat": {
+   "played": 8,
+   "shots_pg": 9.88,
+   "sot_pg": 2.75,
+   "corners_pg": 2.12,
+   "fouls_pg": 10.62,
+   "yellow_pg": 2.0,
+   "red_pg": 0.0,
+   "save_rate": 0.672,
+   "saves_pg": 5.62,
+   "source": "espn"
   }
  }
 }

@@ -11,7 +11,7 @@
   "calendar_label": "2024-25",
   "preferita": 2026,
   "piano_limitato": true,
-  "generato": "2026-07-02T23:49:14+00:00"
+  "generato": "2026-07-04T12:06:45+00:00"
  },
  "standings": [
   {
@@ -14944,6 +14944,5157 @@
     }
    ],
    "games": 8
+  }
+ },
+ "espn": {
+  "events": {
+   "720510": {
+    "date": "2024-09-25",
+    "teams": {
+     "AZ Alkmaar": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 0.0,
+      "shots": 16.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     },
+     "IF Elfsborg": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 0.0,
+      "saves": 5.0,
+      "shots": 3.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720509": {
+    "date": "2024-09-25",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 7.0,
+      "shots": 11.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "FC Porto": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 4.0,
+      "shots": 28.0,
+      "sot": 9.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720517": {
+    "date": "2024-09-25",
+    "teams": {
+     "Anderlecht": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Ferencvaros": {
+      "fouls": 25.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720516": {
+    "date": "2024-09-25",
+    "teams": {
+     "Dynamo Kyiv": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     },
+     "Lazio": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 6.0,
+      "shots": 14.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720515": {
+    "date": "2024-09-25",
+    "teams": {
+     "FC Midtjylland": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 1.0,
+      "shots": 13.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "TSG Hoffenheim": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 6.0,
+      "shots": 14.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720511": {
+    "date": "2024-09-25",
+    "teams": {
+     "Galatasaray": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 4.0,
+      "shots": 25.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "PAOK Salonika": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 7.0,
+      "shots": 7.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720512": {
+    "date": "2024-09-25",
+    "teams": {
+     "Ludogorets Razgrad": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     },
+     "Slavia Prague": {
+      "fouls": 26.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720513": {
+    "date": "2024-09-25",
+    "teams": {
+     "Manchester United": {
+      "fouls": 5.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 2.0,
+      "shots": 19.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "FC Twente": {
+      "fouls": 8.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720514": {
+    "date": "2024-09-25",
+    "teams": {
+     "Nice": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Real Sociedad": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720519": {
+    "date": "2024-09-26",
+    "teams": {
+     "Fenerbahce": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Union St.-Gilloise": {
+      "fouls": 20.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720518": {
+    "date": "2024-09-26",
+    "teams": {
+     "Malmö FF": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 7.0,
+      "sot": 0.0,
+      "conceded": 2.0
+     },
+     "Rangers": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 0.0,
+      "shots": 17.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720525": {
+    "date": "2024-09-26",
+    "teams": {
+     "Ajax Amsterdam": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 0.0,
+      "shots": 17.0,
+      "sot": 9.0,
+      "conceded": 0.0
+     },
+     "Besiktas": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 5.0,
+      "shots": 6.0,
+      "sot": 0.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "720522": {
+    "date": "2024-09-26",
+    "teams": {
+     "AS Roma": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 5.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Athletic Club": {
+      "fouls": 15.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720523": {
+    "date": "2024-09-26",
+    "teams": {
+     "Braga": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 31.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "Maccabi Tel-Aviv": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 2.0,
+      "corners": 2.0,
+      "saves": 7.0,
+      "shots": 10.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720524": {
+    "date": "2024-09-26",
+    "teams": {
+     "Eintracht Frankfurt": {
+      "fouls": 5.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 19.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     },
+     "Viktoria Plzen": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "shots": 13.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720520": {
+    "date": "2024-09-26",
+    "teams": {
+     "FCSB": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 4.0,
+      "shots": 18.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Rigas Futbola Skola": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "720526": {
+    "date": "2024-09-26",
+    "teams": {
+     "Lyon": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "Olympiacos": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720521": {
+    "date": "2024-09-26",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "FK Qarabag": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720530": {
+    "date": "2024-10-03",
+    "teams": {
+     "Ferencvaros": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 15.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 4.0,
+      "shots": 17.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720535": {
+    "date": "2024-10-03",
+    "teams": {
+     "FK Qarabag": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     },
+     "Malmö FF": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 0.0,
+      "shots": 9.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720533": {
+    "date": "2024-10-03",
+    "teams": {
+     "Lazio": {
+      "fouls": 17.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 13.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Nice": {
+      "fouls": 9.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "720534": {
+    "date": "2024-10-03",
+    "teams": {
+     "Maccabi Tel-Aviv": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 5.0,
+      "shots": 21.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     },
+     "FC Midtjylland": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720531": {
+    "date": "2024-10-03",
+    "teams": {
+     "Olympiacos": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Braga": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720529": {
+    "date": "2024-10-03",
+    "teams": {
+     "Real Sociedad": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 20.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     },
+     "Anderlecht": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720528": {
+    "date": "2024-10-03",
+    "teams": {
+     "Rigas Futbola Skola": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 5.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     },
+     "Galatasaray": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 16.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720527": {
+    "date": "2024-10-03",
+    "teams": {
+     "Slavia Prague": {
+      "fouls": 21.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 19.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Ajax Amsterdam": {
+      "fouls": 17.0,
+      "yellows": 5.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 7.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720532": {
+    "date": "2024-10-03",
+    "teams": {
+     "TSG Hoffenheim": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 19.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Dynamo Kyiv": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 4.0,
+      "shots": 8.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720541": {
+    "date": "2024-10-03",
+    "teams": {
+     "Athletic Club": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "AZ Alkmaar": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 5.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720542": {
+    "date": "2024-10-03",
+    "teams": {
+     "Besiktas": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 2.0,
+      "shots": 27.0,
+      "sot": 11.0,
+      "conceded": 3.0
+     },
+     "Eintracht Frankfurt": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 10.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720539": {
+    "date": "2024-10-03",
+    "teams": {
+     "FC Porto": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 14.0,
+      "sot": 7.0,
+      "conceded": 3.0
+     },
+     "Manchester United": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 1.0,
+      "corners": 10.0,
+      "saves": 5.0,
+      "shots": 29.0,
+      "sot": 8.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720538": {
+    "date": "2024-10-03",
+    "teams": {
+     "FC Twente": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 14.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "Fenerbahce": {
+      "fouls": 16.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 8.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720540": {
+    "date": "2024-10-03",
+    "teams": {
+     "IF Elfsborg": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 6.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "AS Roma": {
+      "fouls": 5.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "shots": 23.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720537": {
+    "date": "2024-10-03",
+    "teams": {
+     "PAOK Salonika": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 13.0,
+      "saves": 1.0,
+      "shots": 28.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "FCSB": {
+      "fouls": 13.0,
+      "yellows": 4.0,
+      "reds": 1.0,
+      "corners": 1.0,
+      "saves": 6.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720536": {
+    "date": "2024-10-03",
+    "teams": {
+     "Rangers": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 5.0,
+      "conceded": 4.0
+     },
+     "Lyon": {
+      "fouls": 2.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 15.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720544": {
+    "date": "2024-10-03",
+    "teams": {
+     "Union St.-Gilloise": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 21.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720543": {
+    "date": "2024-10-03",
+    "teams": {
+     "Viktoria Plzen": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Ludogorets Razgrad": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720546": {
+    "date": "2024-10-23",
+    "teams": {
+     "Braga": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 20.0,
+      "sot": 11.0,
+      "conceded": 2.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 10.0,
+      "shots": 13.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720545": {
+    "date": "2024-10-23",
+    "teams": {
+     "Galatasaray": {
+      "fouls": 5.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 23.0,
+      "sot": 11.0,
+      "conceded": 3.0
+     },
+     "IF Elfsborg": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 7.0,
+      "shots": 14.0,
+      "sot": 6.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "720548": {
+    "date": "2024-10-24",
+    "teams": {
+     "AS Roma": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Dynamo Kyiv": {
+      "fouls": 17.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720553": {
+    "date": "2024-10-24",
+    "teams": {
+     "Eintracht Frankfurt": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 20.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Rigas Futbola Skola": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720552": {
+    "date": "2024-10-24",
+    "teams": {
+     "FC Midtjylland": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 8.0,
+      "shots": 15.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Union St.-Gilloise": {
+      "fouls": 15.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 13.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720547": {
+    "date": "2024-10-24",
+    "teams": {
+     "Ferencvaros": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Nice": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 16.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720549": {
+    "date": "2024-10-24",
+    "teams": {
+     "FK Qarabag": {
+      "fouls": 11.0,
+      "yellows": 4.0,
+      "reds": 2.0,
+      "corners": 4.0,
+      "saves": 7.0,
+      "shots": 2.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     },
+     "Ajax Amsterdam": {
+      "fouls": 21.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 14.0,
+      "sot": 10.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720551": {
+    "date": "2024-10-24",
+    "teams": {
+     "Maccabi Tel-Aviv": {
+      "fouls": 8.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     },
+     "Real Sociedad": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720550": {
+    "date": "2024-10-24",
+    "teams": {
+     "PAOK Salonika": {
+      "fouls": 4.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 4.0,
+      "shots": 19.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     },
+     "Viktoria Plzen": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 0.0,
+      "saves": 7.0,
+      "shots": 11.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720555": {
+    "date": "2024-10-24",
+    "teams": {
+     "Anderlecht": {
+      "fouls": 17.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     },
+     "Ludogorets Razgrad": {
+      "fouls": 10.0,
+      "yellows": 6.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720562": {
+    "date": "2024-10-24",
+    "teams": {
+     "Athletic Club": {
+      "fouls": 16.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 6.0,
+      "shots": 6.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Slavia Prague": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720554": {
+    "date": "2024-10-24",
+    "teams": {
+     "FC Porto": {
+      "fouls": 16.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "TSG Hoffenheim": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720557": {
+    "date": "2024-10-24",
+    "teams": {
+     "FC Twente": {
+      "fouls": 12.0,
+      "yellows": 4.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "Lazio": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720561": {
+    "date": "2024-10-24",
+    "teams": {
+     "Fenerbahce": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Manchester United": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720558": {
+    "date": "2024-10-24",
+    "teams": {
+     "Lyon": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 4.0,
+      "shots": 30.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "Besiktas": {
+      "fouls": 11.0,
+      "yellows": 6.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 8.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720556": {
+    "date": "2024-10-24",
+    "teams": {
+     "Malmö FF": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 16.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     },
+     "Olympiacos": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720559": {
+    "date": "2024-10-24",
+    "teams": {
+     "Rangers": {
+      "fouls": 19.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 23.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "FCSB": {
+      "fouls": 15.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "720560": {
+    "date": "2024-10-24",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "AZ Alkmaar": {
+      "fouls": 17.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720563": {
+    "date": "2024-11-06",
+    "teams": {
+     "Besiktas": {
+      "fouls": 7.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Malmö FF": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720572": {
+    "date": "2024-11-07",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 4.0,
+      "shots": 23.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "FK Qarabag": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 10.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720571": {
+    "date": "2024-11-07",
+    "teams": {
+     "Eintracht Frankfurt": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Slavia Prague": {
+      "fouls": 5.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 4.0,
+      "shots": 20.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720569": {
+    "date": "2024-11-07",
+    "teams": {
+     "FCSB": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 13.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "FC Midtjylland": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720564": {
+    "date": "2024-11-07",
+    "teams": {
+     "Galatasaray": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 28.0,
+      "sot": 10.0,
+      "conceded": 2.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 10.0,
+      "yellows": 4.0,
+      "reds": 1.0,
+      "corners": 0.0,
+      "saves": 5.0,
+      "shots": 5.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720570": {
+    "date": "2024-11-07",
+    "teams": {
+     "IF Elfsborg": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Braga": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720568": {
+    "date": "2024-11-07",
+    "teams": {
+     "Ludogorets Razgrad": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 6.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "Athletic Club": {
+      "fouls": 17.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 19.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720567": {
+    "date": "2024-11-07",
+    "teams": {
+     "Nice": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 13.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "FC Twente": {
+      "fouls": 14.0,
+      "yellows": 0.0,
+      "reds": 1.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 14.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720566": {
+    "date": "2024-11-07",
+    "teams": {
+     "Olympiacos": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 14.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     },
+     "Rangers": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720565": {
+    "date": "2024-11-07",
+    "teams": {
+     "Union St.-Gilloise": {
+      "fouls": 22.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "AS Roma": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720579": {
+    "date": "2024-11-07",
+    "teams": {
+     "Ajax Amsterdam": {
+      "fouls": 18.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 19.0,
+      "sot": 10.0,
+      "conceded": 0.0
+     },
+     "Maccabi Tel-Aviv": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "720580": {
+    "date": "2024-11-07",
+    "teams": {
+     "AZ Alkmaar": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Fenerbahce": {
+      "fouls": 12.0,
+      "yellows": 6.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 0.0,
+      "shots": 11.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720577": {
+    "date": "2024-11-07",
+    "teams": {
+     "Dynamo Kyiv": {
+      "fouls": 3.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 5.0,
+      "saves": 9.0,
+      "shots": 10.0,
+      "sot": 0.0,
+      "conceded": 4.0
+     },
+     "Ferencvaros": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 0.0,
+      "shots": 27.0,
+      "sot": 13.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720578": {
+    "date": "2024-11-07",
+    "teams": {
+     "Lazio": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 0.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "FC Porto": {
+      "fouls": 16.0,
+      "yellows": 6.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720575": {
+    "date": "2024-11-07",
+    "teams": {
+     "Manchester United": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 4.0,
+      "shots": 16.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "PAOK Salonika": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720574": {
+    "date": "2024-11-07",
+    "teams": {
+     "Rigas Futbola Skola": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Anderlecht": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720576": {
+    "date": "2024-11-07",
+    "teams": {
+     "TSG Hoffenheim": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 12.0,
+      "conceded": 2.0
+     },
+     "Lyon": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 9.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720573": {
+    "date": "2024-11-07",
+    "teams": {
+     "Viktoria Plzen": {
+      "fouls": 9.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Real Sociedad": {
+      "fouls": 9.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 16.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720587": {
+    "date": "2024-11-28",
+    "teams": {
+     "Anderlecht": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "FC Porto": {
+      "fouls": 16.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720582": {
+    "date": "2024-11-28",
+    "teams": {
+     "Athletic Club": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 0.0,
+      "shots": 19.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "IF Elfsborg": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 2.0,
+      "shots": 2.0,
+      "sot": 0.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720581": {
+    "date": "2024-11-28",
+    "teams": {
+     "AZ Alkmaar": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Galatasaray": {
+      "fouls": 10.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "shots": 19.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720583": {
+    "date": "2024-11-28",
+    "teams": {
+     "Besiktas": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 7.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     },
+     "Maccabi Tel-Aviv": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 19.0,
+      "sot": 10.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720584": {
+    "date": "2024-11-28",
+    "teams": {
+     "Dynamo Kyiv": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 3.0,
+      "shots": 14.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "Viktoria Plzen": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 15.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720586": {
+    "date": "2024-11-28",
+    "teams": {
+     "FK Qarabag": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 6.0,
+      "shots": 17.0,
+      "sot": 4.0,
+      "conceded": 4.0
+     },
+     "Lyon": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 10.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720585": {
+    "date": "2024-11-28",
+    "teams": {
+     "Lazio": {
+      "fouls": 10.0,
+      "yellows": 6.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 0.0,
+      "shots": 20.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Ludogorets Razgrad": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 6.0,
+      "shots": 3.0,
+      "sot": 0.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720588": {
+    "date": "2024-11-28",
+    "teams": {
+     "Rigas Futbola Skola": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "PAOK Salonika": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720595": {
+    "date": "2024-11-28",
+    "teams": {
+     "Braga": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "TSG Hoffenheim": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720594": {
+    "date": "2024-11-28",
+    "teams": {
+     "FC Midtjylland": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "Eintracht Frankfurt": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 17.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720593": {
+    "date": "2024-11-28",
+    "teams": {
+     "FC Twente": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 8.0,
+      "shots": 13.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Union St.-Gilloise": {
+      "fouls": 12.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 18.0,
+      "sot": 9.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720592": {
+    "date": "2024-11-28",
+    "teams": {
+     "FCSB": {
+      "fouls": 10.0,
+      "yellows": 4.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 10.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Olympiacos": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720591": {
+    "date": "2024-11-28",
+    "teams": {
+     "Ferencvaros": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Malmö FF": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "720590": {
+    "date": "2024-11-28",
+    "teams": {
+     "Manchester United": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 20.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 7.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720596": {
+    "date": "2024-11-28",
+    "teams": {
+     "Nice": {
+      "fouls": 5.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 4.0,
+      "shots": 19.0,
+      "sot": 7.0,
+      "conceded": 4.0
+     },
+     "Rangers": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 6.0,
+      "shots": 14.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720597": {
+    "date": "2024-11-28",
+    "teams": {
+     "Real Sociedad": {
+      "fouls": 20.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Ajax Amsterdam": {
+      "fouls": 17.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720598": {
+    "date": "2024-11-28",
+    "teams": {
+     "Slavia Prague": {
+      "fouls": 16.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 23.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "Fenerbahce": {
+      "fouls": 18.0,
+      "yellows": 6.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 5.0,
+      "shots": 5.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720589": {
+    "date": "2024-11-28",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 24.0,
+      "sot": 12.0,
+      "conceded": 2.0
+     },
+     "AS Roma": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 9.0,
+      "shots": 18.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720599": {
+    "date": "2024-12-11",
+    "teams": {
+     "Fenerbahce": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 4.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     },
+     "Athletic Club": {
+      "fouls": 21.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 9.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720604": {
+    "date": "2024-12-12",
+    "teams": {
+     "AS Roma": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 14.0,
+      "saves": 0.0,
+      "shots": 34.0,
+      "sot": 17.0,
+      "conceded": 0.0
+     },
+     "Braga": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 5.0,
+      "saves": 12.0,
+      "shots": 8.0,
+      "sot": 0.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720602": {
+    "date": "2024-12-12",
+    "teams": {
+     "Ludogorets Razgrad": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 14.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "AZ Alkmaar": {
+      "fouls": 16.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720605": {
+    "date": "2024-12-12",
+    "teams": {
+     "Malmö FF": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 21.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     },
+     "Galatasaray": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720600": {
+    "date": "2024-12-12",
+    "teams": {
+     "Olympiacos": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "FC Twente": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720601": {
+    "date": "2024-12-12",
+    "teams": {
+     "PAOK Salonika": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "Ferencvaros": {
+      "fouls": 14.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "720606": {
+    "date": "2024-12-12",
+    "teams": {
+     "TSG Hoffenheim": {
+      "fouls": 17.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 14.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "FCSB": {
+      "fouls": 18.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720603": {
+    "date": "2024-12-12",
+    "teams": {
+     "Union St.-Gilloise": {
+      "fouls": 15.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 24.0,
+      "sot": 12.0,
+      "conceded": 1.0
+     },
+     "Nice": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 8.0,
+      "shots": 13.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720607": {
+    "date": "2024-12-12",
+    "teams": {
+     "Viktoria Plzen": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 6.0,
+      "shots": 15.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "Manchester United": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 17.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720471": {
+    "date": "2024-12-12",
+    "teams": {
+     "Ajax Amsterdam": {
+      "fouls": 8.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 6.0,
+      "conceded": 3.0
+     },
+     "Lazio": {
+      "fouls": 18.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 4.0,
+      "shots": 9.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720470": {
+    "date": "2024-12-12",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 2.0,
+      "shots": 16.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Besiktas": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720472": {
+    "date": "2024-12-12",
+    "teams": {
+     "FC Porto": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 17.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "FC Midtjylland": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720469": {
+    "date": "2024-12-12",
+    "teams": {
+     "IF Elfsborg": {
+      "fouls": 20.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "FK Qarabag": {
+      "fouls": 7.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720468": {
+    "date": "2024-12-12",
+    "teams": {
+     "Lyon": {
+      "fouls": 18.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 19.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "Eintracht Frankfurt": {
+      "fouls": 15.0,
+      "yellows": 7.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 3.0,
+      "shots": 7.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720467": {
+    "date": "2024-12-12",
+    "teams": {
+     "Maccabi Tel-Aviv": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Rigas Futbola Skola": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 14.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720466": {
+    "date": "2024-12-12",
+    "teams": {
+     "Rangers": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720465": {
+    "date": "2024-12-12",
+    "teams": {
+     "Real Sociedad": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 27.0,
+      "sot": 14.0,
+      "conceded": 0.0
+     },
+     "Dynamo Kyiv": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 11.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720608": {
+    "date": "2024-12-12",
+    "teams": {
+     "Slavia Prague": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 0.0,
+      "shots": 21.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "Anderlecht": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720473": {
+    "date": "2025-01-21",
+    "teams": {
+     "Galatasaray": {
+      "fouls": 6.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 24.0,
+      "sot": 8.0,
+      "conceded": 3.0
+     },
+     "Dynamo Kyiv": {
+      "fouls": 7.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 6.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720474": {
+    "date": "2025-01-22",
+    "teams": {
+     "Besiktas": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "Athletic Club": {
+      "fouls": 15.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "720475": {
+    "date": "2025-01-23",
+    "teams": {
+     "AZ Alkmaar": {
+      "fouls": 19.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     },
+     "AS Roma": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 0.0,
+      "shots": 11.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720476": {
+    "date": "2025-01-23",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Maccabi Tel-Aviv": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 2.0,
+      "shots": 5.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720482": {
+    "date": "2025-01-23",
+    "teams": {
+     "FC Porto": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 16.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     },
+     "Olympiacos": {
+      "fouls": 18.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720481": {
+    "date": "2025-01-23",
+    "teams": {
+     "Fenerbahce": {
+      "fouls": 14.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 7.0,
+      "shots": 11.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Lyon": {
+      "fouls": 23.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720479": {
+    "date": "2025-01-23",
+    "teams": {
+     "FK Qarabag": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     },
+     "FCSB": {
+      "fouls": 23.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 0.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720480": {
+    "date": "2025-01-23",
+    "teams": {
+     "Malmö FF": {
+      "fouls": 18.0,
+      "yellows": 5.0,
+      "reds": 1.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     },
+     "FC Twente": {
+      "fouls": 17.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720478": {
+    "date": "2025-01-23",
+    "teams": {
+     "TSG Hoffenheim": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 22.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720477": {
+    "date": "2025-01-23",
+    "teams": {
+     "Viktoria Plzen": {
+      "fouls": 16.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Anderlecht": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 3.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720484": {
+    "date": "2025-01-23",
+    "teams": {
+     "Eintracht Frankfurt": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 0.0,
+      "shots": 14.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     },
+     "Ferencvaros": {
+      "fouls": 5.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 1.0,
+      "sot": 0.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720485": {
+    "date": "2025-01-23",
+    "teams": {
+     "IF Elfsborg": {
+      "fouls": 5.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 9.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     },
+     "Nice": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 0.0,
+      "shots": 22.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720486": {
+    "date": "2025-01-23",
+    "teams": {
+     "Lazio": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 19.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Real Sociedad": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720487": {
+    "date": "2025-01-23",
+    "teams": {
+     "Ludogorets Razgrad": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 4.0,
+      "shots": 16.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "FC Midtjylland": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 6.0,
+      "shots": 11.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720483": {
+    "date": "2025-01-23",
+    "teams": {
+     "Manchester United": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 6.0,
+      "shots": 16.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Rangers": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 11.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720490": {
+    "date": "2025-01-23",
+    "teams": {
+     "PAOK Salonika": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 14.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "Slavia Prague": {
+      "fouls": 16.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720489": {
+    "date": "2025-01-23",
+    "teams": {
+     "Rigas Futbola Skola": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Ajax Amsterdam": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 13.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720488": {
+    "date": "2025-01-23",
+    "teams": {
+     "Union St.-Gilloise": {
+      "fouls": 18.0,
+      "yellows": 3.0,
+      "reds": 2.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 6.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Braga": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 2.0,
+      "corners": 0.0,
+      "saves": 1.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720491": {
+    "date": "2025-01-30",
+    "teams": {
+     "Ajax Amsterdam": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 8.0,
+      "shots": 12.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Galatasaray": {
+      "fouls": 8.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 4.0,
+      "shots": 28.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720502": {
+    "date": "2025-01-30",
+    "teams": {
+     "Anderlecht": {
+      "fouls": 0.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 0.0,
+      "shots": 0.0,
+      "sot": 0.0,
+      "conceded": 4.0
+     },
+     "TSG Hoffenheim": {
+      "fouls": 0.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 0.0,
+      "shots": 0.0,
+      "sot": 0.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720505": {
+    "date": "2025-01-30",
+    "teams": {
+     "AS Roma": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Eintracht Frankfurt": {
+      "fouls": 15.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720508": {
+    "date": "2025-01-30",
+    "teams": {
+     "Athletic Club": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 19.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Viktoria Plzen": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720501": {
+    "date": "2025-01-30",
+    "teams": {
+     "Braga": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Lazio": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720493": {
+    "date": "2025-01-30",
+    "teams": {
+     "Dynamo Kyiv": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Rigas Futbola Skola": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720494": {
+    "date": "2025-01-30",
+    "teams": {
+     "FC Midtjylland": {
+      "fouls": 12.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 13.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Fenerbahce": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 7.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720495": {
+    "date": "2025-01-30",
+    "teams": {
+     "FC Twente": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 3.0,
+      "shots": 22.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Besiktas": {
+      "fouls": 12.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720496": {
+    "date": "2025-01-30",
+    "teams": {
+     "FCSB": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "Manchester United": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 21.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720497": {
+    "date": "2025-01-30",
+    "teams": {
+     "Ferencvaros": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     },
+     "AZ Alkmaar": {
+      "fouls": 16.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "720498": {
+    "date": "2025-01-30",
+    "teams": {
+     "Lyon": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 5.0,
+      "shots": 13.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Ludogorets Razgrad": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 7.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720499": {
+    "date": "2025-01-30",
+    "teams": {
+     "Maccabi Tel-Aviv": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     },
+     "FC Porto": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "720500": {
+    "date": "2025-01-30",
+    "teams": {
+     "Nice": {
+      "fouls": 10.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 6.0,
+      "shots": 16.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 5.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 18.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "720506": {
+    "date": "2025-01-30",
+    "teams": {
+     "Olympiacos": {
+      "fouls": 15.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 23.0,
+      "sot": 9.0,
+      "conceded": 0.0
+     },
+     "FK Qarabag": {
+      "fouls": 13.0,
+      "yellows": 6.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 6.0,
+      "shots": 3.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "720504": {
+    "date": "2025-01-30",
+    "teams": {
+     "Rangers": {
+      "fouls": 16.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 0.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Union St.-Gilloise": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720492": {
+    "date": "2025-01-30",
+    "teams": {
+     "Real Sociedad": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 16.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "PAOK Salonika": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720503": {
+    "date": "2025-01-30",
+    "teams": {
+     "Slavia Prague": {
+      "fouls": 8.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 5.0,
+      "shots": 17.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "Malmö FF": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 14.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "720507": {
+    "date": "2025-01-30",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 5.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 0.0,
+      "shots": 21.0,
+      "sot": 11.0,
+      "conceded": 0.0
+     },
+     "IF Elfsborg": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 7.0,
+      "shots": 4.0,
+      "sot": 0.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "732202": {
+    "date": "2025-02-13",
+    "teams": {
+     "FC Midtjylland": {
+      "fouls": 16.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 13.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "Real Sociedad": {
+      "fouls": 22.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "732206": {
+    "date": "2025-02-13",
+    "teams": {
+     "Fenerbahce": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Anderlecht": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "732203": {
+    "date": "2025-02-13",
+    "teams": {
+     "Ferencvaros": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Viktoria Plzen": {
+      "fouls": 16.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "732205": {
+    "date": "2025-02-13",
+    "teams": {
+     "Union St.-Gilloise": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 13.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     },
+     "Ajax Amsterdam": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 10.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "732201": {
+    "date": "2025-02-13",
+    "teams": {
+     "AZ Alkmaar": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 17.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "Galatasaray": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "732208": {
+    "date": "2025-02-13",
+    "teams": {
+     "FC Porto": {
+      "fouls": 8.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     },
+     "AS Roma": {
+      "fouls": 16.0,
+      "yellows": 6.0,
+      "reds": 1.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "732207": {
+    "date": "2025-02-13",
+    "teams": {
+     "FC Twente": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 14.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 9.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 5.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "732204": {
+    "date": "2025-02-13",
+    "teams": {
+     "PAOK Salonika": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 1.0,
+      "saves": 2.0,
+      "shots": 5.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "FCSB": {
+      "fouls": 13.0,
+      "yellows": 7.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 13.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "732212": {
+    "date": "2025-02-20",
+    "teams": {
+     "AS Roma": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 0.0,
+      "shots": 19.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "FC Porto": {
+      "fouls": 9.0,
+      "yellows": 4.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "732214": {
+    "date": "2025-02-20",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 14.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "FC Twente": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 10.0,
+      "sot": 2.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "732215": {
+    "date": "2025-02-20",
+    "teams": {
+     "FCSB": {
+      "fouls": 22.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "PAOK Salonika": {
+      "fouls": 11.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "732209": {
+    "date": "2025-02-20",
+    "teams": {
+     "Galatasaray": {
+      "fouls": 17.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 8.0,
+      "shots": 20.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     },
+     "AZ Alkmaar": {
+      "fouls": 16.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 7.0,
+      "shots": 26.0,
+      "sot": 11.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "732213": {
+    "date": "2025-02-20",
+    "teams": {
+     "Ajax Amsterdam": {
+      "fouls": 17.0,
+      "yellows": 6.0,
+      "reds": 1.0,
+      "corners": 1.0,
+      "saves": 8.0,
+      "shots": 7.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Union St.-Gilloise": {
+      "fouls": 21.0,
+      "yellows": 6.0,
+      "reds": 0.0,
+      "corners": 12.0,
+      "saves": 4.0,
+      "shots": 34.0,
+      "sot": 11.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "732210": {
+    "date": "2025-02-20",
+    "teams": {
+     "Anderlecht": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 13.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "Fenerbahce": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "732211": {
+    "date": "2025-02-20",
+    "teams": {
+     "Real Sociedad": {
+      "fouls": 18.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 22.0,
+      "sot": 10.0,
+      "conceded": 2.0
+     },
+     "FC Midtjylland": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 6.0,
+      "saves": 5.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "732216": {
+    "date": "2025-02-20",
+    "teams": {
+     "Viktoria Plzen": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     },
+     "Ferencvaros": {
+      "fouls": 19.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 11.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "733622": {
+    "date": "2025-03-06",
+    "teams": {
+     "AZ Alkmaar": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "733624": {
+    "date": "2025-03-06",
+    "teams": {
+     "FCSB": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     },
+     "Lyon": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 17.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "733621": {
+    "date": "2025-03-06",
+    "teams": {
+     "Fenerbahce": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 3.0,
+      "shots": 23.0,
+      "sot": 7.0,
+      "conceded": 3.0
+     },
+     "Rangers": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 6.0,
+      "shots": 8.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "733625": {
+    "date": "2025-03-06",
+    "teams": {
+     "Real Sociedad": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 13.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Manchester United": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "733628": {
+    "date": "2025-03-06",
+    "teams": {
+     "Ajax Amsterdam": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "Eintracht Frankfurt": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "733626": {
+    "date": "2025-03-06",
+    "teams": {
+     "AS Roma": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 0.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Athletic Club": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "733623": {
+    "date": "2025-03-06",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 5.0,
+      "shots": 9.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Olympiacos": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 4.0,
+      "shots": 18.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "733627": {
+    "date": "2025-03-06",
+    "teams": {
+     "Viktoria Plzen": {
+      "fouls": 17.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Lazio": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 2.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "733636": {
+    "date": "2025-03-13",
+    "teams": {
+     "Athletic Club": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 22.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "AS Roma": {
+      "fouls": 4.0,
+      "yellows": 4.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 5.0,
+      "shots": 5.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "733630": {
+    "date": "2025-03-13",
+    "teams": {
+     "Eintracht Frankfurt": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 16.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "Ajax Amsterdam": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 5.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "733634": {
+    "date": "2025-03-13",
+    "teams": {
+     "Lazio": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 12.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Viktoria Plzen": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "733631": {
+    "date": "2025-03-13",
+    "teams": {
+     "Olympiacos": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 11.0,
+      "saves": 0.0,
+      "shots": 27.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 6.0,
+      "shots": 2.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "733633": {
+    "date": "2025-03-13",
+    "teams": {
+     "Lyon": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 18.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "FCSB": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "733635": {
+    "date": "2025-03-13",
+    "teams": {
+     "Manchester United": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 25.0,
+      "sot": 10.0,
+      "conceded": 1.0
+     },
+     "Real Sociedad": {
+      "fouls": 13.0,
+      "yellows": 7.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 6.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "733629": {
+    "date": "2025-03-13",
+    "teams": {
+     "Rangers": {
+      "fouls": 19.0,
+      "yellows": 7.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 23.0,
+      "sot": 9.0,
+      "conceded": 2.0
+     },
+     "Fenerbahce": {
+      "fouls": 10.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 9.0,
+      "shots": 21.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "733632": {
+    "date": "2025-03-13",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 17.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "AZ Alkmaar": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 10.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "733638": {
+    "date": "2025-04-10",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Lazio": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "734500": {
+    "date": "2025-04-10",
+    "teams": {
+     "Lyon": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Manchester United": {
+      "fouls": 14.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 3.0,
+      "shots": 13.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "733639": {
+    "date": "2025-04-10",
+    "teams": {
+     "Rangers": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 4.0,
+      "sot": 0.0,
+      "conceded": 0.0
+     },
+     "Athletic Club": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 0.0,
+      "shots": 19.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "733637": {
+    "date": "2025-04-10",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 10.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Eintracht Frankfurt": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 4.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "733643": {
+    "date": "2025-04-17",
+    "teams": {
+     "Athletic Club": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 22.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Rangers": {
+      "fouls": 9.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "733641": {
+    "date": "2025-04-17",
+    "teams": {
+     "Eintracht Frankfurt": {
+      "fouls": 7.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 9.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "733642": {
+    "date": "2025-04-17",
+    "teams": {
+     "Lazio": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 15.0,
+      "saves": 7.0,
+      "shots": 33.0,
+      "sot": 11.0,
+      "conceded": 1.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 15.0,
+      "yellows": 4.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 8.0,
+      "shots": 12.0,
+      "sot": 8.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "734499": {
+    "date": "2025-04-17",
+    "teams": {
+     "Manchester United": {
+      "fouls": 17.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 21.0,
+      "sot": 8.0,
+      "conceded": 4.0
+     },
+     "Lyon": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 21.0,
+      "sot": 9.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "733646": {
+    "date": "2025-05-01",
+    "teams": {
+     "Athletic Club": {
+      "fouls": 19.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     },
+     "Manchester United": {
+      "fouls": 7.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "733645": {
+    "date": "2025-05-01",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 13.0,
+      "saves": 0.0,
+      "shots": 24.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Bodo/Glimt": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 3.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "733647": {
+    "date": "2025-05-08",
+    "teams": {
+     "Bodo/Glimt": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "Tottenham Hotspur": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "733648": {
+    "date": "2025-05-08",
+    "teams": {
+     "Manchester United": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 0.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Athletic Club": {
+      "fouls": 17.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 1.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "733649": {
+    "date": "2025-05-21",
+    "teams": {
+     "Tottenham Hotspur": {
+      "fouls": 22.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 3.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     },
+     "Manchester United": {
+      "fouls": 10.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 0.0,
+      "shots": 16.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     }
+    }
+   }
+  }
+ },
+ "team_micro": {
+  "IF Elfsborg": {
+   "played": 8,
+   "shots_pg": 6.75,
+   "sot_pg": 2.38,
+   "corners_pg": 2.0,
+   "fouls_pg": 12.62,
+   "yellow_pg": 1.62,
+   "red_pg": 0.125,
+   "save_rate": 0.708,
+   "saves_pg": 4.25,
+   "source": "espn"
+  },
+  "Ajax": {
+   "played": 12,
+   "shots_pg": 12.5,
+   "sot_pg": 6.0,
+   "corners_pg": 3.67,
+   "fouls_pg": 13.5,
+   "yellow_pg": 2.33,
+   "red_pg": 0.167,
+   "save_rate": 0.729,
+   "saves_pg": 3.58,
+   "source": "espn"
+  },
+  "SC Braga": {
+   "played": 8,
+   "shots_pg": 13.12,
+   "sot_pg": 5.12,
+   "corners_pg": 4.62,
+   "fouls_pg": 11.5,
+   "yellow_pg": 1.75,
+   "red_pg": 0.5,
+   "save_rate": 0.692,
+   "saves_pg": 3.38,
+   "source": "espn"
+  },
+  "Maccabi Tel Aviv": {
+   "played": 8,
+   "shots_pg": 11.88,
+   "sot_pg": 4.0,
+   "corners_pg": 4.0,
+   "fouls_pg": 10.38,
+   "yellow_pg": 1.88,
+   "red_pg": 0.375,
+   "save_rate": 0.622,
+   "saves_pg": 3.5,
+   "source": "espn"
+  },
+  "Plzen": {
+   "played": 12,
+   "shots_pg": 12.75,
+   "sot_pg": 4.42,
+   "corners_pg": 3.42,
+   "fouls_pg": 12.42,
+   "yellow_pg": 1.58,
+   "red_pg": 0.167,
+   "save_rate": 0.733,
+   "saves_pg": 3.67,
+   "source": "espn"
+  },
+  "FCSB": {
+   "played": 12,
+   "shots_pg": 10.25,
+   "sot_pg": 3.75,
+   "corners_pg": 3.33,
+   "fouls_pg": 15.0,
+   "yellow_pg": 2.67,
+   "red_pg": 0.167,
+   "save_rate": 0.667,
+   "saves_pg": 2.83,
+   "source": "espn"
+  },
+  "PAOK": {
+   "played": 10,
+   "shots_pg": 13.0,
+   "sot_pg": 5.3,
+   "corners_pg": 5.0,
+   "fouls_pg": 10.3,
+   "yellow_pg": 1.9,
+   "red_pg": 0.1,
+   "save_rate": 0.696,
+   "saves_pg": 3.2,
+   "source": "espn"
+  },
+  "Ludogorets": {
+   "played": 8,
+   "shots_pg": 10.25,
+   "sot_pg": 2.75,
+   "corners_pg": 3.5,
+   "fouls_pg": 11.5,
+   "yellow_pg": 2.75,
+   "red_pg": 0.125,
+   "save_rate": 0.788,
+   "saves_pg": 5.12,
+   "source": "espn"
+  },
+  "Beşiktaş": {
+   "played": 8,
+   "shots_pg": 12.88,
+   "sot_pg": 5.0,
+   "corners_pg": 4.5,
+   "fouls_pg": 10.62,
+   "yellow_pg": 3.25,
+   "red_pg": 0.0,
+   "save_rate": 0.694,
+   "saves_pg": 4.25,
+   "source": "espn"
+  },
+  "Anderlecht": {
+   "played": 10,
+   "shots_pg": 10.5,
+   "sot_pg": 3.7,
+   "corners_pg": 4.0,
+   "fouls_pg": 9.9,
+   "yellow_pg": 1.5,
+   "red_pg": 0.1,
+   "save_rate": 0.595,
+   "saves_pg": 2.5,
+   "source": "espn"
+  },
+  "Ferencvarosi TC": {
+   "played": 10,
+   "shots_pg": 11.9,
+   "sot_pg": 4.4,
+   "corners_pg": 3.8,
+   "fouls_pg": 13.6,
+   "yellow_pg": 2.1,
+   "red_pg": 0.0,
+   "save_rate": 0.633,
+   "saves_pg": 3.1,
+   "source": "espn"
+  },
+  "AZ Alkmaar": {
+   "played": 12,
+   "shots_pg": 12.83,
+   "sot_pg": 5.17,
+   "corners_pg": 5.67,
+   "fouls_pg": 14.67,
+   "yellow_pg": 2.08,
+   "red_pg": 0.167,
+   "save_rate": 0.627,
+   "saves_pg": 2.67,
+   "source": "espn"
+  },
+  "Bodo/Glimt": {
+   "played": 16,
+   "shots_pg": 11.38,
+   "sot_pg": 4.44,
+   "corners_pg": 4.06,
+   "fouls_pg": 9.06,
+   "yellow_pg": 1.44,
+   "red_pg": 0.125,
+   "save_rate": 0.722,
+   "saves_pg": 4.06,
+   "source": "espn"
+  },
+  "FC Porto": {
+   "played": 10,
+   "shots_pg": 13.1,
+   "sot_pg": 4.1,
+   "corners_pg": 4.6,
+   "fouls_pg": 11.9,
+   "yellow_pg": 2.6,
+   "red_pg": 0.1,
+   "save_rate": 0.605,
+   "saves_pg": 2.3,
+   "source": "espn"
+  },
+  "Manchester United": {
+   "played": 15,
+   "shots_pg": 17.53,
+   "sot_pg": 6.33,
+   "corners_pg": 5.67,
+   "fouls_pg": 10.07,
+   "yellow_pg": 2.0,
+   "red_pg": 0.067,
+   "save_rate": 0.678,
+   "saves_pg": 2.67,
+   "source": "espn"
+  },
+  "Twente": {
+   "played": 10,
+   "shots_pg": 11.5,
+   "sot_pg": 4.0,
+   "corners_pg": 4.7,
+   "fouls_pg": 12.0,
+   "yellow_pg": 2.5,
+   "red_pg": 0.2,
+   "save_rate": 0.694,
+   "saves_pg": 3.4,
+   "source": "espn"
+  },
+  "Nice": {
+   "played": 8,
+   "shots_pg": 15.0,
+   "sot_pg": 4.25,
+   "corners_pg": 5.5,
+   "fouls_pg": 8.0,
+   "yellow_pg": 2.25,
+   "red_pg": 0.25,
+   "save_rate": 0.644,
+   "saves_pg": 3.62,
+   "source": "espn"
+  },
+  "Real Sociedad": {
+   "played": 12,
+   "shots_pg": 14.33,
+   "sot_pg": 5.33,
+   "corners_pg": 5.08,
+   "fouls_pg": 13.42,
+   "yellow_pg": 2.67,
+   "red_pg": 0.167,
+   "save_rate": 0.646,
+   "saves_pg": 2.58,
+   "source": "espn"
+  },
+  "FC Midtjylland": {
+   "played": 10,
+   "shots_pg": 11.0,
+   "sot_pg": 4.3,
+   "corners_pg": 5.5,
+   "fouls_pg": 11.8,
+   "yellow_pg": 1.2,
+   "red_pg": 0.1,
+   "save_rate": 0.714,
+   "saves_pg": 4.0,
+   "source": "espn"
+  },
+  "1899 Hoffenheim": {
+   "played": 8,
+   "shots_pg": 14.62,
+   "sot_pg": 4.25,
+   "corners_pg": 5.62,
+   "fouls_pg": 9.88,
+   "yellow_pg": 1.25,
+   "red_pg": 0.0,
+   "save_rate": 0.562,
+   "saves_pg": 2.25,
+   "source": "espn"
+  },
+  "Slavia Praha": {
+   "played": 8,
+   "shots_pg": 17.62,
+   "sot_pg": 5.62,
+   "corners_pg": 6.88,
+   "fouls_pg": 15.25,
+   "yellow_pg": 2.75,
+   "red_pg": 0.0,
+   "save_rate": 0.645,
+   "saves_pg": 2.5,
+   "source": "espn"
+  },
+  "Dynamo Kyiv": {
+   "played": 8,
+   "shots_pg": 8.62,
+   "sot_pg": 2.75,
+   "corners_pg": 4.25,
+   "fouls_pg": 10.38,
+   "yellow_pg": 2.25,
+   "red_pg": 0.25,
+   "save_rate": 0.69,
+   "saves_pg": 5.0,
+   "source": "espn"
+  },
+  "Lazio": {
+   "played": 12,
+   "shots_pg": 14.67,
+   "sot_pg": 5.58,
+   "corners_pg": 5.75,
+   "fouls_pg": 12.83,
+   "yellow_pg": 2.33,
+   "red_pg": 0.25,
+   "save_rate": 0.792,
+   "saves_pg": 3.17,
+   "source": "espn"
+  },
+  "Galatasaray": {
+   "played": 10,
+   "shots_pg": 20.0,
+   "sot_pg": 7.5,
+   "corners_pg": 6.1,
+   "fouls_pg": 10.9,
+   "yellow_pg": 2.2,
+   "red_pg": 0.1,
+   "save_rate": 0.6,
+   "saves_pg": 3.3,
+   "source": "espn"
+  },
+  "Malmo FF": {
+   "played": 8,
+   "shots_pg": 13.12,
+   "sot_pg": 4.25,
+   "corners_pg": 4.5,
+   "fouls_pg": 11.5,
+   "yellow_pg": 2.5,
+   "red_pg": 0.125,
+   "save_rate": 0.541,
+   "saves_pg": 2.5,
+   "source": "espn"
+  },
+  "Rangers": {
+   "played": 12,
+   "shots_pg": 13.42,
+   "sot_pg": 5.42,
+   "corners_pg": 3.67,
+   "fouls_pg": 13.17,
+   "yellow_pg": 2.5,
+   "red_pg": 0.083,
+   "save_rate": 0.667,
+   "saves_pg": 2.5,
+   "source": "espn"
+  },
+  "Fenerbahçe": {
+   "played": 12,
+   "shots_pg": 10.75,
+   "sot_pg": 3.83,
+   "corners_pg": 4.08,
+   "fouls_pg": 12.67,
+   "yellow_pg": 3.25,
+   "red_pg": 0.167,
+   "save_rate": 0.768,
+   "saves_pg": 4.42,
+   "source": "espn"
+  },
+  "Union St. Gilloise": {
+   "played": 10,
+   "shots_pg": 17.2,
+   "sot_pg": 6.3,
+   "corners_pg": 5.7,
+   "fouls_pg": 15.3,
+   "yellow_pg": 3.2,
+   "red_pg": 0.3,
+   "save_rate": 0.711,
+   "saves_pg": 2.7,
+   "source": "espn"
+  },
+  "Tottenham": {
+   "played": 15,
+   "shots_pg": 12.93,
+   "sot_pg": 5.07,
+   "corners_pg": 6.4,
+   "fouls_pg": 10.67,
+   "yellow_pg": 1.4,
+   "red_pg": 0.133,
+   "save_rate": 0.783,
+   "saves_pg": 3.13,
+   "source": "espn"
+  },
+  "Qarabag": {
+   "played": 8,
+   "shots_pg": 10.12,
+   "sot_pg": 2.62,
+   "corners_pg": 5.25,
+   "fouls_pg": 9.88,
+   "yellow_pg": 2.25,
+   "red_pg": 0.25,
+   "save_rate": 0.623,
+   "saves_pg": 4.12,
+   "source": "espn"
+  },
+  "Lyon": {
+   "played": 12,
+   "shots_pg": 17.17,
+   "sot_pg": 7.0,
+   "corners_pg": 5.67,
+   "fouls_pg": 11.5,
+   "yellow_pg": 2.0,
+   "red_pg": 0.083,
+   "save_rate": 0.729,
+   "saves_pg": 3.58,
+   "source": "espn"
+  },
+  "Olympiakos Piraeus": {
+   "played": 10,
+   "shots_pg": 15.0,
+   "sot_pg": 4.7,
+   "corners_pg": 5.2,
+   "fouls_pg": 12.8,
+   "yellow_pg": 2.0,
+   "red_pg": 0.1,
+   "save_rate": 0.806,
+   "saves_pg": 2.9,
+   "source": "espn"
+  },
+  "Eintracht Frankfurt": {
+   "played": 12,
+   "shots_pg": 12.92,
+   "sot_pg": 5.17,
+   "corners_pg": 3.92,
+   "fouls_pg": 10.75,
+   "yellow_pg": 1.92,
+   "red_pg": 0.0,
+   "save_rate": 0.731,
+   "saves_pg": 3.17,
+   "source": "espn"
+  },
+  "AS Roma": {
+   "played": 12,
+   "shots_pg": 15.42,
+   "sot_pg": 5.33,
+   "corners_pg": 5.08,
+   "fouls_pg": 10.0,
+   "yellow_pg": 2.08,
+   "red_pg": 0.167,
+   "save_rate": 0.683,
+   "saves_pg": 2.33,
+   "source": "espn"
+  },
+  "Athletic Club": {
+   "played": 14,
+   "shots_pg": 15.0,
+   "sot_pg": 4.43,
+   "corners_pg": 5.29,
+   "fouls_pg": 14.57,
+   "yellow_pg": 2.29,
+   "red_pg": 0.143,
+   "save_rate": 0.622,
+   "saves_pg": 2.0,
+   "source": "espn"
   }
  }
 }

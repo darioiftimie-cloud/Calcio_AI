@@ -11,7 +11,7 @@
   "calendar_label": "2024",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-02T23:56:23+00:00"
+  "generato": "2026-07-04T12:07:44+00:00"
  },
  "standings": [
   {
@@ -479,7 +479,7 @@
     "name": "Scotland",
     "short": "Scotland",
     "logo": "https://crests.football-data.org/814.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 5,
    "ga": 1,
@@ -503,7 +503,7 @@
     "name": "Hungary",
     "short": "Hungary",
     "logo": "https://crests.football-data.org/827.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 788,
@@ -541,7 +541,7 @@
     "name": "Croatia",
     "short": "Croatia",
     "logo": "https://crests.football-data.org/799.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -572,7 +572,7 @@
     "name": "Albania",
     "short": "Albania",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -596,7 +596,7 @@
     "name": "Poland",
     "short": "Poland",
     "logo": "https://crests.football-data.org/794.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 8601,
@@ -627,14 +627,14 @@
     "name": "Slovenia",
     "short": "Slovenia",
     "logo": "https://crests.football-data.org/777.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 782,
     "name": "Denmark",
     "short": "Denmark",
     "logo": "https://crests.football-data.org/782.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -658,7 +658,7 @@
     "name": "Serbia",
     "short": "Serbia",
     "logo": "https://crests.football-data.org/780.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 770,
@@ -696,7 +696,7 @@
     "name": "Ukraine",
     "short": "Ukraine",
     "logo": "https://crests.football-data.org/790.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -720,7 +720,7 @@
     "name": "Belgium",
     "short": "Belgium",
     "logo": "https://crests.football-data.org/805.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 768,
@@ -751,7 +751,7 @@
     "name": "Austria",
     "short": "Austria",
     "logo": "https://crests.football-data.org/816.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 773,
@@ -789,7 +789,7 @@
     "name": "Georgia",
     "short": "Georgia",
     "logo": "https://crests.football-data.org/ge.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 1,
@@ -820,7 +820,7 @@
     "name": "Czechia",
     "short": "Czechia",
     "logo": "https://crests.football-data.org/798.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -844,14 +844,14 @@
     "name": "Croatia",
     "short": "Croatia",
     "logo": "https://crests.football-data.org/799.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 1065,
     "name": "Albania",
     "short": "Albania",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 2,
@@ -882,7 +882,7 @@
     "name": "Hungary",
     "short": "Hungary",
     "logo": "https://crests.football-data.org/827.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -906,14 +906,14 @@
     "name": "Scotland",
     "short": "Scotland",
     "logo": "https://crests.football-data.org/814.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 788,
     "name": "Switzerland",
     "short": "Switzerland",
     "logo": "https://crests.football-data.org/788.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -937,14 +937,14 @@
     "name": "Slovenia",
     "short": "Slovenia",
     "logo": "https://crests.football-data.org/777.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 780,
     "name": "Serbia",
     "short": "Serbia",
     "logo": "https://crests.football-data.org/780.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -968,14 +968,14 @@
     "name": "Denmark",
     "short": "Denmark",
     "logo": "https://crests.football-data.org/782.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 770,
     "name": "England",
     "short": "England",
     "logo": "https://crests.football-data.org/770.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1006,7 +1006,7 @@
     "name": "Italy",
     "short": "Italy",
     "logo": "https://crests.football-data.org/784.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -1030,7 +1030,7 @@
     "name": "Slovakia",
     "short": "Slovakia",
     "logo": "https://crests.football-data.org/768.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 790,
@@ -1061,7 +1061,7 @@
     "name": "Poland",
     "short": "Poland",
     "logo": "https://crests.football-data.org/794.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 816,
@@ -1092,14 +1092,14 @@
     "name": "Netherlands",
     "short": "Netherlands",
     "logo": "https://crests.football-data.org/8601.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 773,
     "name": "France",
     "short": "France",
     "logo": "https://crests.football-data.org/773.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -1123,14 +1123,14 @@
     "name": "Georgia",
     "short": "Georgia",
     "logo": "https://crests.football-data.org/ge.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 798,
     "name": "Czechia",
     "short": "Czechia",
     "logo": "https://crests.football-data.org/798.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1154,7 +1154,7 @@
     "name": "Turkey",
     "short": "Turkey",
     "logo": "https://crests.football-data.org/803.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 765,
@@ -1192,7 +1192,7 @@
     "name": "Romania",
     "short": "Romania",
     "logo": "https://crests.football-data.org/811.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -1216,7 +1216,7 @@
     "name": "Scotland",
     "short": "Scotland",
     "logo": "https://crests.football-data.org/814.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 827,
@@ -1247,14 +1247,14 @@
     "name": "Switzerland",
     "short": "Switzerland",
     "logo": "https://crests.football-data.org/788.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 759,
     "name": "Germany",
     "short": "Germany",
     "logo": "https://crests.football-data.org/759.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1278,7 +1278,7 @@
     "name": "Albania",
     "short": "Albania",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 760,
@@ -1309,14 +1309,14 @@
     "name": "Croatia",
     "short": "Croatia",
     "logo": "https://crests.football-data.org/799.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 784,
     "name": "Italy",
     "short": "Italy",
     "logo": "https://crests.football-data.org/784.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1340,14 +1340,14 @@
     "name": "France",
     "short": "France",
     "logo": "https://crests.football-data.org/773.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 794,
     "name": "Poland",
     "short": "Poland",
     "logo": "https://crests.football-data.org/794.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1371,7 +1371,7 @@
     "name": "Netherlands",
     "short": "Netherlands",
     "logo": "https://crests.football-data.org/8601.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 816,
@@ -1402,14 +1402,14 @@
     "name": "Denmark",
     "short": "Denmark",
     "logo": "https://crests.football-data.org/782.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 780,
     "name": "Serbia",
     "short": "Serbia",
     "logo": "https://crests.football-data.org/780.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -1433,14 +1433,14 @@
     "name": "England",
     "short": "England",
     "logo": "https://crests.football-data.org/770.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 777,
     "name": "Slovenia",
     "short": "Slovenia",
     "logo": "https://crests.football-data.org/777.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -1464,14 +1464,14 @@
     "name": "Ukraine",
     "short": "Ukraine",
     "logo": "https://crests.football-data.org/790.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 805,
     "name": "Belgium",
     "short": "Belgium",
     "logo": "https://crests.football-data.org/805.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 0,
    "ga": 0,
@@ -1495,14 +1495,14 @@
     "name": "Slovakia",
     "short": "Slovakia",
     "logo": "https://crests.football-data.org/768.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 811,
     "name": "Romania",
     "short": "Romania",
     "logo": "https://crests.football-data.org/811.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 1,
@@ -1526,7 +1526,7 @@
     "name": "Czechia",
     "short": "Czechia",
     "logo": "https://crests.football-data.org/798.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 803,
@@ -1564,7 +1564,7 @@
     "name": "Portugal",
     "short": "Portugal",
     "logo": "https://crests.football-data.org/765.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -1595,7 +1595,7 @@
     "name": "Italy",
     "short": "Italy",
     "logo": "https://crests.football-data.org/784.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -1626,7 +1626,7 @@
     "name": "Denmark",
     "short": "Denmark",
     "logo": "https://crests.football-data.org/782.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 0,
@@ -1657,7 +1657,7 @@
     "name": "Slovakia",
     "short": "Slovakia",
     "logo": "https://crests.football-data.org/768.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -1688,7 +1688,7 @@
     "name": "Georgia",
     "short": "Georgia",
     "logo": "https://crests.football-data.org/ge.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 1,
@@ -1719,7 +1719,7 @@
     "name": "Belgium",
     "short": "Belgium",
     "logo": "https://crests.football-data.org/805.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 1,
    "ga": 0,
@@ -1750,7 +1750,7 @@
     "name": "Slovenia",
     "short": "Slovenia",
     "logo": "https://crests.football-data.org/777.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 3,
    "ga": 0,
@@ -1777,7 +1777,7 @@
     "name": "Romania",
     "short": "Romania",
     "logo": "https://crests.football-data.org/811.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 8601,
@@ -1808,7 +1808,7 @@
     "name": "Austria",
     "short": "Austria",
     "logo": "https://crests.football-data.org/816.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 803,
@@ -1846,7 +1846,7 @@
     "name": "Germany",
     "short": "Germany",
     "logo": "https://crests.football-data.org/759.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -1870,7 +1870,7 @@
     "name": "Portugal",
     "short": "Portugal",
     "logo": "https://crests.football-data.org/765.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 773,
@@ -1911,7 +1911,7 @@
     "name": "Switzerland",
     "short": "Switzerland",
     "logo": "https://crests.football-data.org/788.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 6,
    "ga": 4,
@@ -1945,7 +1945,7 @@
     "name": "Turkey",
     "short": "Turkey",
     "logo": "https://crests.football-data.org/803.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -1976,7 +1976,7 @@
     "name": "France",
     "short": "France",
     "logo": "https://crests.football-data.org/773.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -2000,7 +2000,7 @@
     "name": "Netherlands",
     "short": "Netherlands",
     "logo": "https://crests.football-data.org/8601.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 770,
@@ -2038,7 +2038,7 @@
     "name": "England",
     "short": "England",
     "logo": "https://crests.football-data.org/770.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 2,
    "ga": 1,
@@ -4401,6 +4401,1575 @@
     }
    ],
    "games": 3
+  }
+ },
+ "espn": {
+  "events": {
+   "690573": {
+    "date": "2024-06-14",
+    "teams": {
+     "Germany": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 0.0,
+      "shots": 20.0,
+      "sot": 10.0,
+      "conceded": 1.0
+     },
+     "Scotland": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 0.0,
+      "saves": 5.0,
+      "shots": 1.0,
+      "sot": 0.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "690574": {
+    "date": "2024-06-15",
+    "teams": {
+     "Hungary": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     },
+     "Switzerland": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690575": {
+    "date": "2024-06-15",
+    "teams": {
+     "Spain": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Croatia": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 2.0,
+      "shots": 16.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "690576": {
+    "date": "2024-06-15",
+    "teams": {
+     "Italy": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 0.0,
+      "shots": 17.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Albania": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "690579": {
+    "date": "2024-06-16",
+    "teams": {
+     "Poland": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "Netherlands": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 6.0,
+      "shots": 21.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690577": {
+    "date": "2024-06-16",
+    "teams": {
+     "Slovenia": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     },
+     "Denmark": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 16.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690578": {
+    "date": "2024-06-16",
+    "teams": {
+     "Serbia": {
+      "fouls": 19.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     },
+     "England": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 1.0,
+      "shots": 5.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "690582": {
+    "date": "2024-06-17",
+    "teams": {
+     "Romania": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Ukraine": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "690581": {
+    "date": "2024-06-17",
+    "teams": {
+     "Belgium": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Slovakia": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "690580": {
+    "date": "2024-06-17",
+    "teams": {
+     "Austria": {
+      "fouls": 18.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 6.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "France": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 14.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "690583": {
+    "date": "2024-06-18",
+    "teams": {
+     "Türkiye": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 22.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Georgia": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "690584": {
+    "date": "2024-06-18",
+    "teams": {
+     "Portugal": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 13.0,
+      "saves": 0.0,
+      "shots": 19.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Czechia": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 7.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "690586": {
+    "date": "2024-06-19",
+    "teams": {
+     "Croatia": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 22.0,
+      "sot": 10.0,
+      "conceded": 2.0
+     },
+     "Albania": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 8.0,
+      "shots": 15.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "690587": {
+    "date": "2024-06-19",
+    "teams": {
+     "Germany": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 3.0,
+      "shots": 19.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "Hungary": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "690585": {
+    "date": "2024-06-19",
+    "teams": {
+     "Scotland": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Switzerland": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690589": {
+    "date": "2024-06-20",
+    "teams": {
+     "Slovenia": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Serbia": {
+      "fouls": 8.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690590": {
+    "date": "2024-06-20",
+    "teams": {
+     "Denmark": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "England": {
+      "fouls": 5.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690588": {
+    "date": "2024-06-20",
+    "teams": {
+     "Spain": {
+      "fouls": 17.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 20.0,
+      "sot": 9.0,
+      "conceded": 0.0
+     },
+     "Italy": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 8.0,
+      "shots": 4.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690593": {
+    "date": "2024-06-21",
+    "teams": {
+     "Slovakia": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Ukraine": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 13.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690591": {
+    "date": "2024-06-21",
+    "teams": {
+     "Poland": {
+      "fouls": 15.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 6.0,
+      "shots": 15.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     },
+     "Austria": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690592": {
+    "date": "2024-06-21",
+    "teams": {
+     "Netherlands": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "France": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 15.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "690596": {
+    "date": "2024-06-22",
+    "teams": {
+     "Georgia": {
+      "fouls": 12.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 11.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     },
+     "Czechia": {
+      "fouls": 17.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 0.0,
+      "shots": 27.0,
+      "sot": 12.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690595": {
+    "date": "2024-06-22",
+    "teams": {
+     "Türkiye": {
+      "fouls": 16.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     },
+     "Portugal": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "690594": {
+    "date": "2024-06-22",
+    "teams": {
+     "Belgium": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 4.0,
+      "shots": 20.0,
+      "sot": 9.0,
+      "conceded": 0.0
+     },
+     "Romania": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 7.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "690597": {
+    "date": "2024-06-23",
+    "teams": {
+     "Scotland": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 4.0,
+      "sot": 0.0,
+      "conceded": 1.0
+     },
+     "Hungary": {
+      "fouls": 13.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 0.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "690598": {
+    "date": "2024-06-23",
+    "teams": {
+     "Switzerland": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 4.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Germany": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 18.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690600": {
+    "date": "2024-06-24",
+    "teams": {
+     "Albania": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Spain": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 4.0,
+      "shots": 16.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "690599": {
+    "date": "2024-06-24",
+    "teams": {
+     "Croatia": {
+      "fouls": 18.0,
+      "yellows": 6.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 6.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Italy": {
+      "fouls": 6.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690604": {
+    "date": "2024-06-25",
+    "teams": {
+     "France": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 2.0,
+      "shots": 19.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Poland": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 7.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690603": {
+    "date": "2024-06-25",
+    "teams": {
+     "Netherlands": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     },
+     "Austria": {
+      "fouls": 16.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 0.0,
+      "shots": 9.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "690601": {
+    "date": "2024-06-25",
+    "teams": {
+     "Denmark": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Serbia": {
+      "fouls": 5.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "690602": {
+    "date": "2024-06-25",
+    "teams": {
+     "England": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Slovenia": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 3.0,
+      "shots": 4.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "690605": {
+    "date": "2024-06-26",
+    "teams": {
+     "Slovakia": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "shots": 13.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Romania": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690606": {
+    "date": "2024-06-26",
+    "teams": {
+     "Ukraine": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 13.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Belgium": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 4.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "690608": {
+    "date": "2024-06-26",
+    "teams": {
+     "Czechia": {
+      "fouls": 16.0,
+      "yellows": 5.0,
+      "reds": 2.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "Türkiye": {
+      "fouls": 9.0,
+      "yellows": 11.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 18.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "690607": {
+    "date": "2024-06-26",
+    "teams": {
+     "Georgia": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Portugal": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 1.0,
+      "shots": 22.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "703931": {
+    "date": "2024-06-29",
+    "teams": {
+     "Switzerland": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 16.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Italy": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "703932": {
+    "date": "2024-06-29",
+    "teams": {
+     "Germany": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 9.0,
+      "conceded": 0.0
+     },
+     "Denmark": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 7.0,
+      "shots": 11.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "703933": {
+    "date": "2024-06-30",
+    "teams": {
+     "England": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 16.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     },
+     "Slovakia": {
+      "fouls": 19.0,
+      "yellows": 6.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 0.0,
+      "shots": 13.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "703934": {
+    "date": "2024-06-30",
+    "teams": {
+     "Spain": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 13.0,
+      "saves": 0.0,
+      "shots": 35.0,
+      "sot": 13.0,
+      "conceded": 1.0
+     },
+     "Georgia": {
+      "fouls": 5.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 9.0,
+      "shots": 4.0,
+      "sot": 0.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "703935": {
+    "date": "2024-07-01",
+    "teams": {
+     "France": {
+      "fouls": 7.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 19.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Belgium": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 5.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "703936": {
+    "date": "2024-07-01",
+    "teams": {
+     "Portugal": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 2.0,
+      "shots": 20.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Slovenia": {
+      "fouls": 17.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 6.0,
+      "shots": 10.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "703937": {
+    "date": "2024-07-02",
+    "teams": {
+     "Romania": {
+      "fouls": 8.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     },
+     "Netherlands": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 13.0,
+      "saves": 1.0,
+      "shots": 23.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "703938": {
+    "date": "2024-07-02",
+    "teams": {
+     "Austria": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 2.0,
+      "shots": 21.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Türkiye": {
+      "fouls": 5.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 6.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "703939": {
+    "date": "2024-07-05",
+    "teams": {
+     "Spain": {
+      "fouls": 17.0,
+      "yellows": 5.0,
+      "reds": 1.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 18.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Germany": {
+      "fouls": 22.0,
+      "yellows": 8.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "shots": 23.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "703940": {
+    "date": "2024-07-05",
+    "teams": {
+     "Portugal": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 5.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "France": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 20.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "703941": {
+    "date": "2024-07-06",
+    "teams": {
+     "England": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Switzerland": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "703942": {
+    "date": "2024-07-06",
+    "teams": {
+     "Netherlands": {
+      "fouls": 16.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Türkiye": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "703943": {
+    "date": "2024-07-09",
+    "teams": {
+     "Spain": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     },
+     "France": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 0.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "703944": {
+    "date": "2024-07-10",
+    "teams": {
+     "Netherlands": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "England": {
+      "fouls": 6.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "703945": {
+    "date": "2024-07-14",
+    "teams": {
+     "Spain": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 2.0,
+      "shots": 16.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "England": {
+      "fouls": 5.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 9.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   }
+  }
+ },
+ "team_micro": {
+  "Germany": {
+   "played": 5,
+   "shots_pg": 19.0,
+   "sot_pg": 6.8,
+   "corners_pg": 7.2,
+   "fouls_pg": 13.6,
+   "yellow_pg": 2.6,
+   "red_pg": 0.0,
+   "save_rate": 0.733,
+   "saves_pg": 2.2,
+   "source": "espn"
+  },
+  "Scotland": {
+   "played": 3,
+   "shots_pg": 5.67,
+   "sot_pg": 1.0,
+   "corners_pg": 2.33,
+   "fouls_pg": 12.0,
+   "yellow_pg": 1.67,
+   "red_pg": 0.333,
+   "save_rate": 0.632,
+   "saves_pg": 4.0,
+   "source": "espn"
+  },
+  "Hungary": {
+   "played": 3,
+   "shots_pg": 10.33,
+   "sot_pg": 3.67,
+   "corners_pg": 5.0,
+   "fouls_pg": 10.67,
+   "yellow_pg": 3.0,
+   "red_pg": 0.0,
+   "save_rate": 0.643,
+   "saves_pg": 3.0,
+   "source": "espn"
+  },
+  "Switzerland": {
+   "played": 5,
+   "shots_pg": 11.4,
+   "sot_pg": 4.2,
+   "corners_pg": 4.6,
+   "fouls_pg": 12.0,
+   "yellow_pg": 1.8,
+   "red_pg": 0.0,
+   "save_rate": 0.667,
+   "saves_pg": 1.6,
+   "source": "espn"
+  },
+  "Spain": {
+   "played": 7,
+   "shots_pg": 17.43,
+   "sot_pg": 6.29,
+   "corners_pg": 6.29,
+   "fouls_pg": 13.43,
+   "yellow_pg": 2.0,
+   "red_pg": 0.143,
+   "save_rate": 0.826,
+   "saves_pg": 2.71,
+   "source": "espn"
+  },
+  "Croatia": {
+   "played": 3,
+   "shots_pg": 14.67,
+   "sot_pg": 6.33,
+   "corners_pg": 1.67,
+   "fouls_pg": 15.33,
+   "yellow_pg": 2.33,
+   "red_pg": 0.0,
+   "save_rate": 0.6,
+   "saves_pg": 3.0,
+   "source": "espn"
+  },
+  "Italy": {
+   "played": 4,
+   "shots_pg": 11.0,
+   "sot_pg": 2.5,
+   "corners_pg": 6.0,
+   "fouls_pg": 10.5,
+   "yellow_pg": 2.25,
+   "red_pg": 0.0,
+   "save_rate": 0.722,
+   "saves_pg": 3.25,
+   "source": "espn"
+  },
+  "Albania": {
+   "played": 3,
+   "shots_pg": 11.0,
+   "sot_pg": 4.0,
+   "corners_pg": 2.0,
+   "fouls_pg": 8.0,
+   "yellow_pg": 2.33,
+   "red_pg": 0.0,
+   "save_rate": 0.722,
+   "saves_pg": 4.33,
+   "source": "espn"
+  },
+  "Poland": {
+   "played": 3,
+   "shots_pg": 12.33,
+   "sot_pg": 4.33,
+   "corners_pg": 3.33,
+   "fouls_pg": 13.33,
+   "yellow_pg": 2.33,
+   "red_pg": 0.0,
+   "save_rate": 0.714,
+   "saves_pg": 5.0,
+   "source": "espn"
+  },
+  "Netherlands": {
+   "played": 6,
+   "shots_pg": 13.5,
+   "sot_pg": 3.67,
+   "corners_pg": 5.5,
+   "fouls_pg": 11.17,
+   "yellow_pg": 1.83,
+   "red_pg": 0.0,
+   "save_rate": 0.708,
+   "saves_pg": 2.83,
+   "source": "espn"
+  },
+  "Slovenia": {
+   "played": 4,
+   "shots_pg": 9.0,
+   "sot_pg": 2.25,
+   "corners_pg": 3.25,
+   "fouls_pg": 12.75,
+   "yellow_pg": 2.75,
+   "red_pg": 0.0,
+   "save_rate": 0.882,
+   "saves_pg": 3.75,
+   "source": "espn"
+  },
+  "Denmark": {
+   "played": 4,
+   "shots_pg": 13.25,
+   "sot_pg": 4.0,
+   "corners_pg": 6.75,
+   "fouls_pg": 12.0,
+   "yellow_pg": 2.0,
+   "red_pg": 0.0,
+   "save_rate": 0.75,
+   "saves_pg": 3.0,
+   "source": "espn"
+  },
+  "Serbia": {
+   "played": 3,
+   "shots_pg": 8.67,
+   "sot_pg": 2.0,
+   "corners_pg": 4.33,
+   "fouls_pg": 10.67,
+   "yellow_pg": 2.67,
+   "red_pg": 0.0,
+   "save_rate": 0.8,
+   "saves_pg": 2.67,
+   "source": "espn"
+  },
+  "England": {
+   "played": 7,
+   "shots_pg": 10.86,
+   "sot_pg": 3.57,
+   "corners_pg": 3.43,
+   "fouls_pg": 7.86,
+   "yellow_pg": 2.0,
+   "red_pg": 0.0,
+   "save_rate": 0.75,
+   "saves_pg": 2.57,
+   "source": "espn"
+  },
+  "Romania": {
+   "played": 4,
+   "shots_pg": 9.25,
+   "sot_pg": 4.0,
+   "corners_pg": 4.0,
+   "fouls_pg": 9.5,
+   "yellow_pg": 2.0,
+   "red_pg": 0.0,
+   "save_rate": 0.727,
+   "saves_pg": 4.0,
+   "source": "espn"
+  },
+  "Ukraine": {
+   "played": 3,
+   "shots_pg": 13.0,
+   "sot_pg": 3.67,
+   "corners_pg": 5.0,
+   "fouls_pg": 9.67,
+   "yellow_pg": 1.0,
+   "red_pg": 0.0,
+   "save_rate": 0.714,
+   "saves_pg": 3.33,
+   "source": "espn"
+  },
+  "Belgium": {
+   "played": 4,
+   "shots_pg": 13.25,
+   "sot_pg": 5.0,
+   "corners_pg": 5.25,
+   "fouls_pg": 10.25,
+   "yellow_pg": 1.75,
+   "red_pg": 0.0,
+   "save_rate": 0.867,
+   "saves_pg": 3.25,
+   "source": "espn"
+  },
+  "Slovakia": {
+   "played": 4,
+   "shots_pg": 12.5,
+   "sot_pg": 4.0,
+   "corners_pg": 4.25,
+   "fouls_pg": 12.25,
+   "yellow_pg": 2.0,
+   "red_pg": 0.0,
+   "save_rate": 0.706,
+   "saves_pg": 3.0,
+   "source": "espn"
+  },
+  "Austria": {
+   "played": 4,
+   "shots_pg": 12.75,
+   "sot_pg": 5.5,
+   "corners_pg": 5.25,
+   "fouls_pg": 15.25,
+   "yellow_pg": 3.0,
+   "red_pg": 0.0,
+   "save_rate": 0.538,
+   "saves_pg": 1.75,
+   "source": "espn"
+  },
+  "France": {
+   "played": 6,
+   "shots_pg": 16.0,
+   "sot_pg": 4.0,
+   "corners_pg": 5.67,
+   "fouls_pg": 10.83,
+   "yellow_pg": 1.5,
+   "red_pg": 0.0,
+   "save_rate": 0.842,
+   "saves_pg": 2.67,
+   "source": "espn"
+  },
+  "Turkey": {
+   "played": 5,
+   "shots_pg": 14.4,
+   "sot_pg": 4.6,
+   "corners_pg": 6.4,
+   "fouls_pg": 9.4,
+   "yellow_pg": 3.8,
+   "red_pg": 0.2,
+   "save_rate": 0.667,
+   "saves_pg": 3.2,
+   "source": "espn"
+  },
+  "Georgia": {
+   "played": 4,
+   "shots_pg": 7.5,
+   "sot_pg": 2.25,
+   "corners_pg": 3.5,
+   "fouls_pg": 7.5,
+   "yellow_pg": 1.75,
+   "red_pg": 0.0,
+   "save_rate": 0.789,
+   "saves_pg": 7.5,
+   "source": "espn"
+  },
+  "Portugal": {
+   "played": 5,
+   "shots_pg": 17.6,
+   "sot_pg": 5.2,
+   "corners_pg": 9.4,
+   "fouls_pg": 8.2,
+   "yellow_pg": 1.8,
+   "red_pg": 0.0,
+   "save_rate": 0.786,
+   "saves_pg": 2.2,
+   "source": "espn"
+  },
+  "Czechia": {
+   "played": 3,
+   "shots_pg": 14.67,
+   "sot_pg": 6.67,
+   "corners_pg": 4.67,
+   "fouls_pg": 14.0,
+   "yellow_pg": 3.67,
+   "red_pg": 0.667,
+   "save_rate": 0.667,
+   "saves_pg": 3.33,
+   "source": "espn"
   }
  }
 }

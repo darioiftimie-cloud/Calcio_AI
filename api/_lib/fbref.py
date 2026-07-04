@@ -31,19 +31,31 @@ SOT_RATIO = 0.34
 _DROP = {"fc", "cf", "ac", "as", "ss", "ssc", "us", "cd", "rc", "sc", "ud",
          "sd", "afc", "cp", "bc", "rcd", "club", "calcio", "de", "the",
          "and", "futbol", "football", "kv", "sk", "fk", "sfp", "pae",
-         "sad", "clube", "stade", "rb", "rasenballsport"}
+         "sad", "clube", "stade", "rb", "rasenballsport", "fyr"}
 
 # alias per token equivalenti tra sorgenti diverse (es. München ↔ Munich)
 _ALIASES = {"munchen": "munich", "koln": "cologne", "monchengladbach": "gladbach",
             "internazionale": "inter", "milano": "milan",
-            "wolverhampton": "wolves", "rennais": "rennes"}
+            "wolverhampton": "wolves", "rennais": "rennes",
+            "turkiye": "turkey", "czechia": "czech",
+            # traslitterazioni diverse tra football-data/API-Football ed ESPN
+            "olympiakos": "olympiacos", "praha": "prague", "wien": "vienna",
+            "royale": "royal", "paphos": "pafos",
+            "ferencvarosi": "ferencvaros",
+            "st": "saint", "rep": "republic"}
+
+# lettere non coperte dalla decomposizione NFKD (ø → o, ß → ss, …)
+_TRANSLIT = str.maketrans({"ø": "o", "Ø": "O", "đ": "d", "Đ": "D",
+                           "ł": "l", "Ł": "L", "ß": "ss",
+                           "æ": "ae", "Æ": "Ae"})
 
 
 def norm_team(name: str) -> str:
     """Nome squadra normalizzato per il match tra sorgenti diverse."""
     if not name:
         return ""
-    s = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    s = unicodedata.normalize("NFKD", name.translate(_TRANSLIT))
+    s = s.encode("ascii", "ignore").decode()
     s = re.sub(r"[^a-zA-Z ]", " ", s).lower()
     tokens = []
     for t in s.split():

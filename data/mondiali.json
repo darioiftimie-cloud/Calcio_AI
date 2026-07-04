@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-04T12:55:18+00:00"
+  "generato": "2026-07-04T12:02:13+00:00"
  },
  "standings": [
   {
@@ -4131,7 +4131,7 @@
    "name": "Lionel Messi",
    "team": "Argentina",
    "goals": 7,
-   "assists": 0,
+   "assists": 1,
    "penalties": 0,
    "played": 4
   },
@@ -4933,7 +4933,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 11843355,
+     "id": 4261191,
      "name": "Julián Quiñones",
      "photo": null,
      "position": "F",
@@ -4951,7 +4951,7 @@
      "rating": 6.5
     },
     {
-     "id": 11144020,
+     "id": 75468410,
      "name": "Raúl Jiménez",
      "photo": null,
      "position": "F",
@@ -4969,7 +4969,7 @@
      "rating": 6.5
     },
     {
-     "id": 54978542,
+     "id": 97963117,
      "name": "Luis Romo",
      "photo": null,
      "position": "F",
@@ -4993,7 +4993,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 94361920,
+     "id": 6011648,
      "name": "Teboho Mokoena",
      "photo": null,
      "position": "F",
@@ -5017,7 +5017,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 28854126,
+     "id": 14431756,
      "name": "In-beom Hwang",
      "photo": null,
      "position": "F",
@@ -5035,7 +5035,7 @@
      "rating": 6.5
     },
     {
-     "id": 90529136,
+     "id": 6992705,
      "name": "Hyun-Gyu Oh",
      "photo": null,
      "position": "F",
@@ -5059,7 +5059,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 18856185,
+     "id": 83908399,
      "name": "Ladislav Krejčí",
      "photo": null,
      "position": "F",
@@ -5077,7 +5077,7 @@
      "rating": 6.5
     },
     {
-     "id": 34293923,
+     "id": 38664059,
      "name": "Michal Sadílek",
      "photo": null,
      "position": "F",
@@ -5101,7 +5101,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 61450923,
+     "id": 55776948,
      "name": "Jonathan David",
      "photo": null,
      "position": "F",
@@ -5119,7 +5119,7 @@
      "rating": 6.5
     },
     {
-     "id": 82131022,
+     "id": 4045076,
      "name": "Cyle Larin",
      "photo": null,
      "position": "F",
@@ -5137,7 +5137,7 @@
      "rating": 6.5
     },
     {
-     "id": 75257006,
+     "id": 14249176,
      "name": "Nathan-Dylan Saliba",
      "photo": null,
      "position": "F",
@@ -5161,7 +5161,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 70418646,
+     "id": 49821880,
      "name": "Ermin Mahmic",
      "photo": null,
      "position": "F",
@@ -5179,7 +5179,7 @@
      "rating": 6.5
     },
     {
-     "id": 5591846,
+     "id": 43848192,
      "name": "Jovo Lukić",
      "photo": null,
      "position": "F",
@@ -5203,7 +5203,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 49559802,
+     "id": 90985585,
      "name": "Folarin Balogun",
      "photo": null,
      "position": "F",
@@ -5221,7 +5221,7 @@
      "rating": 6.5
     },
     {
-     "id": 57567605,
+     "id": 8553909,
      "name": "Gio Reyna",
      "photo": null,
      "position": "F",
@@ -5239,7 +5239,7 @@
      "rating": 6.5
     },
     {
-     "id": 39430102,
+     "id": 59931952,
      "name": "Alex Freeman",
      "photo": null,
      "position": "F",
@@ -5263,7 +5263,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 87820572,
+     "id": 62035524,
      "name": "Mauricio",
      "photo": null,
      "position": "F",
@@ -5281,7 +5281,7 @@
      "rating": 6.5
     },
     {
-     "id": 36117190,
+     "id": 93111020,
      "name": "Matías Galarza",
      "photo": null,
      "position": "F",
@@ -5305,7 +5305,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 38249904,
+     "id": 63984603,
      "name": "Boualem Khoukhi",
      "photo": null,
      "position": "F",
@@ -5329,7 +5329,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 61778956,
+     "id": 4063986,
      "name": "Johan Manzambi",
      "photo": null,
      "position": "F",
@@ -5347,7 +5347,7 @@
      "rating": 6.5
     },
     {
-     "id": 22912803,
+     "id": 58025422,
      "name": "Breel Embolo",
      "photo": null,
      "position": "F",
@@ -5365,7 +5365,7 @@
      "rating": 6.5
     },
     {
-     "id": 31606616,
+     "id": 67884140,
      "name": "Ruben Vargas",
      "photo": null,
      "position": "F",
@@ -5383,7 +5383,7 @@
      "rating": 6.5
     },
     {
-     "id": 4377033,
+     "id": 3504155,
      "name": "Granit Xhaka",
      "photo": null,
      "position": "F",
@@ -5407,7 +5407,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 51305158,
+     "id": 20712712,
      "name": "Vinicius Junior",
      "photo": null,
      "position": "F",
@@ -5425,7 +5425,7 @@
      "rating": 6.5
     },
     {
-     "id": 68832428,
+     "id": 8243337,
      "name": "Matheus Cunha",
      "photo": null,
      "position": "F",
@@ -5449,7 +5449,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 61533647,
+     "id": 58023837,
      "name": "Ismael Saibari",
      "photo": null,
      "position": "F",
@@ -5473,7 +5473,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 99562603,
+     "id": 45664711,
      "name": "John McGinn",
      "photo": null,
      "position": "F",
@@ -5497,7 +5497,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 41722847,
+     "id": 86711054,
      "name": "Nestor Irankunda",
      "photo": null,
      "position": "F",
@@ -5515,7 +5515,7 @@
      "rating": 6.5
     },
     {
-     "id": 33293371,
+     "id": 62081391,
      "name": "Connor Metcalfe",
      "photo": null,
      "position": "F",
@@ -5539,7 +5539,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 93223992,
+     "id": 90646386,
      "name": "Kai Havertz",
      "photo": null,
      "position": "F",
@@ -5557,7 +5557,7 @@
      "rating": 6.5
     },
     {
-     "id": 97636748,
+     "id": 37808693,
      "name": "Deniz Undav",
      "photo": null,
      "position": "F",
@@ -5575,7 +5575,7 @@
      "rating": 6.5
     },
     {
-     "id": 19474306,
+     "id": 725140,
      "name": "Felix Kalu Nmecha",
      "photo": null,
      "position": "F",
@@ -5593,7 +5593,7 @@
      "rating": 6.5
     },
     {
-     "id": 5463198,
+     "id": 6451793,
      "name": "Nico Schlotterbeck",
      "photo": null,
      "position": "F",
@@ -5611,7 +5611,7 @@
      "rating": 6.5
     },
     {
-     "id": 15166366,
+     "id": 57698078,
      "name": "Jamal Musiala",
      "photo": null,
      "position": "F",
@@ -5629,7 +5629,7 @@
      "rating": 6.5
     },
     {
-     "id": 34433052,
+     "id": 22216522,
      "name": "Nathaniel Brown",
      "photo": null,
      "position": "F",
@@ -5653,7 +5653,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 7889425,
+     "id": 25547144,
      "name": "Livano Comenencia",
      "photo": null,
      "position": "F",
@@ -5677,7 +5677,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 22672765,
+     "id": 6238723,
      "name": "Brian Brobbey",
      "photo": null,
      "position": "F",
@@ -5695,7 +5695,7 @@
      "rating": 6.5
     },
     {
-     "id": 36348726,
+     "id": 38206630,
      "name": "Cody Gakpo",
      "photo": null,
      "position": "F",
@@ -5713,7 +5713,7 @@
      "rating": 6.5
     },
     {
-     "id": 79361905,
+     "id": 22726571,
      "name": "Crysencio Summerville",
      "photo": null,
      "position": "F",
@@ -5731,7 +5731,7 @@
      "rating": 6.5
     },
     {
-     "id": 92175430,
+     "id": 97183491,
      "name": "Virgil van Dijk",
      "photo": null,
      "position": "F",
@@ -5755,7 +5755,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 40169346,
+     "id": 60389258,
      "name": "Daichi Kamada",
      "photo": null,
      "position": "F",
@@ -5773,7 +5773,7 @@
      "rating": 6.5
     },
     {
-     "id": 76433497,
+     "id": 84425543,
      "name": "Ayase Ueda",
      "photo": null,
      "position": "F",
@@ -5791,7 +5791,7 @@
      "rating": 6.5
     },
     {
-     "id": 29093478,
+     "id": 81080935,
      "name": "Keito Nakamura",
      "photo": null,
      "position": "F",
@@ -5809,7 +5809,7 @@
      "rating": 6.5
     },
     {
-     "id": 63888803,
+     "id": 33602970,
      "name": "Junya Ito",
      "photo": null,
      "position": "F",
@@ -5833,7 +5833,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 99425896,
+     "id": 53762989,
      "name": "Amad Diallo",
      "photo": null,
      "position": "F",
@@ -5851,7 +5851,7 @@
      "rating": 6.5
     },
     {
-     "id": 29236858,
+     "id": 86462436,
      "name": "Nicolas Pépé",
      "photo": null,
      "position": "F",
@@ -5869,7 +5869,7 @@
      "rating": 6.5
     },
     {
-     "id": 13005451,
+     "id": 79958525,
      "name": "Franck Kessié",
      "photo": null,
      "position": "F",
@@ -5893,7 +5893,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 56838146,
+     "id": 72483439,
      "name": "Yasin Ayari",
      "photo": null,
      "position": "F",
@@ -5911,7 +5911,7 @@
      "rating": 6.5
     },
     {
-     "id": 8424600,
+     "id": 27572264,
      "name": "Anthony Elanga",
      "photo": null,
      "position": "F",
@@ -5929,7 +5929,7 @@
      "rating": 6.5
     },
     {
-     "id": 13148935,
+     "id": 77874683,
      "name": "Alexander Isak",
      "photo": null,
      "position": "F",
@@ -5947,7 +5947,7 @@
      "rating": 6.5
     },
     {
-     "id": 32072900,
+     "id": 56159327,
      "name": "Viktor Gyökeres",
      "photo": null,
      "position": "F",
@@ -5965,7 +5965,7 @@
      "rating": 6.5
     },
     {
-     "id": 56166845,
+     "id": 62629142,
      "name": "Mattias Svanberg",
      "photo": null,
      "position": "F",
@@ -5989,7 +5989,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 15356133,
+     "id": 13236607,
      "name": "Omar Rekik",
      "photo": null,
      "position": "F",
@@ -6013,7 +6013,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 3039317,
+     "id": 3461105,
      "name": "Mikel Oyarzabal",
      "photo": null,
      "position": "F",
@@ -6031,7 +6031,7 @@
      "rating": 6.5
     },
     {
-     "id": 71524155,
+     "id": 1361631,
      "name": "Lamine Yamal",
      "photo": null,
      "position": "F",
@@ -6055,7 +6055,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 49093912,
+     "id": 28458171,
      "name": "Kevin Pina",
      "photo": null,
      "position": "F",
@@ -6073,7 +6073,7 @@
      "rating": 6.5
     },
     {
-     "id": 49177396,
+     "id": 2672679,
      "name": "Hélio Varela",
      "photo": null,
      "position": "F",
@@ -6097,7 +6097,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 36589392,
+     "id": 24515117,
      "name": "Leandro Trossard",
      "photo": null,
      "position": "F",
@@ -6115,7 +6115,7 @@
      "rating": 6.5
     },
     {
-     "id": 46751212,
+     "id": 50923391,
      "name": "Romelu Lukaku",
      "photo": null,
      "position": "F",
@@ -6133,7 +6133,7 @@
      "rating": 6.5
     },
     {
-     "id": 50972152,
+     "id": 40007418,
      "name": "Youri Tielemans",
      "photo": null,
      "position": "F",
@@ -6157,7 +6157,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 11077372,
+     "id": 37780337,
      "name": "Emam Ashour",
      "photo": null,
      "position": "F",
@@ -6175,7 +6175,7 @@
      "rating": 6.5
     },
     {
-     "id": 61910472,
+     "id": 72136608,
      "name": "Mostafa Ziko",
      "photo": null,
      "position": "F",
@@ -6193,7 +6193,7 @@
      "rating": 6.5
     },
     {
-     "id": 56551803,
+     "id": 68117975,
      "name": "Mohamed Salah",
      "photo": null,
      "position": "F",
@@ -6211,7 +6211,7 @@
      "rating": 6.5
     },
     {
-     "id": 66964025,
+     "id": 15325053,
      "name": "Trezeguet",
      "photo": null,
      "position": "F",
@@ -6235,7 +6235,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 34263329,
+     "id": 73489051,
      "name": "Abdulelah Al Amri",
      "photo": null,
      "position": "F",
@@ -6259,7 +6259,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 42461274,
+     "id": 58677393,
      "name": "Maximiliano Araújo",
      "photo": null,
      "position": "F",
@@ -6277,7 +6277,7 @@
      "rating": 6.5
     },
     {
-     "id": 92659206,
+     "id": 97065708,
      "name": "Agustín Canobbio",
      "photo": null,
      "position": "F",
@@ -6301,7 +6301,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 23225010,
+     "id": 76611079,
      "name": "Ramin Rezaeian",
      "photo": null,
      "position": "F",
@@ -6319,7 +6319,7 @@
      "rating": 6.5
     },
     {
-     "id": 52798269,
+     "id": 58288607,
      "name": "Mohammad Mohebi",
      "photo": null,
      "position": "F",
@@ -6343,7 +6343,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 12401916,
+     "id": 91242574,
      "name": "Elijah Just",
      "photo": null,
      "position": "F",
@@ -6361,7 +6361,7 @@
      "rating": 6.5
     },
     {
-     "id": 84672436,
+     "id": 55979391,
      "name": "Finn Surman",
      "photo": null,
      "position": "F",
@@ -6385,7 +6385,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 77337799,
+     "id": 91477520,
      "name": "Kylian Mbappé",
      "photo": null,
      "position": "F",
@@ -6403,7 +6403,7 @@
      "rating": 6.5
     },
     {
-     "id": 54292873,
+     "id": 65706571,
      "name": "Ousmane Dembélé",
      "photo": null,
      "position": "F",
@@ -6421,7 +6421,7 @@
      "rating": 6.5
     },
     {
-     "id": 90883788,
+     "id": 43383774,
      "name": "Bradley Barcola",
      "photo": null,
      "position": "F",
@@ -6445,7 +6445,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 59918593,
+     "id": 84274640,
      "name": "Ismaïla Sarr",
      "photo": null,
      "position": "F",
@@ -6463,7 +6463,7 @@
      "rating": 6.5
     },
     {
-     "id": 47616984,
+     "id": 59354186,
      "name": "Habib Diarra",
      "photo": null,
      "position": "F",
@@ -6481,7 +6481,7 @@
      "rating": 6.5
     },
     {
-     "id": 72214003,
+     "id": 21484992,
      "name": "Pape Gueye",
      "photo": null,
      "position": "F",
@@ -6499,7 +6499,7 @@
      "rating": 6.5
     },
     {
-     "id": 79713191,
+     "id": 96546823,
      "name": "Ibrahim M'Baye",
      "photo": null,
      "position": "F",
@@ -6523,7 +6523,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 98509756,
+     "id": 74771763,
      "name": "Aymen Hussein",
      "photo": null,
      "position": "F",
@@ -6547,7 +6547,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 59805030,
+     "id": 54656203,
      "name": "Erling Haaland",
      "photo": null,
      "position": "F",
@@ -6565,7 +6565,7 @@
      "rating": 6.5
     },
     {
-     "id": 57248995,
+     "id": 15599091,
      "name": "Leo Østigård",
      "photo": null,
      "position": "F",
@@ -6583,7 +6583,7 @@
      "rating": 6.5
     },
     {
-     "id": 68302795,
+     "id": 73241879,
      "name": "Marcus Pedersen",
      "photo": null,
      "position": "F",
@@ -6607,7 +6607,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 40887918,
+     "id": 11096728,
      "name": "Lionel Messi",
      "photo": null,
      "position": "F",
@@ -6616,11 +6616,11 @@
      "lineups": 4,
      "sub_in": 0,
      "goals": 7,
-     "assists": 0,
+     "assists": 1,
      "conceded": 0,
      "saves": 0,
-     "shots": 56,
-     "shots_on": 22,
+     "shots": 58,
+     "shots_on": 23,
      "penalties": 0,
      "rating": 6.5
     }
@@ -6631,7 +6631,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 64851942,
+     "id": 53883872,
      "name": "Riyad Mahrez",
      "photo": null,
      "position": "F",
@@ -6655,7 +6655,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 12253604,
+     "id": 66216272,
      "name": "Marko Arnautovic",
      "photo": null,
      "position": "F",
@@ -6673,7 +6673,7 @@
      "rating": 6.5
     },
     {
-     "id": 76138559,
+     "id": 3642874,
      "name": "Romano Schmid",
      "photo": null,
      "position": "F",
@@ -6697,7 +6697,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 45106831,
+     "id": 12148006,
      "name": "Ali Olwan",
      "photo": null,
      "position": "F",
@@ -6721,7 +6721,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 63651135,
+     "id": 36061791,
      "name": "Cristiano Ronaldo",
      "photo": null,
      "position": "F",
@@ -6739,7 +6739,7 @@
      "rating": 6.5
     },
     {
-     "id": 85767373,
+     "id": 89312953,
      "name": "Joao Neves",
      "photo": null,
      "position": "F",
@@ -6763,7 +6763,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 95225450,
+     "id": 72787950,
      "name": "Yoane Wissa",
      "photo": null,
      "position": "F",
@@ -6787,7 +6787,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 62226261,
+     "id": 77575052,
      "name": "Harry Kane",
      "photo": null,
      "position": "F",
@@ -6805,7 +6805,7 @@
      "rating": 6.5
     },
     {
-     "id": 7827843,
+     "id": 51925178,
      "name": "Jude Bellingham",
      "photo": null,
      "position": "F",
@@ -6823,7 +6823,7 @@
      "rating": 6.5
     },
     {
-     "id": 94270139,
+     "id": 14964125,
      "name": "Marcus Rashford",
      "photo": null,
      "position": "F",
@@ -6847,7 +6847,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 76275707,
+     "id": 60527884,
      "name": "Martin Baturina",
      "photo": null,
      "position": "F",
@@ -6865,7 +6865,7 @@
      "rating": 6.5
     },
     {
-     "id": 45784092,
+     "id": 52858959,
      "name": "Petar Musa",
      "photo": null,
      "position": "F",
@@ -6889,7 +6889,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 53232615,
+     "id": 18402257,
      "name": "Caleb Yirenkyi",
      "photo": null,
      "position": "F",
@@ -6913,7 +6913,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 80223306,
+     "id": 83692260,
      "name": "Abbosbek Fayzullaev",
      "photo": null,
      "position": "F",
@@ -6937,7 +6937,7 @@
    "source": "marcatori",
    "players": [
     {
-     "id": 45689148,
+     "id": 63983936,
      "name": "Daniel Muñoz",
      "photo": null,
      "position": "F",
@@ -6955,7 +6955,7 @@
      "rating": 6.5
     },
     {
-     "id": 33808601,
+     "id": 41057668,
      "name": "Luis Díaz",
      "photo": null,
      "position": "F",
@@ -6973,7 +6973,7 @@
      "rating": 6.5
     },
     {
-     "id": 93023078,
+     "id": 72469849,
      "name": "Jaminton Campaz",
      "photo": null,
      "position": "F",
@@ -6992,6 +6992,2788 @@
     }
    ],
    "games": 3
+  }
+ },
+ "espn": {
+  "events": {
+   "760415": {
+    "date": "2026-06-11",
+    "teams": {
+     "Mexico": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 16.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "South Africa": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 2.0,
+      "corners": 1.0,
+      "saves": 2.0,
+      "shots": 3.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760414": {
+    "date": "2026-06-12",
+    "teams": {
+     "South Korea": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Czechia": {
+      "fouls": 16.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "shots": 7.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760416": {
+    "date": "2026-06-12",
+    "teams": {
+     "Canada": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Bosnia-Herzegovina": {
+      "fouls": 20.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760417": {
+    "date": "2026-06-13",
+    "teams": {
+     "United States": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 16.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Paraguay": {
+      "fouls": 17.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 1.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "760420": {
+    "date": "2026-06-13",
+    "teams": {
+     "Qatar": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 6.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Switzerland": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 3.0,
+      "shots": 26.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760419": {
+    "date": "2026-06-13",
+    "teams": {
+     "Brazil": {
+      "fouls": 16.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Morocco": {
+      "fouls": 14.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 14.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760418": {
+    "date": "2026-06-14",
+    "teams": {
+     "Haiti": {
+      "fouls": 23.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     },
+     "Scotland": {
+      "fouls": 21.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760421": {
+    "date": "2026-06-14",
+    "teams": {
+     "Australia": {
+      "fouls": 12.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 8.0,
+      "shots": 9.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Türkiye": {
+      "fouls": 4.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 30.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760422": {
+    "date": "2026-06-14",
+    "teams": {
+     "Germany": {
+      "fouls": 18.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 26.0,
+      "sot": 12.0,
+      "conceded": 1.0
+     },
+     "Curaçao": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 7.0
+     }
+    }
+   },
+   "760425": {
+    "date": "2026-06-14",
+    "teams": {
+     "Netherlands": {
+      "fouls": 7.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 10.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     },
+     "Japan": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760423": {
+    "date": "2026-06-14",
+    "teams": {
+     "Ivory Coast": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "Ecuador": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 12.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760424": {
+    "date": "2026-06-15",
+    "teams": {
+     "Sweden": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 13.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Tunisia": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "760428": {
+    "date": "2026-06-15",
+    "teams": {
+     "Spain": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 1.0,
+      "shots": 27.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "Cape Verde": {
+      "fouls": 1.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 7.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760426": {
+    "date": "2026-06-15",
+    "teams": {
+     "Belgium": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Egypt": {
+      "fouls": 15.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 3.0,
+      "shots": 14.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760429": {
+    "date": "2026-06-15",
+    "teams": {
+     "Saudi Arabia": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 9.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Uruguay": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 14.0,
+      "saves": 2.0,
+      "shots": 27.0,
+      "sot": 10.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760427": {
+    "date": "2026-06-16",
+    "teams": {
+     "Iran": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 6.0,
+      "shots": 17.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     },
+     "New Zealand": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 8.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760432": {
+    "date": "2026-06-16",
+    "teams": {
+     "France": {
+      "fouls": 5.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     },
+     "Senegal": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760430": {
+    "date": "2026-06-16",
+    "teams": {
+     "Iraq": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 1.0,
+      "conceded": 4.0
+     },
+     "Norway": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 0.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760433": {
+    "date": "2026-06-17",
+    "teams": {
+     "Argentina": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 0.0,
+      "shots": 10.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Algeria": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760431": {
+    "date": "2026-06-17",
+    "teams": {
+     "Austria": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Jordan": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760435": {
+    "date": "2026-06-17",
+    "teams": {
+     "Portugal": {
+      "fouls": 9.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     },
+     "Congo DR": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 0.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760437": {
+    "date": "2026-06-17",
+    "teams": {
+     "England": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 3.0,
+      "shots": 22.0,
+      "sot": 11.0,
+      "conceded": 2.0
+     },
+     "Croatia": {
+      "fouls": 12.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 7.0,
+      "shots": 10.0,
+      "sot": 5.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "760434": {
+    "date": "2026-06-17",
+    "teams": {
+     "Ghana": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Panama": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760436": {
+    "date": "2026-06-18",
+    "teams": {
+     "Uzbekistan": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 3.0
+     },
+     "Colombia": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760438": {
+    "date": "2026-06-18",
+    "teams": {
+     "Czechia": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 14.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "South Africa": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760439": {
+    "date": "2026-06-18",
+    "teams": {
+     "Switzerland": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Bosnia-Herzegovina": {
+      "fouls": 18.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "shots": 5.0,
+      "sot": 3.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "760440": {
+    "date": "2026-06-18",
+    "teams": {
+     "Canada": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 19.0,
+      "saves": 0.0,
+      "shots": 32.0,
+      "sot": 10.0,
+      "conceded": 0.0
+     },
+     "Qatar": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 2.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "shots": 2.0,
+      "sot": 0.0,
+      "conceded": 6.0
+     }
+    }
+   },
+   "760441": {
+    "date": "2026-06-19",
+    "teams": {
+     "Mexico": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 2.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "South Korea": {
+      "fouls": 7.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760442": {
+    "date": "2026-06-19",
+    "teams": {
+     "United States": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 10.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Australia": {
+      "fouls": 16.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 5.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760445": {
+    "date": "2026-06-19",
+    "teams": {
+     "Scotland": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 6.0,
+      "sot": 0.0,
+      "conceded": 1.0
+     },
+     "Morocco": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 0.0,
+      "shots": 12.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760444": {
+    "date": "2026-06-20",
+    "teams": {
+     "Brazil": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Haiti": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760443": {
+    "date": "2026-06-20",
+    "teams": {
+     "Türkiye": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 12.0,
+      "saves": 1.0,
+      "shots": 32.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Paraguay": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 0.0,
+      "saves": 5.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760447": {
+    "date": "2026-06-20",
+    "teams": {
+     "Netherlands": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 7.0,
+      "shots": 10.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Sweden": {
+      "fouls": 12.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 16.0,
+      "sot": 8.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "760448": {
+    "date": "2026-06-20",
+    "teams": {
+     "Germany": {
+      "fouls": 5.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 16.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Ivory Coast": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760446": {
+    "date": "2026-06-21",
+    "teams": {
+     "Ecuador": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 3.0,
+      "shots": 27.0,
+      "sot": 15.0,
+      "conceded": 0.0
+     },
+     "Curaçao": {
+      "fouls": 10.0,
+      "yellows": 5.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 15.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760449": {
+    "date": "2026-06-21",
+    "teams": {
+     "Tunisia": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 2.0,
+      "sot": 0.0,
+      "conceded": 4.0
+     },
+     "Japan": {
+      "fouls": 15.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 0.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760453": {
+    "date": "2026-06-21",
+    "teams": {
+     "Spain": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 22.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     },
+     "Saudi Arabia": {
+      "fouls": 2.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 3.0,
+      "sot": 1.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "760451": {
+    "date": "2026-06-21",
+    "teams": {
+     "Belgium": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 23.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     },
+     "Iran": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 7.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760450": {
+    "date": "2026-06-21",
+    "teams": {
+     "Uruguay": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 11.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "Cape Verde": {
+      "fouls": 4.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 0.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760452": {
+    "date": "2026-06-22",
+    "teams": {
+     "New Zealand": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     },
+     "Egypt": {
+      "fouls": 8.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 19.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760456": {
+    "date": "2026-06-22",
+    "teams": {
+     "Argentina": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 1.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Austria": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760457": {
+    "date": "2026-06-22",
+    "teams": {
+     "France": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 0.0,
+      "shots": 19.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Iraq": {
+      "fouls": 4.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 4.0,
+      "sot": 0.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760454": {
+    "date": "2026-06-23",
+    "teams": {
+     "Norway": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     },
+     "Senegal": {
+      "fouls": 5.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760455": {
+    "date": "2026-06-23",
+    "teams": {
+     "Jordan": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 6.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 2.0
+     },
+     "Algeria": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 10.0,
+      "saves": 3.0,
+      "shots": 17.0,
+      "sot": 8.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760461": {
+    "date": "2026-06-23",
+    "teams": {
+     "Portugal": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 9.0,
+      "conceded": 0.0
+     },
+     "Uzbekistan": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "760458": {
+    "date": "2026-06-23",
+    "teams": {
+     "England": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 0.0,
+      "shots": 19.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Ghana": {
+      "fouls": 24.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 2.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760460": {
+    "date": "2026-06-23",
+    "teams": {
+     "Panama": {
+      "fouls": 19.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 8.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     },
+     "Croatia": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760459": {
+    "date": "2026-06-24",
+    "teams": {
+     "Colombia": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 20.0,
+      "sot": 9.0,
+      "conceded": 0.0
+     },
+     "Congo DR": {
+      "fouls": 16.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 8.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760462": {
+    "date": "2026-06-24",
+    "teams": {
+     "Bosnia-Herzegovina": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     },
+     "Qatar": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760463": {
+    "date": "2026-06-24",
+    "teams": {
+     "Switzerland": {
+      "fouls": 19.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 6.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Canada": {
+      "fouls": 13.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 7.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760464": {
+    "date": "2026-06-24",
+    "teams": {
+     "Morocco": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 22.0,
+      "sot": 11.0,
+      "conceded": 2.0
+     },
+     "Haiti": {
+      "fouls": 18.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 8.0,
+      "shots": 9.0,
+      "sot": 2.0,
+      "conceded": 4.0
+     }
+    }
+   },
+   "760465": {
+    "date": "2026-06-24",
+    "teams": {
+     "Scotland": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     },
+     "Brazil": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 5.0,
+      "shots": 21.0,
+      "sot": 9.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760467": {
+    "date": "2026-06-25",
+    "teams": {
+     "Czechia": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     },
+     "Mexico": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760466": {
+    "date": "2026-06-25",
+    "teams": {
+     "South Africa": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 4.0,
+      "conceded": 0.0
+     },
+     "South Korea": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760473": {
+    "date": "2026-06-25",
+    "teams": {
+     "Curaçao": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "Ivory Coast": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760468": {
+    "date": "2026-06-25",
+    "teams": {
+     "Ecuador": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Germany": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760471": {
+    "date": "2026-06-25",
+    "teams": {
+     "Japan": {
+      "fouls": 20.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Sweden": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760472": {
+    "date": "2026-06-25",
+    "teams": {
+     "Tunisia": {
+      "fouls": 11.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 4.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 3.0
+     },
+     "Netherlands": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 3.0,
+      "shots": 20.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760469": {
+    "date": "2026-06-26",
+    "teams": {
+     "Paraguay": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Australia": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760470": {
+    "date": "2026-06-26",
+    "teams": {
+     "Türkiye": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 5.0,
+      "shots": 9.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     },
+     "United States": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 1.0,
+      "shots": 18.0,
+      "sot": 7.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760475": {
+    "date": "2026-06-26",
+    "teams": {
+     "Norway": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "shots": 10.0,
+      "sot": 4.0,
+      "conceded": 4.0
+     },
+     "France": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "shots": 18.0,
+      "sot": 9.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760474": {
+    "date": "2026-06-26",
+    "teams": {
+     "Senegal": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 12.0,
+      "saves": 1.0,
+      "shots": 28.0,
+      "sot": 12.0,
+      "conceded": 0.0
+     },
+     "Iraq": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 1.0,
+      "corners": 3.0,
+      "saves": 7.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 5.0
+     }
+    }
+   },
+   "760478": {
+    "date": "2026-06-27",
+    "teams": {
+     "Cape Verde": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 15.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Saudi Arabia": {
+      "fouls": 16.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760479": {
+    "date": "2026-06-27",
+    "teams": {
+     "Uruguay": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 1.0,
+      "saves": 0.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     },
+     "Spain": {
+      "fouls": 14.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 2.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760476": {
+    "date": "2026-06-27",
+    "teams": {
+     "Egypt": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 2.0,
+      "shots": 15.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Iran": {
+      "fouls": 16.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760477": {
+    "date": "2026-06-27",
+    "teams": {
+     "New Zealand": {
+      "fouls": 10.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 5.0
+     },
+     "Belgium": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 35.0,
+      "sot": 10.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760480": {
+    "date": "2026-06-27",
+    "teams": {
+     "Croatia": {
+      "fouls": 9.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 0.0,
+      "shots": 8.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Ghana": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760485": {
+    "date": "2026-06-27",
+    "teams": {
+     "Panama": {
+      "fouls": 16.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 13.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     },
+     "England": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "shots": 17.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760481": {
+    "date": "2026-06-27",
+    "teams": {
+     "Colombia": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 24.0,
+      "sot": 6.0,
+      "conceded": 0.0
+     },
+     "Portugal": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 6.0,
+      "shots": 13.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760482": {
+    "date": "2026-06-27",
+    "teams": {
+     "Congo DR": {
+      "fouls": 6.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 19.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     },
+     "Uzbekistan": {
+      "fouls": 16.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 3.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760484": {
+    "date": "2026-06-28",
+    "teams": {
+     "Algeria": {
+      "fouls": 3.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 1.0,
+      "shots": 12.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     },
+     "Austria": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 2.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760483": {
+    "date": "2026-06-28",
+    "teams": {
+     "Jordan": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 1.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "conceded": 3.0
+     },
+     "Argentina": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 0.0,
+      "shots": 12.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760486": {
+    "date": "2026-06-28",
+    "teams": {
+     "South Africa": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 5.0,
+      "shots": 6.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     },
+     "Canada": {
+      "fouls": 16.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 1.0,
+      "shots": 12.0,
+      "sot": 7.0,
+      "conceded": 0.0
+     }
+    }
+   },
+   "760487": {
+    "date": "2026-06-29",
+    "teams": {
+     "Brazil": {
+      "fouls": 4.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "shots": 19.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Japan": {
+      "fouls": 13.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "shots": 5.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760489": {
+    "date": "2026-06-29",
+    "teams": {
+     "Germany": {
+      "fouls": 18.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 16.0,
+      "saves": 2.0,
+      "shots": 21.0,
+      "sot": 6.0,
+      "conceded": 1.0
+     },
+     "Paraguay": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 6.0,
+      "shots": 7.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760488": {
+    "date": "2026-06-30",
+    "teams": {
+     "Netherlands": {
+      "fouls": 18.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 5.0,
+      "shots": 6.0,
+      "sot": 2.0,
+      "conceded": 1.0
+     },
+     "Morocco": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760490": {
+    "date": "2026-06-30",
+    "teams": {
+     "Ivory Coast": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 14.0,
+      "saves": 1.0,
+      "shots": 14.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Norway": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "shots": 9.0,
+      "sot": 4.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760492": {
+    "date": "2026-06-30",
+    "teams": {
+     "France": {
+      "fouls": 14.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 3.0,
+      "shots": 25.0,
+      "sot": 12.0,
+      "conceded": 0.0
+     },
+     "Sweden": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 9.0,
+      "shots": 8.0,
+      "sot": 3.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760491": {
+    "date": "2026-07-01",
+    "teams": {
+     "Mexico": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 1.0,
+      "shots": 15.0,
+      "sot": 3.0,
+      "conceded": 0.0
+     },
+     "Ecuador": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 1.0,
+      "corners": 8.0,
+      "saves": 1.0,
+      "shots": 7.0,
+      "sot": 1.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760495": {
+    "date": "2026-07-01",
+    "teams": {
+     "England": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "shots": 16.0,
+      "sot": 7.0,
+      "conceded": 1.0
+     },
+     "Congo DR": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "shots": 7.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760493": {
+    "date": "2026-07-01",
+    "teams": {
+     "Belgium": {
+      "fouls": 22.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 19.0,
+      "sot": 5.0,
+      "conceded": 2.0
+     },
+     "Senegal": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "shots": 19.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760494": {
+    "date": "2026-07-02",
+    "teams": {
+     "United States": {
+      "fouls": 7.0,
+      "yellows": 0.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 0.0
+     },
+     "Bosnia-Herzegovina": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 0.0,
+      "shots": 10.0,
+      "sot": 3.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760497": {
+    "date": "2026-07-02",
+    "teams": {
+     "Spain": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 0.0,
+      "shots": 23.0,
+      "sot": 10.0,
+      "conceded": 0.0
+     },
+     "Austria": {
+      "fouls": 15.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 0.0,
+      "saves": 6.0,
+      "shots": 5.0,
+      "sot": 0.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760496": {
+    "date": "2026-07-02",
+    "teams": {
+     "Portugal": {
+      "fouls": 6.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 5.0,
+      "shots": 15.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     },
+     "Croatia": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 2.0,
+      "shots": 13.0,
+      "sot": 6.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760498": {
+    "date": "2026-07-03",
+    "teams": {
+     "Switzerland": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 2.0,
+      "shots": 11.0,
+      "sot": 5.0,
+      "conceded": 0.0
+     },
+     "Algeria": {
+      "fouls": 12.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 2.0,
+      "shots": 8.0,
+      "sot": 2.0,
+      "conceded": 2.0
+     }
+    }
+   },
+   "760499": {
+    "date": "2026-07-03",
+    "teams": {
+     "Australia": {
+      "fouls": 12.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "shots": 16.0,
+      "sot": 1.0,
+      "conceded": 1.0
+     },
+     "Egypt": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 1.0,
+      "shots": 14.0,
+      "sot": 3.0,
+      "conceded": 1.0
+     }
+    }
+   },
+   "760500": {
+    "date": "2026-07-03",
+    "teams": {
+     "Argentina": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 3.0,
+      "shots": 22.0,
+      "sot": 10.0,
+      "conceded": 2.0
+     },
+     "Cape Verde": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 8.0,
+      "shots": 16.0,
+      "sot": 5.0,
+      "conceded": 3.0
+     }
+    }
+   },
+   "760501": {
+    "date": "2026-07-04",
+    "teams": {
+     "Colombia": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 0.0,
+      "shots": 20.0,
+      "sot": 8.0,
+      "conceded": 0.0
+     },
+     "Ghana": {
+      "fouls": 10.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 7.0,
+      "shots": 8.0,
+      "sot": 0.0,
+      "conceded": 1.0
+     }
+    }
+   }
+  }
+ },
+ "team_micro": {
+  "Mexico": {
+   "played": 4,
+   "shots_pg": 12.5,
+   "sot_pg": 4.0,
+   "corners_pg": 2.0,
+   "fouls_pg": 11.0,
+   "yellow_pg": 0.5,
+   "red_pg": 0.25,
+   "save_rate": 1.0,
+   "saves_pg": 1.5,
+   "source": "espn"
+  },
+  "South Africa": {
+   "played": 4,
+   "shots_pg": 9.75,
+   "sot_pg": 2.75,
+   "corners_pg": 2.75,
+   "fouls_pg": 9.5,
+   "yellow_pg": 1.25,
+   "red_pg": 0.5,
+   "save_rate": 0.733,
+   "saves_pg": 2.75,
+   "source": "espn"
+  },
+  "South Korea": {
+   "played": 3,
+   "shots_pg": 10.67,
+   "sot_pg": 3.67,
+   "corners_pg": 4.0,
+   "fouls_pg": 8.33,
+   "yellow_pg": 1.33,
+   "red_pg": 0.0,
+   "save_rate": 0.75,
+   "saves_pg": 3.0,
+   "source": "espn"
+  },
+  "Czechia": {
+   "played": 3,
+   "shots_pg": 11.33,
+   "sot_pg": 2.67,
+   "corners_pg": 5.0,
+   "fouls_pg": 12.33,
+   "yellow_pg": 0.33,
+   "red_pg": 0.0,
+   "save_rate": 0.6,
+   "saves_pg": 3.0,
+   "source": "espn"
+  },
+  "Canada": {
+   "played": 4,
+   "shots_pg": 17.5,
+   "sot_pg": 7.0,
+   "corners_pg": 9.75,
+   "fouls_pg": 12.0,
+   "yellow_pg": 1.75,
+   "red_pg": 0.0,
+   "save_rate": 0.625,
+   "saves_pg": 1.25,
+   "source": "espn"
+  },
+  "Bosnia-Herzegovina": {
+   "played": 4,
+   "shots_pg": 9.25,
+   "sot_pg": 3.5,
+   "corners_pg": 3.75,
+   "fouls_pg": 15.0,
+   "yellow_pg": 1.75,
+   "red_pg": 0.25,
+   "save_rate": 0.429,
+   "saves_pg": 1.5,
+   "source": "espn"
+  },
+  "United States": {
+   "played": 4,
+   "shots_pg": 13.0,
+   "sot_pg": 4.25,
+   "corners_pg": 5.75,
+   "fouls_pg": 11.25,
+   "yellow_pg": 1.25,
+   "red_pg": 0.25,
+   "save_rate": 0.636,
+   "saves_pg": 1.75,
+   "source": "espn"
+  },
+  "Paraguay": {
+   "played": 4,
+   "shots_pg": 7.5,
+   "sot_pg": 2.0,
+   "corners_pg": 2.0,
+   "fouls_pg": 13.25,
+   "yellow_pg": 2.25,
+   "red_pg": 0.25,
+   "save_rate": 0.792,
+   "saves_pg": 4.75,
+   "source": "espn"
+  },
+  "Qatar": {
+   "played": 3,
+   "shots_pg": 5.67,
+   "sot_pg": 2.0,
+   "corners_pg": 3.0,
+   "fouls_pg": 12.0,
+   "yellow_pg": 1.33,
+   "red_pg": 0.667,
+   "save_rate": 0.545,
+   "saves_pg": 4.0,
+   "source": "espn"
+  },
+  "Switzerland": {
+   "played": 4,
+   "shots_pg": 14.0,
+   "sot_pg": 5.75,
+   "corners_pg": 5.75,
+   "fouls_pg": 11.75,
+   "yellow_pg": 0.75,
+   "red_pg": 0.0,
+   "save_rate": 0.812,
+   "saves_pg": 3.25,
+   "source": "espn"
+  },
+  "Brazil": {
+   "played": 4,
+   "shots_pg": 15.0,
+   "sot_pg": 6.5,
+   "corners_pg": 5.75,
+   "fouls_pg": 11.0,
+   "yellow_pg": 1.75,
+   "red_pg": 0.0,
+   "save_rate": 0.846,
+   "saves_pg": 2.75,
+   "source": "espn"
+  },
+  "Morocco": {
+   "played": 4,
+   "shots_pg": 14.75,
+   "sot_pg": 5.25,
+   "corners_pg": 6.0,
+   "fouls_pg": 11.75,
+   "yellow_pg": 0.5,
+   "red_pg": 0.0,
+   "save_rate": 0.6,
+   "saves_pg": 1.5,
+   "source": "espn"
+  },
+  "Haiti": {
+   "played": 3,
+   "shots_pg": 10.33,
+   "sot_pg": 2.33,
+   "corners_pg": 3.0,
+   "fouls_pg": 18.33,
+   "yellow_pg": 2.33,
+   "red_pg": 0.0,
+   "save_rate": 0.579,
+   "saves_pg": 3.67,
+   "source": "espn"
+  },
+  "Scotland": {
+   "played": 3,
+   "shots_pg": 9.67,
+   "sot_pg": 2.33,
+   "corners_pg": 4.0,
+   "fouls_pg": 14.0,
+   "yellow_pg": 1.67,
+   "red_pg": 0.0,
+   "save_rate": 0.667,
+   "saves_pg": 2.67,
+   "source": "espn"
+  },
+  "Australia": {
+   "played": 4,
+   "shots_pg": 10.5,
+   "sot_pg": 3.0,
+   "corners_pg": 4.0,
+   "fouls_pg": 11.5,
+   "yellow_pg": 1.25,
+   "red_pg": 0.0,
+   "save_rate": 0.824,
+   "saves_pg": 3.5,
+   "source": "espn"
+  },
+  "Turkey": {
+   "played": 3,
+   "shots_pg": 23.67,
+   "sot_pg": 5.33,
+   "corners_pg": 7.33,
+   "fouls_pg": 10.33,
+   "yellow_pg": 0.67,
+   "red_pg": 0.0,
+   "save_rate": 0.615,
+   "saves_pg": 2.67,
+   "source": "espn"
+  },
+  "Germany": {
+   "played": 4,
+   "shots_pg": 18.5,
+   "sot_pg": 7.0,
+   "corners_pg": 8.5,
+   "fouls_pg": 12.75,
+   "yellow_pg": 0.75,
+   "red_pg": 0.0,
+   "save_rate": 0.5,
+   "saves_pg": 1.25,
+   "source": "espn"
+  },
+  "Curaçao": {
+   "played": 3,
+   "shots_pg": 9.67,
+   "sot_pg": 2.33,
+   "corners_pg": 1.67,
+   "fouls_pg": 10.67,
+   "yellow_pg": 2.33,
+   "red_pg": 0.0,
+   "save_rate": 0.69,
+   "saves_pg": 6.67,
+   "source": "espn"
+  },
+  "Netherlands": {
+   "played": 4,
+   "shots_pg": 11.5,
+   "sot_pg": 5.5,
+   "corners_pg": 4.5,
+   "fouls_pg": 11.0,
+   "yellow_pg": 0.75,
+   "red_pg": 0.0,
+   "save_rate": 0.762,
+   "saves_pg": 4.0,
+   "source": "espn"
+  },
+  "Japan": {
+   "played": 4,
+   "shots_pg": 8.5,
+   "sot_pg": 3.25,
+   "corners_pg": 3.25,
+   "fouls_pg": 13.75,
+   "yellow_pg": 1.0,
+   "red_pg": 0.0,
+   "save_rate": 0.706,
+   "saves_pg": 3.0,
+   "source": "espn"
+  },
+  "Ivory Coast": {
+   "played": 4,
+   "shots_pg": 11.25,
+   "sot_pg": 3.5,
+   "corners_pg": 6.5,
+   "fouls_pg": 7.25,
+   "yellow_pg": 1.0,
+   "red_pg": 0.0,
+   "save_rate": 0.692,
+   "saves_pg": 2.25,
+   "source": "espn"
+  },
+  "Ecuador": {
+   "played": 4,
+   "shots_pg": 13.25,
+   "sot_pg": 5.0,
+   "corners_pg": 6.5,
+   "fouls_pg": 12.25,
+   "yellow_pg": 2.0,
+   "red_pg": 0.25,
+   "save_rate": 0.692,
+   "saves_pg": 2.25,
+   "source": "espn"
+  },
+  "Sweden": {
+   "played": 4,
+   "shots_pg": 12.0,
+   "sot_pg": 5.75,
+   "corners_pg": 4.5,
+   "fouls_pg": 10.75,
+   "yellow_pg": 1.25,
+   "red_pg": 0.0,
+   "save_rate": 0.583,
+   "saves_pg": 3.5,
+   "source": "espn"
+  },
+  "Tunisia": {
+   "played": 3,
+   "shots_pg": 6.0,
+   "sot_pg": 2.0,
+   "corners_pg": 3.0,
+   "fouls_pg": 9.0,
+   "yellow_pg": 0.33,
+   "red_pg": 0.0,
+   "save_rate": 0.333,
+   "saves_pg": 2.0,
+   "source": "espn"
+  },
+  "Spain": {
+   "played": 4,
+   "shots_pg": 19.5,
+   "sot_pg": 6.5,
+   "corners_pg": 8.0,
+   "fouls_pg": 10.5,
+   "yellow_pg": 0.5,
+   "red_pg": 0.0,
+   "save_rate": 1.0,
+   "saves_pg": 1.0,
+   "source": "espn"
+  },
+  "Cape Verde Islands": {
+   "played": 4,
+   "shots_pg": 12.25,
+   "sot_pg": 3.0,
+   "corners_pg": 4.25,
+   "fouls_pg": 6.75,
+   "yellow_pg": 1.25,
+   "red_pg": 0.0,
+   "save_rate": 0.783,
+   "saves_pg": 4.5,
+   "source": "espn"
+  },
+  "Belgium": {
+   "played": 4,
+   "shots_pg": 23.0,
+   "sot_pg": 6.25,
+   "corners_pg": 4.5,
+   "fouls_pg": 12.75,
+   "yellow_pg": 1.0,
+   "red_pg": 0.25,
+   "save_rate": 0.692,
+   "saves_pg": 2.25,
+   "source": "espn"
+  },
+  "Egypt": {
+   "played": 4,
+   "shots_pg": 15.5,
+   "sot_pg": 4.0,
+   "corners_pg": 6.5,
+   "fouls_pg": 12.0,
+   "yellow_pg": 2.0,
+   "red_pg": 0.0,
+   "save_rate": 0.714,
+   "saves_pg": 2.5,
+   "source": "espn"
+  },
+  "Saudi Arabia": {
+   "played": 3,
+   "shots_pg": 5.67,
+   "sot_pg": 2.33,
+   "corners_pg": 2.33,
+   "fouls_pg": 9.67,
+   "yellow_pg": 2.0,
+   "red_pg": 0.0,
+   "save_rate": 0.762,
+   "saves_pg": 5.33,
+   "source": "espn"
+  },
+  "Uruguay": {
+   "played": 3,
+   "shots_pg": 16.33,
+   "sot_pg": 4.33,
+   "corners_pg": 8.67,
+   "fouls_pg": 10.33,
+   "yellow_pg": 1.67,
+   "red_pg": 0.333,
+   "save_rate": 0.5,
+   "saves_pg": 1.33,
+   "source": "espn"
+  },
+  "Iran": {
+   "played": 3,
+   "shots_pg": 12.33,
+   "sot_pg": 3.67,
+   "corners_pg": 2.67,
+   "fouls_pg": 11.67,
+   "yellow_pg": 2.0,
+   "red_pg": 0.0,
+   "save_rate": 0.833,
+   "saves_pg": 5.0,
+   "source": "espn"
+  },
+  "New Zealand": {
+   "played": 3,
+   "shots_pg": 10.33,
+   "sot_pg": 5.0,
+   "corners_pg": 3.33,
+   "fouls_pg": 10.67,
+   "yellow_pg": 1.33,
+   "red_pg": 0.0,
+   "save_rate": 0.524,
+   "saves_pg": 3.67,
+   "source": "espn"
+  },
+  "France": {
+   "played": 4,
+   "shots_pg": 18.25,
+   "sot_pg": 8.5,
+   "corners_pg": 6.0,
+   "fouls_pg": 9.5,
+   "yellow_pg": 0.25,
+   "red_pg": 0.0,
+   "save_rate": 0.8,
+   "saves_pg": 2.0,
+   "source": "espn"
+  },
+  "Senegal": {
+   "played": 4,
+   "shots_pg": 17.25,
+   "sot_pg": 5.75,
+   "corners_pg": 5.5,
+   "fouls_pg": 9.0,
+   "yellow_pg": 0.75,
+   "red_pg": 0.0,
+   "save_rate": 0.571,
+   "saves_pg": 3.0,
+   "source": "espn"
+  },
+  "Iraq": {
+   "played": 3,
+   "shots_pg": 7.0,
+   "sot_pg": 0.67,
+   "corners_pg": 2.33,
+   "fouls_pg": 9.0,
+   "yellow_pg": 1.33,
+   "red_pg": 0.333,
+   "save_rate": 0.478,
+   "saves_pg": 3.67,
+   "source": "espn"
+  },
+  "Norway": {
+   "played": 4,
+   "shots_pg": 11.0,
+   "sot_pg": 5.0,
+   "corners_pg": 4.25,
+   "fouls_pg": 10.5,
+   "yellow_pg": 0.5,
+   "red_pg": 0.0,
+   "save_rate": 0.579,
+   "saves_pg": 2.75,
+   "source": "espn"
+  },
+  "Argentina": {
+   "played": 4,
+   "shots_pg": 14.0,
+   "sot_pg": 6.25,
+   "corners_pg": 4.25,
+   "fouls_pg": 11.5,
+   "yellow_pg": 0.75,
+   "red_pg": 0.0,
+   "save_rate": 0.571,
+   "saves_pg": 1.0,
+   "source": "espn"
+  },
+  "Algeria": {
+   "played": 4,
+   "shots_pg": 11.0,
+   "sot_pg": 4.0,
+   "corners_pg": 3.5,
+   "fouls_pg": 7.25,
+   "yellow_pg": 0.75,
+   "red_pg": 0.0,
+   "save_rate": 0.5,
+   "saves_pg": 2.25,
+   "source": "espn"
+  },
+  "Austria": {
+   "played": 4,
+   "shots_pg": 8.0,
+   "sot_pg": 2.0,
+   "corners_pg": 2.5,
+   "fouls_pg": 11.75,
+   "yellow_pg": 1.25,
+   "red_pg": 0.0,
+   "save_rate": 0.591,
+   "saves_pg": 3.25,
+   "source": "espn"
+  },
+  "Jordan": {
+   "played": 3,
+   "shots_pg": 8.0,
+   "sot_pg": 3.0,
+   "corners_pg": 2.0,
+   "fouls_pg": 10.33,
+   "yellow_pg": 1.33,
+   "red_pg": 0.0,
+   "save_rate": 0.5,
+   "saves_pg": 2.67,
+   "source": "espn"
+  },
+  "Portugal": {
+   "played": 4,
+   "shots_pg": 13.0,
+   "sot_pg": 3.75,
+   "corners_pg": 4.75,
+   "fouls_pg": 8.75,
+   "yellow_pg": 1.25,
+   "red_pg": 0.0,
+   "save_rate": 0.875,
+   "saves_pg": 3.5,
+   "source": "espn"
+  },
+  "Congo DR": {
+   "played": 4,
+   "shots_pg": 10.25,
+   "sot_pg": 2.25,
+   "corners_pg": 3.25,
+   "fouls_pg": 11.0,
+   "yellow_pg": 1.5,
+   "red_pg": 0.0,
+   "save_rate": 0.737,
+   "saves_pg": 3.5,
+   "source": "espn"
+  },
+  "England": {
+   "played": 4,
+   "shots_pg": 18.5,
+   "sot_pg": 6.75,
+   "corners_pg": 7.25,
+   "fouls_pg": 11.75,
+   "yellow_pg": 0.75,
+   "red_pg": 0.0,
+   "save_rate": 0.667,
+   "saves_pg": 1.5,
+   "source": "espn"
+  },
+  "Croatia": {
+   "played": 4,
+   "shots_pg": 9.25,
+   "sot_pg": 4.25,
+   "corners_pg": 3.0,
+   "fouls_pg": 11.25,
+   "yellow_pg": 1.0,
+   "red_pg": 0.0,
+   "save_rate": 0.588,
+   "saves_pg": 2.5,
+   "source": "espn"
+  },
+  "Ghana": {
+   "played": 4,
+   "shots_pg": 5.75,
+   "sot_pg": 1.0,
+   "corners_pg": 2.0,
+   "fouls_pg": 14.0,
+   "yellow_pg": 1.5,
+   "red_pg": 0.0,
+   "save_rate": 0.842,
+   "saves_pg": 4.0,
+   "source": "espn"
+  },
+  "Panama": {
+   "played": 3,
+   "shots_pg": 10.67,
+   "sot_pg": 2.33,
+   "corners_pg": 4.0,
+   "fouls_pg": 15.33,
+   "yellow_pg": 1.67,
+   "red_pg": 0.0,
+   "save_rate": 0.636,
+   "saves_pg": 2.33,
+   "source": "espn"
+  },
+  "Uzbekistan": {
+   "played": 3,
+   "shots_pg": 6.0,
+   "sot_pg": 1.67,
+   "corners_pg": 3.0,
+   "fouls_pg": 15.0,
+   "yellow_pg": 1.33,
+   "red_pg": 0.0,
+   "save_rate": 0.353,
+   "saves_pg": 2.0,
+   "source": "espn"
+  },
+  "Colombia": {
+   "played": 4,
+   "shots_pg": 19.75,
+   "sot_pg": 6.75,
+   "corners_pg": 4.25,
+   "fouls_pg": 12.25,
+   "yellow_pg": 1.5,
+   "red_pg": 0.0,
+   "save_rate": 0.8,
+   "saves_pg": 1.0,
+   "source": "espn"
   }
  }
 }

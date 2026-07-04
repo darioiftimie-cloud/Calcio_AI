@@ -37,6 +37,7 @@ sys.path.insert(0, "api")
 from _lib import apifootball as af                          # noqa: E402
 from _lib import config                                     # noqa: E402
 from _lib import db                                         # noqa: E402
+from _lib import espn                                       # noqa: E402
 from _lib import footballdata as fd                         # noqa: E402
 from _lib.fbref import fetch_micro_profiles, match_profile, norm_team  # noqa: E402
 
@@ -490,6 +491,10 @@ def main() -> None:
                     help="rigenera solo i micro-eventi dal DB esistente "
                          "(nessuna chiamata a football-data.org)")
     ap.add_argument("--micro-source", choices=["fbref", "understat"], default="fbref")
+    ap.add_argument("--no-espn", action="store_true",
+                    help="salta le medie reali per squadra dal torneo (ESPN)")
+    ap.add_argument("--espn-budget", type=int, default=150,
+                    help="max boxscore ESPN nuovi per competizione per giro")
     args = ap.parse_args()
     config.SEASON = args.season
     config.SEASON_FALLBACKS = list(dict.fromkeys([args.season, 2025, 2024]))
@@ -534,6 +539,28 @@ def main() -> None:
         print(f"  profili raccolti: {len(profiles)} (sorgente: {micro_source})")
         if profiles:
             attach_micro(leagues, profiles, micro_source)
+
+    # --- medie reali per squadra dal torneo/stagione in corso (ESPN) ------
+    # falli, cartellini, corner, tiri, SoT e save rate accumulati sulle gare
+    # già giocate della competizione: il motore li preferisce alle baseline
+    if not args.no_espn:
+        print("\nMicro-eventi reali dal torneo/stagione (ESPN)…")
+        for key, data in leagues.items():
+            prev = data if args.micro_only else (db.read_json(f"{key}.json") or {})
+            try:
+                espn.attach_tournament_micro(key, data, old=prev,
+                                             max_new=args.espn_budget)
+            except espn.EspnError as exc:
+                print(f"  ! {key}: ESPN non disponibile ({exc}) — medie invariate")
+
+    # --no-micro (o scraping fallito) non deve cancellare i profili giocatori
+    # già presenti nel DB: riusali finché non arriva un run micro completo
+    for key, data in leagues.items():
+        if not data.get("teams"):
+            prev = db.read_json(f"{key}.json") or {}
+            if prev.get("teams"):
+                data["teams"] = prev["teams"]
+                print(f"  [{key}] profili giocatori riusati dal DB precedente")
 
     # pool giocatori minimo dai capocannonieri per le squadre senza profilo
     # (nazionali di Mondiali/Europei/Nations League, club fuori dalle Big 5)

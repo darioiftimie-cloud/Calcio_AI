@@ -125,6 +125,32 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
 
     B = config.BASELINE
 
+    # Medie REALI della squadra nel torneo/stagione in corso (boxscore ESPN,
+    # accumulate dall'updater). Entrano con shrinkage n/(n+K): con 3 gare il
+    # dato osservato pesa metà, a 10+ gare domina. Il prior è il profilo
+    # FBref/Understat se c'è, altrimenti la baseline di lega.
+    treal = (league.get("team_micro") or {}).get(team_name)
+    if treal and treal.get("played"):
+        n = treal["played"]
+        w = n / (n + 3.0)
+
+        def _obs(key: str, prior: float, digits: int = 2) -> float:
+            v = treal.get(key)
+            return round(prior + w * (v - prior), digits) if v is not None else prior
+
+        micro = {**micro,
+                 "shots_pg": _obs("shots_pg", micro.get("shots_pg", B["shots"])),
+                 "sot_pg": _obs("sot_pg", micro.get("sot_pg", B["sot"])),
+                 "corners_pg": _obs("corners_pg", micro.get("corners_pg", B["corners"])),
+                 "fouls_pg": _obs("fouls_pg", micro.get("fouls_pg", B["fouls"])),
+                 "yellow_pg": _obs("yellow_pg", micro.get("yellow_pg", B["yellows"])),
+                 "red_pg": _obs("red_pg", micro.get("red_pg", B["reds"]), 3),
+                 "save_rate": _obs("save_rate",
+                                   micro.get("save_rate")
+                                   or (micro.get("keeper") or {}).get("save_rate")
+                                   or B["save_rate"], 3),
+                 "micro_real_games": n}
+
     # Senza profilo micro-evento reale (nazionali, club fuori dalle Big 5) i
     # tiri/corner di base vengono scalati sulla forza d'attacco osservata,
     # con shrinkage sul campione: chi segna il doppio della media tira di
@@ -153,6 +179,8 @@ def team_profile(league: dict, team_name: str, team_ref: dict | None = None,
         players_mode = f"{micro.get('source', 'baseline')} · forma ultime {played}"
     else:
         players_mode = micro.get("source", "baseline")
+    if micro.get("micro_real_games"):
+        players_mode += f" · micro reali ({micro['micro_real_games']} gare)"
 
     return {
         "team_id": (team_ref or {}).get("id") or (row or {}).get("team_id"),
