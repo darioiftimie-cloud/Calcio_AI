@@ -174,6 +174,38 @@ def _micro_from_acc(a: dict) -> dict:
     }
 
 
+def _team_events(league: dict, team_name: str) -> list[tuple[str, dict]]:
+    """Le gare in cache della squadra: [(data, statistiche)], ordine cronologico."""
+    events = (league.get("espn") or {}).get("events") or {}
+    target = norm_team(team_name)
+    tt = set(target.split())
+    rows = []
+    for ev in events.values():
+        for name, st in (ev.get("teams") or {}).items():
+            kn = norm_team(name)
+            if kn != target:
+                kt = set(kn.split())
+                if not (kt and tt and (kt <= tt or tt <= kt)):
+                    continue
+            rows.append((ev.get("date") or "", st))
+    rows.sort(key=lambda r: r[0])
+    return rows
+
+
+def _micro_from_rows(rows: list[tuple[str, dict]]) -> dict | None:
+    if not rows:
+        return None
+    acc = {"played": 0, "fouls": 0.0, "yellows": 0.0, "reds": 0.0,
+           "corners": 0.0, "shots": 0.0, "sot": 0.0,
+           "saves": 0.0, "conceded": 0.0}
+    for _, st in rows:
+        acc["played"] += 1
+        for k in ("fouls", "yellows", "reds", "corners",
+                  "shots", "sot", "saves", "conceded"):
+            acc[k] += float(st.get(k) or 0.0)
+    return _micro_from_acc(acc)
+
+
 def team_micro_before(league: dict, team_name: str,
                       before_date: str | None) -> dict | None:
     """Medie ESPN della squadra usando SOLO le gare precedenti a before_date.
@@ -181,31 +213,21 @@ def team_micro_before(league: dict, team_name: str,
     Serve al backtest (out-of-sample): la media statica in team_micro copre
     l'intero torneo e "conoscerebbe" anche le gare successive a quella
     rigiocata. Con before_date=None equivale alla media completa."""
-    events = (league.get("espn") or {}).get("events")
-    if not events:
-        return None
     cutoff = (before_date or "9999")[:10]
-    target = norm_team(team_name)
-    tt = set(target.split())
-    acc = None
-    for ev in events.values():
-        if (ev.get("date") or "") >= cutoff:
-            continue
-        for name, st in (ev.get("teams") or {}).items():
-            kn = norm_team(name)
-            if kn != target:
-                kt = set(kn.split())
-                if not (kt and tt and (kt <= tt or tt <= kt)):
-                    continue
-            if acc is None:
-                acc = {"played": 0, "fouls": 0.0, "yellows": 0.0, "reds": 0.0,
-                       "corners": 0.0, "shots": 0.0, "sot": 0.0,
-                       "saves": 0.0, "conceded": 0.0}
-            acc["played"] += 1
-            for k in ("fouls", "yellows", "reds", "corners",
-                      "shots", "sot", "saves", "conceded"):
-                acc[k] += float(st.get(k) or 0.0)
-    return _micro_from_acc(acc) if acc and acc["played"] else None
+    rows = [r for r in _team_events(league, team_name) if r[0] < cutoff]
+    return _micro_from_rows(rows)
+
+
+def team_micro_last_n(league: dict, team_name: str, n: int = 10,
+                      before_date: str | None = None) -> dict | None:
+    """Medie ESPN della squadra sulle ultime n gare giocate (modo "forma
+    ultime 10"): tiri, falli, cartellini, corner e save rate recenti.
+    Con before_date conta solo le gare precedenti (analisi pre-partita)."""
+    rows = _team_events(league, team_name)
+    if before_date:
+        cutoff = before_date[:10]
+        rows = [r for r in rows if r[0] < cutoff]
+    return _micro_from_rows(rows[-n:])
 
 
 def attach_tournament_micro(key: str, data: dict, old: dict | None = None,

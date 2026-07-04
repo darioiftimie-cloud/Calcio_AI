@@ -359,7 +359,7 @@ tr.q3 td:first-child{box-shadow:inset 3px 0 0 var(--red)}
 <header class="topbar">
   <div class="brand">⚽ CALCIO <span>AI</span> <small>Analytics Board</small></div>
   <select id="leagueSelect" title="Competizione"></select>
-  <label class="toggle" title="Statistiche giocatori dalle ultime 10 partite reali (consuma più crediti API)">
+  <label class="toggle" title="Gol, forma e micro-eventi (tiri, falli, cartellini, corner, parate) ricalcolati sulle ultime 10 partite giocate">
     <input type="checkbox" id="last10Toggle"> Forma ultime 10
   </label>
   <div class="account" id="accountBadge"></div>
