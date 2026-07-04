@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Report Analitico PDF (fpdf2): riassume le 10.000 simulazioni del match
+"""Report Analitico PDF (fpdf2): riassume le 15.000 simulazioni del match
 con tabelle e grafici a barre disegnati nativamente (leggero, serverless-safe).
 """
 
@@ -24,7 +24,7 @@ class Report(FPDF):
         self.set_font("helvetica", "B", 12)
         self.set_text_color(255, 255, 255)
         self.set_xy(10, 5)
-        self.cell(0, 8, "CALCIO AI - Analytics Board | Report Monte Carlo 10.000 simulazioni")
+        self.cell(0, 8, "CALCIO AI - Analytics Board | Report Monte Carlo 15.000 simulazioni")
         self.set_y(24)
 
     def footer(self):
@@ -131,7 +131,7 @@ def build_pdf(analysis: dict) -> bytes:
         pdf.bar_row(score, p, col, scale=4.0)
 
     # micro-eventi
-    pdf.section("Micro-eventi attesi (medie su 10.000 sim)")
+    pdf.section("Micro-eventi attesi (medie su 15.000 sim)")
     pdf.kv_row("xG modello", f"{home} {sim['xg']['home']}  -  {away} {sim['xg']['away']}")
     pdf.kv_row("Tiri totali", f"{sim['shots']['mean_home']}  -  {sim['shots']['mean_away']}")
     pdf.kv_row("Tiri in porta", f"{sim['shots']['sot_home']}  -  {sim['shots']['sot_away']}")

@@ -135,7 +135,7 @@ def fixtures(league: str, mode: str = "next", n: int = Query(20, le=40)):
 @app.get("/api/simulate")
 def simulate(fixture: int,
              players: str = Query("season", pattern="^(season|last10)$")):
-    """Analisi completa: 10.000 simulazioni Monte Carlo + meteo + giocatori.
+    """Analisi completa: 15.000 simulazioni Monte Carlo + meteo + giocatori.
     Risultato in cache 60 minuti (in-process + edge)."""
     return _json(full_analysis(fixture, players), smaxage=600)
 
@@ -489,7 +489,7 @@ async function renderFixtures() {
           ${teamCell(f.away, true)}
         </div>
         ${tbd ? `<div class="note" style="text-align:center">In attesa degli accoppiamenti ufficiali</div>`
-              : `<button class="btn block" onclick="openAnalysis(${f.fixture_id})">📈 Analizza (10.000 sim)</button>`}
+              : `<button class="btn block" onclick="openAnalysis(${f.fixture_id})">📈 Analizza (15.000 sim)</button>`}
       </div>`;
     };
     let html = planBanner(next);
@@ -611,7 +611,7 @@ async function renderAccuracy() {
 async function openAnalysis(fixtureId) {
   const mode = $("last10Toggle").checked ? "last10" : "season";
   $("anHeader").innerHTML = "";
-  $("anBody").innerHTML = `<div class="loading">Eseguo 10.000 simulazioni Monte Carlo…</div>`;
+  $("anBody").innerHTML = `<div class="loading">Eseguo 15.000 simulazioni Monte Carlo…</div>`;
   $("pdfBtn").href = `/api/report?fixture=${fixtureId}&players=${mode}`;
   $("jsonBtn").href = `/api/export?fixture=${fixtureId}&players=${mode}`;
   $("analysisOverlay").classList.add("show");
@@ -699,14 +699,14 @@ function renderAnalysis(d) {
   $("anBody").innerHTML = `
     <div class="kpis">${kpis}</div>
     <div class="an-grid">
-      <div class="panel wide"><h3>Risultati esatti più probabili — su 10.000 simulazioni</h3>
+      <div class="panel wide"><h3>Risultati esatti più probabili — su 15.000 simulazioni</h3>
         <div id="chScores" class="chart" style="min-height:340px"></div>
         <div class="note"><b style="color:var(--acc)">■</b> vittoria ${H} ·
           <b style="color:var(--dim)">■</b> pareggio ·
           <b style="color:var(--acc2)">■</b> vittoria ${A}</div></div>
       <div class="panel"><h3>Confronto micro-eventi attesi</h3>
         <div id="chCompare" class="chart"></div></div>
-      <div class="panel"><h3>Quanti gol si vedranno? — distribuzione su 10.000 sim</h3>
+      <div class="panel"><h3>Quanti gol si vedranno? — distribuzione su 15.000 sim</h3>
         <div id="chGoals" class="chart"></div></div>
       <div class="panel"><h3>Volume di tiro — i giocatori più caldi</h3>
         <div id="chShooters" class="chart"></div></div>
