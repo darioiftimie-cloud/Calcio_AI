@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-04T17:41:59+00:00"
+  "generato": "2026-07-04T19:51:42+00:00"
  },
  "standings": [
   {
@@ -3632,8 +3632,8 @@
   {
    "fixture_id": 537376,
    "date": "2026-07-04T17:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Ottavi",
    "stage": "LAST_16",
@@ -3654,10 +3654,10 @@
     "name": "Morocco",
     "short": "Morocco",
     "logo": "https://crests.football-data.org/morocco.svg",
-    "winner": false
+    "winner": true
    },
    "gh": 0,
-   "ga": 0,
+   "ga": 3,
    "rigori": null
   },
   {
@@ -4141,7 +4141,7 @@
    "goals": 6,
    "assists": 2,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Erling Haaland",
@@ -4181,7 +4181,7 @@
    "goals": 4,
    "assists": 2,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Ismaïla Sarr",
@@ -4381,7 +4381,7 @@
    "goals": 2,
    "assists": 1,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Marko Arnautovic",
@@ -4440,6 +4440,14 @@
    "played": 4
   },
   {
+   "name": "Soufiane Rahimi",
+   "team": "Morocco",
+   "goals": 2,
+   "assists": 1,
+   "penalties": 0,
+   "played": 5
+  },
+  {
    "name": "Nicolas Pépé",
    "team": "Ivory Coast",
    "goals": 2,
@@ -4496,6 +4504,14 @@
    "played": 4
   },
   {
+   "name": "Azzedine Ounahi",
+   "team": "Morocco",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 0,
+   "played": 5
+  },
+  {
    "name": "Ladislav Krejčí",
    "team": "Czechia",
    "goals": 1,
@@ -4533,7 +4549,7 @@
    "goals": 1,
    "assists": 0,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Gio Reyna",
@@ -4837,7 +4853,7 @@
    "goals": 1,
    "assists": 1,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Franck Kessié",
@@ -4908,22 +4924,6 @@
    "team": "Egypt",
    "goals": 1,
    "assists": 2,
-   "penalties": 0,
-   "played": 4
-  },
-  {
-   "name": "Trezeguet",
-   "team": "Egypt",
-   "goals": 1,
-   "assists": 0,
-   "penalties": 0,
-   "played": 4
-  },
-  {
-   "name": "Marcus Pedersen",
-   "team": "Norway",
-   "goals": 1,
-   "assists": 0,
    "penalties": 0,
    "played": 4
   }
