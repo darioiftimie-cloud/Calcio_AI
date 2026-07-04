@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-04T12:02:13+00:00"
+  "generato": "2026-07-04T13:26:01+00:00"
  },
  "standings": [
   {
@@ -4131,7 +4131,7 @@
    "name": "Lionel Messi",
    "team": "Argentina",
    "goals": 7,
-   "assists": 1,
+   "assists": 0,
    "penalties": 0,
    "played": 4
   },
