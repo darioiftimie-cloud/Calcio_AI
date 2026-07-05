@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-05T05:16:16+00:00"
+  "generato": "2026-07-05T08:23:53+00:00"
  },
  "standings": [
   {
@@ -3891,17 +3891,17 @@
    "venue": null,
    "city": null,
    "home": {
-    "id": null,
-    "name": "?",
-    "short": "?",
-    "logo": null,
+    "id": 773,
+    "name": "France",
+    "short": "France",
+    "logo": "https://crests.football-data.org/773.svg",
     "winner": null
    },
    "away": {
-    "id": null,
-    "name": "?",
-    "short": "?",
-    "logo": null,
+    "id": 815,
+    "name": "Morocco",
+    "short": "Morocco",
+    "logo": "https://crests.football-data.org/morocco.svg",
     "winner": null
    },
    "gh": null,
