@@ -155,6 +155,16 @@ DC_TAU_CLIP = (0.60, 1.45)   # tetto al fattore per cella (τ(0,0) cresce con λ
 GS_ELO_SLOPE = 0.5       # pendenza per 400 punti ELO di divario
 GS_DYN_CLIP = (0.6, 1.4) # limiti del fattore ELO sul game state
 
+# --- Fasi a eliminazione diretta: correzioni anti-bias pareggio -----------
+# Nei KO i profili cumulativi (poche gare) + shrinkage piatto appiattivano
+# le differenze reali → 0-0/1-1 in testa ovunque, anche nei match sbilanciati.
+KO_SHRINK_FACTOR = 0.30  # peso della media lega ridotto del 70% nei KO
+KO_ELO_ALPHA = 0.50      # esponente ELO potenziato nei KO (base: 0.35)
+KO_ASSAULT_SOT = 0.25    # pareggio al 75': +25% tiri del team con ELO più alto
+KO_ASSAULT_CONV = 0.15   # ... e +15% conversione (contropiedi) dell'altro
+KO_DRAW_RHO = 0.10       # Dixon-Coles positivo: penalizza 0-0/1-1 nei KO
+                         # (storicamente i 90' dei KO si sbloccano nel finale)
+
 # --- Variabili situazionali (game state, riposo, motivazione) -------------
 H1_SHARE = 0.44          # quota del volume di gioco nel 1° tempo (storico ~44/56)
 GS_PUSH_BEHIND = 0.14    # chi insegue all'intervallo: +14% tiri nel 2° tempo

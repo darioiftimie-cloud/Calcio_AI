@@ -35,8 +35,9 @@ MAX_SCORE = 7            # oltre 7 gol i risultati finiscono nel bucket "7+"
 SHRINK_K = 5.0
 
 
-def _shrink(value: float, played: int, league_avg: float) -> float:
-    w = played / (played + SHRINK_K) if played and played > 0 else 0.0
+def _shrink(value: float, played: int, league_avg: float,
+            k: float = SHRINK_K) -> float:
+    w = played / (played + k) if played and played > 0 else 0.0
     return league_avg + w * (value - league_avg)
 
 
@@ -133,7 +134,8 @@ def _scorer_table(rows: list[dict], goals: np.ndarray,
 
 
 def run_simulation(home: dict, away: dict, weather: dict,
-                   is_cup: bool = False, n: int = config.N_SIMS,
+                   is_cup: bool = False, knockout: bool = False,
+                   n: int = config.N_SIMS,
                    seed: int = 20260702) -> dict:
     """Esegue le n simulazioni e ritorna tutte le metriche aggregate."""
     rng = np.random.default_rng(seed)
@@ -150,20 +152,27 @@ def run_simulation(home: dict, away: dict, weather: dict,
     # con shrinkage sulle medie osservate (campioni piccoli → più prudenza).
     # Le medie gf/ga arrivano già come blend gol reali + xG shot-based con
     # time-decay (stats.py): qui si aggiunge il peso del Ranking ELO.
-    gf_h = _shrink(home["gf"], home.get("played") or 0, L)
-    ga_h = _shrink(home["ga"], home.get("played") or 0, L)
-    gf_a = _shrink(away["gf"], away.get("played") or 0, L)
-    ga_a = _shrink(away["ga"], away.get("played") or 0, L)
+    # Nei KO lo shrinkage piatto verso la media lega è ridotto del 70%: con
+    # 4-6 gare di torneo appiattiva le differenze reali tra le squadre e
+    # spingeva il pareggio in testa anche nei match sbilanciati.
+    k_shr = SHRINK_K * (config.KO_SHRINK_FACTOR if knockout else 1.0)
+    gf_h = _shrink(home["gf"], home.get("played") or 0, L, k_shr)
+    ga_h = _shrink(home["ga"], home.get("played") or 0, L, k_shr)
+    gf_a = _shrink(away["gf"], away.get("played") or 0, L, k_shr)
+    ga_a = _shrink(away["ga"], away.get("played") or 0, L, k_shr)
 
     # Poisson ponderato ELO: il divario di rating (ricostruito dai risultati,
     # senza vantaggio campo: quello è già in boost_h/a) modula gli xG con
     # esponente ELO_ALPHA. A parità di medie, chi ha battuto avversarie più
     # forti pesa di più. E = prob. attesa di vittoria dal divario ELO.
+    # nei KO il Delta ELO pesa di più (marca la differenza di forza reale
+    # che lo shrinkage ridotto da solo non recupera con campioni piccoli)
+    alpha_elo = config.KO_ELO_ALPHA if knockout else config.ELO_ALPHA
     elo_f_h = elo_f_a = 1.0
     if home.get("elo") and away.get("elo"):
         exp_h = 1.0 / (1.0 + 10.0 ** (-(home["elo"] - away["elo"]) / 400.0))
-        elo_f_h = (max(exp_h, 0.02) / 0.5) ** config.ELO_ALPHA
-        elo_f_a = (max(1.0 - exp_h, 0.02) / 0.5) ** config.ELO_ALPHA
+        elo_f_h = (max(exp_h, 0.02) / 0.5) ** alpha_elo
+        elo_f_a = (max(1.0 - exp_h, 0.02) / 0.5) ** alpha_elo
 
     xg_h = np.clip(gf_h * ga_a / L * boost_h * elo_f_h, 0.15, 3.6)
     xg_a = np.clip(gf_a * ga_h / L * boost_a * elo_f_a, 0.15, 3.6)
@@ -229,12 +238,15 @@ def run_simulation(home: dict, away: dict, weather: dict,
     # estrazioni; diviso (s1²+s2²) perché la somma di due NB per-tempo
     # disperde meno di una NB unica a pari α.
     s1, s2 = config.H1_SHARE, 1.0 - config.H1_SHARE
+    # la ripresa è divisa in 45'-75' e 75'-90' (assalto finale nei KO)
+    s2a, s2b = s2 * (2.0 / 3.0), s2 * (1.0 / 3.0)
     A = {**config.NB_ALPHA_DEFAULT, **(calib.get("dispersion") or {})}
-    hs = s1 * s1 + s2 * s2
-    a_sot_h = max(A["sot"] - 1.0 / config.TEMPO_K - 1.0 / k_h, 0.0) / hs
-    a_sot_a = max(A["sot"] - 1.0 / config.TEMPO_K - 1.0 / k_a, 0.0) / hs
-    a_off = max(A["shots"] - 1.0 / config.TEMPO_K, 0.0) / hs
-    a_fouls = max(A["fouls"] - 0.02, 0.0) / hs   # 0.02 ≈ contributo di dom^0.45
+    hs_sot = s1 * s1 + s2a * s2a + s2b * s2b   # SoT: tre segmenti
+    hs2 = s1 * s1 + s2 * s2                    # falli/tiri fuori: due
+    a_sot_h = max(A["sot"] - 1.0 / config.TEMPO_K - 1.0 / k_h, 0.0) / hs_sot
+    a_sot_a = max(A["sot"] - 1.0 / config.TEMPO_K - 1.0 / k_a, 0.0) / hs_sot
+    a_off = max(A["shots"] - 1.0 / config.TEMPO_K, 0.0) / hs2
+    a_fouls = max(A["fouls"] - 0.02, 0.0) / hs2   # 0.02 ≈ contributo di dom^0.45
     # i corner sono estratti condizionatamente ai tiri della sim, quindi ne
     # ereditano già l'intera dispersione: resta solo l'eccesso specifico
     a_corn = max(A["corners"] - A["shots"], 0.0)
@@ -279,14 +291,36 @@ def run_simulation(home: dict, away: dict, weather: dict,
     conv2_a = conv_a * (1.0 - (1.0 - config.GS_CONV_BEHIND) * dyn_push_a * ahead_h) \
         * (config.REST_CONV_MALUS if tired_a else 1.0)
 
-    # ---------------- 2° TEMPO (parametri adattati allo stato) ------------
-    sot_h2 = _nb(rng, lam_sot_h * mult_h * tempo * s2 * push_h, a_sot_h)
-    sot_a2 = _nb(rng, lam_sot_a * mult_a * tempo * s2 * push_a, a_sot_a)
-    goals_h2 = rng.binomial(sot_h2, np.clip(conv2_h, 0.02, 0.65))
-    goals_a2 = rng.binomial(sot_a2, np.clip(conv2_a, 0.02, 0.65))
+    # ---------------- 2° TEMPO, 45'-75' (parametri adattati allo stato) ---
+    sot_h2a = _nb(rng, lam_sot_h * mult_h * tempo * s2a * push_h, a_sot_h)
+    sot_a2a = _nb(rng, lam_sot_a * mult_a * tempo * s2a * push_a, a_sot_a)
+    goals_h2a = rng.binomial(sot_h2a, np.clip(conv2_h, 0.02, 0.65))
+    goals_a2a = rng.binomial(sot_a2a, np.clip(conv2_a, 0.02, 0.65))
 
-    sot_h, sot_a = sot_h1 + sot_h2, sot_a1 + sot_a2
-    goals_h, goals_a = goals_h1 + goals_h2, goals_a1 + goals_a2
+    # ---------------- 75'-90': LAST ASSAULT (solo eliminazione diretta) ---
+    # Pareggio al 75' in un dentro-o-fuori: il team con ELO più alto si
+    # sbilancia (+25% tiri), l'altro trova spazi in contropiede (+15% di
+    # conversione). Storicamente i 90' regolamentari dei KO tendono a
+    # sbloccarsi negli ultimi minuti.
+    tied75 = (goals_h1 + goals_h2a) == (goals_a1 + goals_a2a)
+    lam_fac_h = lam_fac_a = 1.0
+    conv_fac_h = conv_fac_a = 1.0
+    if knockout and d_elo != 0.0:
+        boost = np.where(tied75, 1.0 + config.KO_ASSAULT_SOT, 1.0)
+        cboost = np.where(tied75, 1.0 + config.KO_ASSAULT_CONV, 1.0)
+        if d_elo > 0:
+            lam_fac_h, conv_fac_a = boost, cboost
+        else:
+            lam_fac_a, conv_fac_h = boost, cboost
+    sot_h2b = _nb(rng, lam_sot_h * mult_h * tempo * s2b * push_h * lam_fac_h, a_sot_h)
+    sot_a2b = _nb(rng, lam_sot_a * mult_a * tempo * s2b * push_a * lam_fac_a, a_sot_a)
+    goals_h2b = rng.binomial(sot_h2b, np.clip(conv2_h * conv_fac_h, 0.02, 0.65))
+    goals_a2b = rng.binomial(sot_a2b, np.clip(conv2_a * conv_fac_a, 0.02, 0.65))
+
+    sot_h = sot_h1 + sot_h2a + sot_h2b
+    sot_a = sot_a1 + sot_a2a + sot_a2b
+    goals_h = goals_h1 + goals_h2a + goals_h2b
+    goals_a = goals_a1 + goals_a2a + goals_a2b
     saves_h = sot_a - goals_a       # parate del portiere di casa
     saves_a = sot_h - goals_h
 
@@ -343,18 +377,22 @@ def run_simulation(home: dict, away: dict, weather: dict,
     # — ρ stimato per lega in calib.py. Da qui in poi OGNI metrica è una
     # media pesata: 1X2, matrice, over, marcatori restano coerenti tra loro.
     # τ è auto-normalizzato (Σ τ·P = 1); w/mean(w) protegge dal residuo NB.
+    # ρ effettivo: quello di lega (stimato; 0 nei tornei) + la correzione
+    # KO richiesta da Dario: nei dentro-o-fuori il ρ POSITIVO sposta massa
+    # da 0-0/1-1 verso 1-0/0-1 (i regolamentari si sbloccano nel finale).
     rho = float(calib.get("rho", config.DC_RHO_DEFAULT))
+    rho_eff = rho + (config.KO_DRAW_RHO if knockout else 0.0)
     lam_dc, mu_dc = float(xg_h), float(xg_a)
     t_lo, t_hi = config.DC_TAU_CLIP
     # il fattore su (0,0) cresce con λ·μ: senza tetto, nei match da tanti
-    # gol attesi lo 0-0 verrebbe gonfiato del 40-50%
+    # gol attesi lo 0-0 verrebbe distorto del 40-50%
     def _t(v):
         return min(max(v, t_lo), t_hi)
     w = np.ones(n)
-    w[(goals_h == 0) & (goals_a == 0)] = _t(1.0 - lam_dc * mu_dc * rho)
-    w[(goals_h == 1) & (goals_a == 0)] = _t(1.0 + mu_dc * rho)
-    w[(goals_h == 0) & (goals_a == 1)] = _t(1.0 + lam_dc * rho)
-    w[(goals_h == 1) & (goals_a == 1)] = _t(1.0 - rho)
+    w[(goals_h == 0) & (goals_a == 0)] = _t(1.0 - lam_dc * mu_dc * rho_eff)
+    w[(goals_h == 1) & (goals_a == 0)] = _t(1.0 + mu_dc * rho_eff)
+    w[(goals_h == 0) & (goals_a == 1)] = _t(1.0 + lam_dc * rho_eff)
+    w[(goals_h == 1) & (goals_a == 1)] = _t(1.0 - rho_eff)
     w /= w.mean()
 
     # matrice risultati esatti (pesata)
@@ -414,9 +452,15 @@ def run_simulation(home: dict, away: dict, weather: dict,
                 "home": round(100.0 * _wmean(behind_h, w), 1),
                 "away": round(100.0 * _wmean(ahead_h, w), 1)},
             "dispersione_nb": {k: round(float(v), 3) for k, v in A.items()},
-            "dixon_coles_rho": rho,
+            "dixon_coles_rho": round(rho_eff, 3),
             "l_lega": round(L, 3),
             "xg_scale": calib.get("xg_scale"),
+            "ko": ({
+                "shrink_ridotto": config.KO_SHRINK_FACTOR,
+                "elo_alpha": alpha_elo,
+                "pareggio_al_75_pct": round(100.0 * float(np.mean(tied75)), 1),
+                "assalto_finale": bool(d_elo != 0.0),
+            } if knockout else None),
             "game_state_dinamico": {
                 "delta_elo_400": round(d_elo, 3),
                 "spinta_elo": {"home": round(push_elo_h, 3),

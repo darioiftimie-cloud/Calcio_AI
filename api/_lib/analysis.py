@@ -61,7 +61,8 @@ def full_analysis(fixture_id: int, players_mode: str = "season") -> dict:
     meteo = weather_for(meta["city"], meta["date"])
 
     t0 = time.perf_counter()
-    sim = run_simulation(home, away, meteo, is_cup=is_cup)
+    sim = run_simulation(home, away, meteo, is_cup=is_cup,
+                         knockout=bool(fx.get("knockout")))
     compute_ms = round((time.perf_counter() - t0) * 1000, 1)
 
     result = {

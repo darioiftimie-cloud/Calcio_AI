@@ -54,6 +54,7 @@ def league_accuracy(league_key: str, max_matches: int = 120) -> dict:
         h["motivation"] = a["motivation"] = match_motivation(league, fx)
 
         sim = run_simulation(h, a, _NEUTRAL_WEATHER, is_cup=is_cup,
+                             knockout=bool(fx.get("knockout")),
                              n=N_SIMS_BACKTEST)
         o = sim["outcomes"]
         gh, ga = fx["gh"], fx["ga"]
