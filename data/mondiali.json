@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-05T21:48:23+00:00"
+  "generato": "2026-07-05T22:47:52+00:00"
  },
  "standings": [
   {
@@ -3694,8 +3694,8 @@
   {
    "fixture_id": 537377,
    "date": "2026-07-05T20:00:00Z",
-   "status": "LIVE",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Ottavi",
    "stage": "LAST_16",
@@ -3718,8 +3718,8 @@
     "logo": "https://crests.football-data.org/813.svg",
     "winner": true
    },
-   "gh": 0,
-   "ga": 1,
+   "gh": 1,
+   "ga": 2,
    "rigori": null
   },
   {
@@ -4136,20 +4136,20 @@
    "played": 5
   },
   {
+   "name": "Erling Haaland",
+   "team": "Norway",
+   "goals": 7,
+   "assists": 0,
+   "penalties": 0,
+   "played": 5
+  },
+  {
    "name": "Lionel Messi",
    "team": "Argentina",
    "goals": 7,
    "assists": 0,
    "penalties": 0,
    "played": 4
-  },
-  {
-   "name": "Erling Haaland",
-   "team": "Norway",
-   "goals": 6,
-   "assists": 0,
-   "penalties": 0,
-   "played": 5
   },
   {
    "name": "Harry Kane",
@@ -10145,6 +10145,41 @@
       "conceded": 0.0
      }
     }
+   },
+   "760504": {
+    "date": "2026-07-05",
+    "teams": {
+     "Brazil": {
+      "fouls": 7.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 3.0,
+      "possession": 33.5,
+      "shots": 14.0,
+      "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 2.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
+      "conceded": 2.0
+     },
+     "Norway": {
+      "fouls": 6.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 4.0,
+      "possession": 66.5,
+      "shots": 9.0,
+      "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
+      "conceded": 1.0
+     }
+    }
    }
   }
  },
@@ -10270,15 +10305,15 @@
    "source": "espn"
   },
   "Brazil": {
-   "played": 4,
-   "shots_pg": 15.0,
-   "sot_pg": 6.5,
-   "corners_pg": 5.75,
-   "fouls_pg": 11.0,
-   "yellow_pg": 1.75,
+   "played": 5,
+   "shots_pg": 14.8,
+   "sot_pg": 6.0,
+   "corners_pg": 5.6,
+   "fouls_pg": 10.2,
+   "yellow_pg": 1.6,
    "red_pg": 0.0,
-   "save_rate": 0.846,
-   "saves_pg": 2.75,
+   "save_rate": 0.778,
+   "saves_pg": 2.8,
    "source": "espn"
   },
   "Morocco": {
@@ -10570,15 +10605,15 @@
    "source": "espn"
   },
   "Norway": {
-   "played": 4,
-   "shots_pg": 11.0,
+   "played": 5,
+   "shots_pg": 10.6,
    "sot_pg": 5.0,
-   "corners_pg": 4.25,
-   "fouls_pg": 10.5,
-   "yellow_pg": 0.5,
+   "corners_pg": 4.4,
+   "fouls_pg": 9.6,
+   "yellow_pg": 0.4,
    "red_pg": 0.0,
-   "save_rate": 0.579,
-   "saves_pg": 2.75,
+   "save_rate": 0.625,
+   "saves_pg": 3.0,
    "source": "espn"
   },
   "Argentina": {
