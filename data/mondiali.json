@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-05T19:58:11+00:00"
+  "generato": "2026-07-05T20:52:45+00:00"
  },
  "standings": [
   {
@@ -3694,7 +3694,7 @@
   {
    "fixture_id": 537377,
    "date": "2026-07-05T20:00:00Z",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Ottavi",
@@ -3709,17 +3709,17 @@
     "name": "Brazil",
     "short": "Brazil",
     "logo": "https://crests.football-data.org/764.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 8872,
     "name": "Norway",
     "short": "Norway",
     "logo": "https://crests.football-data.org/813.svg",
-    "winner": null
+    "winner": false
    },
-   "gh": null,
-   "ga": null,
+   "gh": 0,
+   "ga": 0,
    "rigori": null
   },
   {
