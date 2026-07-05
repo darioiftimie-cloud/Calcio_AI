@@ -345,11 +345,16 @@ def run_simulation(home: dict, away: dict, weather: dict,
     # τ è auto-normalizzato (Σ τ·P = 1); w/mean(w) protegge dal residuo NB.
     rho = float(calib.get("rho", config.DC_RHO_DEFAULT))
     lam_dc, mu_dc = float(xg_h), float(xg_a)
+    t_lo, t_hi = config.DC_TAU_CLIP
+    # il fattore su (0,0) cresce con λ·μ: senza tetto, nei match da tanti
+    # gol attesi lo 0-0 verrebbe gonfiato del 40-50%
+    def _t(v):
+        return min(max(v, t_lo), t_hi)
     w = np.ones(n)
-    w[(goals_h == 0) & (goals_a == 0)] = max(1.0 - lam_dc * mu_dc * rho, 0.05)
-    w[(goals_h == 1) & (goals_a == 0)] = max(1.0 + mu_dc * rho, 0.05)
-    w[(goals_h == 0) & (goals_a == 1)] = max(1.0 + lam_dc * rho, 0.05)
-    w[(goals_h == 1) & (goals_a == 1)] = max(1.0 - rho, 0.05)
+    w[(goals_h == 0) & (goals_a == 0)] = _t(1.0 - lam_dc * mu_dc * rho)
+    w[(goals_h == 1) & (goals_a == 0)] = _t(1.0 + mu_dc * rho)
+    w[(goals_h == 0) & (goals_a == 1)] = _t(1.0 + lam_dc * rho)
+    w[(goals_h == 1) & (goals_a == 1)] = _t(1.0 - rho)
     w /= w.mean()
 
     # matrice risultati esatti (pesata)

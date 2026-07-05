@@ -19,7 +19,7 @@ numero di eventi/partite nel DB della lega.
 
 import math
 
-from . import config
+from . import config, elo
 from .espn import _xg_proxy
 
 _cache: dict = {}
@@ -119,20 +119,51 @@ def _tau_log(gh: int, ga: int, lam: float, mu: float, rho: float) -> float:
 
 
 def _dixon_coles_rho(league: dict, is_cup: bool) -> float:
-    """ρ di massima verosimiglianza (grid search, passo 0.005)."""
+    """ρ di massima verosimiglianza (grid search, passo 0.005).
+
+    I λ/μ per partita replicano il motore INCLUSO il fattore ELO: se la
+    baseline del fit fosse più piatta di quella simulata, il ρ assorbirebbe
+    l'eterogeneità (partite chiuse vs goleade) che il motore già cattura,
+    e la correzione applicata risulterebbe doppia (pareggi gonfiati).
+    Il ρ stimato è poi shrinkato verso 0 in base all'informazione reale:
+    solo le gare finite nelle quattro celle basse (0-0, 1-0, 0-1, 1-1)
+    contribuiscono alla verosimiglianza di ρ.
+
+    Nei TORNEI (coppe) ρ=0: verdetto sperimentale del backtest A/B su
+    ~1000 gare (4 lug 2026) — con i profili cumulativi da pochi match e i
+    punteggi KO che includono i supplementari (i pareggi del 90' spariscono
+    dal DB), la correzione peggiorava Brier e classifica dei risultati
+    esatti in TUTTI i tornei (Mondiali 0.5556→0.5443 senza ρ), mentre nei
+    campionati il ρ stimato aiuta (Premier −0.125 su 380 gare pulite)."""
+    if is_cup:
+        return 0.0
     rates, L = _team_rates(league)
+    ratings = elo.league_elo(league)
     boost_h, boost_a = ((config.HOME_BOOST_CUP, config.AWAY_MALUS_CUP) if is_cup
                         else (config.HOME_BOOST_LEAGUE, config.AWAY_MALUS_LEAGUE))
     matches = []
+    n_low = 0
     for fx in league.get("fixtures", []):
         if not (fx.get("finished") and fx.get("gh") is not None):
+            continue
+        # le gare KO sono escluse: il punteggio salvato include i
+        # supplementari, quindi i pareggi del 90' spariscono dalle celle
+        # basse e contaminerebbero la stima di ρ
+        if fx.get("knockout"):
             continue
         gh, ga = int(fx["gh"]), int(fx["ga"])
         gf_h, ga_h = rates.get(fx["home"]["name"], (L, L))
         gf_a, ga_a = rates.get(fx["away"]["name"], (L, L))
-        lam = min(max(gf_h * ga_a / L * boost_h, 0.15), 3.6)
-        mu = min(max(gf_a * ga_h / L * boost_a, 0.15), 3.6)
+        elo_f_h = elo_f_a = 1.0
+        rh, ra = ratings.get(fx["home"]["name"]), ratings.get(fx["away"]["name"])
+        if rh and ra:
+            exp_h = 1.0 / (1.0 + 10.0 ** (-(rh - ra) / 400.0))
+            elo_f_h = (max(exp_h, 0.02) / 0.5) ** config.ELO_ALPHA
+            elo_f_a = (max(1.0 - exp_h, 0.02) / 0.5) ** config.ELO_ALPHA
+        lam = min(max(gf_h * ga_a / L * boost_h * elo_f_h, 0.15), 3.6)
+        mu = min(max(gf_a * ga_h / L * boost_a * elo_f_a, 0.15), 3.6)
         matches.append((gh, ga, lam, mu))
+        n_low += (gh <= 1 and ga <= 1)
     if len(matches) < 60:                     # campione scarso → default
         return config.DC_RHO_DEFAULT
 
@@ -145,6 +176,9 @@ def _dixon_coles_rho(league: dict, is_cup: bool) -> float:
                  for gh, ga, lam, mu in matches)
         if ll > best_ll:
             best_ll, best_rho = ll, rho
+    # shrinkage empirico-bayes: con poche osservazioni nelle celle basse la
+    # stima è rumorosa e va tirata verso 0 (28 celle → pesa ~half)
+    best_rho *= n_low / (n_low + config.DC_RHO_SHRINK)
     return round(best_rho, 3)
 
 

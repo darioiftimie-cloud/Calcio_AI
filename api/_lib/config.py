@@ -146,6 +146,8 @@ TEMPO_K = 25.0           # Gamma del ritmo-gara condiviso (var 1/25): correla
 # del DB; intervallo ammesso e fallback se il campione è scarso.
 DC_RHO_RANGE = (-0.25, 0.10)
 DC_RHO_DEFAULT = -0.05
+DC_RHO_SHRINK = 30       # shrinkage del rho: n_celle_basse/(n+30)
+DC_TAU_CLIP = (0.60, 1.45)   # tetto al fattore per cella (τ(0,0) cresce con λμ)
 
 # Game state dinamico: l'aggiustamento del 2° tempo scala linearmente con i
 # minuti trascorsi dal gol del divario e col delta ELO (il favorito che
