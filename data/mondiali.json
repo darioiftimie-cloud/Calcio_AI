@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-05T22:47:52+00:00"
+  "generato": "2026-07-05T23:54:55+00:00"
  },
  "standings": [
   {
@@ -3724,8 +3724,8 @@
   },
   {
    "fixture_id": 537378,
-   "date": "2026-07-06T00:00:00Z",
-   "status": "TIMED",
+   "date": "2026-07-06T01:00:00Z",
+   "status": "2026-07-06 01:00:00Z",
    "finished": false,
    "knockout": true,
    "round": "Ottavi",
@@ -4157,7 +4157,7 @@
    "goals": 5,
    "assists": 0,
    "penalties": 1,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Vinicius Junior",
@@ -4197,7 +4197,7 @@
    "goals": 3,
    "assists": 1,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Folarin Balogun",
@@ -4301,7 +4301,7 @@
    "goals": 2,
    "assists": 0,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Cyle Larin",
@@ -4397,7 +4397,7 @@
    "goals": 2,
    "assists": 1,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Daniel Muñoz",
@@ -4765,7 +4765,7 @@
    "goals": 1,
    "assists": 0,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Caleb Yirenkyi",
@@ -4837,7 +4837,7 @@
    "goals": 1,
    "assists": 1,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Alex Freeman",
