@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-05T20:52:45+00:00"
+  "generato": "2026-07-05T21:48:23+00:00"
  },
  "standings": [
   {
@@ -3694,7 +3694,7 @@
   {
    "fixture_id": 537377,
    "date": "2026-07-05T20:00:00Z",
-   "status": "IN_PLAY",
+   "status": "LIVE",
    "finished": false,
    "knockout": true,
    "round": "Ottavi",
@@ -3716,10 +3716,10 @@
     "name": "Norway",
     "short": "Norway",
     "logo": "https://crests.football-data.org/813.svg",
-    "winner": false
+    "winner": true
    },
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "rigori": null
   },
   {
@@ -4146,7 +4146,7 @@
   {
    "name": "Erling Haaland",
    "team": "Norway",
-   "goals": 5,
+   "goals": 6,
    "assists": 0,
    "penalties": 0,
    "played": 5
