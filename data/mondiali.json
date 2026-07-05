@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-04T23:41:29+00:00"
+  "generato": "2026-07-05T01:22:45+00:00"
  },
  "standings": [
   {
@@ -10110,6 +10110,41 @@
       "conceded": 0.0
      }
     }
+   },
+   "760503": {
+    "date": "2026-07-04",
+    "teams": {
+     "Paraguay": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "possession": 24.0,
+      "shots": 5.0,
+      "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 0.0,
+      "blocked": 1.0,
+      "conceded": 1.0
+     },
+     "France": {
+      "fouls": 11.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 12.0,
+      "saves": 1.0,
+      "possession": 76.0,
+      "shots": 15.0,
+      "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
+      "conceded": 0.0
+     }
+    }
    }
   }
  },
@@ -10199,15 +10234,15 @@
    "source": "espn"
   },
   "Paraguay": {
-   "played": 4,
-   "shots_pg": 7.5,
-   "sot_pg": 2.0,
+   "played": 5,
+   "shots_pg": 7.0,
+   "sot_pg": 1.8,
    "corners_pg": 2.0,
-   "fouls_pg": 13.25,
-   "yellow_pg": 2.25,
-   "red_pg": 0.25,
-   "save_rate": 0.792,
-   "saves_pg": 4.75,
+   "fouls_pg": 13.2,
+   "yellow_pg": 1.8,
+   "red_pg": 0.2,
+   "save_rate": 0.793,
+   "saves_pg": 4.6,
    "source": "espn"
   },
   "Qatar": {
@@ -10499,15 +10534,15 @@
    "source": "espn"
   },
   "France": {
-   "played": 4,
-   "shots_pg": 18.25,
-   "sot_pg": 8.5,
-   "corners_pg": 6.0,
-   "fouls_pg": 9.5,
-   "yellow_pg": 0.25,
+   "played": 5,
+   "shots_pg": 17.6,
+   "sot_pg": 7.8,
+   "corners_pg": 7.2,
+   "fouls_pg": 9.8,
+   "yellow_pg": 0.8,
    "red_pg": 0.0,
-   "save_rate": 0.8,
-   "saves_pg": 2.0,
+   "save_rate": 0.818,
+   "saves_pg": 1.8,
    "source": "espn"
   },
   "Senegal": {
