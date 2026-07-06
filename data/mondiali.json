@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-06T21:00:26+00:00"
+  "generato": "2026-07-06T22:14:22+00:00"
  },
  "standings": [
   {
@@ -3756,8 +3756,8 @@
   {
    "fixture_id": 537379,
    "date": "2026-07-06T19:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Ottavi",
    "stage": "LAST_16",
