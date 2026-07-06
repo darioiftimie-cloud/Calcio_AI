@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-06T19:12:47+00:00"
+  "generato": "2026-07-06T21:00:26+00:00"
  },
  "standings": [
   {
@@ -3756,7 +3756,7 @@
   {
    "fixture_id": 537379,
    "date": "2026-07-06T19:00:00Z",
-   "status": "LIVE",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Ottavi",
@@ -3778,10 +3778,10 @@
     "name": "Spain",
     "short": "Spain",
     "logo": "https://crests.football-data.org/760.svg",
-    "winner": false
+    "winner": true
    },
    "gh": 0,
-   "ga": 0,
+   "ga": 1,
    "rigori": null
   },
   {
