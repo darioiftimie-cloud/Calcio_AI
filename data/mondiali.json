@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-06T01:54:44+00:00"
+  "generato": "2026-07-06T06:16:55+00:00"
  },
  "standings": [
   {
@@ -3725,8 +3725,8 @@
   {
    "fixture_id": 537378,
    "date": "2026-07-06T01:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Ottavi",
    "stage": "LAST_16",
@@ -3749,8 +3749,8 @@
     "logo": "https://crests.football-data.org/770.svg",
     "winner": true
    },
-   "gh": 1,
-   "ga": 2,
+   "gh": 2,
+   "ga": 3,
    "rigori": null
   },
   {
@@ -3953,17 +3953,17 @@
    "venue": null,
    "city": null,
    "home": {
-    "id": null,
-    "name": "?",
-    "short": "?",
-    "logo": null,
+    "id": 8872,
+    "name": "Norway",
+    "short": "Norway",
+    "logo": "https://crests.football-data.org/813.svg",
     "winner": null
    },
    "away": {
-    "id": null,
-    "name": "?",
-    "short": "?",
-    "logo": null,
+    "id": 770,
+    "name": "England",
+    "short": "England",
+    "logo": "https://crests.football-data.org/770.svg",
     "winner": null
    },
    "gh": null,
@@ -4154,9 +4154,9 @@
   {
    "name": "Harry Kane",
    "team": "England",
-   "goals": 5,
+   "goals": 6,
    "assists": 1,
-   "penalties": 1,
+   "penalties": 2,
    "played": 5
   },
   {
@@ -4206,6 +4206,14 @@
    "assists": 1,
    "penalties": 0,
    "played": 4
+  },
+  {
+   "name": "Raúl Jiménez",
+   "team": "Mexico",
+   "goals": 3,
+   "assists": 0,
+   "penalties": 1,
+   "played": 5
   },
   {
    "name": "Folarin Balogun",
@@ -4302,14 +4310,6 @@
    "assists": 0,
    "penalties": 1,
    "played": 4
-  },
-  {
-   "name": "Raúl Jiménez",
-   "team": "Mexico",
-   "goals": 2,
-   "assists": 0,
-   "penalties": 0,
-   "played": 5
   },
   {
    "name": "Cyle Larin",
@@ -10180,20 +10180,55 @@
       "conceded": 1.0
      }
     }
+   },
+   "760505": {
+    "date": "2026-07-06",
+    "teams": {
+     "Mexico": {
+      "fouls": 14.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 12.0,
+      "saves": 2.0,
+      "possession": 66.9,
+      "shots": 20.0,
+      "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 13.0,
+      "blocked": 7.0,
+      "conceded": 3.0
+     },
+     "England": {
+      "fouls": 7.0,
+      "yellows": 4.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "possession": 33.1,
+      "shots": 6.0,
+      "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 1.0,
+      "blocked": 0.0,
+      "conceded": 2.0
+     }
+    }
    }
   }
  },
  "team_micro": {
   "Mexico": {
-   "played": 4,
-   "shots_pg": 12.5,
-   "sot_pg": 4.0,
-   "corners_pg": 2.0,
-   "fouls_pg": 11.0,
-   "yellow_pg": 0.5,
-   "red_pg": 0.25,
-   "save_rate": 1.0,
-   "saves_pg": 1.5,
+   "played": 5,
+   "shots_pg": 14.0,
+   "sot_pg": 4.2,
+   "corners_pg": 4.0,
+   "fouls_pg": 11.6,
+   "yellow_pg": 0.8,
+   "red_pg": 0.2,
+   "save_rate": 0.727,
+   "saves_pg": 1.6,
    "source": "espn"
   },
   "South Africa": {
@@ -10689,15 +10724,15 @@
    "source": "espn"
   },
   "England": {
-   "played": 4,
-   "shots_pg": 18.5,
-   "sot_pg": 6.75,
-   "corners_pg": 7.25,
-   "fouls_pg": 11.75,
-   "yellow_pg": 0.75,
-   "red_pg": 0.0,
-   "save_rate": 0.667,
-   "saves_pg": 1.5,
+   "played": 5,
+   "shots_pg": 16.0,
+   "sot_pg": 6.4,
+   "corners_pg": 6.2,
+   "fouls_pg": 10.8,
+   "yellow_pg": 1.4,
+   "red_pg": 0.2,
+   "save_rate": 0.643,
+   "saves_pg": 1.8,
    "source": "espn"
   },
   "Croatia": {
