@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-05T23:54:55+00:00"
+  "generato": "2026-07-06T01:54:44+00:00"
  },
  "standings": [
   {
@@ -3725,7 +3725,7 @@
   {
    "fixture_id": 537378,
    "date": "2026-07-06T01:00:00Z",
-   "status": "2026-07-06 01:00:00Z",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Ottavi",
@@ -3740,17 +3740,17 @@
     "name": "Mexico",
     "short": "Mexico",
     "logo": "https://crests.football-data.org/769.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 770,
     "name": "England",
     "short": "England",
     "logo": "https://crests.football-data.org/770.svg",
-    "winner": null
+    "winner": true
    },
-   "gh": null,
-   "ga": null,
+   "gh": 1,
+   "ga": 2,
    "rigori": null
   },
   {
@@ -4155,13 +4155,29 @@
    "name": "Harry Kane",
    "team": "England",
    "goals": 5,
-   "assists": 0,
+   "assists": 1,
    "penalties": 1,
+   "played": 5
+  },
+  {
+   "name": "Julián Quiñones",
+   "team": "Mexico",
+   "goals": 4,
+   "assists": 1,
+   "penalties": 0,
    "played": 5
   },
   {
    "name": "Vinicius Junior",
    "team": "Brazil",
+   "goals": 4,
+   "assists": 1,
+   "penalties": 0,
+   "played": 5
+  },
+  {
+   "name": "Jude Bellingham",
+   "team": "England",
    "goals": 4,
    "assists": 1,
    "penalties": 0,
@@ -4190,14 +4206,6 @@
    "assists": 1,
    "penalties": 0,
    "played": 4
-  },
-  {
-   "name": "Julián Quiñones",
-   "team": "Mexico",
-   "goals": 3,
-   "assists": 1,
-   "penalties": 0,
-   "played": 5
   },
   {
    "name": "Folarin Balogun",
@@ -4390,14 +4398,6 @@
    "assists": 0,
    "penalties": 1,
    "played": 4
-  },
-  {
-   "name": "Jude Bellingham",
-   "team": "England",
-   "goals": 2,
-   "assists": 1,
-   "penalties": 0,
-   "played": 5
   },
   {
    "name": "Daniel Muñoz",
