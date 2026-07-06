@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-06T22:14:22+00:00"
+  "generato": "2026-07-06T23:32:17+00:00"
  },
  "standings": [
   {
@@ -4221,7 +4221,7 @@
    "goals": 3,
    "assists": 0,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Ismael Saibari",
@@ -4477,7 +4477,7 @@
    "goals": 2,
    "assists": 1,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Romelu Lukaku",
@@ -4485,7 +4485,7 @@
    "goals": 2,
    "assists": 1,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Riyad Mahrez",
@@ -4501,7 +4501,7 @@
    "goals": 2,
    "assists": 0,
    "penalties": 1,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Azzedine Ounahi",
@@ -4557,7 +4557,7 @@
    "goals": 1,
    "assists": 0,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Boualem Khoukhi",
@@ -4845,7 +4845,7 @@
    "goals": 1,
    "assists": 0,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Matías Galarza",
@@ -10215,6 +10215,41 @@
       "conceded": 2.0
      }
     }
+   },
+   "760506": {
+    "date": "2026-07-06",
+    "teams": {
+     "Portugal": {
+      "fouls": 9.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 5.0,
+      "possession": 44.5,
+      "shots": 10.0,
+      "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 3.0,
+      "conceded": 1.0
+     },
+     "Spain": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "possession": 55.5,
+      "shots": 15.0,
+      "sot": 6.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
+      "conceded": 0.0
+     }
+    }
    }
   }
  },
@@ -10508,15 +10543,15 @@
    "source": "espn"
   },
   "Spain": {
-   "played": 4,
-   "shots_pg": 19.5,
-   "sot_pg": 6.5,
-   "corners_pg": 8.0,
-   "fouls_pg": 10.5,
-   "yellow_pg": 0.5,
+   "played": 5,
+   "shots_pg": 18.6,
+   "sot_pg": 6.4,
+   "corners_pg": 7.8,
+   "fouls_pg": 11.0,
+   "yellow_pg": 0.6,
    "red_pg": 0.0,
    "save_rate": 1.0,
-   "saves_pg": 1.0,
+   "saves_pg": 1.2,
    "source": "espn"
   },
   "Cape Verde Islands": {
@@ -10700,15 +10735,15 @@
    "source": "espn"
   },
   "Portugal": {
-   "played": 4,
-   "shots_pg": 13.0,
-   "sot_pg": 3.75,
-   "corners_pg": 4.75,
-   "fouls_pg": 8.75,
-   "yellow_pg": 1.25,
+   "played": 5,
+   "shots_pg": 12.4,
+   "sot_pg": 3.4,
+   "corners_pg": 4.4,
+   "fouls_pg": 8.8,
+   "yellow_pg": 1.4,
    "red_pg": 0.0,
-   "save_rate": 0.875,
-   "saves_pg": 3.5,
+   "save_rate": 0.864,
+   "saves_pg": 3.8,
    "source": "espn"
   },
   "Congo DR": {
