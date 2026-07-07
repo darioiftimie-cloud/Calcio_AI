@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-06T23:32:17+00:00"
+  "generato": "2026-07-07T01:22:08+00:00"
  },
  "standings": [
   {
@@ -3787,7 +3787,7 @@
   {
    "fixture_id": 537380,
    "date": "2026-07-07T00:00:00Z",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Ottavi",
@@ -3802,17 +3802,17 @@
     "name": "United States",
     "short": "USA",
     "logo": "https://crests.football-data.org/usa.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 805,
     "name": "Belgium",
     "short": "Belgium",
     "logo": "https://crests.football-data.org/805.svg",
-    "winner": null
+    "winner": true
    },
-   "gh": null,
-   "ga": null,
+   "gh": 1,
+   "ga": 2,
    "rigori": null
   },
   {
@@ -4475,7 +4475,7 @@
    "name": "Leandro Trossard",
    "team": "Belgium",
    "goals": 2,
-   "assists": 1,
+   "assists": 2,
    "penalties": 0,
    "played": 5
   },
@@ -4504,8 +4504,24 @@
    "played": 5
   },
   {
+   "name": "Malik Tillman",
+   "team": "United States",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 0,
+   "played": 5
+  },
+  {
    "name": "Azzedine Ounahi",
    "team": "Morocco",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 0,
+   "played": 5
+  },
+  {
+   "name": "Charles De Ketelaere",
+   "team": "Belgium",
    "goals": 2,
    "assists": 0,
    "penalties": 0,
@@ -4910,22 +4926,6 @@
    "assists": 0,
    "penalties": 0,
    "played": 3
-  },
-  {
-   "name": "Mostafa Ziko",
-   "team": "Egypt",
-   "goals": 1,
-   "assists": 1,
-   "penalties": 0,
-   "played": 4
-  },
-  {
-   "name": "Mohamed Salah",
-   "team": "Egypt",
-   "goals": 1,
-   "assists": 2,
-   "penalties": 0,
-   "played": 4
   }
  ],
  "teams": {
