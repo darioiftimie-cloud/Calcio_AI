@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-07T16:09:32+00:00"
+  "generato": "2026-07-07T18:17:18+00:00"
  },
  "standings": [
   {
@@ -3818,8 +3818,8 @@
   {
    "fixture_id": 537381,
    "date": "2026-07-07T16:00:00Z",
-   "status": "LIVE",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Ottavi",
    "stage": "LAST_16",
@@ -3833,7 +3833,7 @@
     "name": "Argentina",
     "short": "Argentina",
     "logo": "https://crests.football-data.org/762.png",
-    "winner": false
+    "winner": true
    },
    "away": {
     "id": 825,
@@ -3842,8 +3842,8 @@
     "logo": "https://crests.football-data.org/825.svg",
     "winner": false
    },
-   "gh": 0,
-   "ga": 0,
+   "gh": 3,
+   "ga": 2,
    "rigori": null
   },
   {
@@ -4128,6 +4128,14 @@
  ],
  "scorers": [
   {
+   "name": "Lionel Messi",
+   "team": "Argentina",
+   "goals": 8,
+   "assists": 1,
+   "penalties": 0,
+   "played": 5
+  },
+  {
    "name": "Kylian Mbappé",
    "team": "France",
    "goals": 7,
@@ -4138,14 +4146,6 @@
   {
    "name": "Erling Haaland",
    "team": "Norway",
-   "goals": 7,
-   "assists": 0,
-   "penalties": 0,
-   "played": 5
-  },
-  {
-   "name": "Lionel Messi",
-   "team": "Argentina",
    "goals": 7,
    "assists": 0,
    "penalties": 0,
@@ -4446,6 +4446,14 @@
    "assists": 1,
    "penalties": 0,
    "played": 4
+  },
+  {
+   "name": "Mostafa Ziko",
+   "team": "Egypt",
+   "goals": 2,
+   "assists": 1,
+   "penalties": 0,
+   "played": 5
   },
   {
    "name": "Soufiane Rahimi",
@@ -4918,14 +4926,6 @@
    "assists": 0,
    "penalties": 0,
    "played": 4
-  },
-  {
-   "name": "Finn Surman",
-   "team": "New Zealand",
-   "goals": 1,
-   "assists": 0,
-   "penalties": 0,
-   "played": 3
   }
  ],
  "teams": {
@@ -10285,6 +10285,41 @@
       "conceded": 1.0
      }
     }
+   },
+   "760509": {
+    "date": "2026-07-07",
+    "teams": {
+     "Argentina": {
+      "fouls": 13.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 0.0,
+      "possession": 63.6,
+      "shots": 19.0,
+      "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 8.0,
+      "blocked": 4.0,
+      "conceded": 2.0
+     },
+     "Egypt": {
+      "fouls": 11.0,
+      "yellows": 4.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 4.0,
+      "possession": 36.4,
+      "shots": 5.0,
+      "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
+      "conceded": 3.0
+     }
+    }
    }
   }
  },
@@ -10614,15 +10649,15 @@
    "source": "espn"
   },
   "Egypt": {
-   "played": 4,
-   "shots_pg": 15.5,
-   "sot_pg": 4.0,
-   "corners_pg": 6.5,
-   "fouls_pg": 12.0,
-   "yellow_pg": 2.0,
+   "played": 5,
+   "shots_pg": 13.4,
+   "sot_pg": 3.6,
+   "corners_pg": 5.4,
+   "fouls_pg": 11.8,
+   "yellow_pg": 2.4,
    "red_pg": 0.0,
-   "save_rate": 0.714,
-   "saves_pg": 2.5,
+   "save_rate": 0.667,
+   "saves_pg": 2.8,
    "source": "espn"
   },
   "Saudi Arabia": {
@@ -10722,15 +10757,15 @@
    "source": "espn"
   },
   "Argentina": {
-   "played": 4,
-   "shots_pg": 14.0,
-   "sot_pg": 6.25,
-   "corners_pg": 4.25,
-   "fouls_pg": 11.5,
-   "yellow_pg": 0.75,
+   "played": 5,
+   "shots_pg": 15.0,
+   "sot_pg": 6.4,
+   "corners_pg": 4.6,
+   "fouls_pg": 11.8,
+   "yellow_pg": 0.6,
    "red_pg": 0.0,
-   "save_rate": 0.571,
-   "saves_pg": 1.0,
+   "save_rate": 0.444,
+   "saves_pg": 0.8,
    "source": "espn"
   },
   "Algeria": {
