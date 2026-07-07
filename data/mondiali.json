@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-07T21:49:35+00:00"
+  "generato": "2026-07-07T22:50:14+00:00"
  },
  "standings": [
   {
@@ -3849,8 +3849,8 @@
   {
    "fixture_id": 537382,
    "date": "2026-07-07T20:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Ottavi",
    "stage": "LAST_16",
@@ -3864,18 +3864,21 @@
     "name": "Switzerland",
     "short": "Switzerland",
     "logo": "https://crests.football-data.org/788.svg",
-    "winner": false
+    "winner": null
    },
    "away": {
     "id": 818,
     "name": "Colombia",
     "short": "Colombia",
     "logo": "https://crests.football-data.org/818.svg",
-    "winner": false
+    "winner": null
    },
-   "gh": 0,
-   "ga": 0,
-   "rigori": null
+   "gh": 1,
+   "ga": 1,
+   "rigori": {
+    "home": 1,
+    "away": 1
+   }
   },
   {
    "fixture_id": 537383,
