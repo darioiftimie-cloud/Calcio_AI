@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-07T01:22:08+00:00"
+  "generato": "2026-07-07T05:13:35+00:00"
  },
  "standings": [
   {
@@ -3787,8 +3787,8 @@
   {
    "fixture_id": 537380,
    "date": "2026-07-07T00:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Ottavi",
    "stage": "LAST_16",
@@ -3812,7 +3812,7 @@
     "winner": true
    },
    "gh": 1,
-   "ga": 2,
+   "ga": 4,
    "rigori": null
   },
   {
@@ -4312,6 +4312,14 @@
    "played": 5
   },
   {
+   "name": "Romelu Lukaku",
+   "team": "Belgium",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 5
+  },
+  {
    "name": "Cyle Larin",
    "team": "Canada",
    "goals": 2,
@@ -4480,14 +4488,6 @@
    "played": 5
   },
   {
-   "name": "Romelu Lukaku",
-   "team": "Belgium",
-   "goals": 2,
-   "assists": 1,
-   "penalties": 0,
-   "played": 5
-  },
-  {
    "name": "Riyad Mahrez",
    "team": "Algeria",
    "goals": 2,
@@ -4523,7 +4523,7 @@
    "name": "Charles De Ketelaere",
    "team": "Belgium",
    "goals": 2,
-   "assists": 0,
+   "assists": 1,
    "penalties": 0,
    "played": 5
   },
@@ -10250,6 +10250,41 @@
       "conceded": 0.0
      }
     }
+   },
+   "760507": {
+    "date": "2026-07-07",
+    "teams": {
+     "United States": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "possession": 55.9,
+      "shots": 7.0,
+      "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 0.0,
+      "conceded": 4.0
+     },
+     "Belgium": {
+      "fouls": 9.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "possession": 44.1,
+      "shots": 15.0,
+      "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 4.0,
+      "conceded": 1.0
+     }
+    }
    }
   }
  },
@@ -10327,15 +10362,15 @@
    "source": "espn"
   },
   "United States": {
-   "played": 4,
-   "shots_pg": 13.0,
-   "sot_pg": 4.25,
-   "corners_pg": 5.75,
-   "fouls_pg": 11.25,
-   "yellow_pg": 1.25,
-   "red_pg": 0.25,
-   "save_rate": 0.636,
-   "saves_pg": 1.75,
+   "played": 5,
+   "shots_pg": 11.8,
+   "sot_pg": 3.8,
+   "corners_pg": 5.2,
+   "fouls_pg": 11.2,
+   "yellow_pg": 1.4,
+   "red_pg": 0.2,
+   "save_rate": 0.556,
+   "saves_pg": 2.0,
    "source": "espn"
   },
   "Paraguay": {
@@ -10567,15 +10602,15 @@
    "source": "espn"
   },
   "Belgium": {
-   "played": 4,
-   "shots_pg": 23.0,
-   "sot_pg": 6.25,
-   "corners_pg": 4.5,
-   "fouls_pg": 12.75,
-   "yellow_pg": 1.0,
-   "red_pg": 0.25,
-   "save_rate": 0.692,
-   "saves_pg": 2.25,
+   "played": 5,
+   "shots_pg": 21.4,
+   "sot_pg": 6.4,
+   "corners_pg": 4.6,
+   "fouls_pg": 12.0,
+   "yellow_pg": 0.8,
+   "red_pg": 0.2,
+   "save_rate": 0.667,
+   "saves_pg": 2.0,
    "source": "espn"
   },
   "Egypt": {
