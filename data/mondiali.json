@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-07T18:17:18+00:00"
+  "generato": "2026-07-07T20:21:17+00:00"
  },
  "standings": [
   {
@@ -3849,7 +3849,7 @@
   {
    "fixture_id": 537382,
    "date": "2026-07-07T20:00:00Z",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Ottavi",
@@ -3864,17 +3864,17 @@
     "name": "Switzerland",
     "short": "Switzerland",
     "logo": "https://crests.football-data.org/788.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 818,
     "name": "Colombia",
     "short": "Colombia",
     "logo": "https://crests.football-data.org/818.svg",
-    "winner": null
+    "winner": false
    },
-   "gh": null,
-   "ga": null,
+   "gh": 0,
+   "ga": 0,
    "rigori": null
   },
   {
@@ -4333,7 +4333,7 @@
    "goals": 2,
    "assists": 2,
    "penalties": 1,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Crysencio Summerville",
@@ -4413,7 +4413,7 @@
    "goals": 2,
    "assists": 0,
    "penalties": 0,
-   "played": 3
+   "played": 4
   },
   {
    "name": "Ruben Vargas",
@@ -4421,7 +4421,7 @@
    "goals": 2,
    "assists": 1,
    "penalties": 0,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Ermin Mahmic",
@@ -4813,7 +4813,7 @@
    "goals": 1,
    "assists": 1,
    "penalties": 0,
-   "played": 3
+   "played": 4
   },
   {
    "name": "Jaminton Campaz",
@@ -4821,7 +4821,7 @@
    "goals": 1,
    "assists": 0,
    "penalties": 0,
-   "played": 3
+   "played": 4
   },
   {
    "name": "Michal Sadílek",
@@ -4845,7 +4845,7 @@
    "goals": 1,
    "assists": 0,
    "penalties": 1,
-   "played": 4
+   "played": 5
   },
   {
    "name": "Nathan-Dylan Saliba",
