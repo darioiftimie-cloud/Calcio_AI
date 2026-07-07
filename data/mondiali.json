@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-07T22:50:14+00:00"
+  "generato": "2026-07-07T23:44:25+00:00"
  },
  "standings": [
   {
@@ -3873,11 +3873,11 @@
     "logo": "https://crests.football-data.org/818.svg",
     "winner": null
    },
-   "gh": 1,
-   "ga": 1,
+   "gh": 4,
+   "ga": 3,
    "rigori": {
-    "home": 1,
-    "away": 1
+    "home": 3,
+    "away": 3
    }
   },
   {
