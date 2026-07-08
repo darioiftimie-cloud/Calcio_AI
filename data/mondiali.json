@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-08T04:30:18+00:00"
+  "generato": "2026-07-08T07:04:22+00:00"
  },
  "standings": [
   {
@@ -3864,19 +3864,19 @@
     "name": "Switzerland",
     "short": "Switzerland",
     "logo": "https://crests.football-data.org/788.svg",
-    "winner": null
+    "winner": true
    },
    "away": {
     "id": 818,
     "name": "Colombia",
     "short": "Colombia",
     "logo": "https://crests.football-data.org/818.svg",
-    "winner": null
+    "winner": false
    },
    "gh": 4,
    "ga": 3,
    "rigori": {
-    "home": 3,
+    "home": 4,
     "away": 3
    }
   },
@@ -3987,17 +3987,17 @@
    "venue": null,
    "city": null,
    "home": {
-    "id": null,
-    "name": "?",
-    "short": "?",
-    "logo": null,
+    "id": 762,
+    "name": "Argentina",
+    "short": "Argentina",
+    "logo": "https://crests.football-data.org/762.png",
     "winner": null
    },
    "away": {
-    "id": null,
-    "name": "?",
-    "short": "?",
-    "logo": null,
+    "id": 788,
+    "name": "Switzerland",
+    "short": "Switzerland",
+    "logo": "https://crests.football-data.org/788.svg",
     "winner": null
    },
    "gh": null,
