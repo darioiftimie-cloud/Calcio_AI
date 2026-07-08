@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-07T23:44:25+00:00"
+  "generato": "2026-07-08T01:11:32+00:00"
  },
  "standings": [
   {
@@ -10323,6 +10323,41 @@
       "conceded": 3.0
      }
     }
+   },
+   "760508": {
+    "date": "2026-07-07",
+    "teams": {
+     "Switzerland": {
+      "fouls": 22.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 3.0,
+      "possession": 53.2,
+      "shots": 7.0,
+      "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
+      "conceded": 0.0
+     },
+     "Colombia": {
+      "fouls": 21.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 2.0,
+      "possession": 46.8,
+      "shots": 15.0,
+      "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 4.0,
+      "conceded": 0.0
+     }
+    }
    }
   }
  },
@@ -10436,15 +10471,15 @@
    "source": "espn"
   },
   "Switzerland": {
-   "played": 4,
-   "shots_pg": 14.0,
-   "sot_pg": 5.75,
-   "corners_pg": 5.75,
-   "fouls_pg": 11.75,
-   "yellow_pg": 0.75,
+   "played": 5,
+   "shots_pg": 12.6,
+   "sot_pg": 5.0,
+   "corners_pg": 5.2,
+   "fouls_pg": 13.8,
+   "yellow_pg": 1.2,
    "red_pg": 0.0,
-   "save_rate": 0.812,
-   "saves_pg": 3.25,
+   "save_rate": 0.842,
+   "saves_pg": 3.2,
    "source": "espn"
   },
   "Brazil": {
@@ -10892,15 +10927,15 @@
    "source": "espn"
   },
   "Colombia": {
-   "played": 4,
-   "shots_pg": 19.75,
-   "sot_pg": 6.75,
-   "corners_pg": 4.25,
-   "fouls_pg": 12.25,
-   "yellow_pg": 1.5,
+   "played": 5,
+   "shots_pg": 18.8,
+   "sot_pg": 6.0,
+   "corners_pg": 4.8,
+   "fouls_pg": 14.0,
+   "yellow_pg": 1.6,
    "red_pg": 0.0,
-   "save_rate": 0.8,
-   "saves_pg": 1.0,
+   "save_rate": 0.857,
+   "saves_pg": 1.2,
    "source": "espn"
   }
  }
