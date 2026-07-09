@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-09T21:41:08+00:00"
+  "generato": "2026-07-09T22:54:11+00:00"
  },
  "standings": [
   {
@@ -3883,8 +3883,8 @@
   {
    "fixture_id": 537383,
    "date": "2026-07-09T20:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Quarti",
    "stage": "QUARTER_FINALS",
@@ -10358,6 +10358,41 @@
       "conceded": 0.0
      }
     }
+   },
+   "760510": {
+    "date": "2026-07-09",
+    "teams": {
+     "France": {
+      "fouls": 10.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 1.0,
+      "possession": 48.1,
+      "shots": 22.0,
+      "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 5.0,
+      "blocked": 5.0,
+      "conceded": 0.0
+     },
+     "Morocco": {
+      "fouls": 13.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 5.0,
+      "saves": 6.0,
+      "possession": 51.9,
+      "shots": 5.0,
+      "sot": 1.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 2.0,
+      "blocked": 1.0,
+      "conceded": 2.0
+     }
+    }
    }
   }
  },
@@ -10495,15 +10530,15 @@
    "source": "espn"
   },
   "Morocco": {
-   "played": 5,
-   "shots_pg": 12.8,
-   "sot_pg": 5.0,
+   "played": 6,
+   "shots_pg": 11.5,
+   "sot_pg": 4.33,
    "corners_pg": 5.0,
-   "fouls_pg": 12.2,
-   "yellow_pg": 1.2,
+   "fouls_pg": 12.33,
+   "yellow_pg": 1.17,
    "red_pg": 0.0,
-   "save_rate": 0.692,
-   "saves_pg": 1.8,
+   "save_rate": 0.714,
+   "saves_pg": 2.5,
    "source": "espn"
   },
   "Haiti": {
@@ -10747,15 +10782,15 @@
    "source": "espn"
   },
   "France": {
-   "played": 5,
-   "shots_pg": 17.6,
-   "sot_pg": 7.8,
-   "corners_pg": 7.2,
-   "fouls_pg": 9.8,
-   "yellow_pg": 0.8,
+   "played": 6,
+   "shots_pg": 18.33,
+   "sot_pg": 7.83,
+   "corners_pg": 6.83,
+   "fouls_pg": 9.83,
+   "yellow_pg": 0.67,
    "red_pg": 0.0,
-   "save_rate": 0.818,
-   "saves_pg": 1.8,
+   "save_rate": 0.833,
+   "saves_pg": 1.67,
    "source": "espn"
   },
   "Senegal": {
