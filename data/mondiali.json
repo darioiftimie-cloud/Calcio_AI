@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-09T20:02:02+00:00"
+  "generato": "2026-07-09T21:41:08+00:00"
  },
  "standings": [
   {
@@ -3883,7 +3883,7 @@
   {
    "fixture_id": 537383,
    "date": "2026-07-09T20:00:00Z",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Quarti",
@@ -3898,17 +3898,17 @@
     "name": "France",
     "short": "France",
     "logo": "https://crests.football-data.org/773.svg",
-    "winner": null
+    "winner": true
    },
    "away": {
     "id": 815,
     "name": "Morocco",
     "short": "Morocco",
     "logo": "https://crests.football-data.org/morocco.svg",
-    "winner": null
+    "winner": false
    },
-   "gh": null,
-   "ga": null,
+   "gh": 2,
+   "ga": 0,
    "rigori": null
   },
   {
@@ -4131,20 +4131,20 @@
  ],
  "scorers": [
   {
+   "name": "Kylian Mbappé",
+   "team": "France",
+   "goals": 8,
+   "assists": 2,
+   "penalties": 1,
+   "played": 6
+  },
+  {
    "name": "Lionel Messi",
    "team": "Argentina",
    "goals": 8,
    "assists": 1,
    "penalties": 0,
    "played": 5
-  },
-  {
-   "name": "Kylian Mbappé",
-   "team": "France",
-   "goals": 7,
-   "assists": 2,
-   "penalties": 1,
-   "played": 6
   },
   {
    "name": "Erling Haaland",
@@ -4161,6 +4161,14 @@
    "assists": 1,
    "penalties": 2,
    "played": 5
+  },
+  {
+   "name": "Ousmane Dembélé",
+   "team": "France",
+   "goals": 5,
+   "assists": 2,
+   "penalties": 0,
+   "played": 6
   },
   {
    "name": "Julián Quiñones",
@@ -4193,14 +4201,6 @@
    "assists": 1,
    "penalties": 0,
    "played": 5
-  },
-  {
-   "name": "Ousmane Dembélé",
-   "team": "France",
-   "goals": 4,
-   "assists": 2,
-   "penalties": 0,
-   "played": 6
   },
   {
    "name": "Ismaïla Sarr",
