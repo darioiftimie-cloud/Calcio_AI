@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-10T18:43:34+00:00"
+  "generato": "2026-07-10T20:06:05+00:00"
  },
  "standings": [
   {
@@ -3914,7 +3914,7 @@
   {
    "fixture_id": 537384,
    "date": "2026-07-10T19:00:00Z",
-   "status": "TIMED",
+   "status": "PAUSED",
    "finished": false,
    "knockout": true,
    "round": "Quarti",
@@ -3929,17 +3929,17 @@
     "name": "Spain",
     "short": "Spain",
     "logo": "https://crests.football-data.org/760.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 805,
     "name": "Belgium",
     "short": "Belgium",
     "logo": "https://crests.football-data.org/805.svg",
-    "winner": null
+    "winner": false
    },
-   "gh": null,
-   "ga": null,
+   "gh": 1,
+   "ga": 1,
    "rigori": null
   },
   {
@@ -4323,6 +4323,14 @@
    "played": 6
   },
   {
+   "name": "Charles De Ketelaere",
+   "team": "Belgium",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 6
+  },
+  {
    "name": "Cyle Larin",
    "team": "Canada",
    "goals": 2,
@@ -4512,7 +4520,7 @@
    "goals": 2,
    "assists": 0,
    "penalties": 1,
-   "played": 6
+   "played": 5
   },
   {
    "name": "Malik Tillman",
@@ -4527,14 +4535,6 @@
    "team": "Morocco",
    "goals": 2,
    "assists": 0,
-   "penalties": 0,
-   "played": 6
-  },
-  {
-   "name": "Charles De Ketelaere",
-   "team": "Belgium",
-   "goals": 2,
-   "assists": 1,
    "penalties": 0,
    "played": 6
   },
