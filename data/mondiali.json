@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-11T21:06:33+00:00"
+  "generato": "2026-07-11T22:04:58+00:00"
  },
  "standings": [
   {
@@ -3725,8 +3725,8 @@
   {
    "fixture_id": 537378,
    "date": "2026-07-06T01:00:00Z",
-   "status": "FINISHED",
-   "finished": true,
+   "status": "2026-07-06 01:00:00Z",
+   "finished": false,
    "knockout": true,
    "round": "Ottavi",
    "stage": "LAST_16",
@@ -3945,7 +3945,7 @@
   {
    "fixture_id": 537385,
    "date": "2026-07-11T21:00:00Z",
-   "status": "IN_PLAY",
+   "status": "PAUSED",
    "finished": false,
    "knockout": true,
    "round": "Quarti",
@@ -3969,8 +3969,8 @@
     "logo": "https://crests.football-data.org/770.svg",
     "winner": false
    },
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "rigori": null
   },
   {
@@ -4163,6 +4163,14 @@
    "played": 6
   },
   {
+   "name": "Jude Bellingham",
+   "team": "England",
+   "goals": 5,
+   "assists": 1,
+   "penalties": 0,
+   "played": 6
+  },
+  {
    "name": "Ousmane Dembélé",
    "team": "France",
    "goals": 5,
@@ -4185,14 +4193,6 @@
    "assists": 1,
    "penalties": 0,
    "played": 5
-  },
-  {
-   "name": "Jude Bellingham",
-   "team": "England",
-   "goals": 4,
-   "assists": 1,
-   "penalties": 0,
-   "played": 6
   },
   {
    "name": "Mikel Oyarzabal",
