@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-11T22:04:58+00:00"
+  "generato": "2026-07-11T23:07:43+00:00"
  },
  "standings": [
   {
@@ -3945,7 +3945,7 @@
   {
    "fixture_id": 537385,
    "date": "2026-07-11T21:00:00Z",
-   "status": "PAUSED",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Quarti",
@@ -3960,7 +3960,7 @@
     "name": "Norway",
     "short": "Norway",
     "logo": "https://crests.football-data.org/813.svg",
-    "winner": false
+    "winner": true
    },
    "away": {
     "id": 770,
@@ -3969,7 +3969,7 @@
     "logo": "https://crests.football-data.org/770.svg",
     "winner": false
    },
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "rigori": null
   },
