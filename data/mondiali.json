@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-11T06:13:04+00:00"
+  "generato": "2026-07-11T08:14:39+00:00"
  },
  "standings": [
   {
@@ -4025,10 +4025,10 @@
     "winner": null
    },
    "away": {
-    "id": null,
-    "name": "?",
-    "short": "?",
-    "logo": null,
+    "id": 760,
+    "name": "Spain",
+    "short": "Spain",
+    "logo": "https://crests.football-data.org/760.svg",
     "winner": null
    },
    "gh": null,
