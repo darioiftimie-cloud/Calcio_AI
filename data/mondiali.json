@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-12T00:08:22+00:00"
+  "generato": "2026-07-12T03:52:59+00:00"
  },
  "standings": [
   {
@@ -3976,8 +3976,8 @@
   {
    "fixture_id": 537386,
    "date": "2026-07-12T01:00:00Z",
-   "status": "TIMED",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Quarti",
    "stage": "QUARTER_FINALS",
@@ -3991,17 +3991,17 @@
     "name": "Argentina",
     "short": "Argentina",
     "logo": "https://crests.football-data.org/762.png",
-    "winner": null
+    "winner": true
    },
    "away": {
     "id": 788,
     "name": "Switzerland",
     "short": "Switzerland",
     "logo": "https://crests.football-data.org/788.svg",
-    "winner": null
+    "winner": false
    },
-   "gh": null,
-   "ga": null,
+   "gh": 3,
+   "ga": 1,
    "rigori": null
   },
   {
@@ -4142,7 +4142,7 @@
    "name": "Lionel Messi",
    "team": "Argentina",
    "goals": 8,
-   "assists": 1,
+   "assists": 2,
    "penalties": 0,
    "played": 6
   },
@@ -4432,7 +4432,7 @@
    "goals": 2,
    "assists": 1,
    "penalties": 0,
-   "played": 5
+   "played": 6
   },
   {
    "name": "Ermin Mahmic",
@@ -4507,6 +4507,14 @@
    "played": 6
   },
   {
+   "name": "Lautaro Martínez",
+   "team": "Argentina",
+   "goals": 2,
+   "assists": 1,
+   "penalties": 1,
+   "played": 6
+  },
+  {
    "name": "Riyad Mahrez",
    "team": "Algeria",
    "goals": 2,
@@ -4529,6 +4537,14 @@
    "assists": 0,
    "penalties": 0,
    "played": 5
+  },
+  {
+   "name": "Dan Ndoye",
+   "team": "Switzerland",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 0,
+   "played": 6
   },
   {
    "name": "Azzedine Ounahi",
@@ -4913,22 +4929,6 @@
    "assists": 0,
    "penalties": 0,
    "played": 6
-  },
-  {
-   "name": "Kevin Pina",
-   "team": "Cape Verde Islands",
-   "goals": 1,
-   "assists": 0,
-   "penalties": 0,
-   "played": 4
-  },
-  {
-   "name": "Agustín Canobbio",
-   "team": "Uruguay",
-   "goals": 1,
-   "assists": 0,
-   "penalties": 0,
-   "played": 3
   }
  ],
  "teams": {
@@ -10463,6 +10463,41 @@
       "conceded": 1.0
      }
     }
+   },
+   "760513": {
+    "date": "2026-07-12",
+    "teams": {
+     "Argentina": {
+      "fouls": 14.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 8.0,
+      "saves": 4.0,
+      "possession": 59.1,
+      "shots": 22.0,
+      "sot": 7.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 7.0,
+      "blocked": 7.0,
+      "conceded": 1.0
+     },
+     "Switzerland": {
+      "fouls": 18.0,
+      "yellows": 1.0,
+      "reds": 1.0,
+      "corners": 2.0,
+      "saves": 4.0,
+      "possession": 40.9,
+      "shots": 11.0,
+      "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
+      "conceded": 3.0
+     }
+    }
    }
   }
  },
@@ -10576,15 +10611,15 @@
    "source": "espn"
   },
   "Switzerland": {
-   "played": 5,
-   "shots_pg": 12.6,
+   "played": 6,
+   "shots_pg": 12.33,
    "sot_pg": 5.0,
-   "corners_pg": 5.2,
-   "fouls_pg": 13.8,
-   "yellow_pg": 1.2,
-   "red_pg": 0.0,
-   "save_rate": 0.842,
-   "saves_pg": 3.2,
+   "corners_pg": 4.67,
+   "fouls_pg": 14.5,
+   "yellow_pg": 1.17,
+   "red_pg": 0.167,
+   "save_rate": 0.769,
+   "saves_pg": 3.33,
    "source": "espn"
   },
   "Brazil": {
@@ -10900,15 +10935,15 @@
    "source": "espn"
   },
   "Argentina": {
-   "played": 5,
-   "shots_pg": 15.0,
-   "sot_pg": 6.4,
-   "corners_pg": 4.6,
-   "fouls_pg": 11.8,
-   "yellow_pg": 0.6,
+   "played": 6,
+   "shots_pg": 16.17,
+   "sot_pg": 6.5,
+   "corners_pg": 5.17,
+   "fouls_pg": 12.17,
+   "yellow_pg": 1.0,
    "red_pg": 0.0,
-   "save_rate": 0.444,
-   "saves_pg": 0.8,
+   "save_rate": 0.571,
+   "saves_pg": 1.33,
    "source": "espn"
   },
   "Algeria": {
