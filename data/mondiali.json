@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-11T23:07:43+00:00"
+  "generato": "2026-07-12T00:08:22+00:00"
  },
  "standings": [
   {
@@ -3945,8 +3945,8 @@
   {
    "fixture_id": 537385,
    "date": "2026-07-11T21:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Quarti",
    "stage": "QUARTER_FINALS",
@@ -3960,17 +3960,17 @@
     "name": "Norway",
     "short": "Norway",
     "logo": "https://crests.football-data.org/813.svg",
-    "winner": true
+    "winner": false
    },
    "away": {
     "id": 770,
     "name": "England",
     "short": "England",
     "logo": "https://crests.football-data.org/770.svg",
-    "winner": false
+    "winner": true
    },
-   "gh": 2,
-   "ga": 1,
+   "gh": 1,
+   "ga": 2,
    "rigori": null
   },
   {
@@ -4144,7 +4144,7 @@
    "goals": 8,
    "assists": 1,
    "penalties": 0,
-   "played": 5
+   "played": 6
   },
   {
    "name": "Erling Haaland",
@@ -4165,7 +4165,7 @@
   {
    "name": "Jude Bellingham",
    "team": "England",
-   "goals": 5,
+   "goals": 6,
    "assists": 1,
    "penalties": 0,
    "played": 6
@@ -4344,7 +4344,7 @@
    "goals": 2,
    "assists": 2,
    "penalties": 1,
-   "played": 5
+   "played": 6
   },
   {
    "name": "Crysencio Summerville",
@@ -4856,7 +4856,7 @@
    "goals": 1,
    "assists": 0,
    "penalties": 1,
-   "played": 5
+   "played": 6
   },
   {
    "name": "Nathan-Dylan Saliba",
@@ -10428,6 +10428,41 @@
       "conceded": 2.0
      }
     }
+   },
+   "760512": {
+    "date": "2026-07-11",
+    "teams": {
+     "Norway": {
+      "fouls": 10.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 6.0,
+      "possession": 47.7,
+      "shots": 13.0,
+      "sot": 4.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 3.0,
+      "conceded": 2.0
+     },
+     "England": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 3.0,
+      "possession": 52.3,
+      "shots": 14.0,
+      "sot": 8.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 9.0,
+      "blocked": 3.0,
+      "conceded": 1.0
+     }
+    }
    }
   }
  },
@@ -10853,15 +10888,15 @@
    "source": "espn"
   },
   "Norway": {
-   "played": 5,
-   "shots_pg": 10.6,
-   "sot_pg": 5.0,
-   "corners_pg": 4.4,
-   "fouls_pg": 9.6,
-   "yellow_pg": 0.4,
+   "played": 6,
+   "shots_pg": 11.0,
+   "sot_pg": 4.83,
+   "corners_pg": 4.83,
+   "fouls_pg": 9.67,
+   "yellow_pg": 0.5,
    "red_pg": 0.0,
-   "save_rate": 0.625,
-   "saves_pg": 3.0,
+   "save_rate": 0.656,
+   "saves_pg": 3.5,
    "source": "espn"
   },
   "Argentina": {
@@ -10937,15 +10972,15 @@
    "source": "espn"
   },
   "England": {
-   "played": 5,
-   "shots_pg": 16.0,
-   "sot_pg": 6.4,
-   "corners_pg": 6.2,
-   "fouls_pg": 10.8,
-   "yellow_pg": 1.4,
-   "red_pg": 0.2,
-   "save_rate": 0.643,
-   "saves_pg": 1.8,
+   "played": 6,
+   "shots_pg": 15.67,
+   "sot_pg": 6.67,
+   "corners_pg": 5.83,
+   "fouls_pg": 10.33,
+   "yellow_pg": 1.17,
+   "red_pg": 0.167,
+   "save_rate": 0.667,
+   "saves_pg": 2.0,
    "source": "espn"
   },
   "Croatia": {
