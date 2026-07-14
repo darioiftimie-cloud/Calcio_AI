@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-14T19:41:26+00:00"
+  "generato": "2026-07-14T20:42:25+00:00"
  },
  "standings": [
   {
@@ -4032,7 +4032,7 @@
     "winner": true
    },
    "gh": 0,
-   "ga": 1,
+   "ga": 2,
    "rigori": null
   },
   {
@@ -4539,6 +4539,14 @@
    "played": 5
   },
   {
+   "name": "Pedro Porro",
+   "team": "Spain",
+   "goals": 2,
+   "assists": 0,
+   "penalties": 0,
+   "played": 7
+  },
+  {
    "name": "Dan Ndoye",
    "team": "Switzerland",
    "goals": 2,
@@ -4921,14 +4929,6 @@
    "assists": 0,
    "penalties": 0,
    "played": 4
-  },
-  {
-   "name": "Lamine Yamal",
-   "team": "Spain",
-   "goals": 1,
-   "assists": 0,
-   "penalties": 0,
-   "played": 7
   }
  ],
  "teams": {
