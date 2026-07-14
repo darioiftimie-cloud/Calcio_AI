@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-14T20:42:25+00:00"
+  "generato": "2026-07-14T21:36:36+00:00"
  },
  "standings": [
   {
@@ -4007,8 +4007,8 @@
   {
    "fixture_id": 537387,
    "date": "2026-07-14T19:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Semifinali",
    "stage": "SEMI_FINALS",
@@ -10498,6 +10498,41 @@
       "conceded": 3.0
      }
     }
+   },
+   "760514": {
+    "date": "2026-07-14",
+    "teams": {
+     "France": {
+      "fouls": 11.0,
+      "yellows": 2.0,
+      "reds": 0.0,
+      "corners": 7.0,
+      "saves": 0.0,
+      "possession": 49.1,
+      "shots": 10.0,
+      "sot": 3.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 4.0,
+      "blocked": 2.0,
+      "conceded": 2.0
+     },
+     "Spain": {
+      "fouls": 12.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 1.0,
+      "saves": 3.0,
+      "possession": 50.9,
+      "shots": 10.0,
+      "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 1.0,
+      "blocked": 3.0,
+      "conceded": 0.0
+     }
+    }
    }
   }
  },
@@ -10791,15 +10826,15 @@
    "source": "espn"
   },
   "Spain": {
-   "played": 6,
-   "shots_pg": 18.33,
-   "sot_pg": 6.67,
-   "corners_pg": 7.33,
-   "fouls_pg": 11.33,
-   "yellow_pg": 0.83,
+   "played": 7,
+   "shots_pg": 17.14,
+   "sot_pg": 6.0,
+   "corners_pg": 6.43,
+   "fouls_pg": 11.43,
+   "yellow_pg": 0.86,
    "red_pg": 0.0,
-   "save_rate": 0.875,
-   "saves_pg": 1.17,
+   "save_rate": 0.909,
+   "saves_pg": 1.43,
    "source": "espn"
   },
   "Cape Verde Islands": {
@@ -10887,15 +10922,15 @@
    "source": "espn"
   },
   "France": {
-   "played": 6,
-   "shots_pg": 18.33,
-   "sot_pg": 7.83,
-   "corners_pg": 6.83,
-   "fouls_pg": 9.83,
-   "yellow_pg": 0.67,
+   "played": 7,
+   "shots_pg": 17.14,
+   "sot_pg": 7.14,
+   "corners_pg": 6.86,
+   "fouls_pg": 10.0,
+   "yellow_pg": 0.86,
    "red_pg": 0.0,
-   "save_rate": 0.833,
-   "saves_pg": 1.67,
+   "save_rate": 0.714,
+   "saves_pg": 1.43,
    "source": "espn"
   },
   "Senegal": {
