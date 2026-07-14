@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-14T18:03:05+00:00"
+  "generato": "2026-07-14T19:41:26+00:00"
  },
  "standings": [
   {
@@ -4007,7 +4007,7 @@
   {
    "fixture_id": 537387,
    "date": "2026-07-14T19:00:00Z",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Semifinali",
@@ -4022,17 +4022,17 @@
     "name": "France",
     "short": "France",
     "logo": "https://crests.football-data.org/773.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 760,
     "name": "Spain",
     "short": "Spain",
     "logo": "https://crests.football-data.org/760.svg",
-    "winner": null
+    "winner": true
    },
-   "gh": null,
-   "ga": null,
+   "gh": 0,
+   "ga": 1,
    "rigori": null
   },
   {
@@ -4136,7 +4136,7 @@
    "goals": 8,
    "assists": 2,
    "penalties": 1,
-   "played": 6
+   "played": 7
   },
   {
    "name": "Lionel Messi",
@@ -4171,12 +4171,20 @@
    "played": 6
   },
   {
+   "name": "Mikel Oyarzabal",
+   "team": "Spain",
+   "goals": 5,
+   "assists": 1,
+   "penalties": 1,
+   "played": 7
+  },
+  {
    "name": "Ousmane Dembélé",
    "team": "France",
    "goals": 5,
    "assists": 2,
    "penalties": 0,
-   "played": 6
+   "played": 7
   },
   {
    "name": "Julián Quiñones",
@@ -4193,14 +4201,6 @@
    "assists": 1,
    "penalties": 0,
    "played": 5
-  },
-  {
-   "name": "Mikel Oyarzabal",
-   "team": "Spain",
-   "goals": 4,
-   "assists": 1,
-   "penalties": 0,
-   "played": 6
   },
   {
    "name": "Ismaïla Sarr",
@@ -4408,7 +4408,7 @@
    "goals": 2,
    "assists": 1,
    "penalties": 0,
-   "played": 6
+   "played": 7
   },
   {
    "name": "Marko Arnautovic",
@@ -4560,7 +4560,7 @@
    "goals": 2,
    "assists": 0,
    "penalties": 0,
-   "played": 6
+   "played": 7
   },
   {
    "name": "Ladislav Krejčí",
@@ -4928,7 +4928,7 @@
    "goals": 1,
    "assists": 0,
    "penalties": 0,
-   "played": 6
+   "played": 7
   }
  ],
  "teams": {
