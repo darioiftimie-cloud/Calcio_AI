@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-15T06:05:40+00:00"
+  "generato": "2026-07-15T08:34:01+00:00"
  },
  "standings": [
   {
@@ -4080,10 +4080,10 @@
    "venue": null,
    "city": null,
    "home": {
-    "id": null,
-    "name": "?",
-    "short": "?",
-    "logo": null,
+    "id": 773,
+    "name": "France",
+    "short": "France",
+    "logo": "https://crests.football-data.org/773.svg",
     "winner": null
    },
    "away": {
@@ -4111,10 +4111,10 @@
    "venue": null,
    "city": null,
    "home": {
-    "id": null,
-    "name": "?",
-    "short": "?",
-    "logo": null,
+    "id": 760,
+    "name": "Spain",
+    "short": "Spain",
+    "logo": "https://crests.football-data.org/760.svg",
     "winner": null
    },
    "away": {
