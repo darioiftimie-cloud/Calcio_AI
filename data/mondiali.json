@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-15T21:01:18+00:00"
+  "generato": "2026-07-15T22:11:22+00:00"
  },
  "standings": [
   {
@@ -4038,8 +4038,8 @@
   {
    "fixture_id": 537388,
    "date": "2026-07-15T19:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Semifinali",
    "stage": "SEMI_FINALS",
@@ -10533,6 +10533,41 @@
       "conceded": 0.0
      }
     }
+   },
+   "760515": {
+    "date": "2026-07-15",
+    "teams": {
+     "England": {
+      "fouls": 11.0,
+      "yellows": 1.0,
+      "reds": 0.0,
+      "corners": 2.0,
+      "saves": 3.0,
+      "possession": 35.7,
+      "shots": 5.0,
+      "sot": 2.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 3.0,
+      "blocked": 2.0,
+      "conceded": 2.0
+     },
+     "Argentina": {
+      "fouls": 15.0,
+      "yellows": 3.0,
+      "reds": 0.0,
+      "corners": 6.0,
+      "saves": 1.0,
+      "possession": 64.3,
+      "shots": 15.0,
+      "sot": 5.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 6.0,
+      "blocked": 3.0,
+      "conceded": 1.0
+     }
+    }
    }
   }
  },
@@ -10970,15 +11005,15 @@
    "source": "espn"
   },
   "Argentina": {
-   "played": 6,
-   "shots_pg": 16.17,
-   "sot_pg": 6.5,
-   "corners_pg": 5.17,
-   "fouls_pg": 12.17,
-   "yellow_pg": 1.0,
+   "played": 7,
+   "shots_pg": 16.0,
+   "sot_pg": 6.29,
+   "corners_pg": 5.29,
+   "fouls_pg": 12.57,
+   "yellow_pg": 1.29,
    "red_pg": 0.0,
-   "save_rate": 0.571,
-   "saves_pg": 1.33,
+   "save_rate": 0.562,
+   "saves_pg": 1.29,
    "source": "espn"
   },
   "Algeria": {
@@ -11042,15 +11077,15 @@
    "source": "espn"
   },
   "England": {
-   "played": 6,
-   "shots_pg": 15.67,
-   "sot_pg": 6.67,
-   "corners_pg": 5.83,
-   "fouls_pg": 10.33,
-   "yellow_pg": 1.17,
-   "red_pg": 0.167,
-   "save_rate": 0.667,
-   "saves_pg": 2.0,
+   "played": 7,
+   "shots_pg": 14.14,
+   "sot_pg": 6.0,
+   "corners_pg": 5.29,
+   "fouls_pg": 10.43,
+   "yellow_pg": 1.14,
+   "red_pg": 0.143,
+   "save_rate": 0.652,
+   "saves_pg": 2.14,
    "source": "espn"
   },
   "Croatia": {
