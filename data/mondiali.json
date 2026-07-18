@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-18T22:04:58+00:00"
+  "generato": "2026-07-18T23:07:00+00:00"
  },
  "standings": [
   {
@@ -4069,7 +4069,7 @@
   {
    "fixture_id": 537389,
    "date": "2026-07-18T21:00:00Z",
-   "status": "PAUSED",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Finale 3° posto",
@@ -4093,8 +4093,8 @@
     "logo": "https://crests.football-data.org/770.svg",
     "winner": true
    },
-   "gh": 0,
-   "ga": 4,
+   "gh": 4,
+   "ga": 5,
    "rigori": null
   },
   {
@@ -4133,8 +4133,8 @@
   {
    "name": "Kylian Mbappé",
    "team": "France",
-   "goals": 8,
-   "assists": 3,
+   "goals": 10,
+   "assists": 4,
    "penalties": 1,
    "played": 8
   },
@@ -4155,6 +4155,14 @@
    "played": 6
   },
   {
+   "name": "Jude Bellingham",
+   "team": "England",
+   "goals": 7,
+   "assists": 1,
+   "penalties": 0,
+   "played": 8
+  },
+  {
    "name": "Harry Kane",
    "team": "England",
    "goals": 6,
@@ -4163,10 +4171,10 @@
    "played": 8
   },
   {
-   "name": "Jude Bellingham",
-   "team": "England",
+   "name": "Ousmane Dembélé",
+   "team": "France",
    "goals": 6,
-   "assists": 1,
+   "assists": 2,
    "penalties": 0,
    "played": 8
   },
@@ -4177,14 +4185,6 @@
    "assists": 1,
    "penalties": 1,
    "played": 7
-  },
-  {
-   "name": "Ousmane Dembélé",
-   "team": "France",
-   "goals": 5,
-   "assists": 2,
-   "penalties": 0,
-   "played": 8
   },
   {
    "name": "Julián Quiñones",
@@ -4257,6 +4257,14 @@
    "assists": 0,
    "penalties": 0,
    "played": 3
+  },
+  {
+   "name": "Bradley Barcola",
+   "team": "France",
+   "goals": 3,
+   "assists": 1,
+   "penalties": 0,
+   "played": 8
   },
   {
    "name": "Yoane Wissa",
@@ -4339,6 +4347,14 @@
    "played": 6
   },
   {
+   "name": "Bukayo Saka",
+   "team": "England",
+   "goals": 3,
+   "assists": 3,
+   "penalties": 1,
+   "played": 8
+  },
+  {
    "name": "Cyle Larin",
    "team": "Canada",
    "goals": 2,
@@ -4409,14 +4425,6 @@
    "assists": 1,
    "penalties": 0,
    "played": 3
-  },
-  {
-   "name": "Bradley Barcola",
-   "team": "France",
-   "goals": 2,
-   "assists": 1,
-   "penalties": 0,
-   "played": 8
   },
   {
    "name": "Marko Arnautovic",
@@ -4577,14 +4585,6 @@
    "assists": 0,
    "penalties": 0,
    "played": 7
-  },
-  {
-   "name": "Bukayo Saka",
-   "team": "England",
-   "goals": 2,
-   "assists": 3,
-   "penalties": 0,
-   "played": 8
   },
   {
    "name": "Ladislav Krejčí",
