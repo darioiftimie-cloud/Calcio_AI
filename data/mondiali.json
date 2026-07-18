@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-18T21:03:41+00:00"
+  "generato": "2026-07-18T22:04:58+00:00"
  },
  "standings": [
   {
@@ -4069,7 +4069,7 @@
   {
    "fixture_id": 537389,
    "date": "2026-07-18T21:00:00Z",
-   "status": "TIMED",
+   "status": "PAUSED",
    "finished": false,
    "knockout": true,
    "round": "Finale 3° posto",
@@ -4084,17 +4084,17 @@
     "name": "France",
     "short": "France",
     "logo": "https://crests.football-data.org/773.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 770,
     "name": "England",
     "short": "England",
     "logo": "https://crests.football-data.org/770.svg",
-    "winner": null
+    "winner": true
    },
-   "gh": null,
-   "ga": null,
+   "gh": 0,
+   "ga": 4,
    "rigori": null
   },
   {
@@ -4579,6 +4579,14 @@
    "played": 7
   },
   {
+   "name": "Bukayo Saka",
+   "team": "England",
+   "goals": 2,
+   "assists": 3,
+   "penalties": 0,
+   "played": 8
+  },
+  {
    "name": "Ladislav Krejčí",
    "team": "Czechia",
    "goals": 1,
@@ -4830,7 +4838,7 @@
    "name": "Marcus Rashford",
    "team": "England",
    "goals": 1,
-   "assists": 0,
+   "assists": 1,
    "penalties": 0,
    "played": 8
   },
@@ -4921,14 +4929,6 @@
    "assists": 1,
    "penalties": 0,
    "played": 5
-  },
-  {
-   "name": "Franck Kessié",
-   "team": "Ivory Coast",
-   "goals": 1,
-   "assists": 0,
-   "penalties": 0,
-   "played": 3
   }
  ],
  "teams": {
