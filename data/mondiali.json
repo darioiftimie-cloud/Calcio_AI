@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-19T21:32:18+00:00"
+  "generato": "2026-07-19T22:32:07+00:00"
  },
  "standings": [
   {
@@ -4100,8 +4100,8 @@
   {
    "fixture_id": 537390,
    "date": "2026-07-19T19:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Finale",
    "stage": "FINAL",
@@ -4115,7 +4115,7 @@
     "name": "Spain",
     "short": "Spain",
     "logo": "https://crests.football-data.org/760.svg",
-    "winner": false
+    "winner": true
    },
    "away": {
     "id": 762,
@@ -4124,7 +4124,7 @@
     "logo": "https://crests.football-data.org/762.png",
     "winner": false
    },
-   "gh": 0,
+   "gh": 1,
    "ga": 0,
    "rigori": null
   }
@@ -10603,6 +10603,41 @@
       "conceded": 4.0
      }
     }
+   },
+   "760517": {
+    "date": "2026-07-19",
+    "teams": {
+     "Spain": {
+      "fouls": 21.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 9.0,
+      "saves": 0.0,
+      "possession": 65.1,
+      "shots": 20.0,
+      "sot": 12.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 5.0,
+      "blocked": 3.0,
+      "conceded": 0.0
+     },
+     "Argentina": {
+      "fouls": 25.0,
+      "yellows": 4.0,
+      "reds": 1.0,
+      "corners": 4.0,
+      "saves": 11.0,
+      "possession": 34.9,
+      "shots": 2.0,
+      "sot": 0.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 1.0,
+      "conceded": 1.0
+     }
+    }
    }
   }
  },
@@ -10896,15 +10931,15 @@
    "source": "espn"
   },
   "Spain": {
-   "played": 7,
-   "shots_pg": 17.14,
-   "sot_pg": 6.0,
-   "corners_pg": 6.43,
-   "fouls_pg": 11.43,
-   "yellow_pg": 0.86,
+   "played": 8,
+   "shots_pg": 17.5,
+   "sot_pg": 6.75,
+   "corners_pg": 6.75,
+   "fouls_pg": 12.62,
+   "yellow_pg": 0.75,
    "red_pg": 0.0,
    "save_rate": 0.909,
-   "saves_pg": 1.43,
+   "saves_pg": 1.25,
    "source": "espn"
   },
   "Cape Verde Islands": {
@@ -11040,15 +11075,15 @@
    "source": "espn"
   },
   "Argentina": {
-   "played": 7,
-   "shots_pg": 16.0,
-   "sot_pg": 6.29,
-   "corners_pg": 5.29,
-   "fouls_pg": 12.57,
-   "yellow_pg": 1.29,
-   "red_pg": 0.0,
-   "save_rate": 0.562,
-   "saves_pg": 1.29,
+   "played": 8,
+   "shots_pg": 14.25,
+   "sot_pg": 5.5,
+   "corners_pg": 5.12,
+   "fouls_pg": 14.12,
+   "yellow_pg": 1.62,
+   "red_pg": 0.125,
+   "save_rate": 0.714,
+   "saves_pg": 2.5,
    "source": "espn"
   },
   "Algeria": {
