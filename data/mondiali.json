@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-19T19:50:20+00:00"
+  "generato": "2026-07-19T20:36:36+00:00"
  },
  "standings": [
   {
@@ -4100,7 +4100,7 @@
   {
    "fixture_id": 537390,
    "date": "2026-07-19T19:00:00Z",
-   "status": "LIVE",
+   "status": "IN_PLAY",
    "finished": false,
    "knockout": true,
    "round": "Finale",
