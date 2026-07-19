@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-19T18:35:57+00:00"
+  "generato": "2026-07-19T19:50:20+00:00"
  },
  "standings": [
   {
@@ -4100,7 +4100,7 @@
   {
    "fixture_id": 537390,
    "date": "2026-07-19T19:00:00Z",
-   "status": "TIMED",
+   "status": "LIVE",
    "finished": false,
    "knockout": true,
    "round": "Finale",
@@ -4115,17 +4115,17 @@
     "name": "Spain",
     "short": "Spain",
     "logo": "https://crests.football-data.org/760.svg",
-    "winner": null
+    "winner": false
    },
    "away": {
     "id": 762,
     "name": "Argentina",
     "short": "Argentina",
     "logo": "https://crests.football-data.org/762.png",
-    "winner": null
+    "winner": false
    },
-   "gh": null,
-   "ga": null,
+   "gh": 0,
+   "ga": 0,
    "rigori": null
   }
  ],
