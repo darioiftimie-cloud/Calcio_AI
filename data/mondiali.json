@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-07-18T23:07:00+00:00"
+  "generato": "2026-07-19T00:06:22+00:00"
  },
  "standings": [
   {
@@ -4069,8 +4069,8 @@
   {
    "fixture_id": 537389,
    "date": "2026-07-18T21:00:00Z",
-   "status": "IN_PLAY",
-   "finished": false,
+   "status": "FINISHED",
+   "finished": true,
    "knockout": true,
    "round": "Finale 3° posto",
    "stage": "THIRD_PLACE",
@@ -4094,7 +4094,7 @@
     "winner": true
    },
    "gh": 4,
-   "ga": 5,
+   "ga": 6,
    "rigori": null
   },
   {
@@ -10568,6 +10568,41 @@
       "conceded": 1.0
      }
     }
+   },
+   "760516": {
+    "date": "2026-07-18",
+    "teams": {
+     "France": {
+      "fouls": 14.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 3.0,
+      "saves": 4.0,
+      "possession": 45.9,
+      "shots": 19.0,
+      "sot": 9.0,
+      "pk_goals": 0.0,
+      "pk_shots": 0.0,
+      "crosses_acc": 1.0,
+      "blocked": 4.0,
+      "conceded": 6.0
+     },
+     "England": {
+      "fouls": 8.0,
+      "yellows": 0.0,
+      "reds": 0.0,
+      "corners": 4.0,
+      "saves": 5.0,
+      "possession": 54.1,
+      "shots": 19.0,
+      "sot": 11.0,
+      "pk_goals": 0.0,
+      "pk_shots": 1.0,
+      "crosses_acc": 4.0,
+      "blocked": 6.0,
+      "conceded": 4.0
+     }
+    }
    }
   }
  },
@@ -10957,15 +10992,15 @@
    "source": "espn"
   },
   "France": {
-   "played": 7,
-   "shots_pg": 17.14,
-   "sot_pg": 7.14,
-   "corners_pg": 6.86,
-   "fouls_pg": 10.0,
-   "yellow_pg": 0.86,
+   "played": 8,
+   "shots_pg": 17.38,
+   "sot_pg": 7.38,
+   "corners_pg": 6.38,
+   "fouls_pg": 10.5,
+   "yellow_pg": 0.75,
    "red_pg": 0.0,
-   "save_rate": 0.714,
-   "saves_pg": 1.43,
+   "save_rate": 0.583,
+   "saves_pg": 1.75,
    "source": "espn"
   },
   "Senegal": {
@@ -11077,15 +11112,15 @@
    "source": "espn"
   },
   "England": {
-   "played": 7,
-   "shots_pg": 14.14,
-   "sot_pg": 6.0,
-   "corners_pg": 5.29,
-   "fouls_pg": 10.43,
-   "yellow_pg": 1.14,
-   "red_pg": 0.143,
-   "save_rate": 0.652,
-   "saves_pg": 2.14,
+   "played": 8,
+   "shots_pg": 14.75,
+   "sot_pg": 6.62,
+   "corners_pg": 5.12,
+   "fouls_pg": 10.12,
+   "yellow_pg": 1.0,
+   "red_pg": 0.125,
+   "save_rate": 0.625,
+   "saves_pg": 2.5,
    "source": "espn"
   },
   "Croatia": {
