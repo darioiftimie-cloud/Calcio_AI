@@ -11,7 +11,7 @@
   "calendar_label": "2026",
   "preferita": 2026,
   "piano_limitato": false,
-  "generato": "2026-09-09T22:03:30+00:00"
+  "generato": "2026-09-10T00:11:24+00:00"
  },
  "standings": [
   {
@@ -2443,37 +2443,6 @@
    "rigori": null
   },
   {
-   "fixture_id": 537344,
-   "date": "2026-06-24T22:00:00Z",
-   "status": "FINISHED",
-   "finished": true,
-   "knockout": false,
-   "round": "Giornata 3",
-   "stage": "GROUP_STAGE",
-   "group": "GROUP_C",
-   "matchday": 3,
-   "season": 2026,
-   "venue": null,
-   "city": null,
-   "home": {
-    "id": 815,
-    "name": "Morocco",
-    "short": "Morocco",
-    "logo": "https://crests.football-data.org/morocco.svg",
-    "winner": true
-   },
-   "away": {
-    "id": 836,
-    "name": "Haiti",
-    "short": "Haiti",
-    "logo": "https://crests.football-data.org/haiti.svg",
-    "winner": false
-   },
-   "gh": 4,
-   "ga": 2,
-   "rigori": null
-  },
-  {
    "fixture_id": 537343,
    "date": "2026-06-24T22:00:00Z",
    "status": "FINISHED",
@@ -2502,6 +2471,37 @@
    },
    "gh": 0,
    "ga": 3,
+   "rigori": null
+  },
+  {
+   "fixture_id": 537344,
+   "date": "2026-06-24T22:00:00Z",
+   "status": "FINISHED",
+   "finished": true,
+   "knockout": false,
+   "round": "Giornata 3",
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_C",
+   "matchday": 3,
+   "season": 2026,
+   "venue": null,
+   "city": null,
+   "home": {
+    "id": 815,
+    "name": "Morocco",
+    "short": "Morocco",
+    "logo": "https://crests.football-data.org/morocco.svg",
+    "winner": true
+   },
+   "away": {
+    "id": 836,
+    "name": "Haiti",
+    "short": "Haiti",
+    "logo": "https://crests.football-data.org/haiti.svg",
+    "winner": false
+   },
+   "gh": 4,
+   "ga": 2,
    "rigori": null
   },
   {
@@ -2753,6 +2753,37 @@
    "rigori": null
   },
   {
+   "fixture_id": 537396,
+   "date": "2026-06-26T19:00:00Z",
+   "status": "FINISHED",
+   "finished": true,
+   "knockout": false,
+   "round": "Giornata 3",
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_I",
+   "matchday": 3,
+   "season": 2026,
+   "venue": null,
+   "city": null,
+   "home": {
+    "id": 804,
+    "name": "Senegal",
+    "short": "Senegal",
+    "logo": "https://crests.football-data.org/senegal.svg",
+    "winner": true
+   },
+   "away": {
+    "id": 8062,
+    "name": "Iraq",
+    "short": "Iraq",
+    "logo": "https://crests.football-data.org/iraq.svg",
+    "winner": false
+   },
+   "gh": 5,
+   "ga": 0,
+   "rigori": null
+  },
+  {
    "fixture_id": 537395,
    "date": "2026-06-26T19:00:00Z",
    "status": "FINISHED",
@@ -2784,33 +2815,33 @@
    "rigori": null
   },
   {
-   "fixture_id": 537396,
-   "date": "2026-06-26T19:00:00Z",
+   "fixture_id": 537374,
+   "date": "2026-06-27T00:00:00Z",
    "status": "FINISHED",
    "finished": true,
    "knockout": false,
    "round": "Giornata 3",
    "stage": "GROUP_STAGE",
-   "group": "GROUP_I",
+   "group": "GROUP_H",
    "matchday": 3,
    "season": 2026,
    "venue": null,
    "city": null,
    "home": {
-    "id": 804,
-    "name": "Senegal",
-    "short": "Senegal",
-    "logo": "https://crests.football-data.org/senegal.svg",
-    "winner": true
-   },
-   "away": {
-    "id": 8062,
-    "name": "Iraq",
-    "short": "Iraq",
-    "logo": "https://crests.football-data.org/iraq.svg",
+    "id": 1930,
+    "name": "Cape Verde Islands",
+    "short": "Cape Verde",
+    "logo": "https://crests.football-data.org/cape_verde.svg",
     "winner": false
    },
-   "gh": 5,
+   "away": {
+    "id": 801,
+    "name": "Saudi Arabia",
+    "short": "Saudi Arabia",
+    "logo": "https://crests.football-data.org/saudi_arabia.svg",
+    "winner": false
+   },
+   "gh": 0,
    "ga": 0,
    "rigori": null
   },
@@ -2846,34 +2877,34 @@
    "rigori": null
   },
   {
-   "fixture_id": 537374,
-   "date": "2026-06-27T00:00:00Z",
+   "fixture_id": 537368,
+   "date": "2026-06-27T03:00:00Z",
    "status": "FINISHED",
    "finished": true,
    "knockout": false,
    "round": "Giornata 3",
    "stage": "GROUP_STAGE",
-   "group": "GROUP_H",
+   "group": "GROUP_G",
    "matchday": 3,
    "season": 2026,
    "venue": null,
    "city": null,
    "home": {
-    "id": 1930,
-    "name": "Cape Verde Islands",
-    "short": "Cape Verde",
-    "logo": "https://crests.football-data.org/cape_verde.svg",
+    "id": 825,
+    "name": "Egypt",
+    "short": "Egypt",
+    "logo": "https://crests.football-data.org/825.svg",
     "winner": false
    },
    "away": {
-    "id": 801,
-    "name": "Saudi Arabia",
-    "short": "Saudi Arabia",
-    "logo": "https://crests.football-data.org/saudi_arabia.svg",
+    "id": 840,
+    "name": "Iran",
+    "short": "Iran",
+    "logo": "https://crests.football-data.org/iran.svg",
     "winner": false
    },
-   "gh": 0,
-   "ga": 0,
+   "gh": 1,
+   "ga": 1,
    "rigori": null
   },
   {
@@ -2908,33 +2939,33 @@
    "rigori": null
   },
   {
-   "fixture_id": 537368,
-   "date": "2026-06-27T03:00:00Z",
+   "fixture_id": 537414,
+   "date": "2026-06-27T21:00:00Z",
    "status": "FINISHED",
    "finished": true,
    "knockout": false,
    "round": "Giornata 3",
    "stage": "GROUP_STAGE",
-   "group": "GROUP_G",
+   "group": "GROUP_L",
    "matchday": 3,
    "season": 2026,
    "venue": null,
    "city": null,
    "home": {
-    "id": 825,
-    "name": "Egypt",
-    "short": "Egypt",
-    "logo": "https://crests.football-data.org/825.svg",
-    "winner": false
+    "id": 799,
+    "name": "Croatia",
+    "short": "Croatia",
+    "logo": "https://crests.football-data.org/799.svg",
+    "winner": true
    },
    "away": {
-    "id": 840,
-    "name": "Iran",
-    "short": "Iran",
-    "logo": "https://crests.football-data.org/iran.svg",
+    "id": 763,
+    "name": "Ghana",
+    "short": "Ghana",
+    "logo": "https://crests.football-data.org/ghana.svg",
     "winner": false
    },
-   "gh": 1,
+   "gh": 2,
    "ga": 1,
    "rigori": null
   },
@@ -2970,33 +3001,33 @@
    "rigori": null
   },
   {
-   "fixture_id": 537414,
-   "date": "2026-06-27T21:00:00Z",
+   "fixture_id": 537408,
+   "date": "2026-06-27T23:30:00Z",
    "status": "FINISHED",
    "finished": true,
    "knockout": false,
    "round": "Giornata 3",
    "stage": "GROUP_STAGE",
-   "group": "GROUP_L",
+   "group": "GROUP_K",
    "matchday": 3,
    "season": 2026,
    "venue": null,
    "city": null,
    "home": {
-    "id": 799,
-    "name": "Croatia",
-    "short": "Croatia",
-    "logo": "https://crests.football-data.org/799.svg",
+    "id": 1934,
+    "name": "Congo DR",
+    "short": "Congo DR",
+    "logo": "https://crests.football-data.org/congo_dr.svg",
     "winner": true
    },
    "away": {
-    "id": 763,
-    "name": "Ghana",
-    "short": "Ghana",
-    "logo": "https://crests.football-data.org/ghana.svg",
+    "id": 8070,
+    "name": "Uzbekistan",
+    "short": "Uzbekistan",
+    "logo": "https://crests.football-data.org/8070.png",
     "winner": false
    },
-   "gh": 2,
+   "gh": 3,
    "ga": 1,
    "rigori": null
   },
@@ -3032,34 +3063,34 @@
    "rigori": null
   },
   {
-   "fixture_id": 537408,
-   "date": "2026-06-27T23:30:00Z",
+   "fixture_id": 537402,
+   "date": "2026-06-28T02:00:00Z",
    "status": "FINISHED",
    "finished": true,
    "knockout": false,
    "round": "Giornata 3",
    "stage": "GROUP_STAGE",
-   "group": "GROUP_K",
+   "group": "GROUP_J",
    "matchday": 3,
    "season": 2026,
    "venue": null,
    "city": null,
    "home": {
-    "id": 1934,
-    "name": "Congo DR",
-    "short": "Congo DR",
-    "logo": "https://crests.football-data.org/congo_dr.svg",
-    "winner": true
+    "id": 778,
+    "name": "Algeria",
+    "short": "Algeria",
+    "logo": "https://crests.football-data.org/algeria.svg",
+    "winner": false
    },
    "away": {
-    "id": 8070,
-    "name": "Uzbekistan",
-    "short": "Uzbekistan",
-    "logo": "https://crests.football-data.org/8070.png",
+    "id": 816,
+    "name": "Austria",
+    "short": "Austria",
+    "logo": "https://crests.football-data.org/816.svg",
     "winner": false
    },
    "gh": 3,
-   "ga": 1,
+   "ga": 3,
    "rigori": null
   },
   {
@@ -3090,37 +3121,6 @@
     "winner": true
    },
    "gh": 1,
-   "ga": 3,
-   "rigori": null
-  },
-  {
-   "fixture_id": 537402,
-   "date": "2026-06-28T02:00:00Z",
-   "status": "FINISHED",
-   "finished": true,
-   "knockout": false,
-   "round": "Giornata 3",
-   "stage": "GROUP_STAGE",
-   "group": "GROUP_J",
-   "matchday": 3,
-   "season": 2026,
-   "venue": null,
-   "city": null,
-   "home": {
-    "id": 778,
-    "name": "Algeria",
-    "short": "Algeria",
-    "logo": "https://crests.football-data.org/algeria.svg",
-    "winner": false
-   },
-   "away": {
-    "id": 816,
-    "name": "Austria",
-    "short": "Austria",
-    "logo": "https://crests.football-data.org/816.svg",
-    "winner": false
-   },
-   "gh": 3,
    "ga": 3,
    "rigori": null
   },
